@@ -1,0 +1,10 @@
+.containerLayout--home__brands-slider--container, .containerLayout--home__slogan-slider--container{
+  background-color: var(--main-color);
+  height: 77px;
+}
+
+.containerLayout--home__know-beautyholics--container{
+  background-color: var(--main-color);
+  padding: 1.5rem;
+  border-top: 1px solid #000;
+}

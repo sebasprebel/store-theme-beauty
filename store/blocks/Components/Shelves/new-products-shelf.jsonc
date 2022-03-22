@@ -1,21 +1,21 @@
 {
-  "container-layout#recommended-shelf--container": {
-    "title": "Contenedor vitrina productos recomendados",
+  "container-layout#new-products-shelf--container": {
+    "title": "Contenedor vitrina productos nuevos",
     "children": [
-      "rich-text#recommended-shelf__title",
-      "list-context.product-list#recommended-shelf__products-list",
-      "rich-text#recommended-shelf__link"
+      "rich-text#new-products-shelf__title",
+      "list-context.product-list#new-products-shelf__products-list",
+      "rich-text#new-products-shelf__link"
     ],
     "props": {
       "blockClass": ["shelf__container"]
     }
   },
 
-  "rich-text#recommended-shelf__title": {
-    "title": "Título productos recomendados",
+  "rich-text#new-products-shelf__title": {
+    "title": "Título productos nuevos",
     "props": {
       "blockClass": "shelf__title",
-      "text": "###### Recomendados para ti",
+      "text": "###### Lo nuevo en Beautyholics",
       "font": "t-body",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -23,10 +23,10 @@
     }
   },
 
-  "list-context.product-list#recommended-shelf__products-list": {
-    "title": "Lista de prodctos recomendados",
-    "blocks": ["product-summary.shelf#custom"], //TODO cambiar a product-summary.shelf#shelf__products
-    "children": ["slider-layout#recommended-shelf__products-slider"],
+  "list-context.product-list#new-products-shelf__products-list": {
+    "title": "Lista de prodctos nuevos",
+    "blocks": ["product-summary.shelf#custom"], 
+    "children": ["slider-layout#new-products-shelf__products-slider"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "maxItems": 10,
@@ -36,8 +36,8 @@
     }
   },
 
-  "slider-layout#recommended-shelf__products-slider": {
-    "title": "Slider productos recomendados - Configuración slider",
+  "slider-layout#new-products-shelf__products-slider": {
+    "title": "Slider productos nuevos - Configuración slider",
     "props": {
       "blockClass": ["slider", "shelf__slider"],
       "itemsPerPage": {
@@ -59,8 +59,8 @@
     }
   },
 
-  "rich-text#recommended-shelf__link": {
-    "title": "Link productos recomendados",
+  "rich-text#new-products-shelf__link": {
+    "title": "Link productos nuevos",
     "props": {
       "blockClass": "shelf__link",
       "text": "[Ver recomendados >](/148?map=productClusterIds&order=OrderByBestDiscountDESC)",
@@ -68,6 +68,6 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-base"
-    }
+    } //TODO Cambiar cluster IDS.
   }
 }

@@ -12,8 +12,8 @@
     "props": {
       "images": [
         {
-          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/600x450/ffa9bf/ffffff",
           "link": {
             "url": "/",
             "openNewTab": false,

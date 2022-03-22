@@ -5,17 +5,20 @@
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "experimentality.components2": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
+    "vtex.store-image": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
@@ -35,6 +38,7 @@
     "vtex.product-identifier": "0.x",
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
+    "vtex.product-price": "1.x",
     "vtex.telemarketing": "2.x",
     "vtex.order-placed": "2.x",
     "vtex.stack-layout": "0.x",

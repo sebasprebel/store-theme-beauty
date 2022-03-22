@@ -1,0 +1,71 @@
+{
+  "container-layout#home__main-slider--container":{
+    "title":"Contenedor slider principal",
+    "children":[
+      "list-context.image-list#home__main-slider--images-list"
+    ]
+  },
+
+  "list-context.image-list#home__main-slider--images-list": {
+    "title": "Main Slider",
+    "children": ["slider-layout#home__main-slider"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Imagen principal"
+          }
+        },
+        {
+          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Imagen principal"
+          }
+        },
+        {
+          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Banner 2"
+          }
+        },
+        {
+          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Banner 3"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home__main-slider": {
+    "title": "Configuración del slider",
+    "props": {
+      "blockClass": ["slider"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 40000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows":"never"
+    }
+  }
+}

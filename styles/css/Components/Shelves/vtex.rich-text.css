@@ -1,0 +1,9 @@
+.container--shelf__link{
+  margin-top: 1.5rem;
+}
+
+.link--shelf__link{
+  color: var(--black);
+  font-weight: bold;
+  font-size: 0.875;
+}

@@ -1,0 +1,16 @@
+.paginationDot--slider{
+  width: 1.25rem;
+  background-color: var(--white);
+  border: 1px solid var(--hard-pink);
+}
+
+.paginationDot--slider--isActive{
+  width: 1.25rem !important;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border: none;
+}
+
+.paginationDotsContainer--slider{
+  bottom: -1rem;
+}

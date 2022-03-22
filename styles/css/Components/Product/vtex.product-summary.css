@@ -1,0 +1,59 @@
+/*Product summary shelf*/
+.container--product-summary__shelf :global(.vtex-button){
+  border-radius: 24px;
+  padding:  0.57rem 0.68rem;
+
+  position: absolute;
+  bottom: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container--product-summary__shelf :global(.vtex-button__label){
+  font-size: 0.81rem;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-productBrandName){
+  color: var(--main-color);
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-brandName){
+  font-weight: bold;
+  font-size: 0.875rem;
+  font-family: var(--font-poppins-bold);
+  text-align: left;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-productBrandContainer),
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-nameContainer),
+.container--product-summary__shelf :global(.vtex-product-price-1-x-sellingPrice--hasUnitMultiplier),
+.container--product-summary__shelf :global(.vtex-product-price-1-x-sellingPrice)
+{
+  text-align: left;
+  justify-content: flex-start;
+  padding-inline: .3rem !important;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-image),
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-imageNormal)
+{
+  max-height: 146px;
+  width: 100%;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-productNameContainer)
+{
+  width: 300px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  height:36px;
+}
+
+.container--product-summary__shelf :global(.vtex-product-price-1-x-sellingPrice){
+  font-size: 0.875rem;
+  font-family: var(--font-poppins-bold);
+}

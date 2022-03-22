@@ -1,0 +1,73 @@
+{
+  "container-layout#home__recommended-shelf--container": {
+    "title": "Contenedor vitrina productos recomendados",
+    "children": [
+      "rich-text#recommended-shelf__title",
+      "list-context.product-list#recommended-shelf__products-list",
+      "rich-text#recommended-shelf__link"
+    ],
+    "props": {
+      "blockClass": ["shelf__container"]
+    }
+  },
+
+  "rich-text#recommended-shelf__title": {
+    "title": "Título productos recomendados",
+    "props": {
+      "blockClass": "shelf__title",
+      "text": "###### Recomendados para ti",
+      "font": "t-body",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base"
+    }
+  },
+
+  "list-context.product-list#recommended-shelf__products-list": {
+    "title": "Lista de prodctos recomendados",
+    "blocks": ["product-summary.shelf#custom"], //TODO cambiar a product-summary.shelf#shelf__products
+    "children": ["slider-layout#recommended-shelf__products-slider"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems": 10,
+      "collection": "148",
+      "__unstableProductOriginVtex": true,
+      "productOrigin":true
+    }
+  },
+
+  "slider-layout#recommended-shelf__products-slider": {
+    "title": "Slider productos recomendados - Configuración slider",
+    "props": {
+      "blockClass": ["slider", "shelf__slider"],
+      "itemsPerPage": {
+        "phone": 2,
+        "tablet": 3,
+        "desktop": 4
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "centerMode": {
+        "phone": "disabled",
+        "desktop": "disabled"
+      },
+      "autoplay": {
+        "timeout": 100000,
+        "stopOnHover": true
+      },
+      "infinite": true
+    }
+  },
+
+  "rich-text#recommended-shelf__link": {
+    "title": "Link productos recomendados",
+    "props": {
+      "blockClass": "shelf__link",
+      "text": "[Ver recomendados >](/148?map=productClusterIds&order=OrderByBestDiscountDESC)",
+      "font": "t-body",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-base"
+    }
+  }
+}

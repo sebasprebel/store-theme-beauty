@@ -1,0 +1,48 @@
+.sliderArrows--shelf__slider{
+  border: 1px solid var(--soft-grey);
+  border-radius: 50%;
+}
+
+.caretIcon--shelf__slider{
+  width: 19px;
+  height: 32px;
+}
+
+.slideChildrenContainer--shelf__slider{
+  border: 2px solid var(--light-grey);
+  border-radius: 18px;
+  max-height: 352px;
+  min-height: 310px;
+  max-width: 170px;
+  position: relative;
+  
+}
+
+.slide--shelf__slider--visible{
+  min-width:156px !important;
+  width: 156px !important;
+}
+
+.sliderTrack--shelf__slider{
+  gap: .8rem;
+  margin-top: 1.5rem;
+}
+
+.sliderTrackContainer--shelf__slider{
+  position: relative;
+}
+
+.sliderLeftArrow--shelf__slider, .sliderRightArrow--shelf__slider{
+  position: absolute;
+  z-index: 2;
+  background: var(--white) !important;
+}
+
+.sliderLeftArrow--shelf__slider{
+  left: -10px;
+}
+
+.sliderRightArrow--shelf__slider{
+  right: -10px;
+  
+}

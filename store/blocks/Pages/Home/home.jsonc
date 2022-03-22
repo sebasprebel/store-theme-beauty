@@ -1,0 +1,17 @@
+{
+  "store.home": { 
+    "blocks": [
+      "container-layout#home__main-slider--container",
+      "container-layout#home__recommended-shelf--container"
+    ]
+  },
+  "rich-text#test": { 
+    "props": { 
+      "text": "Prueabita de las fuentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":"test"
+    }
+  }
+}

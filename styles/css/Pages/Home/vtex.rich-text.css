@@ -2,3 +2,28 @@
   color: var(--main-color);
   font-family: var(--font-poppins-semibold);
 }
+
+.paragraph--slogan-text{
+  color: var(--white);
+  font-family: var(--font-poppins-bold);
+}
+
+.strong--slogan-text{
+  display: inline-block;
+  position: relative;
+  right: -20px;
+  font-size: 1.2rem;
+}
+
+.paragraph--know-beautyholics--text{
+  font-family: var(--font-poppins-regular);
+  font-size: 0.81rem;
+  line-height: 1.5;
+  margin-block: .5rem;
+}
+
+.link--know-beautyholics--link{
+  font-family: var(--font-poppins-semibold);
+  color: var(--white);
+  font-size: 0.81rem;
+}

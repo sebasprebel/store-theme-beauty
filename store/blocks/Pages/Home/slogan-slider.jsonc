@@ -1,0 +1,9 @@
+{
+  "container-layout#home__slogan-slider--container":{
+    "title":"Contenedor slogan slider",
+    "children":[
+      "infinite-slide"
+    ]
+  }
+
+}

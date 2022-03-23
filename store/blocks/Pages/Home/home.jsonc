@@ -2,7 +2,11 @@
   "store.home": { 
     "blocks": [
       "container-layout#home__main-slider--container",
-      "container-layout#home__recommended-shelf--container"
+      "container-layout#recommended-shelf--container",
+      "container-layout#home__brands-slider--container",
+      "container-layout#new-products-shelf--container",
+      "container-layout#home__slogan-slider--container",
+      "container-layout#home__know-beautyholics--container"
     ]
   },
   "rich-text#test": { 

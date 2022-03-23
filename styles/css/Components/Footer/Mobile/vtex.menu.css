@@ -1,0 +1,20 @@
+.styledLinkContent--footer__menu-item-mobile--trigger,
+.styledLinkContent--footer__menu-item-mobile{
+  color: var(--white);
+  font-size: 1rem;
+}
+.styledLinkContainer--footer__menu-item-mobile{
+  margin: .3rem 0;
+}
+.styledLinkContainer--footer__menu-item-mobile--trigger{
+  margin: .5rem .7rem;
+}
+
+.styledLinkContent--footer__menu-item-mobile--trigger{
+  font-family: var(--font-poppins-semibold);
+}
+
+.menuItem--footer__menu-item-mobile--trigger{
+  border-bottom: 2px solid var(--grey);
+  padding-bottom: .1rem;
+}

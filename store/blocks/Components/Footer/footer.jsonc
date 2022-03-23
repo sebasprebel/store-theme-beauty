@@ -7,11 +7,7 @@
       "flex-layout.row#footer"
     ]
   },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
+  
   "flex-layout.row#footer": { 
     "children": [
       "image"

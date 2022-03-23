@@ -1,0 +1,15 @@
+{
+  "container-layout#newsletter":{
+    "title": "Newsletter container",
+    "children":[
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "menu-item#footer-mobile__about": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Sobre Beautyholics",
+        "text": "Sobre Beautyholics"
+      },
+      "blockClass": "footer__menu-item-mobile--trigger"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile__about-accordion--submenu"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-mobile__about-accordion--submenu": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile__about-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile__about-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-mobile__item-menu--who",
+      "menu-item#footer-mobile__item-menu--our-brand",
+      "menu-item#footer-mobile__item-menu--contact-us",
+      "menu-item#footer-mobile__item-menu--advice",
+      "menu-item#footer-mobile__item-menu--blog",
+      "menu-item#footer-mobile__item-menu--map"
+    ]
+  },
+  "menu-item#footer-mobile__item-menu--who": {
+    "props": {
+      "id": "menu-item-who",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "¿Quiénes somos?",
+        "text": "¿Quiénes somos?"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--our-brand": {
+    "props": {
+      "id": "menu-item-our-brand",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Nuestras marcas",
+        "text": "Nuestras marcas"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--advice": {
+    "props": {
+      "id": "menu-item-advice",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Asesoría personalizada",
+        "text": "Asesoría personalizada"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--map": {
+    "props": {
+      "id": "menu-item-map",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Mapa del sitio",
+        "text": "Mapa del sitio"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  }
+}

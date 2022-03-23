@@ -1,0 +1,81 @@
+{
+  "menu-item#footer-mobile__interest": {
+    "props": {
+      "id": "menu-item-interest",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Links de interés",
+        "text": "Links de interés"
+      },
+      "blockClass": "footer__menu-item-mobile--trigger"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile__interest-accordion--submenu"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-mobile__interest-accordion--submenu": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile__interest-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile__interest-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-mobile__item-menu--conditions",
+      "menu-item#footer-mobile__item-menu--policy",
+      "menu-item#footer-mobile__item-menu--payment-reversal"
+    ]
+  },
+  "menu-item#footer-mobile__item-menu--conditions": {
+    "props": {
+      "id": "menu-item-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--policy": {
+    "props": {
+      "id": "menu-item-policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Política de privacidad",
+        "text": "Política de privacidad"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--payment-reversal": {
+    "props": {
+      "id": "menu-item-payment-reversal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Reversión de pago",
+        "text": "Reversión de pago"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  }
+}

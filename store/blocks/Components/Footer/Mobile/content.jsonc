@@ -1,0 +1,86 @@
+{
+  "container-layout#footer-mobile__content--container":{
+    "title":"Contenedor contenido footer",
+    "children":[
+      "container-layout#footer-mobile__content--top"
+      // "container-layout#footer-mobile__content--bottom"
+    ],
+    "props":{
+      "blockClass":"footer__content--container"
+    }
+  },
+  "container-layout#footer-mobile__content--top":{
+    "title":"Contenedor contenido footer top",
+    "children":[
+      // "image#footer-mobile__logo", //TODO Falta el logo de Beauty.
+      "container-layout#footer-mobile__content--top__info"
+    ]
+  },
+  "container-layout#footer-mobile__content--top__info":{
+    "title":"Contenedor información footer",
+    "children":[
+      "rich-text#footer__info-brand",
+      "copy-info",
+      "rich-text#footer__info-nit",
+      "rich-text#footer__info-city",
+      "rich-text#footer__info-phone",
+      "rich-text#footer__info-email"
+      // "image#footer__iyc-logo" //TODO Falta el logo de inductria y comercio.
+    ]
+  },
+  "rich-text#footer__info-brand": {
+    "title":"Texto info marca",
+    "props": {
+      "blockClass": ["footer__text"],
+      "font": "t-body",
+      "text": "Una marca de **Prebel S.A.**",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#footer__info-nit": {
+    "title":"Texto info Nit",
+    "props": {
+      "blockClass": ["footer__text"],
+      "font": "t-body",
+      "text": "**Nit:** 890905032-1 Calle 10 # 58 - 59",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#footer__info-city": {
+    "title":"Texto info ciudad",
+    "props": {
+      "blockClass": ["footer__text"],
+      "font": "t-body",
+      "text": "Medellín - Antioquia",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#footer__info-phone": {
+    "title":"Texto info teléfono",
+    "props": {
+      "blockClass": ["footer__text"],
+      "font": "t-body",
+      "text": "**Teléfono:** 018000914990",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#footer__info-email": {
+    "title":"Texto info email",
+    "props": {
+      "blockClass": ["footer__text"],
+      "font": "t-body",
+      "text": "**Email:** servicio.cliente@prebel.com.co",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  }
+}

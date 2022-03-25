@@ -1,0 +1,9 @@
+.containerLayout--wrapper{
+  max-width: 1420px;
+  margin: 0 auto !important;
+}
+
+.containerLayout--shelf-wrapper{
+  max-width: 1130px;
+  margin: 0 auto !important;
+}

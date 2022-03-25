@@ -1,4 +1,12 @@
-.paragraph--footer__text{
+.paragraph--footer__text, 
+.paragraph--newsletter-text{
   font-size: 0.875rem;
+}
+
+.paragraph--footer__text{
   margin-bottom: .3rem;
+}
+
+.paragraph--newsletter-text{
+  margin: .2rem 0rem 1rem 0rem;
 }

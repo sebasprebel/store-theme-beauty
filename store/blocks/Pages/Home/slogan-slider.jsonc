@@ -3,7 +3,10 @@
     "title":"Contenedor slogan slider",
     "children":[
       "infinite-slide"
-    ]
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
   }
 
 }

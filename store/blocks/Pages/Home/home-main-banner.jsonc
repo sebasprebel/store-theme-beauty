@@ -3,7 +3,10 @@
     "title":"Contenedor slider principal",
     "children":[
       "list-context.image-list#home__main-slider--images-list"
-    ]
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
   },
 
   "list-context.image-list#home__main-slider--images-list": {

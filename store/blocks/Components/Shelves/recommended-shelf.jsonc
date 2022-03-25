@@ -7,7 +7,7 @@
       "rich-text#recommended-shelf__link"
     ],
     "props": {
-      "blockClass": ["shelf__container"]
+      "blockClass": ["shelf__container", "shelf-wrapper"]
     }
   },
 
@@ -30,7 +30,7 @@
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "maxItems": 10,
-      "collection": "148",
+      "collection": "2601",
       "__unstableProductOriginVtex": true,
       "productOrigin":true
     }
@@ -43,13 +43,14 @@
       "itemsPerPage": {
         "phone": 2,
         "tablet": 3,
-        "desktop": 3
+        "desktop": 5
       },
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
       "centerMode": {
         "phone": "disabled",
-        "desktop": "disabled"
+        "tablet": "to-the-left",
+        "desktop": "to-the-left"
       },
       "autoplay": {
         "timeout": 100000,
@@ -63,7 +64,7 @@
     "title": "Link productos recomendados",
     "props": {
       "blockClass": "shelf__link",
-      "text": "[Ver recomendados >](/148?map=productClusterIds&order=OrderByBestDiscountDESC)",
+      "text": "[Ver recomendados >](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
       "font": "t-body",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

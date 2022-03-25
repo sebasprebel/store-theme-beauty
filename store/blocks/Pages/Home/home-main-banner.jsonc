@@ -3,7 +3,10 @@
     "title":"Contenedor slider principal",
     "children":[
       "list-context.image-list#home__main-slider--images-list"
-    ]
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
   },
 
   "list-context.image-list#home__main-slider--images-list": {
@@ -13,15 +16,6 @@
       "images": [
         {
           "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/600x450/ffa9bf/ffffff",
-          "link": {
-            "url": "/",
-            "openNewTab": false,
-            "title": "Imagen principal"
-          }
-        },
-        {
-          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
           "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
           "link": {
             "url": "/",
@@ -30,7 +24,16 @@
           }
         },
         {
-          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
+          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Imagen principal"
+          }
+        },
+        {
+          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
           "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
           "link": {
             "url": "/",
@@ -39,7 +42,7 @@
           }
         },
         {
-          "image": "https://dummyimage.com/1200x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
           "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
           "link": {
             "url": "/",

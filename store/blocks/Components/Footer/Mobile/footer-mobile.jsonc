@@ -1,0 +1,29 @@
+{
+  "footer-layout.mobile": { 
+    "children": [
+      "container-layout#newsletter",
+      "container-layout#footer-mobile__container"
+    ]
+  },
+  "container-layout#footer-mobile__container":{
+    "title":"Contenedor footer",
+    "children":[
+      "vtex.menu@2.x:menu#footer-mobile__menu",
+      "container-layout#footer-mobile__content--container"
+    ],
+    "props":{
+      "blockClass":"footer__container--mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile__menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-mobile__about",
+      "menu-item#footer-mobile__help",
+      "menu-item#footer-mobile__interest"
+    ]
+  }
+
+}

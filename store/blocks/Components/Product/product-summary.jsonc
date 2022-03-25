@@ -1,0 +1,34 @@
+{
+  "product-summary.shelf#custom": {
+    "children": [
+      "product-summary-image",
+      "container-layout#product-summary__info-container",
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass":"product-summary__shelf"
+    }
+  },
+  "add-to-cart-button":{
+    "props":{
+      "text":"Agregar a la bolsa"
+    }
+  },
+  "container-layout#product-summary__info-container":{
+    "children":[
+      "product-summary-brand",
+      "product-summary-name",
+      "container-layout#product-summary__prices-container"
+    ],
+    "props":{
+      "blockClass":"product-summary__info-container"
+    }
+  },
+  "container-layout#product-summary__prices-container":{
+    "children":[
+      "product-selling-price",
+      "product-list-price"
+    ]
+  }
+  
+}

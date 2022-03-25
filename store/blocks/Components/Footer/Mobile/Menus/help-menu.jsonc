@@ -1,0 +1,98 @@
+{
+  "menu-item#footer-mobile__help": {
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Ayuda",
+        "text": "Ayuda"
+      },
+      "blockClass": "footer__menu-item-mobile--trigger"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-mobile__help-accordion--submenu"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-mobile__help-accordion--submenu": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile__help-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile__help-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-mobile__item-menu--questions",
+      "menu-item#footer-mobile__item-menu--promos",
+      "menu-item#footer-mobile__item-menu--retraction",
+      "menu-item#footer-mobile__item-menu--changes"
+    ]
+  },
+  "menu-item#footer-mobile__item-menu--questions": {
+    "props": {
+      "id": "menu-item-questions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--promos": {
+    "props": {
+      "id": "menu-item-promos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Promociones vigentes",
+        "text": "Promociones vigentes"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--retraction": {
+    "props": {
+      "id": "menu-item-retraction",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Derecho de retracto",
+        "text": "Derecho de retracto"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  },
+  "menu-item#footer-mobile__item-menu--changes": {
+    "props": {
+      "id": "menu-item-changes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      },
+      "blockClass": "footer__menu-item-mobile"
+    }
+  }
+}

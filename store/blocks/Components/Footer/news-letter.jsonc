@@ -1,0 +1,52 @@
+{
+  "container-layout#newsletter":{
+    "title": "Newsletter container",
+    "children":[
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass":"newsletter__container"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "blockClass": ["newsletter-text"],
+      "font": "t-body",
+      "text": "#### Recibe 10% de descuento\n Regístrate y conoce nuestros mejores productos y descuentos y entérate sobre nuevos lanzamientos",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText": "Ingresa tu correo electrónico"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel": "Suscríbete"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel":"{firstLink} {secondLink}",
+      "firstLabelLink":{
+        "text":"He leído y acepto la"
+      },
+      "secondLabelLink":{
+        "text":"Política de privacidad",
+        "link": "/"  //TODO cambiar link
+      }
+
+    }
+  }
+}

@@ -15,8 +15,8 @@
     "props": {
       "images": [
         {
-          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/2220x650/BABABA/000",
+          "mobileImage": "https://dummyimage.com/400x450/BABABA/000",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -24,8 +24,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/2220x650/BABABA/000",
+          "mobileImage": "https://dummyimage.com/400x450/BABABA/000",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -33,8 +33,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/2220x650/BABABA/000",
+          "mobileImage": "https://dummyimage.com/400x450/BABABA/000",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -42,8 +42,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/1420x450/ffa9bf/ffffff",
-          "mobileImage": "https://dummyimage.com/400x450/ffa9bf/ffffff",
+          "image": "https://dummyimage.com/2220x650/BABABA/000",
+          "mobileImage": "https://dummyimage.com/400x450/BABABA/000",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -57,7 +57,7 @@
   "slider-layout#home__main-slider": {
     "title": "Configuración del slider",
     "props": {
-      "blockClass": ["slider"],
+      "blockClass": ["slider", "banner-slider"],
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

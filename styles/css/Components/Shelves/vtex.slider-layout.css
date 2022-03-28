@@ -4,8 +4,9 @@
 }
 
 .caretIcon--shelf__slider{
-  width: 19px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
+  padding: .5rem;
 }
 
 .slideChildrenContainer--shelf__slider{

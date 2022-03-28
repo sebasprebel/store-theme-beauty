@@ -64,7 +64,7 @@
     "title": "Link productos nuevos",
     "props": {
       "blockClass": "shelf__link",
-      "text": "[Ver recomendados >](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
+      "text": "[Ver lo último >](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
       "font": "t-body",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

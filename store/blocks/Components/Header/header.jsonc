@@ -6,12 +6,21 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   
-  "logo": {
+  "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "/arquivos/beautyholics-logo.svg",
+      "width": "167",
+      "height": "41"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/beautyholics-logo.svg",
+      "width": "167"
     }
   }
  

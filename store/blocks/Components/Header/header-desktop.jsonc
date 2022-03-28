@@ -8,34 +8,63 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["container-layout#header__container--desktop"]
   },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
+
+  "container-layout#header__container--desktop":{
+    "children":[
+      "container-layout#header__desktop-top",
+      "container-layout#header__desktop-bottom"
+    ],
+    "props":{
+      "blockClass": "wrapper"
     }
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
+  "container-layout#header__desktop-top":{
+    "children":[
+      "container-layout#header__desktop-top-right",
+      "container-layout#header__desktop-top-left"
+    ],
+    "props":{
+      "classes":"flex justify-between items-center"
+    }
+  },
+  "container-layout#header__desktop-top-right":{
+    "children":[
+      "container-layout#logo-desktop"
+    ]
+  },
+  "container-layout#header__desktop-top-left":{
+    "children":[
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ],
+    "props":{
+      "classes":"flex justify-between items-center"
+    }
+  },
+
+  "container-layout#header__desktop-bottom":{
+    "children": [
+      "custom-menu-desktop"
+    ],
+    "props":{
+      "classes": "flex justify-center items-center"
+    }
+  },
+  "login":{
+    "props":{
+      "showIconProfile": true,
+      "iconLabel": ""
+    }
+  },
+  "container-layout#logo-desktop": {
+    "children": ["logo#desktop"]
+  },
+  "search-bar":{
+    "props":{
+      "placeholder":"¿Qué estás buscando?"
+    }
   }
 }

@@ -1,0 +1,12 @@
+.label{
+  display: none;
+}
+
+.container{
+  float: none;
+}
+
+.container :global(.vtex-button){
+  padding: 1rem .5rem;
+  margin-inline: .5rem;
+}

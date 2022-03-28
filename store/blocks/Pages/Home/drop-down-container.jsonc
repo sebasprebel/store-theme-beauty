@@ -2,6 +2,9 @@
   "container-layout#drop-down__container":{
     "children":[
       "drop-down-container"
-    ]
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
   }
 }

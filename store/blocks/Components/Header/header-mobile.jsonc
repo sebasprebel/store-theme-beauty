@@ -9,7 +9,6 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],

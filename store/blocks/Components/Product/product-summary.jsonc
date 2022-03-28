@@ -28,7 +28,10 @@
     "children":[
       "product-selling-price",
       "product-list-price"
-    ]
+    ],
+    "props":{
+      "classes":"flex justify-start"
+    }
   }
   
 }

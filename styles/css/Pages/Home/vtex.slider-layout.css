@@ -12,3 +12,11 @@
   width:auto !important;
   height:80px;
 }
+
+.imageElement--slider{
+  height:100%;
+}
+
+/* .sliderLayoutContainer--banner-slider{
+  margin-top: 5px;
+} */

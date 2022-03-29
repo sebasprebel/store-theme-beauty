@@ -1,4 +1,14 @@
 .containerLayout--newsletter__container{
   background-color: var(--black);
-  padding: 1rem;
+}
+
+.containerLayout--footer__container-menus{
+  flex-wrap: wrap;
+}
+
+@media all and (min-width: 1025px){
+  .containerLayout--newsletter__container{
+    margin-bottom: 6rem;
+    width: 470px;
+  }
 }

@@ -1,13 +1,14 @@
-.confirmationCheckboxContainer :global(.vtex-checkbox__label){
+.confirmationCheckboxContainer :global(.vtex-checkbox__label),
+.labelLink--first{
   color: var(--white);
   font-size: 0.875rem;
 }
+
+.labelLink--first{
+  text-decoration: underline;
+}
 .confirmationCheckboxContainer{
   margin-top: 1rem;
-}
-
-.labelLink--second{
-  text-decoration: underline;
 }
 
 .formSubmitContainer{
@@ -34,8 +35,50 @@
   height: 48px;
 }
 
+.emailInputContainer :global(.vtex-input__error){
+ color: var(--main-color);
+ margin-top: 6rem;
+}
+
+.formSubmitContainer :global(.vtex-button):hover,
+.formSubmitContainer :global(.vtex-button):focus{
+  background-color: var(--main-color);
+  transition: all .3s ease-in-out;
+}
+
+.formSubmitContainer :global(.vtex-button):hover :global(.vtex-button__label),
+.formSubmitContainer :global(.vtex-button):focus :global(.vtex-button__label){
+  color: var(--black);
+  transition: all .3s ease-in-out;
+}
+
 .formSubmitContainer :global(.vtex-button){
   display: block;
   width: 100%;
   font-family: var(--font-poppins-semibold);
+}
+
+
+@media all and (min-width: 1025px){
+  .newsletterForm{
+    position: relative;
+  }
+  .formSubmitContainer{
+    position: absolute;
+    top: -11px;
+    right: 0;
+  }
+  .formSubmitContainer :global(.vtex-button){
+    padding: 14px 2rem;
+  }
+  .emailInputContainer :global(.vtex-styleguide-9-x-input){
+    background-color: var(--black)
+  }
+  .emailInputContainer :global(.vtex-input__error){
+    margin-top: 2.8rem;
+   }
+   .confirmationCheckboxContainer :global(.vtex-checkbox__label),
+   .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder{
+    font-size: 1rem;
+  }
 }

@@ -7,7 +7,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Ayuda",
         "text": "Ayuda"
@@ -39,7 +39,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/preguntas-frecuentes",
         "noFollow": false,
         "tagTitle": "Preguntas frecuentes",
         "text": "Preguntas frecuentes"
@@ -55,7 +55,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/promociones",
         "noFollow": false,
         "tagTitle": "Promociones vigentes",
         "text": "Promociones vigentes"
@@ -71,7 +71,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/derecho-de-retracto",
         "noFollow": false,
         "tagTitle": "Derecho de retracto",
         "text": "Derecho de retracto"
@@ -87,7 +87,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/cambios-y-devoluciones",
         "noFollow": false,
         "tagTitle": "Cambios y devoluciones",
         "text": "Cambios y devoluciones"

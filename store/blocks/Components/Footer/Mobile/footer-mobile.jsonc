@@ -3,13 +3,16 @@
     "children": [
       "container-layout#newsletter",
       "container-layout#footer-mobile__container"
-    ]
+    ],
+    "props":{
+      "blockClass":["footer-mobile"]
+    }
   },
   "container-layout#footer-mobile__container":{
     "title":"Contenedor footer",
     "children":[
       "vtex.menu@2.x:menu#footer-mobile__menu",
-      "container-layout#footer-mobile__content--container"
+      "container-layout#footer__content--container"
     ],
     "props":{
       "blockClass":"footer__container--mobile"
@@ -17,7 +20,8 @@
   },
   "vtex.menu@2.x:menu#footer-mobile__menu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"footer-mobile__menu"
     },
     "children": [
       "menu-item#footer-mobile__about",

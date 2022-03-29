@@ -1,9 +1,48 @@
-.containerLayout--home__brands-slider--container, .containerLayout--home__slogan-slider--container{
+.containerLayout--home__brands-slider--container, 
+.containerLayout--home__slogan-slider--container{
   background-color: var(--main-color);
   height: 77px;
 }
 
-.containerLayout--home__know-beautyholics--container{
+.containerLayout--drop-down-container{
   background-color: var(--main-color);
   padding: 1.5rem;
+  padding-inline: 5rem;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.dropDown__container{
+  overflow: hidden;
+
+}
+
+
+@media all and (max-width:765px){
+  .containerLayout--drop-down-container{
+    padding-inline: 2rem;
+  }
+}
+
+.dropDown__title,
+.dropDown__content,
+.dropDown__button{
+  color: var(--white);
+}
+
+.dropDown__title{
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.dropDown__content{
+  font-size: 0.8125rem;
+}
+
+.dropDown__button{
+  font-family: var(--font-poppins-semibold);
+  margin: .5rem auto;
+  width:100px;
+  cursor: pointer;
+  bottom: -35px;
+  position: relative;
 }

@@ -26,7 +26,8 @@
       "container-layout#header__desktop-top-left"
     ],
     "props":{
-      "classes":"flex justify-between items-center"
+      "classes":"flex justify-between items-center",
+      "blockClass": "header__desktop-top"
     }
   },
   "container-layout#header__desktop-top-right":{

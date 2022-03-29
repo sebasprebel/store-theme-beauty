@@ -38,15 +38,11 @@
   },
   "newsletter-checkbox-confirmation":{
     "props":{
-      "checkboxLabel":"{firstLink} {secondLink}",
+      "checkboxLabel":"He leído y aceptado la {firstLink} ",
       "firstLabelLink":{
-        "text":"He leído y acepto la"
-      },
-      "secondLabelLink":{
         "text":"Política de privacidad",
-        "link": "/"  //TODO cambiar link
+        "url": "/politica-de-privacidad" 
       }
-
     }
   }
 }

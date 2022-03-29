@@ -2,7 +2,7 @@
   "container-layout#home__brands-slider--container":{
     "title": "Contenedor slider de marcas",
     "children":[
-      "list-context.image-list#home__brands-slider--brands-list"
+      // "list-context.image-list#home__brands-slider--brands-list"
     ],
     "props":{
       "blockClass":["home__brands-slider--container", "wrapper"]
@@ -16,31 +16,31 @@
       "height": 650,
       "images": [
         {
-          "image": "assets/images/test.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test2.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test2.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test3.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test3.png",
+          "image": "",
           "description": "something something"
         },
         {
-          "image": "assets/images/test.png",
+          "image": "",
           "description": "something something"
         }
         

@@ -1,22 +1,22 @@
 {
-  "container-layout#footer-mobile__content--container":{
+  "container-layout#footer__content--container":{
     "title":"Contenedor contenido footer",
     "children":[
-      "container-layout#footer-mobile__content--top"
+      "container-layout#footer__content"
       // "container-layout#footer-mobile__content--bottom"
     ],
     "props":{
       "blockClass":"footer__content--container"
     }
   },
-  "container-layout#footer-mobile__content--top":{
-    "title":"Contenedor contenido footer top",
+  "container-layout#footer__content":{
+    "title":"Contenedor contenido footer ",
     "children":[
       // "image#footer-mobile__logo", //TODO Falta el logo de Beauty.
-      "container-layout#footer-mobile__content--top__info"
+      "container-layout#footer__content--info"
     ]
   },
-  "container-layout#footer-mobile__content--top__info":{
+  "container-layout#footer__content--info":{
     "title":"Contenedor información footer",
     "children":[
       "rich-text#footer__info-brand",

@@ -1,0 +1,10 @@
+.paragraph--newsletter-text{
+  margin: .2rem 0rem 1rem 0rem;
+  font-size: 0.875rem;
+}
+
+@media all and (min-width: 1025px){
+  .headingLevel4--newsletter-text{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "footer-layout.desktop":{
+    "children":[
+      "container-layout#footer-desktop__container"
+    ],
+    "props":{
+      "blockClass":["footer-desktop"]
+    }
+  },
+  
+  "container-layout#footer-desktop__container":{
+    "children":[
+      "container-layout#footer-desktop__left",
+      "container-layout#footer-desktop__right"
+    ],
+    "props":{
+      "blockClass":"wrapper",
+      "classes":"flex"
+    }
+  },
+  "container-layout#footer-desktop__left":{
+    "title":"Contenedor footer Izquierda",
+    "children":[
+      "container-layout#newsletter",
+      "container-layout#footer__content--container"
+    ],
+    "props":{
+      "blockClass":"footer-desktop__left"
+    }
+  },
+  "container-layout#footer-desktop__right":{
+    "title":"Contenedor footer Derecha",
+    "children":[
+      "container-layout#footer__menu"
+    ],
+    "props":{
+      "blockClass":"footer-desktop__right"
+    }
+  },
+  "container-layout#footer__menu":{
+    "title":"Contenedor footer menu",
+    "children":[
+      "vtex.menu@2.x:menu#footer-beauty-menu",
+      "vtex.menu@2.x:menu#footer-help-menu",
+      "vtex.menu@2.x:menu#footer-interest-menu"
+    ],
+    "props":{
+      "classes":"flex",
+      "blockClass":"footer__container-menus"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-beauty-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-desktop-beauty--title",
+      "vtex.menu@2.x:menu#footer-beauty"
+    ]
+  },
+  "menu-item#footer-desktop-beauty--title": {
+    "props": {
+      "blockClass": "footer-title",
+      "type": "custom",
+      "itemProps": {
+        "text": "Beautyholics"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-help-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-desktop-help--title",
+      "vtex.menu@2.x:menu#footer-help"
+    ]
+  },
+  "menu-item#footer-desktop-help--title": {
+    "props": {
+      "blockClass": "footer-title",
+      "type": "custom",
+      "itemProps": {
+        "text": "Ayuda"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-interest-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-desktop-interest--title",
+      "vtex.menu@2.x:menu#footer-interest"
+    ]
+  },
+  "menu-item#footer-desktop-interest--title": {
+    "props": {
+      "blockClass": "footer-title",
+      "type": "custom",
+      "itemProps": {
+        "text": "Links de interés"
+      }
+    }
+  }
+}

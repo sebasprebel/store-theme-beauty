@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#footer-interest": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-conditions",
+      "menu-item#footer-policy",
+      "menu-item#footer-payment-reversal"
+    ]
+  },
+  "menu-item#footer-conditions": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-policy": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Política de privacidad",
+        "text": "Política de privacidad"
+      }
+    }
+  },
+  "menu-item#footer-payment-reversal": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reversion-de-pago",
+        "noFollow": false,
+        "tagTitle": "Reversión de pago",
+        "text": "Reversión de pago"
+      }
+    }
+  }
+}

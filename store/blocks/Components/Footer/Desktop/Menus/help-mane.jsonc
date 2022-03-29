@@ -1,0 +1,69 @@
+{
+  "vtex.menu@2.x:menu#footer-help": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-questions",
+      "menu-item#footer-promos",
+      "menu-item#footer-retraction",
+      "menu-item#footer-changes"
+    ]
+  },
+  "menu-item#footer-questions": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-promos": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones",
+        "noFollow": false,
+        "tagTitle": "Promociones vigentes",
+        "text": "Promociones vigentes"
+      }
+    }
+  },
+  "menu-item#footer-retraction": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/derecho-de-retracto",
+        "noFollow": false,
+        "tagTitle": "Derecho de retracto",
+        "text": "Derecho de retracto"
+      }
+    }
+  },
+  "menu-item#footer-changes": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambios-y-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.containerLayout--footer-desktop__left{
+  padding-right: 5.5rem;
+  border-right: 1px solid var(--white);
+}
+
+.containerLayout--footer-desktop__right{
+  padding-left: .8rem;
+}

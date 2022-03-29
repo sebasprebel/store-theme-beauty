@@ -1,0 +1,84 @@
+{
+  "vtex.menu@2.x:menu#footer-beauty": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-who",
+      "menu-item#footer-our-brand",
+      "menu-item#footer-contact-us",
+      "menu-item#footer-advice",
+      "menu-item#footer-blog"
+    ]
+  },
+  "menu-item#footer-who": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "¿Quiénes somos?",
+        "text": "¿Quiénes somos?"
+      }
+    }
+  },
+  "menu-item#footer-our-brand": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas",
+        "noFollow": false,
+        "tagTitle": "Nuestras marcas",
+        "text": "Nuestras marcas"
+      }
+    }
+  },
+  "menu-item#footer-contact-us": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contactanos",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "menu-item#footer-advice": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/asesoria-personalizada",
+        "noFollow": false,
+        "tagTitle": "Asesoría personalizada",
+        "text": "Asesoría personalizada"
+      }
+    }
+  },
+  "menu-item#footer-blog": {
+    "props": {
+      "blockClass":"footer-item-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  }
+}

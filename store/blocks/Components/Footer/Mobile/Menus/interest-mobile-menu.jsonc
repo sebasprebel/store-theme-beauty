@@ -7,7 +7,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Links de interés",
         "text": "Links de interés"
@@ -38,7 +38,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/terminos-y-condiciones",
         "noFollow": false,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
@@ -54,7 +54,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/politica-de-privacidad",
         "noFollow": false,
         "tagTitle": "Política de privacidad",
         "text": "Política de privacidad"
@@ -70,7 +70,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/reversion-de-pago",
         "noFollow": false,
         "tagTitle": "Reversión de pago",
         "text": "Reversión de pago"

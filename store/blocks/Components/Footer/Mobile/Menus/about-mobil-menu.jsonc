@@ -7,7 +7,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Sobre Beautyholics",
         "text": "Sobre Beautyholics"
@@ -41,7 +41,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/quienes-somos",
         "noFollow": false,
         "tagTitle": "¿Quiénes somos?",
         "text": "¿Quiénes somos?"
@@ -57,7 +57,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/nuestras-marcas",
         "noFollow": false,
         "tagTitle": "Nuestras marcas",
         "text": "Nuestras marcas"
@@ -73,7 +73,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/contactanos",
         "noFollow": false,
         "tagTitle": "Contáctanos",
         "text": "Contáctanos"
@@ -89,7 +89,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/asesoria-personalizada",
         "noFollow": false,
         "tagTitle": "Asesoría personalizada",
         "text": "Asesoría personalizada"
@@ -105,7 +105,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/blog",
         "noFollow": false,
         "tagTitle": "Blog",
         "text": "Blog"
@@ -121,7 +121,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/mapa-del-sitio",
         "noFollow": false,
         "tagTitle": "Mapa del sitio",
         "text": "Mapa del sitio"

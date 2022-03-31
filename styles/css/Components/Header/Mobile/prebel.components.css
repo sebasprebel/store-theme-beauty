@@ -1,0 +1,30 @@
+.containerLayout--main-header-mobile-top,
+.containerLayout--main-header-mobile-bottom{
+  background:var(--white);
+}
+
+.containerLayout--main-header-mobile-bottom{
+  border-top: 1px solid var(--main-color);
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  padding: .8rem 1rem;
+}
+
+.containerLayout--main-header-mobile-top{
+  border-bottom: 1px solid var(--main-color);
+  padding:.8rem 1rem .5rem 1rem;
+}
+
+.containerLayout--drawer__icons--container{
+  padding: 1.3rem;
+  border-top: 1px solid var(--main-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.containerLayout--drawer__icon-text--container{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

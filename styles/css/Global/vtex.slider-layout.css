@@ -13,4 +13,11 @@
 
 .paginationDotsContainer--slider{
   bottom: -1rem;
+  z-index: 2;
+}
+
+@media all and (min-width: 1025px){
+  .paginationDotsContainer--slider{
+    bottom: -1.5rem;
+  }
 }

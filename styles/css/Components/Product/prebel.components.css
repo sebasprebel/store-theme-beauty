@@ -1,3 +1,9 @@
 .containerLayout--product-summary__info-container{
-  padding: .15rem;
+  padding-inline: .15rem;
+}
+
+@media all and (min-width:1025px){
+  .containerLayout--product-summary__info-container{
+    padding-inline: .7rem;
+  }
 }

@@ -1,3 +1,7 @@
+.searchBarContainer{
+  margin-right: 2rem;
+}
+
 .searchBarContainer :global(.vtex-input-prefix__group){
   border: none;
 }
@@ -23,4 +27,11 @@
   transform: translateY(-50%);
 }
 
+.logoContainer{
+  padding:0;
+}
 
+.searchIcon{
+  width: 24px;
+  height: 18px;
+}

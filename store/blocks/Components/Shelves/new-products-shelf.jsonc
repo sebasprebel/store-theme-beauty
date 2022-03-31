@@ -7,7 +7,7 @@
       "rich-text#new-products-shelf__link"
     ],
     "props": {
-      "blockClass": ["shelf__container", "shelf-wrapper"]
+      "blockClass": ["shelf__container", "wrapper"]
     }
   },
 
@@ -30,7 +30,7 @@
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "maxItems": 10,
-      "collection": "2472",
+      "collection": "2655",
       "__unstableProductOriginVtex": true,
       "productOrigin":true
     }
@@ -40,6 +40,7 @@
     "title": "Slider productos nuevos - Configuración slider",
     "props": {
       "blockClass": ["slider", "shelf__slider"],
+      "fullWidth": true,
       "itemsPerPage": {
         "phone": 2,
         "tablet": 3,
@@ -50,7 +51,7 @@
       "centerMode": {
         "phone": "disabled",
         "tablet": "to-the-left",
-        "desktop": "to-the-left"
+        "desktop": "disabled"
       },
       "autoplay": {
         "timeout": 100000,
@@ -64,7 +65,7 @@
     "title": "Link productos nuevos",
     "props": {
       "blockClass": "shelf__link",
-      "text": "[Ver lo último >](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
+      "text": "[Ver lo último **>**](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
       "font": "t-body",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

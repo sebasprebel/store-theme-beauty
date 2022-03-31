@@ -1,5 +1,5 @@
 {
-  "vendor": "experimentality",
+  "vendor": "prebel",
   "name": "storetheme",
   "version": "0.1.1",
   "builders": {
@@ -49,7 +49,8 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "vtex.store-icons": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

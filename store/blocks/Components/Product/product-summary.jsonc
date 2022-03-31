@@ -2,6 +2,7 @@
   "product-summary.shelf#custom": {
     "children": [
       "product-summary-image",
+      // "add-to-list-btn",
       "container-layout#product-summary__info-container",
       "add-to-cart-button"
     ],
@@ -31,6 +32,13 @@
     ],
     "props":{
       "classes":"flex justify-start"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "hoverImage":{
+        "criteria": "index"
+      }
     }
   }
   

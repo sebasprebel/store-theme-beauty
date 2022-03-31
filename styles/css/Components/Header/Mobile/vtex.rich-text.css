@@ -1,0 +1,9 @@
+.headingLevel3--drawer__title{
+  font-size: 1.5rem;
+  
+}
+
+.container--drawer__title{
+  padding: 1.3rem 1.3rem;
+  border-bottom: 1px solid var(--main-color);
+}

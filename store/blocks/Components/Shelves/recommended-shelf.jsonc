@@ -7,7 +7,7 @@
       "rich-text#recommended-shelf__link"
     ],
     "props": {
-      "blockClass": ["shelf__container", "shelf-wrapper"]
+      "blockClass": ["shelf__container", "wrapper"]
     }
   },
 
@@ -30,7 +30,7 @@
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "maxItems": 10,
-      "collection": "2601",
+      "collection": "2657",
       "__unstableProductOriginVtex": true,
       "productOrigin":true
     }
@@ -64,7 +64,7 @@
     "title": "Link productos recomendados",
     "props": {
       "blockClass": "shelf__link",
-      "text": "[Ver recomendados >](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
+      "text": "[Ver recomendados **>**](/2601?map=productClusterIds&order=OrderByBestDiscountDESC)",
       "font": "t-body",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

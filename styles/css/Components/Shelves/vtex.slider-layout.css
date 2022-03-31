@@ -3,6 +3,10 @@
   border-radius: 50%;
 }
 
+.sliderArrows--shelf__slider:hover{
+  border: 1px solid var(--black);
+}
+
 .caretIcon--shelf__slider{
   width: 35px;
   height: 35px;
@@ -12,11 +16,9 @@
 .slideChildrenContainer--shelf__slider{
   border: 2px solid var(--light-grey);
   border-radius: 18px;
-  max-height: 352px;
-  min-height: 310px;
+  height: 310px;
   max-width: 170px;
   position: relative;
-  
 }
 
 .slide--shelf__slider--visible{
@@ -46,4 +48,19 @@
 .sliderRightArrow--shelf__slider{
   right: -10px;
   
+}
+
+
+@media all and (min-width: 1025px){
+  .slide--shelf__slider--visible{
+    min-width:250px !important;
+    width: 250px !important;
+  }
+  .slideChildrenContainer--shelf__slider{
+    max-width: 250px;
+  }
+  .slide--shelf,
+  .slideChildrenContainer--shelf__slider{
+    height:370px
+  }
 }

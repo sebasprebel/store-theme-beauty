@@ -7,6 +7,21 @@
 }
 
 .container :global(.vtex-button){
-  padding: 1rem .5rem;
-  margin-inline: .5rem;
+  padding: 0;
+  margin-inline: 0;
+}
+
+.container :global(.vtex-button):hover{
+  background:transparent;
+}
+
+.buttonLink :global(.vtex-button){
+  margin: 0;
+  padding: 0;
+  margin-left: .7rem;
+}
+
+.profileIcon{
+  width: 24px;
+  height: 24px;
 }

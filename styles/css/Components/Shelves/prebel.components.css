@@ -1,4 +1,14 @@
 .containerLayout--shelf__container{
   padding-block: 2.5rem;
   padding-inline: 1rem;
+  position: relative;
 }
+
+@media all and (min-width: 1025px){
+  .containerLayout--shelf__container :global(.vtex-rich-text-0-x-link--shelf__link){
+    position: absolute;
+    top: 55px;
+    right: 4rem;
+  }
+}
+

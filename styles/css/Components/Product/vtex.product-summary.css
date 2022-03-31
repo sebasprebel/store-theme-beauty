@@ -1,13 +1,4 @@
 /*Product summary shelf*/
-.container--product-summary__shelf :global(.vtex-button){
-  border-radius: 24px;
-  padding:  0.57rem 0.68rem;
-
-  position: absolute;
-  bottom: .5rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
 .container--product-summary__shelf :global(.vtex-button__label){
   font-size: 0.81rem;
 }
@@ -38,7 +29,7 @@
 .container--product-summary__shelf :global(.vtex-product-summary-2-x-image),
 .container--product-summary__shelf :global(.vtex-product-summary-2-x-imageNormal)
 {
-  max-height: 146px;
+  height: 146px;
   width: 100%;
 }
 
@@ -58,3 +49,35 @@
   font-family: var(--font-poppins-bold);
 }
 
+.container--product-summary__shelf :global(.vtex-button){
+  border-radius: 24px;
+  padding:  0.57rem 0.68rem;
+  position: absolute;
+  bottom: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container--product-summary__shelf :global(.vtex-button):hover,
+.container--product-summary__shelf :global(.vtex-button):focus{
+  background-color: var(--main-color);
+  transition: all .3s ease-in-out;
+}
+
+.container--product-summary__shelf :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: var(--black);
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+@media all and (min-width:1025px){
+  .container--product-summary__shelf :global(.vtex-button){
+    height: 48px;
+    width: 218px;
+  }
+  .container--product-summary__shelf :global(.vtex-product-summary-2-x-image),
+  .container--product-summary__shelf :global(.vtex-product-summary-2-x-imageNormal){
+    height: 207px;
+    width: 100%;
+  }
+}

@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#footer-help": {
+    "title": "Menú Ayuda",
     "props": {
       "orientation": "vertical"
     },

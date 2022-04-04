@@ -4,6 +4,32 @@
   height: 77px;
 }
 
+.containerLayout--offers__images--container{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap: .5rem;
+}
+
+@media all and (max-width: 1025px){
+  .containerLayout--offers__images--container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.containerLayout--offers__images--col-2{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.containerLayout--offers__images--container-col-2-row-2{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap:.5rem;
+
+}
+
 .containerLayout--drop-down-container{
   background-color: var(--main-color);
   padding: 1.5rem;

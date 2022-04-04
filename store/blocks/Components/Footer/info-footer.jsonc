@@ -1,6 +1,6 @@
 {
   "container-layout#footer__content--container":{
-    "title":"Contenedor contenido footer",
+    "title":"Sección información, redes y pagos footer",
     "children":[
       "container-layout#footer__content"
       // "container-layout#footer-mobile__content--bottom"
@@ -10,14 +10,14 @@
     }
   },
   "container-layout#footer__content":{
-    "title":"Contenedor contenido footer ",
+    "title":"Contenedor información - logo footer ",
     "children":[
       // "image#footer-mobile__logo", //TODO Falta el logo de Beauty.
       "container-layout#footer__content--info"
     ]
   },
   "container-layout#footer__content--info":{
-    "title":"Contenedor información footer",
+    "title":"Información footer",
     "children":[
       "rich-text#footer__info-brand",
       "copy-info",

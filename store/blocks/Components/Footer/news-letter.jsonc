@@ -10,6 +10,7 @@
     }
   },
   "rich-text#newsletter-title": {
+    "title":"Texto newsletter",
     "props": {
       "blockClass": ["newsletter-text"],
       "font": "t-body",

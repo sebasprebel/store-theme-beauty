@@ -12,6 +12,7 @@
   },
 
   "container-layout#header__container--desktop":{
+    "title": "Header",
     "children":[
       "container-layout#header__desktop-top",
       "container-layout#header__desktop-bottom"
@@ -21,6 +22,7 @@
     }
   },
   "container-layout#header__desktop-top":{
+    "title":"Header top - Desktop",
     "children":[
       "container-layout#header__desktop-top-right",
       "container-layout#header__desktop-top-left"
@@ -31,11 +33,13 @@
     }
   },
   "container-layout#header__desktop-top-right":{
+    "title":"Header top - parte derecha - Desktop",
     "children":[
       "container-layout#logo-desktop"
     ]
   },
   "container-layout#header__desktop-top-left":{
+    "title":"Header top - parte izquierda - Desktop",
     "children":[
       "search-bar",
       "login",
@@ -47,6 +51,7 @@
   },
 
   "container-layout#header__desktop-bottom":{
+    "title":"Header bottom - Desktop",
     "children": [
       "custom-menu-desktop"
     ],
@@ -61,6 +66,7 @@
     }
   },
   "container-layout#logo-desktop": {
+    "title":"Contenedor del logo - Desktop",
     "children": ["logo#desktop"]
   },
   "search-bar":{

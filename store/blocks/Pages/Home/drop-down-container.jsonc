@@ -1,5 +1,6 @@
 {
   "container-layout#drop-down__container":{
+    "title":"Sección conoce más",
     "children":[
       "drop-down-container"
     ],

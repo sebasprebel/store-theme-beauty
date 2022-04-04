@@ -1,6 +1,6 @@
 {
   "container-layout#new-products-shelf--container": {
-    "title": "Contenedor vitrina productos nuevos",
+    "title": "Sección productos nuevos",
     "children": [
       "rich-text#new-products-shelf__title",
       "list-context.product-list#new-products-shelf__products-list",
@@ -24,7 +24,7 @@
   },
 
   "list-context.product-list#new-products-shelf__products-list": {
-    "title": "Lista de prodctos nuevos",
+    "title": "Lista de productos nuevos",
     "blocks": ["product-summary.shelf#custom"], 
     "children": ["slider-layout#new-products-shelf__products-slider"],
     "props": {

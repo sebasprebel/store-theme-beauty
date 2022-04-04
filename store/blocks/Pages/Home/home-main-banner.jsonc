@@ -1,6 +1,6 @@
 {
   "container-layout#home__main-slider--container":{
-    "title":"Contenedor slider principal",
+    "title":"Sección banner principal",
     "children":[
       "list-context.image-list#home__main-slider--images-list"
     ],
@@ -10,13 +10,13 @@
   },
 
   "list-context.image-list#home__main-slider--images-list": {
-    "title": "Main Slider",
+    "title": "Lista de imágenes(Banners)",
     "children": ["slider-layout#home__main-slider"],
     "props": {
       "images": [
         {
-          "image": "https://dummyimage.com/2220x650/BABABA/000",
-          "mobileImage": "https://dummyimage.com/1025x650/BABABA/000",
+          "image": "/arquivos/banner-home-test.jpg",
+          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -24,8 +24,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/2220x650/BABABA/000",
-          "mobileImage": "https://dummyimage.com/1025x650/BABABA/000",
+          "image": "/arquivos/banner-home-test.jpg",
+          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -33,8 +33,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/2220x650/BABABA/000",
-          "mobileImage": "https://dummyimage.com/1025x650/BABABA/000",
+          "image": "/arquivos/banner-home-test.jpg",
+          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -42,8 +42,8 @@
           }
         },
         {
-          "image": "https://dummyimage.com/2220x650/BABABA/000",
-          "mobileImage": "https://dummyimage.com/1025x650/BABABA/000",
+          "image": "/arquivos/banner-home-test.jpg",
+          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
           "link": {
             "url": "/",
             "openNewTab": false,
@@ -55,7 +55,7 @@
   },
 
   "slider-layout#home__main-slider": {
-    "title": "Configuración del slider",
+    "title": "Slider de banners - Configuración del slider",
     "props": {
       "blockClass": ["slider", "banner-slider"],
       "itemsPerPage": {

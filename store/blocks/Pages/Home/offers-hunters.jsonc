@@ -1,0 +1,82 @@
+{
+  "container-layout#offers-hunters-section":{
+    "title": "Sección cazadores de ofertas",
+    "children":[
+      "rich-text#offers-hunters-section__title",
+      "container-layout#offers__images--container"
+    ],
+    "props":{
+      "blockClass":["wrapper","shelf__container"]
+    }
+  },
+  "rich-text#offers-hunters-section__title": {
+    "props": {
+      "blockClass": ["hunters-section__title"],
+      "font": "t-body",
+      "text": "#### Cazador@s de ofertas",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "container-layout#offers__images--container":{
+    "title": "Contenedor imágenes de ofertas",
+    "children":[
+      "container-layout#offers__images--col-1",
+      "container-layout#offers__images--col-2"
+    ],
+    "props":{
+      "blockClass":"offers__images--container"
+    }
+  },
+  "container-layout#offers__images--col-1":{
+    "title": "Contenedor imágens  de ofertas - Columna 1",
+    "children":[
+      "responsive-image#offers__image-col-1"
+    ]
+  },
+  "responsive-image#offers__image-col-1":{
+    "props":{
+      "desktopImage":"/arquivos/cazadoras-1.png",
+      "mobileImage":"/arquivos/cazadoras-1-mobile.jpg"
+    }
+  },
+  "container-layout#offers__images--col-2":{
+    "title": "Contenedor imágens  de ofertas - Columna 1",
+    "children":[
+      "responsive-image#offers__image-col-2-row-1",
+      "container-layout#offers__images--col-2-row-2"
+    ],
+    "props":{
+      "blockClass":"offers__images--col-2"
+    }
+  },
+  "responsive-image#offers__image-col-2-row-1": {
+    "props":{
+      "desktopImage":"/arquivos/cazadoras-2.png",
+      "mobileImage":"/arquivos/cazadoras-2-mobile.jpg"
+    }
+  },
+
+  "container-layout#offers__images--col-2-row-2":{
+    "children":[
+      "responsive-image#offers__image-col-2-row-2-1",
+      "responsive-image#offers__image-col-2-row-2-2"
+    ],
+    "props":{
+      "blockClass":"offers__images--container-col-2-row-2"
+    }
+  },
+  "responsive-image#offers__image-col-2-row-2-1": {
+    "props":{
+      "desktopImage":"/arquivos/cazadoras-3.png",
+      "mobileImage":"/arquivos/cazadoras-3-mobile.jpg"
+    }
+  },
+  "responsive-image#offers__image-col-2-row-2-2": {
+    "props":{
+      "desktopImage":"/arquivos/cazadoras-4.png",
+      "mobileImage":"/arquivos/cazadoras-4-mobile.jpg"
+    }
+  }
+}

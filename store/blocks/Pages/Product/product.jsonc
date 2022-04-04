@@ -1,7 +1,72 @@
 {
   "store.product": {
     "children": [
-      
+      "container-layout#product-page__container"
     ]
+  },
+  "container-layout#product-page__container":{
+    "title": "Contenedor página de producto",
+    "children": [
+      "container-layout#breadcrumb",
+      "container-layout#product-page__product-detail"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  },
+  "container-layout#breadcrumb":{
+    "title": "Contenedor breadcrumb",
+    "children":[
+      "breadcrumb"
+    ]
+  },
+  "container-layout#product-page__product-detail":{
+    "title": "Contenedor detalle del producto",
+    "children":[
+     "container-layout#detail-product__images",
+     "container-layout#detail-product__info"
+    ]
+  },
+  "container-layout#detail-product__images":{
+    "title": "Contenedor imagenes del producto",
+    "children":[
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+  "container-layout#detail-product__info":{
+    "title": "Contenedor información del producto",
+    "children":[
+      "product-brand",
+      "product-name",
+      "product-identifier.product",
+      "sku-selector#product-page__sku-color"
+    ]
+  },
+  "product-identifier.product":{
+    "props":{
+      "label": "custom",
+      "customLabel":"SKU"
+    }
+  },
+  "sku-selector#product-page__sku-color":{
+    "props": {
+      "displayMode": "default",
+      "visibleVariations": [
+        "Tonos"
+      ],
+      "maxItems": 8,
+      "hideImpossibleCombinations": false,
+      "thumbnailImage": [
+        "Tonos"
+      ],
+      "blockClass": ""
+    }
   }
+  
 }

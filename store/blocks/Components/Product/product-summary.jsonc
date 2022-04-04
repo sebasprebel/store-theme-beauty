@@ -36,9 +36,7 @@
   },
   "product-summary-image": {
     "props": {
-      "hoverImage":{
-        "criteria": "index"
-      }
+      "hoverImageLabel":"2"
     }
   }
   

@@ -1,6 +1,6 @@
 {
   "container-layout#home__slogan-slider--container":{
-    "title":"Contenedor slogan slider",
+    "title":"Sección slogan infinito",
     "children":[
       "infinite-slide"
     ],

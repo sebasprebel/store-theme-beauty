@@ -81,3 +81,7 @@
     width: 100%;
   }
 }
+
+.hoverImage{
+  z-index: -1;
+}

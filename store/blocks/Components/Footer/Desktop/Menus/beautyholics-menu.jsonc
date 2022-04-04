@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#footer-beauty": {
+    "title": "Menú Beautyholics",
     "props": {
       "orientation": "vertical"
     },

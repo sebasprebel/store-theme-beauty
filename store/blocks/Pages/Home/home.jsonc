@@ -4,6 +4,7 @@
       "container-layout#home__main-slider--container",
       "container-layout#recommended-shelf--container",
       "container-layout#home__brands-slider--container",
+      "container-layout#offers-hunters-section",
       "container-layout#new-products-shelf--container",
       "container-layout#home__slogan-slider--container",
       "container-layout#drop-down__container"

@@ -1,6 +1,6 @@
 {
   "container-layout#recommended-shelf--container": {
-    "title": "Contenedor vitrina productos recomendados",
+    "title": "Sección productos recomendados",
     "children": [
       "rich-text#recommended-shelf__title",
       "list-context.product-list#recommended-shelf__products-list",

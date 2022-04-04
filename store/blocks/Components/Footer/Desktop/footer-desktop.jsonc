@@ -9,6 +9,7 @@
   },
   
   "container-layout#footer-desktop__container":{
+    "title":"Footer - Desktop",
     "children":[
       "container-layout#footer-desktop__left",
       "container-layout#footer-desktop__right"
@@ -19,17 +20,17 @@
     }
   },
   "container-layout#footer-desktop__left":{
-    "title":"Contenedor footer Izquierda",
+    "title":"Footer izquierda - Desktop",
     "children":[
       "container-layout#newsletter",
-      "container-layout#footer__content--container"
+      "container-layout#footer__content"
     ],
     "props":{
       "blockClass":"footer-desktop__left"
     }
   },
   "container-layout#footer-desktop__right":{
-    "title":"Contenedor footer Derecha",
+    "title":"Footer derecha - Desktop",
     "children":[
       "container-layout#footer__menu"
     ],
@@ -38,7 +39,7 @@
     }
   },
   "container-layout#footer__menu":{
-    "title":"Contenedor footer menu",
+    "title":"Menú footer - Desktop",
     "children":[
       "vtex.menu@2.x:menu#footer-beauty-menu",
       "vtex.menu@2.x:menu#footer-help-menu",
@@ -50,6 +51,7 @@
     }
   },
   "vtex.menu@2.x:menu#footer-beauty-menu": {
+    "title":"Contenedor menú Beautyhholics",
     "props": {
       "orientation": "vertical"
     },
@@ -59,6 +61,7 @@
     ]
   },
   "menu-item#footer-desktop-beauty--title": {
+    "title": "Título menú Beautyhholics",
     "props": {
       "blockClass": "footer-title",
       "type": "custom",
@@ -68,6 +71,7 @@
     }
   },
   "vtex.menu@2.x:menu#footer-help-menu": {
+    "title": "Contenedor menú ayuda",
     "props": {
       "orientation": "vertical"
     },
@@ -77,6 +81,7 @@
     ]
   },
   "menu-item#footer-desktop-help--title": {
+    "title": "Título menú ayuda",
     "props": {
       "blockClass": "footer-title",
       "type": "custom",
@@ -86,6 +91,7 @@
     }
   },
   "vtex.menu@2.x:menu#footer-interest-menu": {
+    "title": "Contenedro menú links de interés",
     "props": {
       "orientation": "vertical"
     },
@@ -95,6 +101,7 @@
     ]
   },
   "menu-item#footer-desktop-interest--title": {
+    "title":"Título menú links de interés",
     "props": {
       "blockClass": "footer-title",
       "type": "custom",

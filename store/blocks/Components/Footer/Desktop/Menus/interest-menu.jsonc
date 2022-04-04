@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#footer-interest": {
+    "title": "Menú Links de interés",
     "props": {
       "orientation": "vertical"
     },

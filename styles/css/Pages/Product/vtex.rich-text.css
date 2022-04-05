@@ -1,0 +1,5 @@
+.paragraph--tab-title{
+  font-family: var(--font-poppins-semibold);
+  font-size: 1.125rem;
+  margin-block: 1rem;
+}

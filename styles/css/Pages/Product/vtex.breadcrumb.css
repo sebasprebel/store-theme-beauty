@@ -1,0 +1,46 @@
+.arrow--1,
+.term,
+.termArrow,
+.caretIcon {
+  display: none;
+}
+
+.container {
+  padding: 1rem;
+}
+.homeIcon{
+  width:16px;
+  height:16px;
+}
+.homeLink{
+  margin-right: 2.5rem;
+  position: relative;
+}
+.homeLink::after{
+  content:"Inicio";
+  display: inline-block;
+  color: var(--main-color);
+  position: absolute;
+  left: 23px;
+  bottom: 4px;
+}
+
+.link, .homeLink::after {
+  font-size:0.875rem;
+}
+
+.link{
+  color: var(--black);
+  position: relative;
+}
+
+.link:hover{
+  color: var(--main-color);
+}
+
+.link:nth-child(2n)::before{
+  content:"/";
+  display: inline-block;
+  position: absolute;
+  left: -5px;
+}

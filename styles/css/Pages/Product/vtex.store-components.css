@@ -1,0 +1,96 @@
+.productImage{
+  margin-bottom: 2rem;
+}
+
+.swiperBullet{
+  width: .6rem;
+  background-color: var(--white);
+  border: 2px solid var(--hard-pink);
+  height: .6rem;
+}
+
+.swiperBullet--active{
+  width: 1.25rem !important;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border: none;
+  height: .6rem;
+}
+
+.swiperCaret {
+  border: 1px solid var(--soft-grey);
+  border-radius: 50%;
+  padding : .4rem;
+  margin-inline: .7rem;
+  color: var(--black);
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiperCaret:hover{
+  border: 1px solid var(--black);
+}
+
+.swiperCaret :global(.vtex-store-components-3-x-caretIcon){
+  width: 35px;
+  height: 22px;
+}
+
+.swiperCaretNext :global(.vtex-store-components-3-x-caretIcon){
+  position: relative;
+  left: 2px;
+}
+
+.swiperCaretPrev  :global(.vtex-store-components-3-x-caretIcon){
+  position: relative;
+  left: -2px;
+}
+
+.carouselCursorDefault{
+  background-color: var(--super-light-grey);
+  border: 1px solid var(--super-light-grey);
+}
+
+.carouselCursorDefault:hover{
+  border: 1px solid var(--super-light-grey);
+}
+
+.carouselGaleryThumbs{
+  display: flex !important;
+  margin-inline: 1rem;
+}
+
+.productImagesThumb{
+  height:60px !important;
+  width:60px !important;
+  margin-right: 1.5rem;
+}
+.thumbImg,
+.productImagesThumb{
+  border-radius: 8px !important;
+}
+
+.productImagesThumbActive{
+  border: 1px solid var(--main-color);
+}
+
+/*Product details*/
+.productBrandName{
+  color: var(--main-color);
+  font-size: 0.875rem;
+  font-family: var(--font-poppins-semibold);
+}
+
+.productBrand {
+  font-size: 1.5rem;
+}
+
+/*Product description*/
+.productDescriptionTitle{
+  display: none;
+}
+.content--product-page__description--content{
+  color: var(--black);
+}

@@ -13,3 +13,7 @@
 :global(.vtex-product-summary-2-x-nameContainer){
   padding: 0 !important;
 }
+
+:global(.vtex-product-context-provider) :global(.vtex-store-footer-2-x-footerLayout){
+  padding-bottom: 9rem;
+}

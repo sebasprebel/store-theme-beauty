@@ -1,0 +1,5 @@
+.product-identifier--productReference{
+  font-size: 1rem;
+  color: var(--hard-grey);
+  display: block;
+}

@@ -1,0 +1,8 @@
+.sellingPrice--product-detail__selling-price--hasListPrice{
+  font-family: var(--font-poppins-bold);
+}
+.currencyContainer--product-detail__list-price,
+.sellingPrice--product-detail__selling-price--hasListPrice{
+  font-size: 1.4rem;
+
+}

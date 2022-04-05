@@ -1,0 +1,12 @@
+.trigger--product-page__tab--trigger{
+  width: 100%;
+  background: var(--white);
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content--product-page__tab--content{
+  margin-bottom: 1.5rem;
+}

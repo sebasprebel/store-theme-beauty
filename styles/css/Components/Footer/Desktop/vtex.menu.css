@@ -1,12 +1,7 @@
 .styledLink{
   color: var(--white);
 }
-.styledLinkContent--footer-title{
-  margin-bottom: 1.5rem;
-  font-family: var(--font-poppins-bold);
-  font-size: 1.125rem;
-  cursor: default;
-}
+
 
 .styledLinkContent--footer-item-desktop{
   font-size: 1rem;
@@ -17,7 +12,19 @@
   color: var(--main-color);
 }
 
+.menuItem--footer-item-desktop,
+.styledLinkContent--footer-title{
+  margin: 0;
+}
+
+.styledLinkContent--footer-title{
+  font-family: var(--font-poppins-bold);
+  font-size: 1.125rem;
+  cursor: default;
+}
 
 .menuItem--footer-item-desktop:last-child .styledLinkContent--footer-item-desktop{
   margin-bottom: 2rem;
 }
+
+

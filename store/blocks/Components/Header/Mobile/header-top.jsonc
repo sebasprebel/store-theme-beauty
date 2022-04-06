@@ -1,0 +1,22 @@
+{
+  "container-layout#header-mobile__top": {
+    "title": "Header top - Mobile",
+    "children": [
+      "logo#mobile",
+      "container-layout#header-mobile__top-icons-container"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-top",
+      "classes": "flex justify-between items-center"
+    }
+  },
+  "container-layout#header-mobile__top-icons-container":{
+    "title": "Contenedor íconos",
+    "children":[
+      "minicart.v2"
+    ],
+    "props": {
+      "classes": "flex"
+    }
+  }
+}

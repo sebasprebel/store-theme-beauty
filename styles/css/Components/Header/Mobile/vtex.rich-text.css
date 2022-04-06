@@ -1,9 +1,16 @@
 .headingLevel3--drawer__title{
   font-size: 1.5rem;
-  
 }
 
 .container--drawer__title{
   padding: 1.3rem 1.3rem;
   border-bottom: 1px solid var(--main-color);
+}
+
+.image--icons-mobile__text{
+  width: 22px;
+  height: 22px;
+  position: relative;
+  bottom: -9px;
+  margin-top: -5px;
 }

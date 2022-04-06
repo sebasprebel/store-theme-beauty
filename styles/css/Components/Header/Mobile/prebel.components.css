@@ -28,3 +28,8 @@
   align-items: center;
   gap: 1rem;
 }
+
+.containerLayout--icon-text__container :global(.vtex-login-2-x-container){
+  position: relative;
+  left: 4px;
+}

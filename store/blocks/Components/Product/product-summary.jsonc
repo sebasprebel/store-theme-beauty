@@ -7,7 +7,8 @@
       "add-to-cart-button"
     ],
     "props":{
-      "blockClass":"product-summary__shelf"
+      "blockClass":"product-summary__shelf",
+      "hideUnavailableItems": true
     }
   },
   "add-to-cart-button":{

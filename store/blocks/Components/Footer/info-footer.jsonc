@@ -19,6 +19,7 @@
   "container-layout#footer__content--info":{
     "title":"Información footer",
     "children":[
+      "logo#footer-logo",
       "rich-text#footer__info-brand",
       "copy-info",
       "rich-text#footer__info-nit",

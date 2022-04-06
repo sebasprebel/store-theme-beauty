@@ -2,6 +2,7 @@
 .styledLinkContent--footer__menu-item-mobile{
   color: var(--white);
   font-size: 1rem;
+  margin-block: .2rem;
 }
 .styledLinkContainer--footer__menu-item-mobile{
   margin: .3rem 0;
@@ -17,8 +18,27 @@
 .menuItem--footer__menu-item-mobile--trigger{
   border-bottom: 2px solid var(--grey);
   padding-bottom: .1rem;
+  margin: 0px;
 }
 
 .menuContainerNav--footer-mobile__menu{
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0 0.7rem 0;
+}
+
+.accordionIcon--footer__menu-item-mobile--trigger--isClosed,
+.accordionIcon--footer__menu-item-mobile--trigger--isOpen{
+  font-size: 0px;
+  width:16px;
+  height:16px;
+}
+
+.accordionIcon--footer__menu-item-mobile--trigger--isClosed{
+  background:url(assets/images/down-arrow-white.svg) no-repeat center;
+}
+.accordionIcon--footer__menu-item-mobile--trigger--isOpen{
+  background:url(assets/images/up-arrow-white.svg) no-repeat center;
+}
+
+.menuContainer--footer-mobile__menu{
+  margin-bottom: 2rem;
 }

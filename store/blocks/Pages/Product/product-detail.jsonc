@@ -1,0 +1,90 @@
+{
+  "container-layout#product-page__product-detail":{
+    "title": "Contenedor detalle del producto",
+    "children":[
+     "container-layout#detail-product__images",
+     "container-layout#detail-product__info"
+    ]
+  },
+  "container-layout#detail-product__images":{
+    "title": "Contenedor imagenes del producto",
+    "children":[
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": false,
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+  "container-layout#detail-product__info":{
+    "title": "Contenedor información del producto",
+    "children":[
+      "product-brand",
+      "product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "container-layout#detail-product__prices--container",
+      "container-layout#detail-product__quantity-buy--container"
+      // "sku-selector#product-page__sku-color"
+    ],
+    "props":{
+      "blockClass":"detail-product__info--container"
+    }
+  },
+  "product-identifier.product":{
+    "props":{
+      "label": "custom",
+      "customLabel":"SKU"
+    }
+  },
+  "container-layout#detail-product__prices--container":{
+    "children":[
+      "product-selling-price#product-detail__selling-price",
+      "product-list-price#product-detail__list-price"
+    ],
+    "props":{
+      "blockClass":"detail-product__prices--container"
+    }
+  },
+  "container-layout#detail-product__quantity-buy--container":{
+    "children":[
+      "product-quantity",
+      "buy-button"
+    ],
+    "props":{
+      "blockClass":"detail-product__quantity-buy--container",
+      "classes": "flex"
+    }
+  },
+  "sku-selector#product-page__sku-color":{
+    "props": {
+      "displayMode": "default",
+      "visibleVariations": [
+        "Tonos"
+      ],
+      "maxItems": 8,
+      "hideImpossibleCombinations": false,
+      "thumbnailImage": [
+        "Tonos"
+      ],
+      "blockClass": ""
+    }
+  },
+  "product-selling-price#product-detail__selling-price":{
+    "props": {
+      "blockClass":"product-detail__selling-price"
+    }
+  },
+  "product-list-price#product-detail__list-price":{
+    "props": {
+      "blockClass":"product-detail__list-price"
+    }
+  },
+  "product-quantity":{
+    "props": {
+     "showLabel": false
+    }
+  }
+}

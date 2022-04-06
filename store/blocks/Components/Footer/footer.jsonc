@@ -2,10 +2,13 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "image": {
+  "logo#footer-logo": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "title": "Logo",
+      "url": "assets/images/beautyholics-logo-footer.svg",
+      "width": "204",
+      "height": "50",
+      "blockClass":"footer-logo"
     }
   }
 }

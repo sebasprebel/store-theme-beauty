@@ -3,9 +3,14 @@
   color: var(--white);
   font-size: 0.875rem;
 }
-
+.confirmationCheckboxContainer :global(.vtex-checkbox__box-wrapper){
+  background: var(--main-color);
+}
 .labelLink--first{
   text-decoration: underline;
+}
+.labelLink--first:hover{
+  color: var(--main-color);
 }
 .confirmationCheckboxContainer{
   margin-top: 1rem;
@@ -43,13 +48,11 @@
 .formSubmitContainer :global(.vtex-button):hover,
 .formSubmitContainer :global(.vtex-button):focus{
   background-color: var(--main-color);
-  transition: all .3s ease-in-out;
 }
 
 .formSubmitContainer :global(.vtex-button):hover :global(.vtex-button__label),
 .formSubmitContainer :global(.vtex-button):focus :global(.vtex-button__label){
   color: var(--black);
-  transition: all .3s ease-in-out;
 }
 
 .formSubmitContainer :global(.vtex-button){

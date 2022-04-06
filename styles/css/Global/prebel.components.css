@@ -1,7 +1,6 @@
 .containerLayout--wrapper{
   max-width: 1420px;
   margin: 0 auto !important;
-  overflow-x: hidden;
 }
 
 /* .containerLayout--shelf-wrapper{

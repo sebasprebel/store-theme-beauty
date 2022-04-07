@@ -1,0 +1,176 @@
+{
+  "container-layout#product-page__tabs--container":{
+    "title":"Contenedor pestañas mobile",
+    "children":[
+      "container-layout#product-page__description--container",
+      "container-layout#product-page__how-to-use--container",
+      "container-layout#product-page__comments--container"
+    ],
+    "props":{
+      "blockClass":"product-page__tabs--container"
+    }
+  },
+  "container-layout#product-page__description--container":{
+    "title":"Contenedor descripción del producto",
+    "children":[
+      "disclosure-layout#product-page__description"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "container-layout#product-page__how-to-use--container":{
+    "title":"Contenedor pestaña cómo se usa",
+    "children":[
+      "disclosure-layout#product-page__how-to-use"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "container-layout#product-page__comments--container":{
+    "title":"Contenedor pestaña comentarios",
+    "children":[
+      "disclosure-layout#product-page__comments"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "disclosure-layout#product-page__description":{
+    "title": "Pestaña descripción",
+    "children": [
+      "disclosure-trigger#product-page__description", 
+      "disclosure-content#product-page__description"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#product-page__description":{
+    "title": "Título pestaña descripción",
+    "children":[
+      "rich-text#product-page__description--title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#product-page__description--title": {
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "Descripción",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#product-page__description":{
+    "title": "Contenido pestaña descripción",
+    "children":[
+      "product-description"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "product-description":{
+    "props":{
+      "blockClass":"product-page__description--content"
+    }
+  },
+
+"disclosure-layout#product-page__how-to-use":{
+  "title": "Pestaña aprende a usarlo",
+  "children": [
+    "disclosure-trigger#product-page__how-to-use", 
+    "disclosure-content#product-page__how-to-use"
+  ]
+},
+"disclosure-trigger#product-page__how-to-use":{
+  "title": "Título pestaña aprende a usarlo",
+  "children":[
+    "rich-text#product-page__how-to-use--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#product-page__how-to-use--title": {
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "Aprende a usarlo",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#product-page__how-to-use":{
+  "title": "Contenido pestaña aprende a usarlo",
+  "children":[
+    "product-spect-use"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"disclosure-layout#product-page__comments":{
+  "title": "Pestaña comentarios",
+  "children": [
+    "disclosure-trigger#product-page__comments", 
+    "disclosure-content#product-page__comments"
+  ]
+},
+"disclosure-trigger#product-page__comments":{
+  "title": "Título pestaña comentarios",
+  "children":[
+    "rich-text#product-page__comments--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#product-page__comments--title": {
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "Comentarios",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#product-page__comments":{
+  "title": "Contenido comentarios",
+  "children":[
+    "product-reviews",
+    "product-questions-and-answers"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon#down-arrow-icon-black",
+      "Hide": "icon#up-arrow-icon-black"
+    }
+  },
+  "icon#down-arrow-icon-black":{
+    "props":{
+      "id":"down-arrow-icon-black"
+    }
+  },
+  "icon#up-arrow-icon-black":{
+    "props":{
+      "id":"up-arrow-icon-black"
+    }
+  }
+}

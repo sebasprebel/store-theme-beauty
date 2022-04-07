@@ -3,3 +3,12 @@
   color: var(--hard-grey);
   display: block;
 }
+
+@media all and (min-width: 1025px){
+  .product-identifier--productReference{
+    font-size: 1.3rem;
+    color: var(--hard-grey);
+    display: block;
+    margin-block: .6rem;
+  }
+}

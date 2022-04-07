@@ -1,0 +1,93 @@
+{
+  "container-layout#product-page__tabs--container-desktop":{
+    "title":"Contenedor pestañas desktop",
+    "children":[
+      "tab-layout#product-page__tabs-desktop"
+    ],
+    "props":{
+      "blockClass":"product-page__tabs--container-desktop"
+    }
+  },
+  "tab-layout#product-page__tabs-desktop":{
+    "title":"Pestañas desktop",
+    "children":[
+      "tab-list#product-page__info",
+      "tab-content#product-page__info"
+    ],
+    "props":{
+      "defaultActiveTabId": "description"
+    }
+  },
+  "tab-list#product-page__info":{
+    "children":[
+      "tab-list.item#product-page__description--item",
+      "tab-list.item#product-page__how-to-use--item",
+      "tab-list.item#product-page__comments--item"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--list"
+    }
+  },
+  "tab-list.item#product-page__description--item":{
+    "title": "Tab descripcion",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "description",
+      "label": "Descripción",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#product-page__how-to-use--item":{
+    "title": "Tab aprende a usarlo",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "use",
+      "label": "Aprende a usarlo",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#product-page__comments--item":{
+    "title": "Tab comentarios",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "comments",
+      "label": "Comentarios",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#product-page__info":{
+    "children": [
+      "tab-content.item#product-page__description--item",
+      "tab-content.item#product-page__how-to-use--item",
+      "tab-content.item#product-page__comments--item"
+    ]
+  },
+  "tab-content.item#product-page__description--item":{
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "description",
+      "blockClass": "product-tab__content"
+    }
+  },
+  "tab-content.item#product-page__how-to-use--item":{
+    "children": [
+      "product-spect-use"
+    ],
+    "props": {
+      "tabId": "use",
+      "blockClass": "product-tab__content"
+    }
+  },
+  "tab-content.item#product-page__comments--item":{
+    "children": [
+      "product-reviews",
+      "product-questions-and-answers"
+    ],
+    "props": {
+      "tabId": "comments",
+      "blockClass": "product-tab__content"
+    }
+  }
+}

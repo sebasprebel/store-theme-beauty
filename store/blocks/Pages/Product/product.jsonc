@@ -10,7 +10,7 @@
       "container-layout#breadcrumb",
       "container-layout#product-page__product-detail",
       "container-layout#product-page__tabs-section",
-      "shelf.relatedProducts#producSection__relatedShelf",
+      // "shelf.relatedProducts#producSection__relatedShelf",
       "container-layout#home__slogan-slider--container"
     ],
     "props":{

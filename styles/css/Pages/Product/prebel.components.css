@@ -23,14 +23,32 @@
   gap: 1rem;
 }
 
+/*Add to cart button*/
 .containerLayout--detail-product__quantity-buy--container :global(.vtex-button){
   height: 48px;
   border-radius: 24px;
   padding-inline: 1.5rem;
+  font-family: var(--font-poppins-semibold);
+}
+
+.containerLayout--detail-product__quantity-buy--container :global(.vtex-button):hover,
+.containerLayout--detail-product__quantity-buy--container :global(.vtex-button):focus{
+  background-color:var(--main-color);
+  transition:all .3s ease-in-out;
+}
+
+.containerLayout--detail-product__quantity-buy--container :global(.vtex-button):hover  :global(.vtex-button__label){
+  color: var(--black);
+  transition:all .3s ease-in-out;
+}
+
+@media all and (min-width: 1025px){
+  .containerLayout--detail-product__quantity-buy--container :global(.vtex-button){
+    width: 100%;
+  }
 }
 
 /*Tabs section*/
-
 .containerLayout--product-page__tabs--container{
   padding: 1rem;
 }
@@ -40,3 +58,98 @@
   padding-inline: 1rem;
 }
 
+.containerLayout--product-page__tabs--container-desktop{
+  margin-block: 4rem;
+  padding-inline: 2rem;
+}
+
+/*Desktop*/
+
+@media all and (min-width: 1025px){
+
+  .containerLayout--product-page__product-detail--container{
+    display: flex;
+    gap: 1rem;
+  }
+  .containerLayout--detail-product__images--container{
+    width:60%;
+  }
+  .containerLayout--detail-product__quantity-buy--container{
+    position: static;
+    border: none;
+    padding: 0;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top:1rem;
+  }
+}
+.spec__content{
+  line-height:1.5rem;
+}
+
+/****Revies and ratigns**/
+:global(.vtex-reviews-and-ratings-2-x-container) {
+  margin: 0;
+  padding: 0;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) {
+  background: var(--white);
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-card){
+  box-shadow: none;
+  border: 1px solid var(--hard-pink);
+  border-radius: 8px;
+  max-width:674px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-input-prefix__group),
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-textarea__input){
+  border-radius: 21px;
+  border: 1px solid var(--border-input-gray);
+  padding: 0.5rem !important;
+}
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-textarea__input){
+  resize:vertical !important;
+  padding: 1.5em !important;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-input-prefix__group){
+  height: 41px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star--filled) {
+  color: var(--main-color);
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star--empty) {
+  color: var(--hard-pink);
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-button){
+  border-radius: 24px;
+  width: 100%;
+  padding:1rem;
+}
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-button):focus,
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-button):hover{
+  background-color: var(--main-color);
+  transition:all .3s ease-in-out;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) :global(.vtex-button):hover  :global(.vtex-button__label){
+  color: var(--black);
+  transition:all .3s ease-in-out;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) :global(.vtex__icon-caret-down),
+:global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) :global(.vtex__icon-caret-up),
+:global(.vtex-reviews-and-ratings-2-x-writeReviewButton),
+:global(.vtex-reviews-and-ratings-2-x-writeReviewButton):hover{
+  color: var(--main-color);
+}
+
+:global(.vtex-reviews-and-ratings-2-x-loginLink):hover{
+  color: var(--main-color);
+}

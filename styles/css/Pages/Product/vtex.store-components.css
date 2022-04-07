@@ -93,4 +93,31 @@
 }
 .content--product-page__description--content{
   color: var(--black);
+  line-height:1.5rem;
+}
+.container--product-page__description--content{
+  height: auto !important;
+}
+.fadeBottom, .showMoreButton{
+  display: none ;
+}
+
+/*Desktop*/
+@media all and (min-width: 1025px){
+  .productBrandName{
+    font-size: 1.1rem;
+  }
+  .productBrand {
+    font-size: 1.8rem;
+  }
+}
+
+.productImagesGallerySwiperContainer, .productImage,
+.productImageTag{
+  max-height: 450px !important;
+}
+
+.productImageTag{
+  position: relative;
+  top: -15px;
 }

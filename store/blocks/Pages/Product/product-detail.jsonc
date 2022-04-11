@@ -33,8 +33,8 @@
       "product-rating-summary",
       "container-layout#detail-product__prices--container",
       "product-availability",
+      "sku-selector#product-page__sku-color",
       "container-layout#detail-product__quantity-buy--container"
-      // "sku-selector#product-page__sku-color"
     ],
     "props":{
       "blockClass":"detail-product__info--container"
@@ -73,9 +73,11 @@
       ],
       "maxItems": 8,
       "hideImpossibleCombinations": false,
+      "initialSelection": "empty",
       "thumbnailImage": [
-        "Tonos"
+        "2"
       ],
+      "showValueForVariation":"image",
       "blockClass": ""
     }
   },

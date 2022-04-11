@@ -1,0 +1,47 @@
+{
+  "container-layout#search-page__main-slider--container":{
+    "title":"Sección banner principal",
+    "children":[
+      "list-context.image-list#search__main-slider--images-list"
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
+  },
+
+  "list-context.image-list#search__main-slider--images-list": {
+    "title": "Lista de imágenes(Banners)",
+    "children": ["slider-layout#search__main-slider"],
+    "props": {
+      "images": [
+        {
+          "image": "/arquivos/banner-home-test.jpg",
+          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+          "link": {
+            "url": "/",
+            "openNewTab": false,
+            "title": "Imagen principal"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#search__main-slider": {
+    "title": "Slider de banners - Configuración del slider",
+    "props": {
+      "blockClass": ["slider", "banner-slider"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 40000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows":"never"
+    }
+  }
+}

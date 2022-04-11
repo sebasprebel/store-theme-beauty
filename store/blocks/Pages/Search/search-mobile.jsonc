@@ -1,0 +1,47 @@
+{
+  "search-result-layout.mobile":{
+    "children":[
+      "container-layout#search-page__container"
+    ]
+  },
+  "container-layout#search-page__container":{
+    "title":"Contenedor página de búsqueda",
+    "children":[
+      "container-layout#search-page__main-slider--container",
+      "container-layout#search-page__breadcrumb--container",
+      "container-layout#search-page__filter-order--container",
+      "container-layout#search-page__search-content--container",
+      "container-layout#search-page__button-search-more--container",
+      "container-layout#drop-down__container",
+      "container-layout#home__slogan-slider--container"
+    ]
+  },
+  "container-layout#search-page__breadcrumb--container":{
+    "title":"Contenedor breadcrumb",
+    "children":[
+      "breadcrumb.search"
+    ]
+  },
+  "container-layout#search-page__filter-order--container":{
+    "title":"Contenedor filtro y ordenar por",
+    "children":[
+      "filter-navigator.v3",
+      "order-by.v2"
+    ],
+    "props":{
+      "classes": "flex"
+    }
+  },
+  "container-layout#search-page__search-content--container":{
+    "title":"Contenedor resultado de búsqueda",
+    "children":[
+      "search-content"
+    ]
+  },
+  "container-layout#search-page__button-search-more--container":{
+    "title":"Contenedor botón de buscar más",
+    "children":[
+      "search-fetch-more"
+    ]
+  }
+}

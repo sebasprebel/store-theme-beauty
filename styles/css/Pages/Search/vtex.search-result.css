@@ -1,0 +1,31 @@
+.searchResultContainer{
+  padding: 0;
+}
+.container--layout :global(.vtex-breadcrumb-1-x-arrow--1){
+  display: inline-block;
+}
+
+.galleryItem{
+  height:335px;
+}
+
+.buttonShowMore :global(.vtex-button){
+  background: var(--white);
+  border-radius: 24px;
+  border: 1px solid var(--black);
+  margin: 2rem auto 3rem auto;
+  padding: 1rem 3rem;
+}
+.buttonShowMore :global(.vtex-button__label){
+  font-size: 0;
+}
+.buttonShowMore :global(.vtex-button):hover{
+  background: var(--main-color);
+}
+
+.buttonShowMore :global(.vtex-button__label)::after{
+  content: 'Ver más resultados';
+  font-size: 1rem;
+  color: var(--black);
+  font-family: var(--font-poppins-semibold);
+}

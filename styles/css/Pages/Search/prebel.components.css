@@ -1,0 +1,22 @@
+.containerLayout--search-page__search-content--container{
+  overflow: hidden;
+}
+
+.containerLayout--search-page__filter-order--container{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  border-block: 1px solid var(--hard-pink);
+  align-items: center;
+}
+
+@media (min-width: 1025px){
+  .containerLayout--search-page__search-content-filter--container{
+    padding-inline: 1.5rem;
+  }
+  .containerLayout--search-page__orderby--container{
+    padding-inline: 3.2rem;
+  }
+  .orderByOptionsContainer{
+    width:280px;
+  }
+}

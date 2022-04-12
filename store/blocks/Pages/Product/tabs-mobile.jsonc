@@ -112,7 +112,7 @@
 "disclosure-content#product-page__how-to-use":{
   "title": "Contenido pestaña aprende a usarlo",
   "children":[
-    "product-spect-use"
+    "product-spec-use"
   ],
   "props":{
     "blockClass":"product-page__tab--content"

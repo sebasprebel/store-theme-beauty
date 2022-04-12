@@ -33,3 +33,7 @@
   position: relative;
   left: 4px;
 }
+
+.containerLayout--header-top-mobile__icons-container{
+  align-items: center;
+}

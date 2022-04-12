@@ -5,9 +5,9 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        "hideUnavailableItems": true,
+        // "hideUnavailableItems": true,
         "maxItemsPerPage": 12
       }
     }
@@ -18,9 +18,9 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        "hideUnavailableItems": true,
+        // "hideUnavailableItems": true,
         "maxItemsPerPage": 12
       }
     }
@@ -31,9 +31,9 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        "hideUnavailableItems": true,
+        // "hideUnavailableItems": true,
         "maxItemsPerPage": 12
       }
     }
@@ -44,9 +44,9 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        "hideUnavailableItems": true,
+        // "hideUnavailableItems": true,
         "maxItemsPerPage": 12
       }
     }
@@ -57,9 +57,9 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        "hideUnavailableItems": true,
+        // "hideUnavailableItems": true,
         "maxItemsPerPage": 10
       }
     }
@@ -86,5 +86,10 @@
     "blocks":[
       "product-summary.shelf#custom"
     ]
+  },
+  "order-by.v2":{
+    "props": {
+      "showOrderTitle": false
+    }
   }
 }

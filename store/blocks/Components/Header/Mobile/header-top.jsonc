@@ -13,10 +13,42 @@
   "container-layout#header-mobile__top-icons-container":{
     "title": "Contenedor íconos",
     "children":[
+      "modal-trigger#search-bar",
       "minicart.v2"
     ],
     "props": {
-      "classes": "flex"
+      "classes": "flex",
+      "blockClass": "header-top-mobile__icons-container"
+    }
+  },
+  "modal-trigger#search-bar": {
+    "props": {
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "icon#search-bar",
+      "modal-layout#search-bar"
+    ]
+  },
+  "icon#search-bar": {
+    "props": {
+      "id": "search-icon-black",
+      "size": 24,
+      "blockClass": "trigger-searchbar"
+    }
+  },
+  "modal-layout#search-bar": {
+    "children": [
+      "search-bar#mobile"
+    ],
+    "props":{
+      "blockClass":"search-modal-layout"
+    }
+  },
+  "search-bar#mobile":{
+    "props":{
+      "blockClass":"search-bar-mobile",
+      "placeholder":"¿Qué estás buscando?"
     }
   }
 }

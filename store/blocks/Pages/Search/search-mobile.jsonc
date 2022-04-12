@@ -29,14 +29,18 @@
       "order-by.v2"
     ],
     "props":{
-      "classes": "flex"
+      "classes": "flex",
+      "blockClass": "search-page__filter-order--container"
     }
   },
   "container-layout#search-page__search-content--container":{
     "title":"Contenedor resultado de búsqueda",
     "children":[
       "search-content"
-    ]
+    ],
+    "props":{
+      "blockClass": "search-page__search-content--container"
+    }
   },
   "container-layout#search-page__button-search-more--container":{
     "title":"Contenedor botón de buscar más",

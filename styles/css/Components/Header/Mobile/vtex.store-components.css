@@ -1,0 +1,3 @@
+.searchBarInnerContainer--search-bar-mobile :global(.vtex-input__suffix){
+  height: auto;
+}

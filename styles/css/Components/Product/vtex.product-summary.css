@@ -61,13 +61,11 @@
 .container--product-summary__shelf :global(.vtex-button):hover,
 .container--product-summary__shelf :global(.vtex-button):focus{
   background-color: var(--main-color);
-  transition: all .3s ease-in-out;
 }
 
 .container--product-summary__shelf :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText){
   color: var(--black);
   font-weight: bold;
-  transition: all .3s ease-in-out;
 }
 
 @media all and (min-width:1025px){
@@ -83,5 +81,5 @@
 }
 
 .hoverImage{
-  z-index: -1;
+  z-index: 1;
 }

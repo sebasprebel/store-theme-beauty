@@ -6,10 +6,6 @@
     "props":{
       "customPixelEventName": "addToCart"
     }
-  },
-  "minicart-base-content": {
-    "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list"]
   }
   
 }

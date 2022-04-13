@@ -1,0 +1,8 @@
+.sellingPrice--minicart__product-detail__selling-price,
+.listPriceValue--minicart__product-detail__list-price{
+  font-size: 1rem;
+}
+
+.sellingPrice--minicart__product-detail__selling-price{
+  font-family: var(--font-poppins-bold);
+}

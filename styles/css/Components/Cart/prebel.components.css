@@ -1,0 +1,10 @@
+@import url(./minicart.css);
+
+.containerLayout--cart-list__product-card{
+  border-bottom: 1px solid var(--main-color);
+  gap: .5rem;
+}
+
+.containerLayout--cart-list__product-info{
+  width: 100%;
+}

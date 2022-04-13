@@ -123,10 +123,11 @@
   .filters--layout{
     width:363px;
     min-width: 363px;
+    margin-bottom: 3rem;
   }
   .galleryItem{
     width:220px;
-    height:390px;
+    height:350px;
     max-width:240px !important;
   }
   .gallery{
@@ -156,7 +157,6 @@
   }
   .filter__container{
     border-color: var(--main-color);
-    padding-bottom: 1rem;
   }
   .filterItem{
     margin-bottom: 1rem;
@@ -207,4 +207,7 @@
     width: 10px;
     height: 10px
   }
+  .galleryItem :global(.vtex-product-summary-2-x-imageNormal){
+    height: 150px;
+   }
 }

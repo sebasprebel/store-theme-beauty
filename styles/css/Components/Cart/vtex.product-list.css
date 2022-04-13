@@ -1,0 +1,60 @@
+.deleteIcon{
+  width:20px;
+  height:18px;
+}
+.productBrandName{
+  color: var(--main-color);
+  font-size: 0.75rem;
+}
+.productName{
+  font-size: 0.875rem;
+}
+
+.productBrandName,
+.productName{
+  font-family: var(--font-poppins-semibold);
+}
+
+.productImageContainer{
+  width:91px !important;
+}
+
+
+/*Quantity selector*/
+.quantitySelectorWrapper{
+  height:34px;
+  width:134px;
+}
+.quantitySelectorDecrease,
+.quantitySelectorIncrease,
+.inputContainer{
+  border: 1px solid var(--black);
+  color: var(--black);
+}
+
+.quantitySelectorDecrease{
+  border-right: none !important;
+  border-radius: 16px 0px 0px 16px;
+  background-color: var(--white)
+}
+.quantitySelectorIncrease:hover,
+.quantitySelectorIncrease:focus,
+.quantitySelectorDecrease:hover,
+.quantitySelectorDecrease:focus,
+.inputContainer:hover{
+  border: 1px solid var(--black);
+  background-color: var(--super-light-grey)
+}
+.inputContainer:hover{
+  background-color: var(--white)
+}
+.quantitySelectorIncrease {
+  border-left: none !important;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.inputContainer{
+  border-left: none !important;
+  border-right: none !important;
+  width: 32px;
+}

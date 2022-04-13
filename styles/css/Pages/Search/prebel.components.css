@@ -16,7 +16,7 @@
   .containerLayout--search-page__orderby--container{
     padding-inline: 3.2rem;
   }
-  .orderByOptionsContainer{
-    width:280px;
+  .containerLayout--search-page__content-show-more--container{
+    margin-bottom: 3rem;
   }
 }

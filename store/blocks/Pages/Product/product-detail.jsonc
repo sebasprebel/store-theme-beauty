@@ -27,8 +27,8 @@
   "container-layout#detail-product__info":{
     "title": "Contenedor información del producto",
     "children":[
-      "product-brand",
-      "product-name",
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
       "product-identifier.product",
       "product-rating-summary",
       "container-layout#detail-product__prices--container",

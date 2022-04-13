@@ -1,0 +1,12 @@
+.summarySmallDisclaimer{
+  display: none;
+}
+
+.summaryItemContainer{
+  font-size: 1rem;
+  font-family: var(--font-poppins-bold);
+}
+
+.summaryItemContainer:last-child{
+  padding: 0;
+}

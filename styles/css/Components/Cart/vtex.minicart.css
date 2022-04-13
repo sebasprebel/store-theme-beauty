@@ -1,0 +1,83 @@
+.closeIconContainer{
+  border-bottom: 1px solid var(--main-color);
+  padding: 0rem 1.1rem 1rem;
+  position: relative;
+}
+
+.closeIconButton{
+  background-color: var(--main-color);
+  border-radius: 50%;
+  width:40px;
+  height:40px;
+  display:flex;
+  align-items: center;
+  position:relative;
+  top: 7px;
+}
+
+.minicartProductListContainer{
+  height:calc(100% - 2rem);
+}
+
+.closeIcon{
+  width:17px;
+  height:17px;
+}
+
+.minicartTitle{
+  position: relative;
+  top: -47px;
+  left: 63px;
+  font-size: 0;
+  width: 150px;
+}
+
+.minicartTitle::after{
+ content: "Mi bolsa";
+ font-size: 1.5rem;
+ font-family: var(--font-poppins-semibold);
+}
+
+
+/*Minicart Summary*/
+
+.minicartSummary{
+  padding: .8rem 1.5rem;
+  border-top: 1px solid var(--main-color);
+}
+.minicartCheckoutButton {
+  margin-bottom: 0;
+}
+.minicartCheckoutButton :global(.vtex-button){
+  width: 100%;
+  border-radius: 24px;
+  padding: 1rem;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover,
+.minicartCheckoutButton :global(.vtex-button):focus{
+  background-color: var(--main-color);
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button):hover :global(.vtex-button__label){
+  color: var(--black);
+}
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  content:"Finalizar compra";
+  font-size: 1rem;
+}
+
+.drawer{
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+ @media (min-width: 460px){
+  .drawer{
+    width: 85% !important;
+    max-width: 420px !important;
+  }
+} 

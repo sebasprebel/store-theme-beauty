@@ -1,0 +1,12 @@
+:global(.vtex-checkout-summary-0-x-summaryItemLabel):global(#discounts),
+:global(.vtex-checkout-summary-0-x-summaryItemPrice):global(#discounts-price){
+  color: var(--main-color);
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemLabel):global(#total){
+  text-transform: uppercase;
+}
+
+:global(.vtex-product-list-0-x-quantitySelectorButton) > svg{
+  width: 10px;
+}

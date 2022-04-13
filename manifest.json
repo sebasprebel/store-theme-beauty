@@ -54,7 +54,9 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.product-specifications": "1.x",
     "vtex.product-availability": "0.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -60,6 +60,7 @@
 .carouselGaleryThumbs{
   display: flex !important;
   margin-inline: 1rem;
+  margin-top: 1.5rem;
 }
 
 .productImagesThumb{
@@ -100,6 +101,10 @@
 }
 .fadeBottom, .showMoreButton{
   display: none ;
+}
+
+.swiperPaginationClickable{
+  bottom: -4px !important;
 }
 
 /*Desktop*/

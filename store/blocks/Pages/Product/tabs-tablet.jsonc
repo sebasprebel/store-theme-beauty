@@ -1,0 +1,21 @@
+{
+  "container-layout#product-page__tabs--container-tablet":{
+    "title":"Contenedor tabs tablet",
+    "children":[
+      "tab-layout#product-page__tabs-tablet"
+    ],
+    "props":{
+      "blockClass":"product-page__tabs--container-desktop"
+    }
+  },
+  "tab-layout#product-page__tabs-tablet":{
+    "title":"Sección tabs tablet",
+    "children":[
+      "tab-list#product-page__info",
+      "tab-content#product-page__info"
+    ],
+    "props":{
+      "defaultActiveTabId": "description"
+    }
+  }
+}

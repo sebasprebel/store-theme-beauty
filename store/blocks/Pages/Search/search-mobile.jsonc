@@ -5,7 +5,7 @@
     ]
   },
   "container-layout#search-page__container":{
-    "title":"Contenedor página de búsqueda",
+    "title":"Contenedor página de búsqueda - Mobile",
     "children":[
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container",
@@ -17,13 +17,13 @@
     ]
   },
   "container-layout#search-page__breadcrumb--container":{
-    "title":"Contenedor breadcrumb",
+    "title":"Contenedor breadcrumb - Mobile",
     "children":[
       "breadcrumb.search"
     ]
   },
   "container-layout#search-page__filter-order--container":{
-    "title":"Contenedor filtro y ordenar por",
+    "title":"Contenedor filtro y ordenar por - Mobile",
     "children":[
       "filter-navigator.v3",
       "order-by.v2"

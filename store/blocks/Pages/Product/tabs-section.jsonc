@@ -13,8 +13,9 @@
     ]
   },
   "responsive-layout.tablet": {
+    "title":"Contenedor pestañas - Tablet",
     "children": [
-      "container-layout#product-page__tabs--container-desktop"
+      "container-layout#product-page__tabs--container-tablet"
     ]
   },
 

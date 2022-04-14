@@ -59,12 +59,13 @@
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
         "orderByField": "OrderByTopSaleDESC",
-        // "hideUnavailableItems": true,
+         "hideUnavailableItems": true,
         "maxItemsPerPage": 10
       }
     }
   },
   "search-result-layout": {
+    "title":"Página búsqueda",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -83,6 +84,7 @@
     ]
   },
   "gallery":{
+    "title": "Galería de productos",
     "blocks":[
       "product-summary.shelf#custom"
     ]

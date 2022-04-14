@@ -17,6 +17,7 @@
     }
   },
   "container-layout#product-summary__info-container":{
+    "title": "Info prodcuto",
     "children":[
       "product-summary-brand",
       "product-summary-name",
@@ -27,6 +28,7 @@
     }
   },
   "container-layout#product-summary__prices-container":{
+    "title": "Precios",
     "children":[
       "product-selling-price",
       "product-list-price"
@@ -40,5 +42,4 @@
       "hoverImageLabel":"2"
     }
   }
-  
 }

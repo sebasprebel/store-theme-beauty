@@ -47,6 +47,7 @@
     }
   },
   "container-layout#detail-product__prices--container":{
+    "title":"Contenedor precios",
     "children":[
       "product-selling-price#product-detail__selling-price",
       "product-list-price#product-detail__list-price"
@@ -56,6 +57,7 @@
     }
   },
   "container-layout#detail-product__quantity-buy--container":{
+    "title":"Contenedor Quantity & Botón comprar",
     "children":[
       "product-quantity",
       "add-to-cart-button"

@@ -25,7 +25,7 @@
     }
   },
   "container-layout#search-page__orderby--container":{
-    "title":"Contenedor filtro y ordenar por",
+    "title":"Contenedor ordenar por",
     "children":[
       "order-by.v2"
     ],
@@ -34,7 +34,7 @@
     }
   },
   "container-layout#search-page__filter-content--container":{
-    "title":"Contenedor filtro - coontenido",
+    "title":"Contenedor filtro - resultado búsqueda",
     "children":[
       "filter-navigator.v3",
       "container-layout#search-page__content-show-more--container"

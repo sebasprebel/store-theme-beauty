@@ -1,6 +1,6 @@
 {
   "container-layout#product-page__tabs--container-desktop":{
-    "title":"Contenedor pestañas desktop",
+    "title":"Contenedor tabs desktop",
     "children":[
       "tab-layout#product-page__tabs-desktop"
     ],
@@ -9,7 +9,7 @@
     }
   },
   "tab-layout#product-page__tabs-desktop":{
-    "title":"Pestañas desktop",
+    "title":"Sección tabs desktop",
     "children":[
       "tab-list#product-page__info",
       "tab-content#product-page__info"

@@ -11,6 +11,19 @@
       "hideUnavailableItems": true
     }
   },
+  "product-summary.shelf#custom-search": {
+    "children": [
+      "product-summary-image",
+      // "add-to-list-btn",
+      "container-layout#product-summary__info-container",
+      "container-layout#product-summary__sku-selector--container",
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass":"product-summary__shelf",
+      "hideUnavailableItems": true
+    }
+  },
   "add-to-cart-button":{
     "props":{
       "text":"Agregar a la bolsa"
@@ -37,9 +50,30 @@
       "classes":"flex justify-start"
     }
   },
+  "container-layout#product-summary__sku-selector--container":{
+    "title":"Contenedor selector SKU",
+    "children":[
+      "product-summary-sku-selector"
+    ],
+    "props":{
+      "blockClass":"product-summary__sku-selector--container"
+    }
+  },
   "product-summary-image": {
     "props": {
       "hoverImageLabel":"2"
+    }
+  },
+  "product-summary-sku-selector":{
+    "props": {
+      "displayMode": "default",
+      "visibleVariations": [
+        "Tonos"
+      ],
+      "maxItems": 20,
+      "hideImpossibleCombinations": false,
+      "initialSelection": "empty",
+      "blockClass": ""
     }
   }
 }

@@ -1,8 +1,10 @@
-.sellingPrice--product-detail__selling-price--hasListPrice{
+.sellingPrice--product-detail__selling-price--hasListPrice,
+.sellingPriceValue--product-detail__selling-price{
   font-family: var(--font-poppins-bold);
 }
 .currencyContainer--product-detail__list-price,
-.sellingPrice--product-detail__selling-price--hasListPrice{
+.sellingPrice--product-detail__selling-price--hasListPrice,
+.sellingPriceValue--product-detail__selling-price{
   font-size: 1.4rem;
 }
 

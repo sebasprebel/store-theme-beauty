@@ -1,0 +1,132 @@
+@import url(./login.css);
+.label{
+  display: none;
+}
+
+.container{
+  float: none;
+}
+
+.container :global(.vtex-button){
+  padding: 0;
+  margin-inline: 0;
+}
+
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus{
+  background:transparent;
+}
+
+.buttonLink :global(.vtex-button){
+  margin: 0;
+  padding: 0;
+  margin-left: .7rem;
+}
+
+.profileIcon{
+  width: 22px;
+  height: 22px;
+}
+
+/*Login list and content*/
+
+.arrowUp{
+  background: var(--main-color);
+  right: 22px;
+  top: 13px;
+}
+.formTitle{
+  margin-bottom: 1rem;
+}
+
+.contentContainer{
+  position: relative;
+  left: -19px;
+  top: 10px;
+  border-radius: 12px;
+}
+
+.content{
+  border-radius: 12px;
+  border: 1px solid var(--main-color);
+  padding: 1rem;
+}
+.optionsList {
+  display: flex;
+  flex-direction: column;
+}
+.optionsList :global(.vtex-button){
+  border-radius: 20px;
+}
+
+.accessCodeOptionBtn :global(.vtex-button){
+  background-color: var(--black);
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label){
+  color: var(--white);
+  font-size: 0;
+  text-transform: none;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label)::after{
+  content: "Recibir código de acceso por email";
+  font-size: 0.875rem;
+}
+.googleOptionBtn :global(.vtex-button){
+  background: var(--white);
+  border: 1px solid var(--grey);
+}
+.googleOptionBtn :global(.vtex-login-2-x-oauthLabel){
+  color: var(--black);
+  font-size: 0;
+  margin-left: .5rem !important;
+  margin-right: 2.3rem !important;
+}
+.googleOptionBtn :global(.vtex-login-2-x-oauthLabel)::after{
+  color: var(--black);
+  content: "Ingresa con Google";
+  font-size: 0.875rem;
+  font-family: var(--font-poppins-semibold);
+  text-transform: none;
+}
+.facebookOptionBtn :global(.vtex-button){
+  background-color: #0078FA;
+}
+.facebookOptionBtn :global(.vtex-login-2-x-oauthLabel){
+  color: var(--white);
+  font-size: 0;
+  margin-left: .5rem !important;
+  text-transform: none;
+}
+.facebookOptionBtn :global(.vtex-login-2-x-oauthLabel)::after{
+  content: "Ingresa con Facebook";
+  font-size: 0.875rem;
+  font-family: var(--font-poppins-semibold);
+}
+
+.emailPasswordOptionBtn :global(.vtex-button){
+  border: 1px solid var(--black);
+  background-color: var(--white);
+}
+.emailPasswordOptionBtn :global(.vtex-button__label){
+  text-transform: none;
+  font-size: 0;
+  font-family: var(--font-poppins-semibold);
+}
+.emailPasswordOptionBtn :global(.vtex-button__label)::after{
+  content:"Ingresar con mail y contraseña";
+  font-size: 0.875rem;
+  color: var(--black);
+}
+
+
+.optionsListItem:nth-child(3n-1){
+  order: 4;
+}
+.optionsListItem:nth-child(4n-1){
+  order: 3;
+}
+.optionsListItem:nth-child(5n-1){
+  order: 2;
+}

@@ -61,8 +61,7 @@
   },
   "container-layout#minicart__detail-product-prices--container":{
     "children":[
-      "product-selling-price#minicart__product-detail__selling-price",
-      "product-list-price#minicart__product-detail__list-price"
+      "price"
     ],
     "props":{
       "blockClass":["detail-product__prices--container", "minicart__product-prices"]

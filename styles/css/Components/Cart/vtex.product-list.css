@@ -19,7 +19,25 @@
   width:91px !important;
 }
 
-
+/*Prices*/
+.productPriceContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  width: auto !important;
+  align-items: center;
+  gap: .5rem;
+}
+.price,
+.productPriceCurrency{
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0;
+  width: auto !important;
+}
+.productPriceCurrency{
+  color: var(--main-color);
+  font-family: var(--font-poppins-semibold);
+}
 /*Quantity selector*/
 .quantitySelectorWrapper{
   height:34px;

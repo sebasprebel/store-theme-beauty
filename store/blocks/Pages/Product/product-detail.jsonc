@@ -73,13 +73,9 @@
       "visibleVariations": [
         "Tonos"
       ],
-      "maxItems": 8,
+      "maxItems": 20,
       "hideImpossibleCombinations": false,
       "initialSelection": "empty",
-      "thumbnailImage": [
-        "2"
-      ],
-      "showValueForVariation":"image",
       "blockClass": ""
     }
   },

@@ -1,6 +1,7 @@
 {
   "search-result-layout.mobile":{
     "children":[
+      "sku-color",
       "container-layout#search-page__container"
     ]
   },

@@ -59,12 +59,6 @@
       "classes": "flex justify-center items-center"
     }
   },
-  "login":{
-    "props":{
-      "showIconProfile": true,
-      "iconLabel": ""
-    }
-  },
   "container-layout#logo-desktop": {
     "title":"Contenedor del logo - Desktop",
     "children": ["logo#desktop"]

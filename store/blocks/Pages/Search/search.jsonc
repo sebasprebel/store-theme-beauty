@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "blocks": [
+    "blocks": [ 
       "search-result-layout"
     ],
     "props": {
@@ -86,7 +86,7 @@
   "gallery":{
     "title": "Galería de productos",
     "blocks":[
-      "product-summary.shelf#custom"
+      "product-summary.shelf#custom-search"
     ]
   },
   "order-by.v2":{

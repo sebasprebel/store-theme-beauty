@@ -107,6 +107,13 @@
   bottom: -4px !important;
 }
 
+.skuSelectorSubcontainer{
+  margin-bottom: .5rem;
+}
+
+.frameAround{
+  border-color: var(--main-color);
+}
 /*Desktop*/
 @media all and (min-width: 1025px){
   .productBrandName{
@@ -114,6 +121,11 @@
   }
   .productBrand {
     font-size: 1.8rem;
+  }
+  .skuSelectorContainer{
+    border-top: 1px solid var(--soft-grey);
+    padding-block: 1rem;
+    margin-bottom: .5rem;
   }
 }
 

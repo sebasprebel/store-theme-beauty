@@ -38,6 +38,15 @@
  font-family: var(--font-poppins-semibold);
 }
 
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph){
+  font-size: 0;
+}
+
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::after{
+  content: "Tu carrito está vacío.";
+  font-size: 1rem;
+}
+
 
 /*Minicart Summary*/
 
@@ -81,3 +90,8 @@
     max-width: 420px !important;
   }
 } 
+
+
+.overlay{
+  background-color: var(--grey);
+}

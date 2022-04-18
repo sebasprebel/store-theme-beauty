@@ -127,7 +127,7 @@
   }
   .galleryItem{
     width:220px;
-    height:350px;
+    height:370px;
     max-width:240px !important;
   }
   .gallery{
@@ -208,6 +208,14 @@
     height: 10px
   }
   .galleryItem :global(.vtex-product-summary-2-x-imageNormal){
-    height: 150px;
+    height: 125px;
    }
+   .filter__container--specificationFilter_33 :global(.vtex-checkbox__label){
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size:0;
+   }
+ 
 }

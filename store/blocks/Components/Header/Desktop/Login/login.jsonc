@@ -1,0 +1,9 @@
+{
+  "login":{
+    "props":{
+      "showIconProfile": true,
+      "iconLabel": "",
+      "optionsTitle":"Elije una de las opciones para confirmar tu identidad:"
+    }
+  }
+}

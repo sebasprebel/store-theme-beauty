@@ -1,6 +1,7 @@
 {
   "search-result-layout.desktop":{
     "children":[
+      "sku-color",
       "container-layout#search-page__container--desktop"
     ]
   },
@@ -9,6 +10,7 @@
     "children":[
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
+      "search-info-custom",
       "container-layout#search-page__orderby--container",
       "container-layout#search-page__filter-content--container",
       "container-layout#drop-down__container",

@@ -1,0 +1,94 @@
+
+/*Profile Icon*/
+:global(.vtex-my-account-1-x-userImage) > svg{
+  display: none;
+}
+
+/*Profile page*/
+:global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex-button){
+  color: var(--main-color);
+  font-size: 1rem;
+  text-decoration: underline;
+  margin-top: .3rem;
+}
+:global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex-button):hover{
+  background-color: transparent;
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex__icon-arrow-back){
+  display: none;
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex-button)::before{
+  content: "";
+  width: 14px;
+  height: 11px;
+  background: url(/arquivos/left-arrow-pink.svg) no-repeat center;
+  display: block;
+  position: absolute;
+  top: 6px;
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex-button)  span{
+ margin-left: 1rem;
+ font-family: var(--font-poppins-semibold);
+}
+
+:global(.vtex-account__page) :global(.vtex-pageHeader__title){
+  font-size: 1.4375rem;
+  margin-top: 1rem;
+}
+
+
+/*Form*/
+
+:global(.vtex-account__page) :global(.vtex-input__label),
+:global(.vtex-account__page) :global(.vtex-dropdown__label){
+  font-size: 0.75rem;
+  font-family: var(--font-poppins-semibold);
+}
+
+:global(.vtex-account__page) :global(input),
+:global(.vtex-account__page) :global(.vtex-dropdown)  div:global(.br2){
+  border-radius: 12px;
+  border: 1px solid var(--black);
+}
+:global(.vtex-account__page) :global(input):hover{
+  border: 1px solid var(--black);
+}
+:global(.vtex-account__page) :global(.vtex-input-prefix__group){
+  border: none;
+}
+
+:global(.vtex-dropdown) g{
+  fill: var(--main-color);
+}
+
+:global(.vtex-my-account-1-x-addressList) :global(.t-heading-4),
+:global(.vtex-account__cards-list) :global(.t-heading-4),
+:global(.vtex-my-orders-app-3-x-ordersList) :global(.t-heading-4){
+  color: var(--black);
+  font-family: var(--font-poppins-regular);
+  font-size: 1.125rem;
+}
+:global(.vtex-pageHeader__children){
+  margin: 1rem auto;
+}
+:global(.vtex-account__page-body) :global(.vtex-button),
+:global(.vtex-pageHeader__children) :global(.vtex-button){
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  padding: .7rem 1.2rem;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-button):hover,
+:global(.vtex-account__page-body) :global(.vtex-button):focus
+:global(.vtex-pageHeader__children) :global(.vtex-button):hover,
+:global(.vtex-pageHeader__children) :global(.vtex-button):focus{
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+:global(.vtex-account_menu-link):global(.b--action-primary){
+  border-color: var(--main-color);
+}

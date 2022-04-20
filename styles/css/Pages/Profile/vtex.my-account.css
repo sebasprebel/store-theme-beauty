@@ -1,0 +1,84 @@
+@import url(./profile.css);
+
+.userInfo{
+  margin-bottom: .5rem;
+}
+
+.userImage{
+  background: url(assets/images/profile.svg) no-repeat center;
+  background-size: 50px;
+}
+.userGreeting{
+  color: var(--main-color);
+  font-family: var(--font-poppins-bold);
+  font-size: 1.4375rem;
+}
+
+.menu{
+  padding:2rem 1rem;
+}
+
+.menuLinks :global(.vtex-account_menu-link),
+.menuLink{
+  color: var(--black);
+  font-size: 1rem;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.boxContainer{
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  padding: 1.3rem;
+}
+
+.boxContainerBody{
+  padding: 0rem;
+}
+
+.dataEntryLabel,
+.dataEntryChildren,
+.newsletterContainerMessage,
+.newsletterContainerTitle,
+.passwordBox :global(.vtex-checkbox__label){
+  font-size: 0.875rem;
+}
+.dataEntryLabel,
+.newsletterContainerTitle,
+.passwordBox :global(.vtex-checkbox__label){
+  font-family: var(--font-poppins-semibold);
+}
+.dataEntryChildren,
+.newsletterContainerMessage{
+  color: var(--data-entry-color);
+}
+
+.boxContainerFooter :global(.vtex-button){
+  color: var(--black);
+  border: 1px solid var(--black);
+  border-radius: 14px;
+  padding:.4rem 1.7rem;
+  margin: 0;
+  width:auto;
+}
+
+.boxContainerFooter :global(.vtex-button):hover{
+  background-color: var(--light-grey);
+}
+
+.boxContainerFooter :global(.vtex-button__label){
+  font-family: var(--font-poppins-bold);
+  font-size: 0.75rem;
+}
+
+.passwordBox :global(.vtex-checkbox__box-wrapper){
+  background: var(--main-color);
+}
+
+@media (min-width: 1025px){
+  .menuLinks :global(.vtex-account_menu-link),
+  .menuLink{
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+}

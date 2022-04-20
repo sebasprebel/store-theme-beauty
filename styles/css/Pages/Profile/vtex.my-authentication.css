@@ -1,0 +1,33 @@
+.box_container{
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+}
+
+.maskedPassword_title,
+.loginSessionsBox_title,
+.loginSession_device{
+  font-family: var(--font-poppins-semibold);
+  font-size: 0.875rem;
+}
+
+.maskedPassword_content,
+.loginSessionsBox_content{
+  font-size: 0.875rem;
+  color: var(--data-entry-color);
+}
+
+.box_footer :global(.vtex-button__label),
+.resendCodeButton_container :global(.vtex-button__label),
+.loginSession_currSessionText{
+  font-family: var(--font-poppins-bold);
+  color: var(--main-color);
+}
+
+.box_footer :global(.vtex-button):hover,
+.resendCodeButton_container :global(.vtex-button):hover{
+  background-color: var(--light-grey);
+}
+
+.loginSession_currSessionIcon{
+  display: none;
+}

@@ -23,3 +23,8 @@
   padding-left:2.8rem;
   color: var(--black);
 }
+
+.triggerContainer--search-bar{
+  position: relative;
+  top: 3px;
+}

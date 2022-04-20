@@ -130,3 +130,25 @@
 .optionsListItem:nth-child(5n-1){
   order: 2;
 }
+
+/*Logged*/
+
+
+.button,
+.accountOptions :global(.vtex-button){
+  border: 1px solid var(--black);
+  border-radius: 12px;
+  color: var(--black);
+  padding: .7rem;
+}
+
+.button:hover,
+.accountOptions :global(.vtex-button):hover{
+  background-color: var(--light-grey);
+  color: var(--black);
+}
+
+.accountOptions :global(.vtex-button),
+.accountOptions :global(.vtex-button):hover{
+  color: var(--hard-red);
+}

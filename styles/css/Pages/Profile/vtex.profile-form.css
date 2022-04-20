@@ -1,0 +1,22 @@
+.profileContainer :global(.vtex-button){
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  padding: .7rem 1rem;
+}
+
+.toggleBusinessButtonWrapper :global(.vtex-button){
+  border: 1px solid var(--black);
+  border-radius: 8px;
+  margin: 0;
+  width: auto;
+  background: var(--white);
+  color: var(--hard-pink);
+  text-transform: none;
+}
+
+.toggleBusinessButtonWrapper :global(.vtex-button):hover,
+.toggleBusinessButtonWrapper :global(.vtex-button):focus{
+  background-color: var(--light-grey);
+}

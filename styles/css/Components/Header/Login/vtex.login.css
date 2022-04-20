@@ -58,7 +58,18 @@
 .optionsList :global(.vtex-button){
   border-radius: 20px;
 }
-
+.accessCodeOptionBtn,
+.googleOptionBtn,
+.facebookOptionBtn,
+.emailPasswordOptionBtn {
+  border: none !important;
+}
+.accessCodeOptionBtn:hover,
+.googleOptionBtn:hover,
+.facebookOptionBtn:hover,
+.emailPasswordOptionBtn:hover {
+  background: transparent !important;
+}
 .accessCodeOptionBtn :global(.vtex-button){
   background-color: var(--black);
 }
@@ -151,4 +162,60 @@
 .accountOptions :global(.vtex-button),
 .accountOptions :global(.vtex-button):hover{
   color: var(--hard-red);
+}
+.contentAlwaysWithOptions{
+  margin-block: 3rem;
+}
+
+.emailVerification :global(.vtex-input-prefix__group){
+  border-radius: 12px;
+  border: 1px solid var(--black);
+}
+
+.emailVerification :global(.vtex-styleguide-9-x-input)::placeholder{
+  color: var(--data-entry-color);
+  font-size: .875rem;
+}
+
+.sendButton :global(.vtex-button){
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  padding: .7rem 1.2rem;
+}
+
+.sendButton :global(.vtex-button):hover{
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+.forgotPasswordLink,
+.dontHaveAccount{
+  color: var(--hard-pink);
+}
+
+.forgotPasswordLink:hover,
+.dontHaveAccount:hover{
+  color: var(--main-color);
+}
+
+.backButton :global(.vtex-button){
+  color: var(--main-color);
+}
+
+.backButton :global(.vtex-button):hover{
+  background:transparent;
+}
+
+.arrowBackIcon{
+  display:none;
+}
+
+.backButton :global(.vtex-button):before{
+  content: "";
+  width: 14px;
+  height: 11px;
+  background: url(/arquivos/left-arrow-pink.svg) no-repeat center;
+  display: block;
+  position: absolute;
+  top: 3px;
 }

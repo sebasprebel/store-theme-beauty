@@ -92,3 +92,45 @@
 :global(.vtex-account_menu-link):global(.b--action-primary){
   border-color: var(--main-color);
 }
+
+/*Arrow back*/
+:global(.vtex-login-2-x-backButton) span{
+  margin-left: .8rem;
+  font-family: var(--font-poppins-semibold);
+  display: block;
+}
+
+:global(.vtex-modal__confirmation) :global(.vtex-button):global(.b--action-primary){
+  border-radius: 20px;
+  margin: .5rem;
+  display: block;
+  padding: .7rem 1.2rem;
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button):global(.b--action-primary):hover{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+:global(.vtex-modal__confirmation) :global(.vtex-button):global(.hover-bg-action-secondary){
+  border-radius: 20px;
+  border: 1px solid var(--black);
+  margin: .5rem;
+  display: block;
+  padding: .7rem 1.2rem;
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button):global(.hover-bg-action-secondary):hover{
+ background-color: var(--light-gray);
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button):global(.hover-bg-action-secondary) :global(.vtex-button__label){
+  color: var(--hard-pink);
+}
+
+:global(.vtex-modal__close-icon){
+  background: var(--main-color);
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+}
+
+:global(.vtex-modal__close-icon) :global(.vtex__icon-close){
+ color: var(--white);
+}

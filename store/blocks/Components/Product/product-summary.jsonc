@@ -13,6 +13,7 @@
   },
   "product-summary.shelf#custom-search": {
     "children": [
+      "sku-color",
       "product-summary-image",
       // "add-to-list-btn",
       "container-layout#product-summary__info-container",
@@ -70,7 +71,7 @@
       "visibleVariations": [
         "Tonos"
       ],
-      "maxItems": 20,
+      "maxItems": 5,
       "hideImpossibleCombinations": false,
       "initialSelection": "empty",
       "blockClass": ""

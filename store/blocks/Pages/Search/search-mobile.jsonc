@@ -10,6 +10,7 @@
     "children":[
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container",
+      "container-layout#search-page__header--container--desktop",
       "container-layout#search-page__filter-order--container",
       "container-layout#search-page__search-content--container",
       "container-layout#search-page__button-search-more--container",

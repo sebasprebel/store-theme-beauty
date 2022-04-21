@@ -12,7 +12,7 @@
 }
 
 .galleryItem{
-  height:335px;
+  height:340px;
   width:165px;
   flex-basis: 0 !important;
   padding: 0;
@@ -119,6 +119,25 @@
   border-color: var(--main-color);
 }
 
+.filterTemplateOverflow :global(.vtex-slider__base-internal),
+.filterTemplateOverflow :global(.vtex-slider__selector){
+  background-color: var(--hard-pink);
+}
+
+.filterTemplateOverflow :global(.vtex-slider__right-value),
+.filterTemplateOverflow :global(.vtex-slider__left-value){
+  font-family: var(--font-poppins-semibold);
+  color: var(--black);
+}
+
+.accordionFilterOpen--gama-colores :global(.vtex-checkbox__label){
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 0;
+  border: 1px solid var(--soft-grey);
+}
+
 @media (min-width: 1025px){
   .filters--layout{
     width:363px;
@@ -127,7 +146,7 @@
   }
   .galleryItem{
     width:220px;
-    height:370px;
+    height:350px;
     max-width:240px !important;
   }
   .gallery{
@@ -214,8 +233,26 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--soft-grey);
     font-size:0;
+   }
+
+   .filterTemplateOverflow :global(.vtex-slider-container){
+    margin-bottom: 1rem;
+   }
+
+   .filter__container--specificationFilter_33 :global(.vtex-search-result-3-x-filterContent){
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .filter__container--specificationFilter_33 :global(.vtex-search-result-3-x-filterItem){
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: auto;
+   }
+   .filter__container--specificationFilter_33 :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__container){
+   display: none;
    }
  
 }

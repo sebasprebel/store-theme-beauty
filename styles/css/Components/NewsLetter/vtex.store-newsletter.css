@@ -3,9 +3,7 @@
   color: var(--white);
   font-size: 0.875rem;
 }
-.confirmationCheckboxContainer :global(.vtex-checkbox__box-wrapper){
-  background: var(--main-color);
-}
+
 .labelLink--first{
   text-decoration: underline;
 }

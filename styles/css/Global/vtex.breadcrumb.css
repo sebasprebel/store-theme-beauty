@@ -7,6 +7,7 @@
 
 .container {
   padding: 1rem;
+  margin-block: 1rem;
 }
 .homeIcon{
   width:16px;
@@ -34,7 +35,8 @@
   position: relative;
 }
 
-.link:hover{
+.link:hover,
+.link:focus{
   color: var(--main-color);
 }
 
@@ -43,4 +45,10 @@
   display: inline-block;
   position: absolute;
   left: -5px;
+}
+
+@media (min-width: 1025px) {
+  .container {
+    margin-block: 2rem;
+  }
 }

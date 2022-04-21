@@ -18,15 +18,14 @@
 .containerLayout--product-summary__sku-selector--container :global(.vtex-store-components-3-x-skuSelectorOptionsList){
   position: relative;
   top: -16px;
-  gap: .5rem 1rem;
-  padding-inline: .7rem;
-
+  gap: .5rem .4rem;
+  padding-inline: .1rem;
 }
 
 .containerLayout--product-summary__sku-selector--container :global(.vtex-product-summary-2-x-skuSelectorInternalBox){
   width:20px;
   height:20px;
-  border: 1px solid var(--black);
+  border: 1px solid var(--soft-grey);
 }
 
 .containerLayout--product-summary__sku-selector--container :global(.vtex-product-summary-2-x-skuSelectorItem){
@@ -60,5 +59,9 @@
   }
   .containerLayout--search-page__content-show-more--container{
     margin-bottom: 3rem;
+  }
+  .containerLayout--product-summary__sku-selector--container :global(.vtex-store-components-3-x-skuSelectorOptionsList){
+    gap: .5rem 1rem;
+    padding-inline: .7rem;
   }
 }

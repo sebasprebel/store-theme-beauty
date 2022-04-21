@@ -11,6 +11,8 @@
       "container-layout#breadcrumb",
       "container-layout#product-page__product-detail",
       "container-layout#product-page__tabs-section",
+      "container-layout#completa-shelf--container",
+      "container-layout#otros-shelf--container",
       // "shelf.relatedProducts#producSection__relatedShelf",
       "container-layout#home__slogan-slider--container"
     ],

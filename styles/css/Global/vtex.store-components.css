@@ -19,6 +19,9 @@
   height: 25px;
 }
 
+.skuSelectorOptionsList :global(.vtex-store-components-3-x-seeMoreButton){
+  display: none;
+}
 
 .diagonalCross{
   background-image: linear-gradient( to top right, transparent 44%, rgba(0, 0, 0, 3.3) 50%, currentColor 48%, currentColor 52%, transparent 52% );

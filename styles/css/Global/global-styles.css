@@ -1,0 +1,4 @@
+:global(.vtex-checkbox__container) :global(.bg-action-primary){
+  background-color: var(--main-color);
+  border: none;
+}

@@ -71,9 +71,7 @@
   font-size: 0.75rem;
 }
 
-.passwordBox :global(.vtex-checkbox__box-wrapper){
-  background: var(--main-color);
-}
+
 
 @media (min-width: 1025px){
   .menuLinks :global(.vtex-account_menu-link),

@@ -1,6 +1,6 @@
 {
   "container-layout#search-page__main-slider--container":{
-    "title":"Sección banner principal",
+    "title":"Sección banner página de búsqueda",
     "children":[
       "list-context.image-list#search__main-slider--images-list"
     ],

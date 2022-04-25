@@ -10,7 +10,7 @@
     "children":[
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
-      "container-layout#search-page__header--container--desktop",
+      "container-layout#search-page__header",
       "container-layout#search-page__orderby--container",
       "container-layout#search-page__filter-content--container",
       "container-layout#drop-down__container",
@@ -26,15 +26,17 @@
       "blockClass":["search-page__breadcrumb--container","wrapper"]
     }
   },
-  "container-layout#search-page__header--container--desktop":{
-    "title":"Contenedor header search page",
-    "children":[
-      "search-info-custom"
-    ],
-    "props":{
-      "blockClass":["wrapper"]
-    }
-  },
+
+  /*Fetch search info custom*/
+  // "container-layout#search-page__header--container--desktop":{
+  //   "title":"Contenedor header search page",
+  //   "children":[
+  //     "search-info-custom"
+  //   ],
+  //   "props":{
+  //     "blockClass":["wrapper"]
+  //   }
+  // },
 
   "container-layout#search-page__orderby--container":{
     "title":"Contenedor ordenar por",

@@ -1,0 +1,78 @@
+{
+  "container-layout#search-page__header":{
+    "title": "Header - Página de búsqueda",
+    "children":[
+      "rich-text#search-page__header--title",
+      "rich-text#search-page__header--content",
+      "highlight-content#search-page__header--highlight-content"
+    ],
+    "props":{
+      "blockClass": [ "wrapper", "search-page__header--container"]
+    }
+  },
+  "rich-text#search-page__header--title": {
+    "title":"Título header - Página de búsqueda",
+    "props": {
+      "blockClass": ["search-page__header--title"],
+      "font": "t-body",
+      "text": "Maquillaje",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#search-page__header--content": {
+    "title":"Contenido header - Página de búsqueda",
+    "props": {
+      "blockClass": ["search-page__header--content"],
+      "font": "t-body",
+      "text": "Sin duda alguna nuestro make up es uno de los pasos más importantes en nuestra rutina diaria.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "highlight-content#search-page__header--highlight-content":{
+    "title":"Contenedor página de búsqueda bullets.",
+    "props":{
+      "blockClass":"search-page__bullets",
+      "sliderMode":true,
+      "sliderProps":{
+        "itemsPerpage":{
+          "desktop":5,
+          "mobile":5
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "newver"
+      },
+      "items":[
+        {
+          "text": "Rostro",
+          "link": "/salud-belleza/maquillaje/rostro"
+        },
+        {
+          "text": "Ojos",
+          "link": "/salud-belleza/maquillaje/ojos"
+        },
+        { 
+          "text": "Cejas",
+          "link": "/salud-belleza/maquillaje/cejas"
+        },
+        {  
+          "text": "Labios",
+          "link": "/salud-belleza/maquillaje/labios"
+        },
+        {
+          "text": "Uñas",
+          "link": "/salud-belleza/maquillaje/uñas"
+        },
+        {
+          "text": "Accesorios",
+          "link": "/salud-belleza/maquillaje/accesorios"
+        }
+      ]
+    }
+    
+  }
+}

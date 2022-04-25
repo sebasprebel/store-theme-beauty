@@ -1,0 +1,43 @@
+{
+  "search-result-layout.desktop#custom-search":{
+    "children":[
+      "sku-color",
+      "container-layout#search-page__container--desktop-custom-search"
+    ]
+  },
+  "container-layout#search-page__container--desktop-custom-search":{
+    "title":"Contenedor página de búsqueda -- desktop",
+    "children":[
+      "container-layout#search-page__main-slider--container",
+      "container-layout#search-page__breadcrumb--container--desktop",
+      "container-layout#search-page__orderby--container",
+      "container-layout#search-page__filter-content--container",
+      "container-layout#drop-down__container",
+      "container-layout#home__slogan-slider--container"
+    ]
+  },
+
+  "search-result-layout.mobile#custom-search":{
+    "children":[
+      "sku-color",
+      "container-layout#search-page__container-custom-search"
+    ]
+  },
+  "container-layout#search-page__container-custom-search":{
+    "title":"Contenedor página de búsqueda - Mobile",
+    "children":[
+      "container-layout#search-page__main-slider--container",
+      "container-layout#search-page__breadcrumb--container",
+      "container-layout#search-page__header",
+      "container-layout#search-page__filter-order--container",
+      "container-layout#search-page__search-content--container",
+      "container-layout#search-page__button-search-more--container",
+      "container-layout#drop-down__container",
+      "container-layout#home__slogan-slider--container"
+    ]
+  }
+}
+
+
+
+

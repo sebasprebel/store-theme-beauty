@@ -10,6 +10,7 @@
     }
   },
   "rich-text#offers-hunters-section__title": {
+    "title":"Título cazador de ofertas",
     "props": {
       "blockClass": ["hunters-section__title"],
       "font": "t-body",
@@ -42,7 +43,7 @@
     }
   },
   "container-layout#offers__images--col-2":{
-    "title": "Contenedor imágens  de ofertas - Columna 1",
+    "title": "Contenedor imágens  de ofertas - Columna 2",
     "children":[
       "responsive-image#offers__image-col-2-row-1",
       "container-layout#offers__images--col-2-row-2"
@@ -59,6 +60,7 @@
   },
 
   "container-layout#offers__images--col-2-row-2":{
+    "title": "Contenedor imágenes de oferta - Columna 2 - Fila 2",
     "children":[
       "responsive-image#offers__image-col-2-row-2-1",
       "responsive-image#offers__image-col-2-row-2-2"

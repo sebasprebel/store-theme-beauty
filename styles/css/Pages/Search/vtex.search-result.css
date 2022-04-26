@@ -1,9 +1,21 @@
 .searchResultContainer{
   padding: 0;
 }
-.container--layout :global(.vtex-breadcrumb-1-x-arrow--1){
-  display: inline-block;
+.filter__container--c,
+.filter__container--specificationFilter_129,
+.filter__container--specificationFilter_25,
+.filter__container--specificationFilter_23,
+.filter__container--specificationFilter_42,
+.filter__container--specificationFilter_47,
+.filter__container--specificationFilter_109,
+.filter__container--specificationFilter_110,
+.filter__container--specificationFilter_65{
+  display: none;
 }
+
+/* .container--layout :global(.vtex-breadcrumb-1-x-arrow--1){
+  display: inline-block;
+} */
 .gallery{
   justify-content: center;
   gap:1rem 0.8rem;

@@ -1,0 +1,10 @@
+.tooltipLabelText{
+  background-color: var(--white);
+  font-size: 0rem;
+}
+
+.tooltipLabelText::after{
+  content: "Por favor, Selecciona un color";
+  font-size: 0.875rem;
+  color: var(--hard-red);
+}

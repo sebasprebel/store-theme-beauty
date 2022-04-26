@@ -54,7 +54,7 @@
   "container-layout#product-summary__sku-selector--container":{
     "title":"Contenedor selector SKU",
     "children":[
-      "product-summary-sku-selector"
+      "product-summary-sku-selector#card"
     ],
     "props":{
       "blockClass":"product-summary__sku-selector--container"
@@ -65,7 +65,7 @@
       "hoverImageLabel":"2"
     }
   },
-  "product-summary-sku-selector":{
+  "product-summary-sku-selector#card":{
     "props": {
       "displayMode": "default",
       "visibleVariations": [

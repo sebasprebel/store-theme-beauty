@@ -4,7 +4,8 @@
     "children":[
       "rich-text#search-page__header--title",
       "rich-text#search-page__header--content",
-      "highlight-content#search-page__header--highlight-content"
+      "highlight-content#search-page__header--highlight-content",
+      "container-layout#search-page__header--brands-images-container"
     ],
     "props":{
       "blockClass": [ "wrapper", "search-page__header--container"]
@@ -36,7 +37,7 @@
     "title":"Contenedor página de búsqueda bullets.",
     "props":{
       "blockClass":"search-page__bullets",
-      "sliderMode":true,
+      "sliderMode":false,
       "sliderProps":{
         "itemsPerpage":{
           "desktop":5,
@@ -73,6 +74,21 @@
         }
       ]
     }
-    
+  },
+  "container-layout#search-page__header--brands-images-container":{
+    "title":"Contenedor de las imégenes de marcas",
+    "children":[
+      "responsive-image#search-page__header--brands-image"
+    ],
+    "props":{
+      "classes":"mv6"
+    }
+  },
+  "responsive-image#search-page__header--brands-image":{
+    "title":"Imagen marcas",
+    "props":{
+      "desktopImage":"https://dummyimage.com/1500x50/000/fff",
+      "mobileImage":"https://dummyimage.com/1500x50/000/fff"
+    }
   }
 }

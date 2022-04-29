@@ -4,7 +4,8 @@
       "product-summary-image",
       // "add-to-list-btn",
       "container-layout#product-summary__info-container",
-      "add-to-cart-button"
+      "modal-trigger#product-card__quickview"
+      // "add-to-cart-button"
     ],
     "props":{
       "blockClass":"product-summary__shelf",

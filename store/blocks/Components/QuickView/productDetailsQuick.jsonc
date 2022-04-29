@@ -1,0 +1,42 @@
+{
+  
+  "container-layout#product-page__product-detail--quickView":{
+    "title": "Contenedor detalle del producto",
+    "children":[
+     "container-layout#detail-product__images",
+     "container-layout#detail-product__info--quickView"
+    ],
+    "props":{
+      "blockClass":["product-page__product-detail--container", "wrapper"]
+    }
+  },
+  "container-layout#detail-product__info--quickView":{
+    "title": "Contenedor información del producto",
+    "children":[
+      "sku-color",
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "container-layout#detail-product__prices--container",
+      "product-availability",
+      "sku-selector#product-page__sku-color",
+      "addi",
+      "container-layout#detail-product__quantity-buy--container-quickView"
+    ],
+    "props":{
+      "blockClass":"detail-product__info--container"
+    }
+  },
+  "container-layout#detail-product__quantity-buy--container-quickView":{
+    "title":"Contenedor Quantity & Botón comprar",
+    "children":[
+      "product-quantity",
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass":["detail-product__quantity-buy--container", "quickView-quantity-buy"],
+      "classes": "flex"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "modal-layout#quickview":{
+    "children": [
+      "modal-header#quickview",
+      "modal-content#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+  "modal-header#quickview": {
+    "props": {
+      "blockClass": "quickview",
+      "showCloseButton": true,
+      "iconCloseSize":36
+    }
+  },
+  "modal-content#quickview": {
+    "title": "Contenido del modal",
+    "children":[
+      "container-layout#product-page__product-detail--quickView"
+    ]
+  }
+
+}

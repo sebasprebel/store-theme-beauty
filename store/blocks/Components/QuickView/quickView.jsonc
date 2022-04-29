@@ -1,0 +1,19 @@
+{
+  "modal-trigger#product-card__quickview":{
+    "title":"Button trigger vista rápida",
+    "children":[
+      "rich-text#add-to-cart-trigger",
+      "modal-layout#quickview"
+    ]
+  },
+  "rich-text#add-to-cart-trigger": {
+    "props": {
+      "blockClass": ["add-to-cart-trigger"],
+      "font": "t-body",
+      "text": "Agregar a la bolsa",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

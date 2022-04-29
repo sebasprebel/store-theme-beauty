@@ -1,0 +1,25 @@
+.paragraph--add-to-cart-trigger{
+  color: var(--white);
+  cursor:pointer;
+  font-size: .8rem;
+}
+
+.container--add-to-cart-trigger{
+  width: 90%;
+  margin: 0 auto;
+  background-color:var(--black);
+  margin-top:.5rem;
+  border-radius: 24px;
+  padding: .4rem .3rem;
+}
+
+.container--add-to-cart-trigger:hover{
+  background-color:var(--main-color);
+}
+
+@media (min-width: 1025px){
+  .container--add-to-cart-trigger{
+    margin-top:.9rem;
+    padding: .6rem .3rem;
+  }
+}

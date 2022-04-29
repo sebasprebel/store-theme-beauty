@@ -1,0 +1,68 @@
+{
+  "store.custom#sale-page": {
+    "blocks": [
+      "search-result-layout.customQuery#sale-page"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  },
+
+  "container-layout#sale-page__title":{
+    "title":"Contenedor título de la página",
+    "children":[
+      "rich-text#sale-page__title"
+    ],
+    "props":{
+      "blockClass":["custom-wrapper"]
+    }
+  }, 
+
+  "container-layout#sale-page__banner":{
+    "title":"Banner container",
+    "children":[
+      "responsive-image#sale-page__banner--images"
+    ],
+    "props":{
+      "blockClass":["custom-wrapper", "custom-banner"]
+    }
+  },  
+  "rich-text#sale-page__title": {
+    "title": "Título de la página",
+    "props": {
+      "text": "# Promociones**",
+      "blockClass": [
+        "custom-plp-title"
+      ]
+    }
+  },
+
+  "responsive-image#sale-page__banner--images":{
+    "title": "Banner",
+    "props":{
+      "mobileImage":"https://dummyimage.com/400x130/CCCCCC/fff",
+      "desktopImage":"https://dummyimage.com/600x130/CCCCCC/fff",
+      "alt": "Category Image",
+      "link": "#"
+    }
+
+  },
+
+  "search-result-layout.customQuery#sale-page": {
+    "title": "Lista de productos custom",
+    "props": {
+      "querySchema": {
+        "queryField": "2864",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "orderByField": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 9
+      }
+    },
+    "blocks": [
+          "search-result-layout.desktop#custom-search",
+          "search-result-layout.mobile#custom-search"
+           ]
+  }
+}

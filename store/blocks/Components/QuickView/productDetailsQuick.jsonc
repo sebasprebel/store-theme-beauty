@@ -20,7 +20,7 @@
       "product-rating-summary",
       "container-layout#detail-product__prices--container",
       "product-availability",
-      "sku-selector#product-page__sku-color",
+      "product-summary-sku-selector#card",
       "addi",
       "container-layout#detail-product__quantity-buy--container-quickView"
     ],

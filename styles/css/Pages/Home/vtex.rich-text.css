@@ -1,3 +1,8 @@
+/*Categories bullets*/
+.container--home__categories-bullets--title{
+  padding-inline: 1rem;
+  margin-bottom:2rem;
+}
 .paragraph--test{
   color: var(--main-color);
   font-family: var(--font-poppins-semibold);

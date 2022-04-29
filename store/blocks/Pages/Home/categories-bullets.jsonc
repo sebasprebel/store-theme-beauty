@@ -1,0 +1,54 @@
+{
+  "container-layout#home__categories-bullets":{
+    "title":"Sección bullets de categorías",
+    "children":[
+      "highlight-content#home__highlight-bullets"
+    ],
+    "props":{
+      "blockClass":["wrapper", "home__categories-bullets"]
+    }
+  },
+
+  "highlight-content#home__highlight-bullets":{
+    "title":"Contenedor bullets categorías.",
+    "props":{
+      "blockClass":["search-page__bullets", "home__categories-bullets"],
+      "sliderMode":false,
+      "sliderProps":{
+        "itemsPerpage":{
+          "desktop":5,
+          "mobile":5
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "newver"
+      },
+      "items":[
+        {
+          "text": "Rostro",
+          "link": "/salud-belleza/maquillaje/rostro"
+        },
+        {
+          "text": "Ojos",
+          "link": "/salud-belleza/maquillaje/ojos"
+        },
+        { 
+          "text": "Cejas",
+          "link": "/salud-belleza/maquillaje/cejas"
+        },
+        {  
+          "text": "Labios",
+          "link": "/salud-belleza/maquillaje/labios"
+        },
+        {
+          "text": "Uñas",
+          "link": "/salud-belleza/maquillaje/uñas"
+        },
+        {
+          "text": "Accesorios",
+          "link": "/salud-belleza/maquillaje/accesorios"
+        }
+      ]
+    }
+  }
+}

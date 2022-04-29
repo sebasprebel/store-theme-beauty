@@ -1,0 +1,71 @@
+{
+  "container-layout#home__categories-bullets--desktop":{
+    "title":"Sección bullets de categorías",
+    "children":[
+      "rich-text#home__categories-bullets--title",
+      "highlight-content#home__highlight-bullets--desktop"
+    ],
+    "props":{
+      "blockClass":["wrapper", "home__categories-bullets--desktop"]
+    }
+  },
+  "rich-text#home__categories-bullets--title": {
+    "props": {
+      "blockClass": ["shelf__title", "home__categories-bullets--title"],
+      "font": "t-body",
+      "text": "###### Explora tus categorías favoritas",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "highlight-content#home__highlight-bullets--desktop":{
+    "title":"Contenedor bullets categorías - Desktop",
+    "props":{
+      "blockClass":["home-page__bullets", "home__categories-bullets--desktop"],
+      "sliderMode":false,
+      "sliderProps":{
+        "itemsPerpage":{
+          "desktop":5,
+          "mobile":5
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "newver"
+      },
+      "items":[
+        {
+          "text": "Maquillaje",
+          "link": "/salud-belleza/maquillaje",
+          "image":"/arquivos/maquillaje.png"
+        },
+        {
+          "text": "Cuidado del cabello",
+          "link": "/salud-belleza/cuidado-cabello",
+          "image":"/arquivos/maquillaje.png"
+        },
+        { 
+          "text": "Cuidado personal",
+          "link": "/salud-belleza/cuidado-personal",
+          "image":"/arquivos/maquillaje.png"
+        },
+        {  
+          "text": "Protección solar",
+          "link": "/salud-belleza/proteccion-solar",
+          "image":"/arquivos/maquillaje.png"
+        },
+        {
+          "text": "Cuidado facial",
+          "link": "/salud-belleza/cuidado-facial",
+          "image":"/arquivos/maquillaje.png"
+        },
+        {
+          "text": "Hogar",
+          "link": "/salud-belleza/hogar",
+          "image":"/arquivos/maquillaje.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "container-layout#search-page__frequent-questions":{
+    "title":"Contenedor preguntas frecuentes",
+    "children":[
+      "rich-text#search-page__frequent-questions--title",
+      "container-layout#search-page__question-1",
+      "container-layout#search-page__question-2",
+      "container-layout#search-page__question-3"
+    ],
+    "props":{
+      "blockClass":["product-page__tabs--container", "wrapper"]
+    }
+  },
+  "rich-text#search-page__frequent-questions--title": {
+    "title":"Título preguntas frecuentes",
+    "props": {
+      "blockClass": ["search-page__frequent-questions--title"],
+      "font": "t-body",
+      "text": "##### Preguntas frecuentes maquillaje",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "container-layout#search-page__question-1":{
+    "title":"Contenedor pregunta 1",
+    "children":[
+      "disclosure-layout#search-page__question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "container-layout#search-page__question-2":{
+    "title":"Contenedor pregunta 2",
+    "children":[
+      "disclosure-layout#search-page__question-2"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "container-layout#search-page__question-3":{
+    "title":"Contenedor pregunta 3",
+    "children":[
+      "disclosure-layout#search-page__question-3"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container"
+    }
+  },
+  "disclosure-layout#search-page__question-1":{
+    "title": "Pestaña pregunta 1",
+    "children": [
+      "disclosure-trigger#search-page__question-1", 
+      "disclosure-content#search-page__question-1"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#search-page__question-1":{
+    "title": "Título pregunta 1",
+    "children":[
+      "rich-text#search-page__question-1--title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#search-page__question-1--title": {
+    "title":"Título",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "Pregunta 1",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#search-page__question-1":{
+    "title": "Contenido pregunta 1",
+    "children":[
+      "rich-text#search-page__content-question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#search-page__content-question-1": {
+    "title":"Contenido pregunta 1",
+    "props": {
+      "blockClass": ["name"],
+      "font": "t-body",
+      "text": "Contenido pregunta 1",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+"disclosure-layout#search-page__question-2":{
+  "title": "Pestaña aprende a usarlo",
+  "children": [
+    "disclosure-trigger#search-page__question-2", 
+    "disclosure-content#search-page__question-2"
+  ]
+},
+"disclosure-trigger#search-page__question-2":{
+  "title": "Título pregunta 2",
+  "children":[
+    "rich-text#search-page__content-question-2--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#search-page__content-question-2--title": {
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "Pregunta 2",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#search-page__question-2":{
+  "title": "Contenido pregunta 2",
+  "children":[
+    "rich-text#search-page__content-question-2"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+"rich-text#search-page__content-question-2": {
+  "title":"Contenido pregunta 2",
+  "props": {
+    "blockClass": ["name"],
+    "font": "t-body",
+    "text": "Contenido pregunta 2",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+
+"disclosure-layout#search-page__question-3":{
+  "title": "Pestaña comentarios",
+  "children": [
+    "disclosure-trigger#search-page__content-question-3", 
+    "disclosure-content#search-page__content-question-3"
+  ]
+},
+"disclosure-trigger#search-page__content-question-3":{
+  "title": "Título pregunta 3",
+  "children":[
+    "rich-text#search-page__content-question-3--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#search-page__content-question-3--title": {
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "Pregunta 3",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#search-page__content-question-3":{
+  "title": "Contenido pregunta 3",
+  "children":[
+    "rich-text#search-page__content-question-3"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#search-page__content-question-3": {
+  "title":"Contenido pregunta 3",
+  "props": {
+    "blockClass": ["name"],
+    "font": "t-body",
+    "text": "Contenido pregunta 3",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+}
+}

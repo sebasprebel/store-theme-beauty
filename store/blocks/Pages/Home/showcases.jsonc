@@ -1,0 +1,17 @@
+{
+  "container-layout#showcases--container":{
+    "title":"Sección vitrinas",
+    "children":[
+      "responsive-image#home__showcases"
+    ],
+    "props":{
+      "blockClass":["wrapper"]
+    }
+  },
+  "responsive-image#home__showcases":{
+    "props":{
+      "desktopImage":"/arquivos/beyoutiful.png",
+      "mobileImage":"/arquivos/beyoutiful-mobile.jpg"
+    }
+  }
+}

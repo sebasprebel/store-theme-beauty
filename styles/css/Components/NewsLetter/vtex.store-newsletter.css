@@ -59,6 +59,12 @@
   font-family: var(--font-poppins-semibold);
 }
 
+.defaultSuccessMessage{
+  color: var(--main-color);
+  text-align: center;
+  font-size: 1.7rem;
+}
+
 
 @media all and (min-width: 1025px){
   .newsletterForm{

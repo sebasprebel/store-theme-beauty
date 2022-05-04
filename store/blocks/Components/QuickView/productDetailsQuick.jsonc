@@ -21,8 +21,9 @@
       "container-layout#detail-product__prices--container",
       "product-availability",
       "product-summary-sku-selector#card",
+      "container-layout#detail-product__quantity-buy--container-quickView",
       "addi",
-      "container-layout#detail-product__quantity-buy--container-quickView"
+      "link.product#button-qv"
     ],
     "props":{
       "blockClass":"detail-product__info--container"
@@ -37,6 +38,16 @@
     "props":{
       "blockClass":["detail-product__quantity-buy--container", "quickView-quantity-buy"],
       "classes": "flex"
+    }
+  },
+  "link.product#button-qv":{
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "label": "View details",
+      "href": "/{slug}/p",
+      "blockClass":"view-details-link"
     }
   }
 }

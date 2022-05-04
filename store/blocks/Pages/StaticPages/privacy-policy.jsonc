@@ -38,17 +38,18 @@
       "rich-text#privacy-policy__data-controller",
       "rich-text#privacy-policy__responsible",
       "rich-text#privacy-policy__validity-of-the-policy",
-      "rich-text#privacy-policy__data-treatment-1"
-      // "rich-text#privacy-policy__condition-10",
-      // "rich-text#privacy-policy__condition-10-1",
-      // "rich-text#privacy-policy__condition-10-2",
-      // "rich-text#privacy-policy__condition-10-2-1",
-      // "rich-text#privacy-policy__condition-10-2-2",
-      // "rich-text#privacy-policy__condition-10-2-3",
-      // "rich-text#privacy-policy__condition-10-2-4",
-      // "rich-text#privacy-policy__condition-10-2-5",
-      // "rich-text#privacy-policy__condition-10-2-6",
-      // "rich-text#privacy-policy__condition-10-2-7"
+      "rich-text#privacy-policy__data-treatment-1",
+      "rich-text#privacy-policy__data-treatment-2",
+      "rich-text#privacy-policy__data-treatment-3",
+      "rich-text#privacy-policy__data-treatment-4",
+      "rich-text#privacy-policy__data-treatment-5",
+      "rich-text#privacy-policy__data-treatment-6",
+      "rich-text#privacy-policy__data-treatment-7",
+      "rich-text#privacy-policy__holder-rights",
+      "rich-text#privacy-policy__process",
+      "rich-text#privacy-policy__recall",
+      "rich-text#privacy-policy__limitations",
+      "rich-text#privacy-policy__contact"
     ]
   },
 
@@ -167,117 +168,128 @@
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "##### TRATAMIENTO AL CUAL SERÁN SOMETIDOS LOS DATOS PERSONALES\n En ejercicio de su objeto social, PREBEL S.A. y TIENDAS PREBEL S.A.S. realizan el tratamiento de datos personales de sus empleados, proveedores, clientes, usuarios y consumidores de sus productos, actividad que ejecutan directamente, o por parte de sus contratistas o mandatarios encargados de ello. En desarrollo de los principios de finalidad y libertad, la recolección de datos personales por parte de PREBEL S.A. y TIENDAS PREBEL S.A.S. se limitarán a aquellos datos personales que son pertinentes y adecuados para la finalidad para lo cual son recolectados o requeridos conforme a la normatividad vigente. Salvo los casos expresamente previstos en la Ley, no se podrán recolectar datos personales sin autorización del Titular, y no se recolectará ni se almacenará datos de niños, niñas y adolescentes. PREBEL S.A. y TIENDAS PREBEL S.A.S. estarán facultadas para compartir entre sí y con las demás compañías que conformen o lleguen a conformar el grupo empresarial, los datos suministrados a cualquiera de ellas, siempre y cuando respeten las estipulaciones contenidas en la presente Política. Cuando en esta Política se haga referencia a PREBEL S.A. y/o TIENDAS PREBEL S.A.S., se entenderá que se incluye a cualquier otra compañía que llegase a conformar el grupo empresarial.\n\n\n PREBEL S.A. y TIENDAS PREBEL S.A.S. tienen la obligación de mantener la confidencialidad de los datos personales, objeto de tratamiento y solo podrán divulgarlos por solicitud expresa de las entidades de vigilancia y control y/o autoridades que tengan facultad legal de solicitarla y permitirá en todo momento y de manera gratuita conocer, actualizar y corregir la información personal del Titular de conformidad con el artículo 8 de la Ley 1581 de 2012",
+      "text": "##### TRATAMIENTO AL CUAL SERÁN SOMETIDOS LOS DATOS PERSONALES\n En ejercicio de su objeto social, PREBEL S.A. y TIENDAS PREBEL S.A.S. realizan el tratamiento de datos personales de sus empleados, proveedores, clientes, usuarios y consumidores de sus productos, actividad que ejecutan directamente, o por parte de sus contratistas o mandatarios encargados de ello. En desarrollo de los principios de finalidad y libertad, la recolección de datos personales por parte de PREBEL S.A. y TIENDAS PREBEL S.A.S. se limitarán a aquellos datos personales que son pertinentes y adecuados para la finalidad para lo cual son recolectados o requeridos conforme a la normatividad vigente. Salvo los casos expresamente previstos en la Ley, no se podrán recolectar datos personales sin autorización del Titular, y no se recolectará ni se almacenará datos de niños, niñas y adolescentes. PREBEL S.A. y TIENDAS PREBEL S.A.S. estarán facultadas para compartir entre sí y con las demás compañías que conformen o lleguen a conformar el grupo empresarial, los datos suministrados a cualquiera de ellas, siempre y cuando respeten las estipulaciones contenidas en la presente Política. Cuando en esta Política se haga referencia a PREBEL S.A. y/o TIENDAS PREBEL S.A.S., se entenderá que se incluye a cualquier otra compañía que llegase a conformar el grupo empresarial.\n\n\n PREBEL S.A. y TIENDAS PREBEL S.A.S. tienen la obligación de mantener la confidencialidad de los datos personales, objeto de tratamiento y solo podrán divulgarlos por solicitud expresa de las entidades de vigilancia y control y/o autoridades que tengan facultad legal de solicitarla y permitirá en todo momento y de manera gratuita conocer, actualizar y corregir la información personal del Titular de conformidad con el artículo 8 de la Ley 1581 de 2012\n\n\n La transferencia, transmisión y destrucción, en la forma permitida por la Ley y se realiza con la siguiente finalidad específica para cada caso:",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10": {
-    "title": "Condición 10",
+  "rich-text#privacy-policy__data-treatment-2": {
+    "title": "Tratamiento de datos 2",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.** Realizando compras en esta plataforma autorizo a Prebel S.A.",
+      "text": "**Tratamiento de datos personales de empleados, ex empleados y pensionados:** Se realiza para cumplir con las obligaciones laborales a cargo de PREBEL S.A. y TIENDAS PREBEL S.A.S., tales como pagos de nómina, pagos y reportes al Sistema General de Seguridad Social en Salud, atención de consultas, peticiones, solicitudes, acciones y reclamos, hechas por el Titular de la información o por sus legitimarios, o por entidades de Sistema General de Seguridad Social en Salud a los que el Titular esté o hubiere estado vinculado. La destrucción de los datos personales no aplica para empleados y exempleados, en cumplimiento del régimen laboral legal y contractual.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-1": {
-    "title": "Condición 10-1",
+  "rich-text#privacy-policy__data-treatment-3": {
+    "title": "Tratamiento de datos 3",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.1** Utilizar mis datos personales y/o sensibles que fueron capturados o que sean capturados por cualquier medio, con ocasión a la compra.",
+      "text": "**Tratamiento de datos personales de empleados de contratistas que presten sus servicios en las instalaciones de PREBEL S.A. y/o TIENDAS PREBEL S.A.S: Permitir a PREBEL S.A. y a TIENDAS PREBEL S.A.S., cumplir con las obligaciones contractuales a su cargo, tales como asignación y control de elementos tecnológicos, materiales, equipos, identificación de ingreso, seguimiento a cumplimiento de obligaciones a cargo de contratistas, atención de eventuales emergencias, atención y respuesta de consultas, peticiones, solicitudes, acciones y reclamos hechas por el Titular de la información o por sus legitimarios.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2": {
-    "title": "Condición 10-2",
+  "rich-text#privacy-policy__data-treatment-4": {
+    "title": "Tratamiento de datos 4",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2** Consultar, almacenar, corregir, actualizar, modificar o eliminar la información entregada con ocasión de este concurso, para fines comerciales, administrativos y de información. No obstante, comprendo que puedo:",
+      "text": "**Tratamiento de datos personales de proveedores – personas naturales:** Permitir el cumplimiento de obligaciones contractuales a cargo de PREBEL S.A. y TIENDAS PREBEL S.A.S., tales como pagos de honorarios, reportes de pagos. Reportes o interacciones que por ley o por políticas internas tiene la obligación de realizar, atención de consultas, peticiones, solicitudes, acciones y reclamos hechas por el Titular de la información o por sus legitimarios.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-1": {
-    "title": "Condición 10-2-1",
+  "rich-text#privacy-policy__data-treatment-5": {
+    "title": "Tratamiento de datos 5",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.1** Solicitar la modificación, actualización, rectificación o eliminación de mi información de las bases de datos de Prebel S.A;",
+      "text": "**Tratamiento de datos personales de clientes – personas naturales:** El tratamiento de datos personales de clientes que son personas naturales, tiene el propósito de que PREBEL S.A. y TIENDAS PREBEL S.A., puedan cumplir con sus obligaciones contractuales, tales como facturación, reportes de pagos o interacciones que por ley o por políticas internas tiene la obligación de realizar, atención de consultas, peticiones, solicitudes, acciones y reclamos, hechas por el Titular de la información o por legitimarios.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-2": {
-    "title": "Condición 10-2-2",
+  "rich-text#privacy-policy__data-treatment-6": {
+    "title": "Tratamiento de datos 6",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.2** Solicitar prueba de la autorización.",
+      "text": "**Tratamiento de datos personales de usuarios de productos:** El tratamiento de estos datos personales permite a PREBEL S.A. y a TIENDAS PREBEL S.A.S., cumplir con las obligaciones a su cargo en materia de calidad de los productos, para la atención efectiva de consultas, quejas y reclamos de consumidores y como información de mercadeo e investigación de mercados.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-3": {
-    "title": "Condición 10-2-3",
+  "rich-text#privacy-policy__data-treatment-7": {
+    "title": "Tratamiento de datos 7",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.3** Ser informado de los usos aplicados a mis datos.",
+      "text": "**Tratamiento de datos personales de visitantes:** La finalidad de la recolección de estos datos es velar por la seguridad y vigilancia de los empleados y personas visitantes a las instalaciones de PREBEL S.A. y TIENDAS PREBEL S.A.S., así como tener un control sobre los procesos de ingreso y permanencia dentro de las instalaciones, con el fin de preservar los bienes y seguridad de la empresa.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-4": {
-    "title": "Condición 10-2-4",
+  "rich-text#privacy-policy__holder-rights": {
+    "title": "Derechos de los titulares",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.4** Presentar quejas por infracciones ante la SIC.",
+      "text": "##### DERECHOS DE LOS TITULARES:\n Los Titulares de los datos personales tienen los siguientes derechos:\n\n\n - **a.** Conocer, actualizar y rectificar sus datos personales frente a los responsables o encargados del t r a t a m i e n t o. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.\n\n\n- **b.** Solicitar prueba de autorización otorgada al responsable de tratamiento, salvo cuando expresamente se exceptúe como requisito para el tratamiento, de conformidad con lo previsto en el artículo 10 de la Ley 1581 de 2012.\n\n\n- **c.** Ser informado por el responsable o encargado del tratamiento, previa solicitud, respecto del uso que les ha dado a sus datos personales.\n\n\n- **d.** Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la presente Política y las normas que la regulan.\n\n\n- **e.** Revocar la autorización de manera voluntaria y/o solicitar la supresión del dato cuando en el tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio haya determinado que en el tratamiento el responsable o encargado han incurrido en conductas contrarias a la Constitución y la Ley.\n\n\n- **f.** Acceder en forma gratuita a sus datos personales que hayan sido objeto de tratamiento.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-5": {
-    "title": "Condición 10-2-5",
+  "rich-text#privacy-policy__process": {
+    "title": "Procedimiento",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.5** Revocar mi autorización y/o solicitar la supresión de mis datos y su administración, en caso de vulneración de mis derechos y garantía constitucionales y legales.",
+      "text": "##### PROCEDIMIENTO PARA EJERCICIO DE DERECHO POR PARTE DE LOS TITULARES:\n Los titulares de datos personales deben dirigir sus consultas, peticiones o reclamos al correo: [servicio.cliente@prebel.com.co](mailto:servicio.cliente@prebel.com.co)\n\n\n **Consultas:** PREBEL S.A. y TIENDAS PREBEL S.A.S. deben atender las consultas en un término de diez (10) días hábiles contados a partir de la fecha que se recibió la misma. Cuando no fuere posible cumplir con este tiempo, se deberá informar al interesado expresando los motivos del retardo y la fecha en que se atenderá la consulta en un término no mayor a cinco (5) días.\n\n\n **Reclamos:** El titular o causahabiente que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando advierta el presunto incumplimiento de cualquiera de los deberes contenidos en la ley o en la presente política, podrá presentar un reclamo a PREBEL S.A. y/o TIENDAS PREBEL S.A.S., el cual será tramitado bajo las siguientes reglas:\n\n\n- **a.** El reclamo se formulará mediante solicitud dirigida al responsable o encargado del tratamiento, al correo electrónico servicio.cliente@prebel.com.co, con la identificación del titular, la descripción de los hechos que dan lugar al reclamo, la dirección, y acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, PREBEL S.A. o TIENDAS PREBEL S.A.S., requerirán al interesado dentro de los cinco (5) días siguientes a la recepción del mismo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.\n\n\n- **b.** Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga &quot;reclamo en trámite&quot; y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.\n\n\n- **c.** El término máximo para atender el reclamo será de quince (15) días hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término.\n\n\n- **d.** El titular o causahabiente podrá elevar queja ante la Superintendencia de Industria y Comercio, una vez haya agotado el trámite de consulta o reclamo ante el responsable o encargado del tratamiento.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-6": {
-    "title": "Condición 10-2-6",
+  "rich-text#privacy-policy__recall": {
+    "title": "Revocatoria",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.6** Acceder en forma gratuita a mis datos personales y/o datos sensibles divulgados.",
+      "text": "**Revocatoria de la autorización y/o supresión del dato:** Los titulares podrán en todo momento solicitar a PREBEL S.A. y/o a TIENDAS PREBEL S.A.S., la supresión de sus datos personales y/o revocar la autorización otorgada para el tratamiento de los mismos, mediante la presentación de un reclamo, de acuerdo con lo establecido en el artículo 15 de la Ley 1581 de 2012, el Decreto 1377 de 2013 y el procedimiento indicado en esta política. Dicha revocatoria podrá ser solicitada por el titular o causahabiente al correo servicio.cliente@prebel.com.co. En el caso de correos electrónicos relacionados con información de mercadeo de las marcas que PREBEL S.A. fabrica y/o distribuye podrá también solicitar la revocatoria por medio de un enlace que aparece al final de cada correo. Si vencido el término legal respectivo, PREBEL S.A. o TIENDAS PREBEL S.A.S., no hubiere eliminado los datos personales, el titular tendrá derecho a solicitar a la superintendencia de Industria y Comercio que ordene la revocatoria de la autorización y/o la supresión de los datos personales. No obstante, lo anterior, los datos personales deberán ser conservados cuando así se requiera para el cumplimiento de una obligación legal o contractual.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
     }
   },
-  "rich-text#privacy-policy__condition-10-2-7": {
-    "title": "Condición 10-2-7",
+  "rich-text#privacy-policy__limitations": {
+    "title": "Limitaciones",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",
-      "text": "**10.2.7** Salvo en los casos expresamente autorizados, exigir la confidencialidad y la reserva de la información suministrada. Los participantes podrán consultar la Política de Tratamiento de Datos Personales de Prebel S.A., en la página web www.prebel.com.co.",
+      "text": "##### LIMITACIONES TEMPORALES AL TRATAMIENTO DE LOS DATOS PERSONALES:\n PREBEL S.A. y TIENDAS PREBEL S.A.S., solo podrá realizar el tratamiento de datos personales durante el tiempo que sea razonable y necesario, de acuerdo con las finalidades que justificaron el tratamiento, atendiendo a las disposiciones aplicables a la materia de que se trate y a los aspectos administrativos, contables, fiscales, jurídicos e históricos de la información.\n\n\n Una vez cumplidas las finalidades del tratamiento o vencido el plazo máximo legal en el cual PREBEL S.A. y/o TIENDAS PREBEL S.A. tienen la obligación de conservar los datos personales, PREBEL S.A. y/o  TIENDAS  PREBEL  S.A.S.,  o  el  encargado del tratamiento procederán a la supresión de los datos personales en su posesión.\n\n\n PREBEL S.A. y TIENDAS PREBEL S.A.S. deberán documentar los procedimientos para el tratamiento, conservación y supresión de los datos personales de conformidad con las disposiciones aplicables a la materia de que se trate, así como las instrucciones que al respecto imparta la Superintendencia de Industria y Comercio.\n\n\n PREBEL S.A. Y TIENDAS PREBEL S.A.S. podrán modificar en cualquier momento la política de uso de datos personales, siempre y cuando no se infrinjan los derechos de los titulares.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__contact": {
+    "title": "Contacto",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### Contacto\n\n\n Para conocer lo relacionado con la política de PREBEL S.A. y TIEDAS PREBEL S.A.S., de protección de datos, usted puede comunicarse a [(4)365.60.00](tel:(4)365.60.00), o mediante el correo electrónico: servicio.cliente@prebel.com.co, donde podrá realizar la respectiva solicitud.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"

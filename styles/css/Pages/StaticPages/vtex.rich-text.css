@@ -1,6 +1,29 @@
-.headingLevel1--static-page__title{
+.heading--static-page__title{
   margin-bottom: 3rem;
+  font-size: 1.5rem;
+  text-align: left;
 }
+
+.heading--item-mb{
+  font-size: 1.1rem;
+}
+
+.link--item-mb{
+  color: var(--main-color);
+}
+.link--item-mb:hover{
+  color: var(--black);
+  text-decoration: underline;
+}
+
+@media (min-width: 1025px) {
+  .heading--static-page__title{
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+
 
 .paragraph--item-mb{
   margin-bottom: 1.3rem;

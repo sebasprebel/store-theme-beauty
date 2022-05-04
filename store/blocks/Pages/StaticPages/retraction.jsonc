@@ -1,0 +1,46 @@
+{
+  "store.custom#retraction":{
+    "blocks": [
+      "container-layout#retraction__container"
+    ]
+  },
+  "container-layout#retraction__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#retraction__title",
+      "container-layout#retraction__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#retraction__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Derecho de retracto",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#retraction__content--container":{
+    "title":"Contenedor contenido",
+    "children":[
+      "rich-text#retraction__retraction-text"
+    ]
+  },
+
+  "rich-text#retraction__retraction-text": {
+    "title": "Propósito",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Derecho de Retracto: De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, el término máximo para ejercer el derecho de retracto es de cinco (5) días hábiles contados a partir de la entrega del bien en el domicilio registrado al momento de la compra.\n\n\n La devolución del dinero en ejercicio del Derecho de Retracto se realizará a más tardar a los dieciséis (16) días calendario contados desde el momento que el producto retorna a nuestra bodega para el caso de tarjeta de crédito, para débito serán cuatro (4) días hábiles.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.label--view-details-link{
+  margin-top: 2rem;
+  display: inline-block;
+  color: var(--black);
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0;
+}
+.label--view-details-link:hover{
+  color: var(--main-color);
+
+}
+
+.label--view-details-link::after{
+  content: "Ver más detalles del producto";
+  font-size: 1rem;
+}

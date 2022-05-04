@@ -14,5 +14,9 @@
   "store.custom#privacy-policy":{
     "title": "Política de privacidad",
     "path": "/politica-de-privacidad"
+  },
+  "store.custom#retraction":{
+    "title": "Derecho de retracto",
+    "path": "/derecho-de-retracto"
   }
 }

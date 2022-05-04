@@ -53,7 +53,7 @@
   "container-layout#header__desktop-bottom":{
     "title":"Header bottom - Desktop",
     "children": [
-      "custom-menu-desktop"
+      "custom-menu-desktop#menu-banners"
     ],
     "props":{
       "classes": "flex justify-center items-center"
@@ -66,6 +66,90 @@
   "search-bar":{
     "props":{
       "placeholder":"¿Qué estás buscando?"
+    }
+  },
+  "custom-menu-desktop#menu-banners": {
+    "title": "Menu de categorías",
+    "props": {
+      "categories": [
+        {
+         
+          "id": 2,
+          "name": "Maquillaje",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+          
+        },
+        {
+         
+          "id": 3,
+          "name": "Cuidado Cabello",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+         
+        },
+        {
+         
+          "id": 4,
+          "name": "Cuidado Personal",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+        },
+        {
+          
+          "id": 5,
+          "name": "Protección Solar",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+        },
+        {
+       
+          "id": 6,
+          "name": "Cuidado Facial",
+          "menuBanner": 
+          {
+            "link": "/salud-belleza/maquillaje",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+            "text": "Ver Essence >"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Hogar",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+        },
+        {
+          "isNotCategoryItem": true,
+          "name": "Marcas",
+          "menuBanner": 
+            {
+              "link": "/salud-belleza/maquillaje",
+              "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+              "text": "Ver Essence >"
+            }
+        }
+      ]
     }
   }
 }

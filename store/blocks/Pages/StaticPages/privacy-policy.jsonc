@@ -1,0 +1,286 @@
+{
+  "store.custom#privacy-policy":{
+    "blocks": [
+      "container-layout#privacy-policy__container"
+    ]
+  },
+  "container-layout#privacy-policy__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#privacy-policy__title",
+      "container-layout#privacy-policy__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#privacy-policy__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Política para el manejo, administración y tratamiento de datos personales PREBEL S.A. y TIENDAS PREBEL S.A.S.",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#privacy-policy__content--container":{
+    "title":"Contenedor contenido",
+    "children":[
+      "rich-text#privacy-policy__purpose",
+      "rich-text#privacy-policy__definitions",
+      "rich-text#privacy-policy__user",
+      "rich-text#privacy-policy__treatment",
+      "rich-text#privacy-policy__authorization",
+      "rich-text#privacy-policy__personal-data",
+      "rich-text#privacy-policy__treatment-manager",
+      "rich-text#privacy-policy__data-controller",
+      "rich-text#privacy-policy__responsible",
+      "rich-text#privacy-policy__validity-of-the-policy",
+      "rich-text#privacy-policy__data-treatment-1"
+      // "rich-text#privacy-policy__condition-10",
+      // "rich-text#privacy-policy__condition-10-1",
+      // "rich-text#privacy-policy__condition-10-2",
+      // "rich-text#privacy-policy__condition-10-2-1",
+      // "rich-text#privacy-policy__condition-10-2-2",
+      // "rich-text#privacy-policy__condition-10-2-3",
+      // "rich-text#privacy-policy__condition-10-2-4",
+      // "rich-text#privacy-policy__condition-10-2-5",
+      // "rich-text#privacy-policy__condition-10-2-6",
+      // "rich-text#privacy-policy__condition-10-2-7"
+    ]
+  },
+
+  "rich-text#privacy-policy__purpose": {
+    "title": "Propósito",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### PROPÓSITO\n La presente política se expide en cumplimiento de la Ley 1581 de 2012 y el Decreto 1377 de 2013 y demás normas que modifiquen o adicionen el régimen de protección de datos personales y busca que PREBEL S.A. y TIENDAS PREBEL S.A.S., en su condición de responsables de manejo de información personal, realicen el tratamiento de la misma en estricto cumplimiento de la normatividad en mención, garantizando el derecho de los titulares de la información que les asiste. Es importante que nuestros clientes, proveedores, empleados, usuarios y consumidores, conozcan esta política, para lo cual lo invitamos a leerla en su totalidad.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__definitions": {
+    "title": "Definiciones",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### DEFINICIONES\n Para los efectos de la presente política, las definiciones a continuación tendrán el siguiente significado de acuerdo con la normatividad:",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__user": {
+    "title": "Usuario",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Usuario:** Persona natural cuyos datos personales son objeto de tratamiento.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__treatment": {
+    "title": "Tratamiento",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Tratamiento:** Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación y supresión.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__authorization": {
+    "title": "Autorización",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Autorización:** Consentimiento previo, expreso e informado del Titular para llevar a cabo el tratamiento de sus datos. ",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__personal-data": {
+    "title": "Dato personal",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Dato Personal:** Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__treatment-manager": {
+    "title": "Encargado del tratamiento",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Encargado del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__data-controller": {
+    "title": "Responsable del tratamiento",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**Responsable del Tratamiento:** Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__responsible": {
+    "title": "Responsables",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### RESPONSABLES\n Razón social: PREBEL S.A. y TIENDAS PREBEL S.A.S.\n Dirección: Calle 10 No. 58-59 - Ciudad: Medellín\n Correo electrónico: servicio.cliente@prebel.com.co\n Teléfono: 365.60.00\n Área encargada: Investigación de Mercados.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__validity-of-the-policy": {
+    "title": "Cigencia de la política",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### VIGENCIA DE LA POLÍTICA:\n La presente Política entra en vigencia el 1 de mayo de 2013.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__data-treatment-1": {
+    "title": "Tratamiento de datos 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### TRATAMIENTO AL CUAL SERÁN SOMETIDOS LOS DATOS PERSONALES\n En ejercicio de su objeto social, PREBEL S.A. y TIENDAS PREBEL S.A.S. realizan el tratamiento de datos personales de sus empleados, proveedores, clientes, usuarios y consumidores de sus productos, actividad que ejecutan directamente, o por parte de sus contratistas o mandatarios encargados de ello. En desarrollo de los principios de finalidad y libertad, la recolección de datos personales por parte de PREBEL S.A. y TIENDAS PREBEL S.A.S. se limitarán a aquellos datos personales que son pertinentes y adecuados para la finalidad para lo cual son recolectados o requeridos conforme a la normatividad vigente. Salvo los casos expresamente previstos en la Ley, no se podrán recolectar datos personales sin autorización del Titular, y no se recolectará ni se almacenará datos de niños, niñas y adolescentes. PREBEL S.A. y TIENDAS PREBEL S.A.S. estarán facultadas para compartir entre sí y con las demás compañías que conformen o lleguen a conformar el grupo empresarial, los datos suministrados a cualquiera de ellas, siempre y cuando respeten las estipulaciones contenidas en la presente Política. Cuando en esta Política se haga referencia a PREBEL S.A. y/o TIENDAS PREBEL S.A.S., se entenderá que se incluye a cualquier otra compañía que llegase a conformar el grupo empresarial.\n\n\n PREBEL S.A. y TIENDAS PREBEL S.A.S. tienen la obligación de mantener la confidencialidad de los datos personales, objeto de tratamiento y solo podrán divulgarlos por solicitud expresa de las entidades de vigilancia y control y/o autoridades que tengan facultad legal de solicitarla y permitirá en todo momento y de manera gratuita conocer, actualizar y corregir la información personal del Titular de conformidad con el artículo 8 de la Ley 1581 de 2012",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10": {
+    "title": "Condición 10",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.** Realizando compras en esta plataforma autorizo a Prebel S.A.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-1": {
+    "title": "Condición 10-1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.1** Utilizar mis datos personales y/o sensibles que fueron capturados o que sean capturados por cualquier medio, con ocasión a la compra.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2": {
+    "title": "Condición 10-2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2** Consultar, almacenar, corregir, actualizar, modificar o eliminar la información entregada con ocasión de este concurso, para fines comerciales, administrativos y de información. No obstante, comprendo que puedo:",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-1": {
+    "title": "Condición 10-2-1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.1** Solicitar la modificación, actualización, rectificación o eliminación de mi información de las bases de datos de Prebel S.A;",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-2": {
+    "title": "Condición 10-2-2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.2** Solicitar prueba de la autorización.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-3": {
+    "title": "Condición 10-2-3",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.3** Ser informado de los usos aplicados a mis datos.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-4": {
+    "title": "Condición 10-2-4",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.4** Presentar quejas por infracciones ante la SIC.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-5": {
+    "title": "Condición 10-2-5",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.5** Revocar mi autorización y/o solicitar la supresión de mis datos y su administración, en caso de vulneración de mis derechos y garantía constitucionales y legales.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-6": {
+    "title": "Condición 10-2-6",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.6** Acceder en forma gratuita a mis datos personales y/o datos sensibles divulgados.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#privacy-policy__condition-10-2-7": {
+    "title": "Condición 10-2-7",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.7** Salvo en los casos expresamente autorizados, exigir la confidencialidad y la reserva de la información suministrada. Los participantes podrán consultar la Política de Tratamiento de Datos Personales de Prebel S.A., en la página web www.prebel.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

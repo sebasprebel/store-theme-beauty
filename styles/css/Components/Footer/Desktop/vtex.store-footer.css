@@ -3,3 +3,9 @@
   max-width: 1420px;
   margin: 0 auto;
 }
+
+@media print{
+  .footerLayout{
+    display: none;
+  }
+}

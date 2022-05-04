@@ -2,5 +2,17 @@
   "store.custom#sale-page": {
     "title": "Promociones",
     "path": "/sale"
+  },
+  "store.custom#template-plp-seo":{
+    "title": "Template SEO",
+    "path": "/template-plp-seo"
+  },
+  "store.custom#terms-and-conditions":{
+    "title": "Términos y condiciones",
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#privacy-policy":{
+    "title": "Política de privacidad",
+    "path": "/politica-de-privacidad"
   }
 }

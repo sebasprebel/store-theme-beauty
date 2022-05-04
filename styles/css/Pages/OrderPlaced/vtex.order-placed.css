@@ -1,0 +1,30 @@
+.orderPlacedWrapper{
+  max-width: 1440px;
+  margin: 0 auto !important;
+}
+
+.orderPlacedWrapper :global(.vtex-button){
+  background-color: var(--black);
+  color: var(--white);
+  padding:.5rem 1rem;
+  border-radius: 24px;
+}
+
+@media print{
+  .orderPlacedWrapper :global(.vtex-button){
+    display: none;
+  }
+}
+
+.orderPlacedWrapper :global(.vtex-button):hover{
+  background-color: var(--main-color);
+}
+
+.orderSeller{
+  color: var(--main-color);
+  font-family: var(--font-poppins-semibold);
+}
+
+.totalListItem:last-child :global(.vtex-order-placed-2-x-totalListItemValue){
+  color: var(--main-color);
+}

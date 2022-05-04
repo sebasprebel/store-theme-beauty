@@ -1,0 +1,286 @@
+{
+  "store.custom#terms-and-conditions":{
+    "blocks": [
+      "container-layout#terms-and-conditions__container"
+    ]
+  },
+  "container-layout#terms-and-conditions__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#terms-and-conditions__title",
+      "container-layout#terms-and-conditions__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#terms-and-conditions__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Términos y condiciones",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#terms-and-conditions__content--container":{
+    "title":"Contenedor contenido",
+    "children":[
+      "rich-text#terms-and-conditions__condition-1",
+      "rich-text#terms-and-conditions__condition-2",
+      "rich-text#terms-and-conditions__condition-3",
+      "rich-text#terms-and-conditions__condition-4",
+      "rich-text#terms-and-conditions__condition-5",
+      "rich-text#terms-and-conditions__condition-6",
+      "rich-text#terms-and-conditions__condition-6-1",
+      "rich-text#terms-and-conditions__condition-6-2",
+      "rich-text#terms-and-conditions__condition-7",
+      "rich-text#terms-and-conditions__condition-8",
+      "rich-text#terms-and-conditions__condition-9",
+      "rich-text#terms-and-conditions__condition-10",
+      "rich-text#terms-and-conditions__condition-10-1",
+      "rich-text#terms-and-conditions__condition-10-2",
+      "rich-text#terms-and-conditions__condition-10-2-1",
+      "rich-text#terms-and-conditions__condition-10-2-2",
+      "rich-text#terms-and-conditions__condition-10-2-3",
+      "rich-text#terms-and-conditions__condition-10-2-4",
+      "rich-text#terms-and-conditions__condition-10-2-5",
+      "rich-text#terms-and-conditions__condition-10-2-6",
+      "rich-text#terms-and-conditions__condition-10-2-7"
+    ]
+  },
+
+  "rich-text#terms-and-conditions__condition-1": {
+    "title": "Condición 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**1.** Los productos vendidos se sujetarán a la política de cambios y devoluciones de beautyholics.com.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-2": {
+    "title": "Condición 2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**2.** El descuento del valor de envío aplica por compras mayores a 120,000 pesos en las siguientes ciudades: MEDELLIN, SABANETA, BOGOTA, SAN FRANCISCO, ENVIGADO, PEREIRA, RIONEGRO, CALI, LA CEJA, BARRANQUILLA, BELLO, CARTAGENA, GIRARDOTA, FLORIDABLANCA, ITAGUI, JAMUNDI, CUCUTA, BUCARAMANGA, PASTO, TUNJA, MANIZALES, MOSQUERA, CALDAS, IBAGUE, NEIVA, PALMIRA, COTA, LA ESTRELLA, GUARNE, CHIA, SINCELEJO, COPACABANA, MARINILLA, FUNZA, VILLAMARIA, CHINCHINA, BARBOSA, SOLEDAD, EL RETIRO, DOSQUEBRADAS, TURBACO, LA UNION, GIRON, COROZAL, SANTUARIO, CARMEN DE VIBORAL, BOSCONIA, YUMBO, QUIBDO, LEBRIJA. El descuento se verá reflejado en el momento que selecciones el departamento y ciudad de destino para tu pedido. No aplica para envío rápido. No aplica para pedidos que incluyan productos de la marca Mind Naturals. No aplica en pedidos contra-entrega, en estos pedidos deberás pagar un valor de 3,500 pesos. No aplica para el envio express.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-3": {
+    "title": "Condición 3",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**3.** Únicamente se aceptarán compras realizadas por personas naturales, las compras realizadas por persona jurídica no serán recibidas.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-4": {
+    "title": "Condición 4",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**4.** Solo se realizarán envíos dentro del territorio colombiano.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-5": {
+    "title": "Condición 5",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**5.** La opción “pago contra entrega” solo permite hacer el pago con dinero en efectivo. No se acordarán citas previas, por eso la transportadora visitará hasta 2 veces el lugar de entrega. Si el pedido no es recibido en alguna de estas 2 visitas se cobrará nuevamente el costo del envío y deberá ingresarse nuevamente el pedido por el usuario.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-6": {
+    "title": "Condición 6",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**6.** En caso de que sean vendidos productos que no se encuentren disponibles en stock, se procederá a la devolución del valor pagado.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-6-1": {
+    "title": "Condición 6-1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**6.1** Si se trata de compra realizada con tarjeta de crédito, la devolución se hará inmediatamente, pero tardará 16 días corrientes en aparecer disponible en el cupo de tarjeta de crédito como saldo a favor, movimiento que podrás corroborar en el próximo extracto.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-6-2": {
+    "title": "Condición 6-2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**6.2** Si la compra fue realizada con tarjeta débito, el dinero será devuelto al mismo número de cuenta dentro de los 4 días hábiles siguientes a la realización de la compra.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-7": {
+    "title": "Condición 7",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**7.** La línea de servicio al cliente habilitada para dudas e inquietudes es 018000914990 o puedes escribir al correo electrónico servicio.cliente@prebel.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-8": {
+    "title": "Condición 8",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**8.** En caso de haber motivos fundados de fuerza mayor, caso fortuito, o hechos de terceros, tales como desastres naturales, guerras, huelgas o disturbios, así como también situaciones que afecten el evento; o en caso de detectarse un fraude o intento de fraude en perjuicio de Prebel S.A., o los compradores, podrán modificar en todo o en parte este evento, así como suspenderlo temporal o permanentemente sin asumir ninguna responsabilidad al respecto. En estos casos, el fundamento de las medidas que se adopten, así como las pruebas que demuestren la existencia de la causa invocada por el organizador estarán a disposición de cualquier interesado.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-9": {
+    "title": "Condición 9",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**9.** VTEX ni Mercado Pago ni ninguna entidad financiera patrocina, avala y/o administra de modo alguno esta actividad, ni está asociado a ella. Esta información será usada para realizar el proceso de pago y el respectivo envío. La información que proporciones sólo se utilizará para los fines previstos en el aviso de privacidad y fines de marketing.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10": {
+    "title": "Condición 10",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.** Realizando compras en esta plataforma autorizo a Prebel S.A.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-1": {
+    "title": "Condición 10-1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.1** Utilizar mis datos personales y/o sensibles que fueron capturados o que sean capturados por cualquier medio, con ocasión a la compra.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2": {
+    "title": "Condición 10-2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2** Consultar, almacenar, corregir, actualizar, modificar o eliminar la información entregada con ocasión de este concurso, para fines comerciales, administrativos y de información. No obstante, comprendo que puedo:",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-1": {
+    "title": "Condición 10-2-1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.1** Solicitar la modificación, actualización, rectificación o eliminación de mi información de las bases de datos de Prebel S.A;",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-2": {
+    "title": "Condición 10-2-2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.2** Solicitar prueba de la autorización.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-3": {
+    "title": "Condición 10-2-3",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.3** Ser informado de los usos aplicados a mis datos.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-4": {
+    "title": "Condición 10-2-4",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.4** Presentar quejas por infracciones ante la SIC.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-5": {
+    "title": "Condición 10-2-5",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.5** Revocar mi autorización y/o solicitar la supresión de mis datos y su administración, en caso de vulneración de mis derechos y garantía constitucionales y legales.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-6": {
+    "title": "Condición 10-2-6",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.6** Acceder en forma gratuita a mis datos personales y/o datos sensibles divulgados.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#terms-and-conditions__condition-10-2-7": {
+    "title": "Condición 10-2-7",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "**10.2.7** Salvo en los casos expresamente autorizados, exigir la confidencialidad y la reserva de la información suministrada. Los participantes podrán consultar la Política de Tratamiento de Datos Personales de Prebel S.A., en la página web www.prebel.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

@@ -16,7 +16,7 @@
     "props": {
       "blockClass": ["search-page__header--title"],
       "font": "t-body",
-      "text": "Maquillaje",
+      "text": "# Maquillaje",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"

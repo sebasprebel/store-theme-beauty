@@ -61,8 +61,8 @@
       }
     },
     "blocks": [
-          "search-result-layout.desktop#custom-search",
-          "search-result-layout.mobile#custom-search"
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
            ]
   }
 }

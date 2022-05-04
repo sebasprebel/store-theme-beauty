@@ -1,0 +1,28 @@
+{
+  "store.custom#template-plp-seo": {
+    "blocks": [
+      "search-result-layout.customQuery#template-plp-seo"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  },
+
+  "search-result-layout.customQuery#template-plp-seo": {
+    "title": "Lista de productos custom",
+    "props": {
+      "querySchema": {
+        "queryField": "2864",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "orderByField": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 9
+      }
+    },
+    "blocks": [
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
+           ]
+  }
+}

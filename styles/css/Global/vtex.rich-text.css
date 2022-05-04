@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.paragraph--search-page__header--title{
+.headingLevel1--search-page__header--title{
   font-size: 1.5rem;
   font-family: var(--font-poppins-semibold);
   margin-bottom: .2rem;

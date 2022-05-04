@@ -1,3 +1,9 @@
 .container--sticky-header{
   background-color: var(--white);
 }
+
+@media print{
+  .container--sticky-header{
+    display: none;
+  }
+}

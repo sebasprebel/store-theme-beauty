@@ -27,7 +27,7 @@
     "props": {
       "blockClass": ["search-page__header--content"],
       "font": "t-body",
-      "text": "Sin duda alguna nuestro make up es uno de los pasos más importantes en nuestra rutina diaria.",
+      "text": "Sin duda alguna nuestro makeup es uno de los pasos más importantes en nuestra rutina diaria.",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
@@ -71,6 +71,12 @@
         {
           "text": "Accesorios",
           "link": "/salud-belleza/maquillaje/accesorios"
+        },
+        {
+          "text": "Sale",
+          "link": "/sale",
+          "isHighlight": true
+          
         }
       ]
     }
@@ -78,17 +84,53 @@
   "container-layout#search-page__header--brands-images-container":{
     "title":"Contenedor de las imégenes de marcas",
     "children":[
-      "responsive-image#search-page__header--brands-image"
+      "highlight-content#search-page__header--brands-images"
     ],
     "props":{
       "classes":"mv6"
     }
   },
-  "responsive-image#search-page__header--brands-image":{
-    "title":"Imagen marcas",
+  "highlight-content#search-page__header--brands-images":{
+    "title":"Contenedor marcas header.",
     "props":{
-      "desktopImage":"https://dummyimage.com/1500x50/000/fff",
-      "mobileImage":"https://dummyimage.com/1500x50/000/fff"
+      "blockClass":"search-page__header--brands-images",
+      "sliderMode":false,
+      "sliderProps":{
+        "itemsPerpage":{
+          "desktop":5,
+          "mobile":5
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "newver"
+      },
+      "items":[
+        {
+          
+          "image": "/arquivos/catrice3.svg",
+          "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/catrice&searchState"
+        },
+        {
+      
+          "image": "/arquivos/essence3.svg",
+          "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/essence&searchState"
+        },
+        {
+         
+          "image": "/arquivos/vitu3.svg",
+          "link": "salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/vitu&searchState"
+        },
+        {
+         
+          "image": "/arquivos/max-factor3.svg",
+          "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/max-factor&searchState"
+        },
+        {
+         
+          "image": "/arquivos/yardley3.svg",
+          "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/yardley&searchState"
+        }
+      ]
     }
   }
 }

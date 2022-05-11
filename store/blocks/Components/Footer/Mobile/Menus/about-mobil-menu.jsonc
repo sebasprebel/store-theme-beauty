@@ -88,8 +88,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/asesoria-personalizada",
+        "type": "external",
+        "href": "https://web.whatsapp.com/send?phone=573206734559&amp;text=Hola, me gustaría recibir información.",
         "noFollow": false,
         "tagTitle": "Asesoría personalizada",
         "text": "Asesoría personalizada"
@@ -104,8 +104,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/blog",
+        "type": "external",
+        "href": "https://blog.beautyholics.com/",
         "noFollow": false,
         "tagTitle": "Blog",
         "text": "Blog"

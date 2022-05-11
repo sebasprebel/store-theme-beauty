@@ -2,6 +2,7 @@
   "product-summary.shelf#custom": {
     "children": [
       "product-summary-image",
+      "product-price-savings",
       // "add-to-list-btn",
       "container-layout#product-summary__info-container",
       "modal-trigger#product-card__quickview"
@@ -15,6 +16,7 @@
   "product-summary.shelf#custom-search": {
     "children": [
       "sku-color",
+      "product-price-savings",
       "product-summary-image",
       // "add-to-list-btn",
       "container-layout#product-summary__info-container",
@@ -28,7 +30,7 @@
   },
   "add-to-cart-button":{
     "props":{
-      "text":"Agregar a la bolsa"
+      "text":"Agregar a la Bolsa"
     }
   },
   "container-layout#product-summary__info-container":{
@@ -72,10 +74,23 @@
       "visibleVariations": [
         "Tonos"
       ],
-      "maxItems": 5,
+      "maxItems": 4,
       "hideImpossibleCombinations": false,
-      "initialSelection": "empty",
-      "blockClass": ""
+      "initialSelection": "complete",
+      "blockClass": "",
+      "visibility": "more-than-one"
+    }
+  },
+  "product-summary-name":{
+    "props": {
+      "showFieldsProps":{
+        "showSku": true
+      }
+    }
+  },
+  "product-price-savings":{
+    "props":{
+      "message": "{savingsPercentage}"
     }
   }
 }

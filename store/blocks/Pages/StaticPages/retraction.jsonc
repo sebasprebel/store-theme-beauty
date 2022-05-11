@@ -33,7 +33,7 @@
   },
 
   "rich-text#retraction__retraction-text": {
-    "title": "Propósito",
+    "title": "Contenido derecho de retracto",
     "props": {
       "blockClass": ["item-mb"],
       "font": "t-body",

@@ -1,17 +1,124 @@
 {
   "container-layout#showcases--container":{
-    "title":"Sección vitrinas",
+    "title":"Sección rutinas",
     "children":[
-      "responsive-image#home__showcases"
+      "responsive-image#home__showcases",
+      "container-layout#showcases__bottom-container"
     ],
     "props":{
       "blockClass":["wrapper"]
     }
   },
   "responsive-image#home__showcases":{
+    "title":"Banner rutinas",
     "props":{
-      "desktopImage":"/arquivos/beyoutiful.png",
-      "mobileImage":"/arquivos/beyoutiful-mobile.jpg"
+      "desktopImage":"/arquivos/banner-rutinas-desktop2.jpg",
+      "mobileImage":"/arquivos/banner-rutinas-mobile2.jpg"
+    }
+  },
+  "container-layout#showcases__bottom-container":{
+    "title": "Contenedor rutinas bajos",
+    "children":[
+      "rich-text#showcases__bottom-title",
+      "container-layout#showcases__bottom-shelf--container"
+    ],
+    "props":{
+      "blockClass":["showcases__bottom-container"]
+    }
+  },
+  "rich-text#showcases__bottom-title": {
+    "title":"Texto central rutinas",
+    "props": {
+      "blockClass": ["showcases__bottom-title"],
+      "font": "t-body",
+      "text": "##### Magia Beautyholic\n Explora combinaciones llenas de belleza",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#showcases__bottom-shelf--container":{
+    "title":"Contenedor shelf rutinas",
+    "children":[
+      "container-layout#showcase-1",
+      "container-layout#showcase-2",
+      "container-layout#showcase-3"
+    ],
+    "props":{
+      "classes":"flex",
+      "blockClass":"showcases__bottom-shelf--container"
+    }
+  },
+  "container-layout#showcase-1":{
+    "title":"Contenedor rutina 1",
+    "children":[
+      "responsive-image#showcase-1__image",
+      "link#showcase-1__link"
+    ],
+    "props":{
+      "blockClass":"showcase"
+    }
+  },
+  "container-layout#showcase-2":{
+    "title":"Contenedor rutina 2",
+    "children":[
+      "responsive-image#showcase-2__image",
+      "link#showcase-2__link"
+    ],
+    "props":{
+      "blockClass":"showcase"
+    }
+  },
+  "container-layout#showcase-3":{
+    "title":"Contenedor rutina 3",
+    "children":[
+      "responsive-image#showcase-3__image",
+      "link#showcase-3__link"
+    ],
+    "props":{
+      "blockClass":"showcase"
+    }
+  },
+  "responsive-image#showcase-1__image":{
+    "title":"Imagen rutina 1",
+    "props":{
+      "desktopImage":"/arquivos/rutinas-1.png",
+      "mobileImage":"/arquivos/rutinas-1.png"
+    }
+  },
+  "responsive-image#showcase-2__image":{
+    "title":"Imagen rutina 2",
+    "props":{
+      "desktopImage":"/arquivos/rutinas-2.png",
+      "mobileImage":"/arquivos/rutinas-2.png"
+    }
+  },
+  "responsive-image#showcase-3__image":{
+    "title":"Imagen rutina 3",
+    "props":{
+      "desktopImage":"/arquivos/rutinas-3.png",
+      "mobileImage":"/arquivos/rutinas-3.png"
+    }
+  },
+  "link#showcase-1__link": {
+    "props": {
+      "href": "/",
+      "label": "Ver rutina",
+      "blockClass": ["showcase__link"]
+    }
+  },
+  "link#showcase-2__link": {
+    "props": {
+      "href": "/",
+      "label": "Ver rutina",
+      "blockClass": ["showcase__link"]
+    }
+  },
+  "link#showcase-3__link": {
+    "props": {
+      "href": "/",
+      "label": "Ver rutina",
+      "blockClass": ["showcase__link"]
     }
   }
 }

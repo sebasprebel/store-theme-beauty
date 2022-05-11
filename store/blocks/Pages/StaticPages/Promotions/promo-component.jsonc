@@ -1,0 +1,235 @@
+{
+  "container-layout#promotions__promotion-1-container":{
+    "title":"Contenedor promoción",
+    "children":[
+      "responsive-image#promotions__promo-1--image",
+      "container-layout#promotions-disclosure-1--container"
+    ],
+    "props":{
+      "blockClass":"promotion-container"
+    }
+  },
+  "responsive-image#promotions__promo-1--image":{
+    "props":{
+      "desktopImage":"/arquivos/banner-promociones-vigentes-desktop2.jpg",
+      "mobileImage":"/arquivos/banner-promociones-vigentes-mobile2.jpg",
+      "blockClass":"promotion-image"
+    }
+  },
+  "container-layout#promotions-disclosure-1--container":{
+    "title":"Contenedor discolusre promoción 1",
+    "children":[
+      "disclosure-layout#promo-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-promo"
+    }
+  },
+  "disclosure-layout#promo-1":{
+    "title": "Pestaña Promo 1",
+    "children": [
+      "disclosure-trigger#promo-1", 
+      "disclosure-content#promo-1"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#promo-1":{
+    "title": "Título promo 1",
+    "children":[
+      "rich-text#promo-1__title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#promo-1__title": {
+    "title":"Título",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "Ver términos y condiciones",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#promo-1":{
+    "title": "Contenido Promo 1",
+    "children":[
+      "rich-text#promo-1__content"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#promo-1__content": {
+    "title":"Texto Promo 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Descuento aplica exclusivo en la tienda online www.beautyholics.com. Válido del 20 de septiembre de 2021 al 31 de diciembre de 2022. 1. El descuento del valor de envío aplica por compras mayores a 120,000 pesos en las siguientes ciudades: MEDELLIN, SABANETA, BOGOTA, SAN FRANCISCO, ENVIGADO, PEREIRA, RIONEGRO, CALI, LA CEJA, BARRANQUILLA, BELLO, CARTAGENA, GIRARDOTA, FLORIDABLANCA, ITAGUI, JAMUNDI, CUCUTA, BUCARAMANGA, PASTO, TUNJA, MANIZALES, MOSQUERA, CALDAS, IBAGUE, NEIVA, PALMIRA, COTA, LA ESTRELLA, GUARNE, CHIA, SINCELEJO, COPACABANA, MARINILLA, FUNZA, VILLAMARIA, CHINCHINA, BARBOSA, SOLEDAD, EL RETIRO, DOSQUEBRADAS, TURBACO, LA UNION, GIRON, COROZAL, SANTUARIO, CARMEN DE VIBORAL, BOSCONIA, YUMBO, QUIBDO, LEBRIJA. El descuento se verá reflejado en el momento que selecciones el departamento y ciudad de destino para tu pedido. No aplica para envío rápido. No aplica para pedidos que incluyan productos de la marca Mind Naturals. No aplica en pedidos contra-entrega, en estos pedidos deberás pagar un valor de 3,500 pesos. No aplica para el envio express. No aplica para envío rápido. No aplica para pedidos que incluyan productos de las marcas Mind Naturals, Vibes, de Dermatologica, Dermavie, Avene, ISDIN, La Roche, Posay, Bioderma, Sesderma, Eucerin, Skinceuticals, Esthederm, Aderma, Uriage, Vichy, Isisphara, Cantabria, Ducray, Epidermique, Inbiotech, Medihealth, Noreva, Sensilis, Synbionyme.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  //////
+  "container-layout#promotions__promotion-2-container":{
+    "title":"Contenedor promoción",
+    "children":[
+      "responsive-image#promotions__promo-2--image",
+      "container-layout#promotions-disclosure-2--container"
+    ],
+    "props":{
+      "blockClass":"promotion-container"
+    }
+  },
+  "responsive-image#promotions__promo-2--image":{
+    "props":{
+      "desktopImage":"/arquivos/banner-promociones-vigentes-desktop2.jpg",
+      "mobileImage":"/arquivos/banner-promociones-vigentes-mobile2.jpg",
+      "blockClass":"promotion-image"
+    }
+  },
+  "container-layout#promotions-disclosure-2--container":{
+    "title":"Contenedor discolusre promoción 2",
+    "children":[
+      "disclosure-layout#promo-2"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-promo"
+    }
+  },
+  "disclosure-layout#promo-2":{
+    "title": "Pestaña Promo 2",
+    "children": [
+      "disclosure-trigger#promo-2", 
+      "disclosure-content#promo-2"
+    ],
+    "props":{
+      "initialVisibility":"hidden"
+    }
+  },
+  "disclosure-trigger#promo-2":{
+    "title": "Título promo 2",
+    "children":[
+      "rich-text#promo-2__title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#promo-2__title": {
+    "title":"Título",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "Ver términos y condiciones",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#promo-2":{
+    "title": "Contenido Promo 2",
+    "children":[
+      "rich-text#promo-2__content"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#promo-2__content": {
+    "title":"Texto Promo 2",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Descuento aplica exclusivo en la tienda online www.beautyholics.com. Válido del 07 de julio de 2021 al 31 de diciembre de 2022. En el mes de tu cumpleaños Beautyholics te regala el siguiente cupón BEAUTYBIRTHDAY y obtén el 20% en compras en www.beautyholics.com es exclusivo de uso único. No es acumulable con otras promociones y No aplica en la marca Moroccan Oil.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  ///
+  "container-layout#promotions__promotion-3-container":{
+    "title":"Contenedor promoción",
+    "children":[
+      "responsive-image#promotions__promo-3--image",
+      "container-layout#promotions-disclosure-3--container"
+    ],
+    "props":{
+      "blockClass":"promotion-container"
+    }
+  },
+  "responsive-image#promotions__promo-3--image":{
+    "props":{
+      "desktopImage":"/arquivos/banner-promociones-vigentes-desktop2.jpg",
+      "mobileImage":"/arquivos/banner-promociones-vigentes-mobile2.jpg",
+      "blockClass":"promotion-image"
+    }
+  },
+  "container-layout#promotions-disclosure-3--container":{
+    "title":"Contenedor discolusre promoción 3",
+    "children":[
+      "disclosure-layout#promo-3"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-promo"
+    }
+  },
+  "disclosure-layout#promo-3":{
+    "title": "Pestaña Promo 3",
+    "children": [
+      "disclosure-trigger#promo-3", 
+      "disclosure-content#promo-3"
+    ],
+    "props":{
+      "initialVisibility":"hidden"
+    }
+  },
+  "disclosure-trigger#promo-3":{
+    "title": "Título promo 3",
+    "children":[
+      "rich-text#promo-3__title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#promo-3__title": {
+    "title":"Título",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "Ver términos y condiciones",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#promo-3":{
+    "title": "Contenido Promo 3",
+    "children":[
+      "rich-text#promo-3__content"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#promo-3__content": {
+    "title":"Texto Promo 3",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Descuento aplica exclusivo en la tienda online www.beautyholics.com. Válido del 07 de julio de 2021 al 31 de diciembre de 2022. Te regalamos el siguiente cupón ***** y obtén el 10% Extra en compras en www.beautyholics.com es exclusivo de uso único. Promoción valida solo para marcas Beautyholics.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

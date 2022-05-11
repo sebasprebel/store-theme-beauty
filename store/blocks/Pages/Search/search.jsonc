@@ -101,5 +101,8 @@
     "props": {
       "showOrderTitle": false
     }
+  },
+  "search-not-found-layout":{
+    "children":["container-layout#not-found"]
   }
 }

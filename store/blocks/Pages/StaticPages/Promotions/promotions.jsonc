@@ -1,0 +1,30 @@
+{
+  "store.custom#promotions":{
+    "blocks": [
+      "container-layout#promotions__container"
+    ]
+  },
+  "container-layout#promotions__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#promotions__title",
+      "container-layout#promotions__promotion-1-container",
+      "container-layout#promotions__promotion-2-container",
+      "container-layout#promotions__promotion-3-container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#promotions__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Promociones vigentes",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

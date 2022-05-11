@@ -32,7 +32,9 @@
   "container-layout#footer-desktop__right":{
     "title":"Footer derecha - Desktop",
     "children":[
-      "container-layout#footer__menu"
+      "container-layout#footer__menu",
+      "container-layout#footer-mobile__socials",
+      "container-layout#footer__payments"
     ],
     "props":{
       "blockClass":"footer-desktop__right"

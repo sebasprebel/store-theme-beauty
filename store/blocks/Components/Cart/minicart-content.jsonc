@@ -35,7 +35,8 @@
     "children":[
       "container-layout#cart-list__product-intfo--product-name",
       "container-layout#minicart__detail-product-prices--container",
-      "container-layout#cart-list__product-intfo--product-quantity"
+      "container-layout#cart-list__product-intfo--product-quantity",
+      "seller-custom-cart"
     ],
     "props":{
       "classes":"flex flex-column",

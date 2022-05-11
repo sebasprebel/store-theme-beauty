@@ -14,7 +14,7 @@
     "props": {
       "blockClass": ["hunters-section__title"],
       "font": "t-body",
-      "text": "#### Cazador@s de ofertas",
+      "text": "## Cazador@s de ofertas",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"

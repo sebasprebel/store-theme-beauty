@@ -1,6 +1,9 @@
 .productImage{
   margin-bottom: 2rem;
 }
+.productNameContainer :global(.vtex-store-components-3-x-productBrand):first-child{
+  display: none ;
+}
 
 .swiperBullet{
   width: .6rem;

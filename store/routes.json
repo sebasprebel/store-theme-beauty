@@ -8,15 +8,39 @@
     "path": "/template-plp-seo"
   },
   "store.custom#terms-and-conditions":{
-    "title": "Términos y condiciones",
+    "title": "Términos y Condiciones",
     "path": "/terminos-y-condiciones"
   },
   "store.custom#privacy-policy":{
-    "title": "Política de privacidad",
+    "title": "Política de Privacidad",
     "path": "/politica-de-privacidad"
   },
   "store.custom#retraction":{
-    "title": "Derecho de retracto",
+    "title": "Derecho de Retracto",
     "path": "/derecho-de-retracto"
+  },
+  "store.custom#changes":{
+    "title": "Cambios y Devoluciones",
+    "path": "/cambios-y-devoluciones"
+  },
+  "store.custom#frequent-questions":{
+    "title": "Preguntas Frecuentes",
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#promotions":{
+    "title": "Promociones Vigentes",
+    "path": "/promociones"
+  },
+  "store.custom#contact":{
+    "title": "Contáctanos",
+    "path": "/contactanos"
+  },
+  "store.custom#reversion":{
+    "title": "Reversión de pago",
+    "path": "/reversion-de-pago"
+  },
+  "store.custom#who":{
+    "title": "Quiénes somos",
+    "path": "/quienes-somos"
   }
 }

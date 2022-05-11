@@ -3,7 +3,10 @@
     "children":[
       "sku-color",
       "container-layout#search-page__container--desktop-custom-search"
-    ]
+    ],
+    "props":{
+      "preventRouteChange": true
+    }
   },
   "container-layout#search-page__container--desktop-custom-search":{
     "title":"Contenedor página de búsqueda -- desktop",
@@ -21,7 +24,10 @@
     "children":[
       "sku-color",
       "container-layout#search-page__container-custom-search"
-    ]
+    ],
+    "props":{
+      "preventRouteChange": true
+    }
   },
   "container-layout#search-page__container-custom-search":{
     "title":"Contenedor página de búsqueda - Mobile",

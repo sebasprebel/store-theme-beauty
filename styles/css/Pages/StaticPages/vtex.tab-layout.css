@@ -1,0 +1,4 @@
+.listContainer--frequent-questions__tab--list{
+  justify-content:flex-start;
+  border-bottom: 1px solid var(--main-color);
+}

@@ -15,7 +15,7 @@
     "title": "Título productos recomendados",
     "props": {
       "blockClass": "shelf__title",
-      "text": "###### Completa tu compra",
+      "text": "## Completa tu compra",
       "font": "t-body",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

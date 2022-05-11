@@ -1,6 +1,6 @@
 {
   "container-layout#home__categories-bullets":{
-    "title":"Sección bullets de categorías",
+    "title":"Sección bullets de categorías - Mobile",
     "children":[
       "highlight-content#home__highlight-bullets"
     ],

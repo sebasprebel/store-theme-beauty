@@ -1,6 +1,6 @@
 {
   "container-layout#home__categories-bullets--desktop":{
-    "title":"Sección bullets de categorías",
+    "title":"Sección bullets de categorías - Desktop",
     "children":[
       "rich-text#home__categories-bullets--title",
       "highlight-content#home__highlight-bullets--desktop"
@@ -10,6 +10,7 @@
     }
   },
   "rich-text#home__categories-bullets--title": {
+    "title":"Título bullets de categorías",
     "props": {
       "blockClass": ["shelf__title", "home__categories-bullets--title"],
       "font": "t-body",
@@ -38,32 +39,38 @@
         {
           "text": "Maquillaje",
           "link": "/salud-belleza/maquillaje",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#97DDD7"
         },
         {
           "text": "Cuidado del cabello",
           "link": "/salud-belleza/cuidado-cabello",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#F1ADBE"
         },
         { 
           "text": "Cuidado personal",
           "link": "/salud-belleza/cuidado-personal",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#A9B3FF"
         },
         {  
           "text": "Protección solar",
           "link": "/salud-belleza/proteccion-solar",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#FFF8A9"
         },
         {
           "text": "Cuidado facial",
           "link": "/salud-belleza/cuidado-facial",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#FFA9BE"
         },
         {
           "text": "Hogar",
           "link": "/salud-belleza/hogar",
-          "image":"/arquivos/maquillaje.png"
+          "image":"/arquivos/maquillaje.png",
+          "backgroundColor":"#D3EDF0"
         }
       ]
     }

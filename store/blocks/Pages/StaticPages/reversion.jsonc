@@ -1,0 +1,46 @@
+{
+  "store.custom#reversion":{
+    "blocks": [
+      "container-layout#reversion__container"
+    ]
+  },
+  "container-layout#reversion__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#reversion__title",
+      "container-layout#reversion__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#reversion__title": {
+    "title":"Reversión de pago",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Reversión de pago",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#reversion__content--container":{
+    "title":"Contenedor contenido",
+    "children":[
+      "rich-text#reversion__reversion-text"
+    ]
+  },
+
+  "rich-text#reversion__reversion-text": {
+    "title": "Contenido derecho de retracto",
+    "props": {
+      "blockClass": ["item-mb", "title-mb"],
+      "font": "t-body",
+      "text": "##### ¿Qué es el derecho a la Reversión del Pago?\n\n\n Es un mecanismo legal que protege los derechos de los consumidores o clientes que compran productos o servicios a través de comercio electrónico y canales no presenciales, permitiéndoles solicitar el reembolso de lo pagado, a cambio de la devolución del producto comprado (cuando aplique), siempre que se presente 1 de los 5 casos que mencionamos más adelante y se cumplan algunos requisitos.\n\n\n ##### ¿En qué casos procede la Reversión del Pago?\n- **1.** Cuando el producto comprado no se te haya entregado en la fecha programada de entrega que seleccionaste al realizar tu compra.\n\n\n- **2.** Cuando el producto entregado no corresponda al que compraste, no cumpla con las características atribuidas por la información que te suministramos sobre éste o las que son propias del mismo.\n\n\n- **3.** Cuando el producto entregado se encuentre defectuoso.\n\n\n- **4.** Cuando hayas sufrido un fraude.\n\n\n- **5.** Cuando el cargo o pago por los productos corresponda a una operación que no hayas solicitado.\n\n\n ##### ¿Cuáles son los requisitos para que proceda la Reversión del Pago?\n- **1.**  Que la compra la hayas realizado por un canal de venta no presencial (Beautyholics.com).\n\n\n- **2.** La compra la debes haber pagado utilizando tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico.\n\n\n- **3.** Presentar la Solicitud de Reversión oportunamente. Es decir, dentro de los cinco (5) días hábiles siguientes a:\n\n\n- **a.** La fecha en que la que debes recibir tu producto, de acuerdo con la fecha programada de entrega que seleccionó al realizar su compra, ante cualquier novedad en la entrega.\n\n\n- **b.** La fecha en que el cliente recibió un producto de BEAUTYHOLICS que resultó defectuoso o que no correspondía al que compró.\n\n\n- **c.** La fecha en la que te enteraste de que fuiste víctima de una operación fraudulenta o un pago que no solicitaste.\n\n\n- **4.** La solicitud de Reversión de Pago la puede realizar el titular de compra o el titular del medio de pago a través de nuestros canales de atención aquí.\n\n\n ##### ¿Se puede solicitar una Reversión Parcial?\n Claro, cuando un cliente compra varios productos en una misma orden y a uno o varios de ellos les aplica cualquiera de los casos mencionados anteriormente, puede solicitar la Reversión parcial.\n\n\n ##### ¿Cuál es la consecuencia de una Reversión de Pago injustificada?\n Existe la posibilidad de cargar definitivamente la transacción reclamada, cuando medie una decisión administrativa o jurisdiccional en contra del consumidor que ordenó injustificadamente la Reversión del Pago.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

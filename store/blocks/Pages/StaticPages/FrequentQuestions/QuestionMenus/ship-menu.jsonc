@@ -1,0 +1,249 @@
+{
+  "container-layout#frequent-questions__ship-questions":{
+    "title":"Contenedor preguntas frecuentes compras",
+    "children":[
+      "container-layout#frequent-questions-ship__question-1",
+      "container-layout#frequent-questions-ship__question-2",
+      "container-layout#frequent-questions-ship__question-3",
+      "container-layout#frequent-questions-ship__question-4"
+    ],
+    "props":{
+      "blockClass":["product-page__tabs--container", "wrapper"]
+    }
+  },
+  "container-layout#frequent-questions-ship__question-1":{
+    "title":"Contenedor pregunta 1",
+    "children":[
+      "disclosure-layout#frequent-questions-ship__question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-ship__question-2":{
+    "title":"Contenedor pregunta 2",
+    "children":[
+      "disclosure-layout#frequent-questions-ship__question-2"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-ship__question-3":{
+    "title":"Contenedor pregunta 3",
+    "children":[
+      "disclosure-layout#frequent-questions-ship__question-3"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-ship__question-4":{
+    "title":"Contenedor pregunta 4",
+    "children":[
+      "disclosure-layout#frequent-questions-ship__question-4"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "disclosure-layout#frequent-questions-ship__question-1":{
+    "title": "Pestaña pregunta 1",
+    "children": [
+      "disclosure-trigger#frequent-questions-ship__question-1", 
+      "disclosure-content#frequent-questions-ship__question-1"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#frequent-questions-ship__question-1":{
+    "title": "Título pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-ship__question-1--title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#frequent-questions-ship__question-1--title": {
+    "title":"Título pregunta",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "¿Cómo puedo hacer un seguimiento de mi pedido?",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#frequent-questions-ship__question-1":{
+    "title": "Contenido pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-ship__content-question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#frequent-questions-ship__content-question-1": {
+    "title":"Contenido pregunta 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Para realizar un seguimiento de tu pedido, debes ingresar a beautyholics.com e iniciar sesión. Posteriormente accede a la opción &quot;mis pedidos&quot; y luego &quot;ver estado del pedido&quot;.\n\n\n La empresa responsable de realizar los envíos de beautyholics.com es Envía Colvanes. Una vez hayas recibido el correo electrónico que te informa que tu pedido ya ha sido facturado y entregado a la transportadora, puedes rastrearlo con tu número de guía a través de http://www.enviacolvanes.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+"disclosure-layout#frequent-questions-ship__question-2":{
+  "title": "Pestaña aprende a usarlo",
+  "children": [
+    "disclosure-trigger#frequent-questions-ship__question-2", 
+    "disclosure-content#frequent-questions-ship__question-2"
+  ]
+},
+"disclosure-trigger#frequent-questions-ship__question-2":{
+  "title": "Título pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-2--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-ship__content-question-2--title": {
+  "title": "Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿En cuántos días recibo mi pedido?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-ship__question-2":{
+  "title": "Contenido pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-2"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+"rich-text#frequent-questions-ship__content-question-2": {
+  "title":"Contenido pregunta 2",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Usualmente los pedidos son entregados a la transportadora unas 36 horas posteriores hábiles después de confirmado tu pago o antes. Una vez tu pedido es entregado al operador logístico, lo recibirás en un plazo entre 2 y 10 días hábiles.\n\n\n Para los pedidos con pago contra entrega, el tiempo comenzará a contar a partir de la confirmación telefónica.\n\n\n *Los pedidos que realices durante eventos nacionales como Cyberlunes, Black Friday o HOTSALE, podrán tener tiempos de entrega más amplios. Podrás verificar los días de entrega al momento de hacer tu compra.\n\n\n ENVÍA como operador logístico, realizará máximo dos (2) intentos de entrega de los pedidos que hayas realizado. En caso de que los intentos de entrega sean insatisfactorios, retornarán los pedidos al centro de distribución y se procederemos a la devolución de tu dinero, salvo el valor del envío, sin ningún tipo de interés, retribución o suma adicional y sin importar la causa u origen que pueda tener la devolución, de acuerdo a los tiempos establecidos. \n\n\n Los días de entrega son contados en días hábiles, que corresponden a lunes a viernes. Los sábados y domingo NO cuentan cómo días hábiles, como tampoco los días festivos. Para los pedidos que se realicen los sábados, domingos o festivos, el tiempo de entrega comenzará a regir desde el siguiente día hábil.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+
+"disclosure-layout#frequent-questions-ship__question-3":{
+  "title": "Pestaña comentarios",
+  "children": [
+    "disclosure-trigger#frequent-questions-ship__content-question-3", 
+    "disclosure-content#frequent-questions-ship__content-question-3"
+  ]
+},
+"disclosure-trigger#frequent-questions-ship__content-question-3":{
+  "title": "Título pregunta 3",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-3--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-ship__content-question-3--title": {
+  "title": "Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Qué sucede si quiero cambiar la dirección de entrega o cometí un error ingresando los datos de mi compra?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-ship__content-question-3":{
+  "title": "Contenido pregunta 3",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-3"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-ship__content-question-3": {
+  "title":"Contenido pregunta 3",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Debes comunicarte con nosotros a través de nuestra línea de Servicio al Cliente [018000914990](tel:018000914990) en el horario de lunes a viernes de 8:00 am - 6:00 pm o a través de nuestro correo electrónico servicio.cliente@prebel.com.co.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+///
+"disclosure-layout#frequent-questions-ship__question-4":{
+  "title": "Pestaña comentarios",
+  "children": [
+    "disclosure-trigger#frequent-questions-ship__content-question-4", 
+    "disclosure-content#frequent-questions-ship__content-question-4"
+  ]
+},
+"disclosure-trigger#frequent-questions-ship__content-question-4":{
+  "title": "Título pregunta 4",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-4--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-ship__content-question-4--title": {
+  "title": "Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Qué hago si no estuve en el momento de la entrega?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-ship__content-question-4":{
+  "title": "Contenido pregunta 4",
+  "children":[
+    "rich-text#frequent-questions-ship__content-question-4"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-ship__content-question-4": {
+  "title":"Contenido pregunta 4",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "En este caso la transportadora podrá dejarlo con cualquier persona mayor de edad que se encuentre en el domicilio registrado o en la portería de tu unidad residencial. Si no hay nadie para recibir el pedido, se realizará un nuevo intento de entrega al siguiente día hábil. Nuestro operador logístico Envía, realizará 2 intentos de entrega antes de ser devuelto a nuestras bodegas.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+}
+}

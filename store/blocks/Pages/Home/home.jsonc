@@ -8,18 +8,10 @@
       "container-layout#home__brands-slider--container",
       "container-layout#offers-hunters-section",
       "container-layout#new-products-shelf--container",
-      // "container-layout#showcases--container",
+      "container-layout#showcases--container",
       "container-layout#home__slogan-slider--container",
+      "container-layout#value-proposition__container",
       "container-layout#drop-down__container"
     ]
-  },
-  "rich-text#test": { 
-    "props": { 
-      "text": "Prueabita de las fuentes",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1",
-      "blockClass":"test"
-    }
   }
 }

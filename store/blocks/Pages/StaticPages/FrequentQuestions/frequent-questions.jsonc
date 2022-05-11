@@ -1,0 +1,44 @@
+{
+  "store.custom#frequent-questions":{
+    "blocks": [
+      "container-layout#frequent-questions__banner-container",
+      "container-layout#frequent-questions__container"
+    ]
+  },
+  "container-layout#frequent-questions__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#frequent-questions__header-text",
+      "container-layout#frequent-questions__tabs--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "container-layout#frequent-questions__banner-container":{
+    "title":"Contenedor banner",
+    "children":[
+      "responsive-image#frequent-questions__banner-image"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  },
+  "responsive-image#frequent-questions__banner-image":{
+    "props":{
+      "desktopImage":"/arquivos/banner-preguntas-frecuentes-desktop2.jpg",
+      "mobileImage":"/arquivos/banner-preguntas-frecuentes-mobile2.jpg"
+    }
+  },
+  "rich-text#frequent-questions__header-text": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__header-text"],
+      "font": "t-body",
+      "text": "# Preguntas frecuentes\n\n\n En Beautyholics queremos ayudarte en el proceso de tu compra, es por eso que acá encuentras una serie de preguntas frecuentes que pueden resolver tus dudas.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

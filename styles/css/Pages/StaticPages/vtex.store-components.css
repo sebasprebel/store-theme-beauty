@@ -1,0 +1,14 @@
+.imageElement--who-image{
+  position: absolute;
+  top: -270px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+@media (min-width: 1025px){
+  .imageElement--who-image{
+    top: -270px;
+    right: 3rem;
+    transform: none;
+  }
+}

@@ -1,0 +1,19 @@
+.containerLayout--socials-icons__container{
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.containerLayout--payment-methods__container{
+  display: flex;
+  margin-top: 2rem;
+  background-color:var(--white);
+  width: fit-content;
+  padding: .2rem;
+}
+
+@media (min-width:1025px){
+  .containerLayout--container-socials,
+  .containerLayout--payment-methods__container{
+    margin-left: 1.5rem;
+  }
+}

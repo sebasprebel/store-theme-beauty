@@ -1,0 +1,128 @@
+{
+  "container-layout#frequent-questions__changes-questions":{
+    "title":"Contenedor preguntas frecuentes compras",
+    "children":[
+      "container-layout#frequent-questions-changes__question-1",
+      "container-layout#frequent-questions-changes__question-2"
+    ],
+    "props":{
+      "blockClass":["product-page__tabs--container", "wrapper"]
+    }
+  },
+  "container-layout#frequent-questions-changes__question-1":{
+    "title":"Contenedor pregunta 1",
+    "children":[
+      "disclosure-layout#frequent-questions-changes__question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-changes__question-2":{
+    "title":"Contenedor pregunta 2",
+    "children":[
+      "disclosure-layout#frequent-questions-changes__question-2"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "disclosure-layout#frequent-questions-changes__question-1":{
+    "title": "Pestaña pregunta 1",
+    "children": [
+      "disclosure-trigger#frequent-questions-changes__question-1", 
+      "disclosure-content#frequent-questions-changes__question-1"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#frequent-questions-changes__question-1":{
+    "title": "Título pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-changes__question-1--title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#frequent-questions-changes__question-1--title": {
+    "title":"Título",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "¿Cómo puedo devolver un producto?",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#frequent-questions-changes__question-1":{
+    "title": "Contenido pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-changes__content-question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#frequent-questions-changes__content-question-1": {
+    "title":"Contenido pregunta 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Una vez entregado el pedido en tu dirección tendrás hasta 5 días hábiles para realizar la petición de retracto. Para realizar la devolución el producto debe encontrarse en el empaque original, sin manipulación y sin haber realizado apertura de éste.\n\n\n Para realizar una devolución deberás comunicarte con nosotros a través de nuestra línea de Servicio al Cliente [018000914990](tel:018000914990) en el horario de lunes a viernes de 8:00 am - 6:00 pm o a través de nuestro correo electrónico servicio.cliente@prebel.com.co.\n\n\n Las devoluciones no tienen ningún costo y nosotros recogeremos el producto en tu domicilio y te realizaremos el desembolso en el medio de pago que utilizaste cuando realizaste la compra. En caso de que hayas realizado el pago en efectivo deberás darnos una cuenta bancaria para realizarte la consignación del dinero correspondiente a tu pedido sin el costo de envío.\n\n\n En caso de que solicites una segunda devolución del mismo pedido beautyholics.com se reserva el derecho de aceptar o rechazar la segunda solicitud.\n\n\n **Derecho de Retracto:** De acuerdo con el [derecho de retracto](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=44306) consagrado por la ley 1480 art. 47, el término máximo para ejercer el derecho de retracto es de cinco (5) días hábiles contados a partir de la entrega del bien en el domicilio registrado al momento de la compra.\n\n\n La devolución del dinero en ejercicio del Derecho de Retracto se realizará a más tardar a los treinta (16) días calendario contados desde el momento que el producto retorna a nuestra bodega para el caso de Tarjeta de crédito, para débito serán 4 días hábiles.\n\n\n Puedes consultar las políticas de cambios y devoluciones ingresando en el siguiente enlace [CLIC AQUÍ](/cambios-y-devoluciones)\n\n\n ##### Devolución o cambio por calidad:\n De conformidad con lo establecido en el Estatuto del Consumidor colombiano, beautyholics.com procederá a aceptar los cambios y devoluciones de los productos adquiridos que resultaren defectuosos y/o cuya deficiencia en su calidad no sea apto para el uso al cual está destinado, de acuerdo con los parámetros de las garantías conferidas por el respectivo productor. Para más información sobre políticas de calidad haz clic aquí. Prebel S.A. tendrá 15 días hábiles para realizar los cambios y/o devoluciones, los cuales se contarán a partir del momento en que el Cliente presente su reclamación. En los anteriores eventos, los gastos de envío serán asumidos por Prebel S.A.\n\n\n Para reclamaciones por garantía, cambio y/o devolución debes comunicarte con nosotros a través de nuestra línea de Servicio al Cliente 018000914990 en el horario de lunes a viernes de 8:00 am - 6:00 pm o a través de nuestro correo electrónico servicio.cliente@prebel.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+"disclosure-layout#frequent-questions-changes__question-2":{
+  "title": "Pestaña aprende a usarlo",
+  "children": [
+    "disclosure-trigger#frequent-questions-changes__question-2", 
+    "disclosure-content#frequent-questions-changes__question-2"
+  ]
+},
+"disclosure-trigger#frequent-questions-changes__question-2":{
+  "title": "Título pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-changes__content-question-2--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-changes__content-question-2--title": {
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cómo cambiar un producto?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-changes__question-2":{
+  "title": "Contenido pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-changes__content-question-2"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+"rich-text#frequent-questions-changes__content-question-2": {
+  "title":"Contenido pregunta 2",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Una vez entregado el pedido en tu dirección tendrás hasta 15 días calendario para realizar la petición de cambio. Para realizar el cambio el producto debe encontrarse en el empaque original, sin manipulación y sin haber realizado apertura de éste.\n\n\n Para realizar un cambio deberás comunicarte con nosotros a través de nuestra línea de Servicio al Cliente [018000914990](tel:018000914990) en el horario de lunes a viernes de 8:00 am - 6:00 pm o a través de nuestro correo electrónico servicio.cliente@prebel.com.co.\n\n\n Los cambios no tienen ningún costo y nosotros recogeremos el producto en tu domicilio, una vez llegue a nuestra bodega te daremos un bono para que redimas por un producto del mismo valor o menor cuantía, en caso de que el valor del producto supere el valor de tu compra inicial deberás realizar el pago con el método que desees.\n\n\n Consulta nuestra política de cambios y devoluciones ingresando al siguiente enlace [Clic aquí](/cambios-y-devoluciones).",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+}
+}

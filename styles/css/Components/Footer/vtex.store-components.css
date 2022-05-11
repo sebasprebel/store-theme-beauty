@@ -3,3 +3,18 @@
   left: -10px;
   margin-bottom: .3rem;
 }
+.imageElementLink--soicla-icon{
+  background: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  padding: .4rem;
+}
+
+.imageElementLink--soicla-icon:hover{
+  background: var(--main-color);
+}
+.imageElement--payment-icon{
+  width:35px;
+}

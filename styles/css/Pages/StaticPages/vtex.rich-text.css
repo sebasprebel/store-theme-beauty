@@ -24,7 +24,40 @@
 }
 
 
-
 .paragraph--item-mb{
   margin-bottom: 1.3rem;
+}
+.paragraph--who__middle-text{
+  color: var(--white);
+}
+
+.heading--title-mb{
+  margin-bottom: 1rem;
+}
+
+.listItem--list{
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+.container--static-page__header-text{
+  margin-bottom: 2rem;
+}
+
+.heading--static-page__header-text{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.heading--who-title{
+  margin-bottom: 3rem;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 1025px){
+  .container--who-text{
+    width: 70%;
+  }
+  .heading--who-title{
+    padding-inline: 4rem;
+  }
 }

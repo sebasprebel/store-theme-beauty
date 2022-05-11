@@ -1,0 +1,604 @@
+{
+  "container-layout#frequent-questions__shopping-questions":{
+    "title":"Contenedor preguntas frecuentes compras",
+    "children":[
+      "container-layout#frequent-questions-shopping__question-1",
+      "container-layout#frequent-questions-shopping__question-2",
+      "container-layout#frequent-questions-shopping__question-3",
+      "container-layout#frequent-questions-shopping__question-4",
+      "container-layout#frequent-questions-shopping__question-5",
+      "container-layout#frequent-questions-shopping__question-6",
+      "container-layout#frequent-questions-shopping__question-7",
+      "container-layout#frequent-questions-shopping__question-8",
+      "container-layout#frequent-questions-shopping__question-9",
+      "container-layout#frequent-questions-shopping__question-10"
+    ],
+    "props":{
+      "blockClass":["product-page__tabs--container"]
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-1":{
+    "title":"Contenedor pregunta 1",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-2":{
+    "title":"Contenedor pregunta 2",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-2"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-3":{
+    "title":"Contenedor pregunta 3",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-3"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-4":{
+    "title":"Contenedor pregunta 4",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-4"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-5":{
+    "title":"Contenedor pregunta 5",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-5"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-6":{
+    "title":"Contenedor pregunta 6",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-6"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-7":{
+    "title":"Contenedor pregunta 7",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-7"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-8":{
+    "title":"Contenedor pregunta 8",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-8"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-9":{
+    "title":"Contenedor pregunta 9",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-9"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "container-layout#frequent-questions-shopping__question-10":{
+    "title":"Contenedor pregunta 10",
+    "children":[
+      "disclosure-layout#frequent-questions-shopping__question-10"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--container-wop"
+    }
+  },
+  "disclosure-layout#frequent-questions-shopping__question-1":{
+    "title": "Pestaña pregunta 1",
+    "children": [
+      "disclosure-trigger#frequent-questions-shopping__question-1", 
+      "disclosure-content#frequent-questions-shopping__question-1"
+    ],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#frequent-questions-shopping__question-1":{
+    "title": "Título pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-shopping__question-1--title",
+      "disclosure-state-indicator"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--trigger"
+    }
+  },
+  "rich-text#frequent-questions-shopping__question-1--title": {
+    "title":"Título pregunta",
+    "props": {
+      "blockClass": ["tab-title"],
+      "font": "t-body",
+      "text": "**¿Cómo comprar en Beautyholics.com?**",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "disclosure-content#frequent-questions-shopping__question-1":{
+    "title": "Contenido pregunta 1",
+    "children":[
+      "rich-text#frequent-questions-shopping__content-question-1"
+    ],
+    "props":{
+      "blockClass":"product-page__tab--content"
+    }
+  },
+  "rich-text#frequent-questions-shopping__content-question-1": {
+    "title":"Contenido pregunta 1",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "Comprar en beautyholics es muy fácil, sigue los siguientes pasos:\n\n\n- **1.** Para buscar el producto que quieres comprar puedes navegar a través de las categorías en nuestro menú, utilizar la barra de búsqueda. Cuando encuentres el producto que deseas, selecciona el color (aplica para los productos de maquillaje) y adiciónalo a tu bolsa de compras haciendo clic en el botón AGREGAR A LA BOLSA.\n\n\n- **2.** Una vez hayas agregado el producto puedes seguir navegando y agregando a la bolsa los productos que quieras.\n\n\n- **3.** Cuando hayas agregado todos los productos que quieres comprar, ubica tu bolsa de compras que se encuentra en la zona superior derecha y dale clic.\n\n\n- **4.** Allí se desplegará el resumen de tu pedido, verifica los productos que tienes en tu bolsa y haz clic en FINALIZAR COMPRA.\n\n\n- **5.** Ingresarás al primer paso del checkout, donde verás el resumen de tu pedido. Dale clic en botón continuar.\n\n\n- **6.** Ingresa tu e-mail para identificarte.\n\n\n- **7.** Diligencia y verifica tus datos personales y datos de entrega.\n\n\n- **8.** Elige el medio de pago que desees: Puedes elegir Tarjeta de Crédito, PSE (Tarjeta Débito; cuenta de ahorros o cuenta corriente) Efectivo a través de Efecty, Baloto o Pago en Banco, Codensa o Pago Contraentrega.\n\n\n- **9.** Una vez hayas culminado el ingreso de datos dale clic en el botón FINALIZAR COMPRA.\n\n\n- **10.** Verifica el mensaje de confirmación de tu compra y espera el correo de confirmación.\n\n\n- **11.** Recibe tu pedido en la puerta de tu casa u oficina.\n\n\n Si tienes alguna duda del proceso de compra, puedes comunicarte con nosotros a través de nuestra línea de Servicio al Cliente [018000914990](tel:018000914990) en el horario de lunes a viernes de 8:00 am - 6:00 pm o a través de nuestro mail servicio.cliente@prebel.com.co.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+"disclosure-layout#frequent-questions-shopping__question-2":{
+  "title": "Pestaña pregunta 2",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__question-2", 
+    "disclosure-content#frequent-questions-shopping__question-2"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__question-2":{
+  "title": "Título pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-2--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-2--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cuáles son los medios de pago que puedo utilizar en la tienda online?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__question-2":{
+  "title": "Contenido pregunta 2",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-2"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-2": {
+  "title":"Contenido pregunta 2",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "En beautyholics.com puedes pagar con Tarjeta de Crédito, Tarjeta debito (PSE), Tarjeta Codensa, Efectivo a través de Baloto, Efecty o Pago en Banco y/o Pago contraentrega, éste último lo pagas en efectivo en el momento que recibas tu producto.\n\n\n *Controlamos todos los pedidos realizados con el objetivo de evitar prácticas abusivas y compras fraudulentas. Nos reservamos el derecho a no efectuar una entrega o de procesar el pedido de un cliente que no hubiera abonado total o parcialmente un pedido anterior o en el que exista algún litigio con el titular de la Tarjeta de Crédito o Tarjeta Débito.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+
+"disclosure-layout#frequent-questions-shopping__question-3":{
+  "title": "Pestaña pregunta 3",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-3", 
+    "disclosure-content#frequent-questions-shopping__content-question-3"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-3":{
+  "title": "Título pregunta 3",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-3--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-3--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Qué debo hacer para comprar con Pago Contra Entrega?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-3":{
+  "title": "Contenido pregunta 3",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-3"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-3": {
+  "title":"Contenido pregunta 3",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Al momento de ingresar tu dirección de entrega, nosotros validaremos en línea si la zona donde deseas que llegue tu pedido tiene habilitado este servicio, de ser así, se habilitará la pestaña &quot;Pago Contraentrega&quot;, deberás seleccionarla. Es muy importante que valides que el correo y el teléfono estén bien diligenciados, ya que te contactaremos por este medio para confirmarte el día de la entrega del pedido.\n\n\n Uno de nuestros agentes te realizará una llamada para confirmar tu dirección y validar que todos los datos que ingresaste estén correctos. Si no contestas en la primera llamada, se te repetirá nuevamente en un horario diferente. Si en la segunda llamada no contestas, el sistema anulará el pedido automáticamente.\n\n\n El tiempo de entrega comenzará a correr después de la validación de tus datos.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-4":{
+  "title": "Pestaña pregunta 4",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-4", 
+    "disclosure-content#frequent-questions-shopping__content-question-4"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-4":{
+  "title": "Título pregunta 4",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-4--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-4--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cómo puedo comprar con Baloto?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-4":{
+  "title": "Contenido pregunta 4",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-4"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-4": {
+  "title":"Contenido pregunta 4",
+  "props": {
+    "blockClass": ["item-mb", "list"],
+    "font": "t-body",
+    "text": "* Debes realizar tu pedido normalmente y seleccionar en el medio de pago la opción Efectivo Baloto.\n* Te llegará un mail con un número de referencia de pago, este lo deberás dar posteriormente en el punto de pago de Baloto.\n* Tienes un plazo para realizar el pago de 48 horas, de lo contrario, el pedido será cancelado automáticamente.\n* Puedes hacer la consulta de tu punto Baloto más cercano dando [clic aquí](https://www.baloto.com/puntosvia).\n* Una vez realizado el pago te llegará un correo con la confirmación de tu pedido, en ese momento comenzará a contar nuestra promesa de entrega.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+
+"disclosure-layout#frequent-questions-shopping__question-5":{
+  "title": "Pestaña pregunta 5",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-5", 
+    "disclosure-content#frequent-questions-shopping__content-question-5"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-5":{
+  "title": "Título pregunta 5",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-5--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-5--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": " ¿Cómo puedo comprar con Efecty?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-5":{
+  "title": "Contenido pregunta 5",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-5"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-5": {
+  "title":"Contenido pregunta 5",
+  "props": {
+    "blockClass": ["item-mb", "list"],
+    "font": "t-body",
+    "text": "* Debes realizar tu pedido normalmente y seleccionar en el medio de pago la opción Efectivo Efecty.\n* Te llegará un mail con un número de referencia de pago, este lo deberás dar posteriormente en el punto de pago de Efecty.\n* Tienes un plazo para realizar el pago de 48 horas, de lo contrario, el pedido será cancelado automáticamente.\n* Puedes hacer la consulta de tu punto Efecty más cercano dando [clic aquí](https://www.efecty.com.co/web/puntos-de-atencion).\n* Una vez realizado el pago te llegará un correo con la confirmación de tu pedido, en ese momento comenzará a contar nuestra promesa de entrega.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-6":{
+  "title": "Pestaña pregunta 6",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-6", 
+    "disclosure-content#frequent-questions-shopping__content-question-6"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-6":{
+  "title": "Título pregunta 6",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-6--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-6--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cómo puedo comprar con Tarjeta de Crédito?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-6":{
+  "title": "Contenido pregunta 6",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-6"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-6": {
+  "title":"Contenido pregunta 6",
+  "props": {
+    "blockClass": ["item-mb", "list"],
+    "font": "t-body",
+    "text": "Debes tener la tarjeta de crédito autorizada por tu banco para compras por Internet, para esto debes comunicarte con ellos.\n* Debes verificar y digitar correctamente los datos de la tarjeta: franquicia, fecha de expiración y campo de código de seguridad.\n* Valida el valor que deseas comprar con el cupo o fondo de tu tarjeta de crédito.\n\n\n Nuestra pasarela de pagos (PAY U) realizará un proceso de validación de veracidad de compra y tarjeta con el banco, los tiempos varían dependiendo de cada entidad bancaria, en este caso, el tiempo de aprobación podrá tardar hasta 4 horas. Estas validaciones y aprobaciones se salen completamente de nuestra responsabilidad. El tiempo de entrega comenzará a correr una vez tu banco apruebe el pago.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-7":{
+  "title": "Pestaña pregunta 7",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-7", 
+    "disclosure-content#frequent-questions-shopping__content-question-7"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-7":{
+  "title": "Título pregunta 7",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-7--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-7--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cómo puedo usar un cupón de descuento?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-7":{
+  "title": "Contenido pregunta 7",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-7"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-7": {
+  "title":"Contenido pregunta 7",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "El cupón debe hacerse efectivo cuando estés en el primer paso del checkout (Resumen de compra) o en el momento que estás ingresando tus datos personales (Información personal), para ingresarlo debes seleccionar la opción “Agregar cupón de descuento”. Ingresa el código del cupón de descuento en la casilla correspondiente y haz clic en agregar. Si tu cupón es aprobado por el sistema, de inmediato el valor de tu cuenta se reajustará para que puedas proceder a pagar el valor restante eligiendo un medio de pago.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-8":{
+  "title": "Pestaña pregunta 8",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-8", 
+    "disclosure-content#frequent-questions-shopping__content-question-8"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-8":{
+  "title": "Título pregunta 8",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-8--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-8--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Puedo utilizar varios medios de pago a la vez en beautyholics.com?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-8":{
+  "title": "Contenido pregunta 8",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-8"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-8": {
+  "title":"Contenido pregunta 8",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Tenemos habilitado el pago con 2 tarjetas de crédito diferentes, o utilizar un vale o bono y pagar el excedente a través de tarjeta de crédito o botón PSE. Sin embargo, no puedes utilizar otros dos medios de pago para una misma compra (Ejemplo: tarjeta de crédito y PSE o tarjeta de crédito y Baloto).",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-9":{
+  "title": "Pestaña pregunta 9",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-9", 
+    "disclosure-content#frequent-questions-shopping__content-question-9"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-9":{
+  "title": "Título pregunta 9",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-9--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-9--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Es seguro comprar en Beautyholics.com?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-9":{
+  "title": "Contenido pregunta 9",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-9"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-9": {
+  "title":"Contenido pregunta 9",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Comprar en beautyholics.com es 100% seguro. Nuestra plataforma tecnológica de comercio electrónico VTEX y nuestro aliado de pagos PAYU LATAM, cuentan con la certificación PCI DSS para el manejo seguro de la información de tarjetas de crédito.\n\n\n Sumado a esto tus datos están seguros con nosotros, puedes consultar nuestra política de privacidad y el manejo de tus datos personales. Consúltalos en [“Políticas de privacidad y tratamiento de datos”](/politica-de-privacidad).",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-layout#frequent-questions-shopping__question-10":{
+  "title": "Pestaña pregunta 10",
+  "children": [
+    "disclosure-trigger#frequent-questions-shopping__content-question-10", 
+    "disclosure-content#frequent-questions-shopping__content-question-10"
+  ]
+},
+"disclosure-trigger#frequent-questions-shopping__content-question-10":{
+  "title": "Título pregunta 10",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-10--title",
+    "disclosure-state-indicator"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--trigger"
+  }
+},
+"rich-text#frequent-questions-shopping__content-question-10--title": {
+  "title":"Título pregunta",
+  "props": {
+    "blockClass": ["tab-title"],
+    "font": "t-body",
+    "text": "¿Cómo conocer las noticias, lanzamientos de productos y ofertas especiales de beautyholics.com y tiendas Beautyholics?",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+},
+"disclosure-content#frequent-questions-shopping__content-question-10":{
+  "title": "Contenido pregunta 10",
+  "children":[
+    "rich-text#frequent-questions-shopping__content-question-10"
+  ],
+  "props":{
+    "blockClass":"product-page__tab--content"
+  }
+},
+
+"rich-text#frequent-questions-shopping__content-question-10": {
+  "title":"Contenido pregunta 10",
+  "props": {
+    "blockClass": ["item-mb"],
+    "font": "t-body",
+    "text": "Debes suscribirte a nuestra base de datos para mantenerte enterado de nuestros eventos, lanzamientos, descuentos y novedades. En la parte inferior de la página se encuentra el formulario de suscripción.\n\n\n También puedes encontrar toda la información en nuestro sitio web www.beautyholics.com y en nuestras redes sociales: https://www.facebook.com/beautyholicsmarket o https://www.instagram.com/beautyholicsmarket.",
+    "textAlignment": "LEFT",
+    "textColor": "c-on-base",
+    "textPosition": "LEFT"
+  }
+}
+
+}

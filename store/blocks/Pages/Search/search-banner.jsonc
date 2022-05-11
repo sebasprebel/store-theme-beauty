@@ -15,8 +15,8 @@
     "props": {
       "images": [
         {
-          "image": "/arquivos/banner-home-test.jpg",
-          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+          "image": "/arquivos/banner-landing-desktop-maquillaje.png",
+          "mobileImage": "/arquivos/banner-landing-mobile-maquillaje.png",
           "link": {
             "url": "/",
             "openNewTab": false,

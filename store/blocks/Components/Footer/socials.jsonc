@@ -1,0 +1,78 @@
+{
+  "container-layout#footer-mobile__socials":{
+    "title":"Contenedor redes sociales",
+    "children":[
+      "rich-text#footer-mobile__socials-title",
+      "container-layout#socials-icons__container"
+    ],
+    "props":{
+      "blockClass":"container-socials"
+    }
+  },
+  "rich-text#footer-mobile__socials-title": {
+    "props": {
+      "blockClass": ["footer-mobile__socials-title"],
+      "font": "t-body",
+      "text": "Síguenos en",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base--inverted",
+      "textPosition": "LEFT"
+    }
+  },
+  "container-layout#socials-icons__container":{
+    "title":"Contenedor de iconos redes sociales",
+    "children":[
+      "image#footer-mobile__social-icon--instagram",
+      "image#footer-mobile__social-icon--facebook",
+      "image#footer-mobile__social-icon--youtube",
+      "image#footer-mobile__social-icon--tik-tok"
+    ],
+    "props":{
+      "blockClass":"socials-icons__container"
+    }
+  },
+  "image#footer-mobile__social-icon--instagram": {
+    "props": {
+      "blockClass": ["soicla-icon"],
+      "src": "/arquivos/instagram-icon2.svg",
+      "link":{
+        "url":"https://www.instagram.com/beautyholicscom/",
+        "newTab":true,
+        "attributeNofollow":true
+      }
+    }
+  },
+  "image#footer-mobile__social-icon--facebook": {
+    "props": {
+      "blockClass": ["soicla-icon"],
+      "src": "/arquivos/facebook-icon2.svg",
+      "link":{
+        "url":"https://www.facebook.com/beautyholicscom/",
+        "newTab":true,
+        "attributeNofollow":true
+      }
+    }
+  },
+  "image#footer-mobile__social-icon--youtube": {
+    "props": {
+      "blockClass": ["soicla-icon"],
+      "src": "/arquivos/youtube-icon2.svg",
+      "link":{
+        "url":"https://www.youtube.com/channel/UCkM7c2yL9BjuSAFFoC7gxYw",
+        "newTab":true,
+        "attributeNofollow":true
+      }
+    }
+  },
+  "image#footer-mobile__social-icon--tik-tok": {
+    "props": {
+      "blockClass": ["soicla-icon"],
+      "src": "/arquivos/tik-tok-icon2.svg",
+      "link":{
+        "url":"https://m.tiktok.com/h5/share/usr/6920303468268700677.html?_d=secCgYIASAHKAESPgo8YHGrV0Wb0u8O8wUGCGslBZjYJnU5GITrJPSieNp4GbxqT3DGXAOdIMXElJvm111mhL7jguQIG9pmK9N4GgA%3D&language=es&sec_uid=MS4wLjABAAAAhRcIbuYALejSYzA52oxfFhn64YLS2yJv92IoCmwMFbrOCoL8edkP4fpUBHSvwPdw&sec_user_id=MS4wLjABAAAAxm-YUjW0Upf_fTS2r-jo07uPTGDZXEG5iCvwN8fUjbkdfa9D5P4ixtk2Zu_dP34g&share_app_id=1233&share_author_id=6920303468268700677&share_link_id=1c9b8916-2ade-469a-b5e6-0542e59a036f&timestamp=1631119162&u_code=dhkjhf8a6e9kkc&user_id=6944896442411402246&utm_campaign=client_share&utm_medium=android&utm_source=whatsapp",
+        "newTab":true,
+        "attributeNofollow":true
+      }
+    }
+  }
+}

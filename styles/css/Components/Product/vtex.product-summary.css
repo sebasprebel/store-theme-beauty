@@ -9,7 +9,11 @@
   text-align: left;
 }
 
-.container--product-summary__shelf :global(.vtex-product-summary-2-x-brandName){
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-productBrand):first-child{
+  display: none;
+}
+
+.container--product-summary__shelf :global(.vtex-product-summary-2-x-productNameContainer) :global(.vtex-product-summary-2-x-productBrand){
   font-size: 0.875rem;
   font-family: var(--font-poppins-semibold);
   text-align: left;

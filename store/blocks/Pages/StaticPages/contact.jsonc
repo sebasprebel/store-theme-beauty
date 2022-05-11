@@ -1,0 +1,122 @@
+{
+  "store.custom#contact":{
+    "blocks": [
+      "container-layout#contact__container"
+    ]
+  },
+  "container-layout#contact__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  }
+  // "form#contact": {
+  //   "props": {
+  //     "entity": "Contacto",
+  //     "schema": "Datos cliente",
+  //     "blockClass": "contact__form"
+  //   },
+  //   "children": [
+  //     "rich-text#pqrs__title",
+  //     "rich-text#pqrs__paragraph",
+  //     "rich-text#pqrs__subtitle",
+  //     "form-input.dropdown#pqrs__place",
+  //     "form-input.text#pqrs__email",
+  //     "form-input.text#pqrs__phone",
+  //     "form-input.textarea#pqrs__comment",
+  //     "form-input.checkbox#pqrs__agreement",
+  //     "form-submit#pqrs"
+  //   ],
+  //   "blocks": [
+  //     "form-success#pqrs"
+  //   ]
+  //   /// email, phone, comment, aggreement, submit, succes
+  // },
+  // "rich-text#pqrs__title": {
+  //   "props": {
+  //     "text": "# PQRS!",
+  //     "blockClass": "contact__title"
+  //   }
+  // },
+  // "rich-text#pqrs__subtitle": {
+  //   "props": {
+  //     "text": "## Envíanos tus comentarios",
+  //     "blockClass": "contact__subtitle"
+  //   }
+  // },
+  // "rich-text#pqrs__paragraph": {
+  //   "props": {
+  //     "text": "Para nosotros es muy importante estar a tu lado y resolver todas las dudas que tengas acerca de tu compra en Big John. Por eso, déjanos tus comentarios y pronto estaremos en contacto contigo.",
+  //     "blockClass": "contact__paragraph"
+  //   }
+  // },
+  // "form-input.dropdown#pqrs__place": {
+  //   "props": {
+  //     // "pointer": "#/properties/place",
+  //     "label": "Escoge la sede*",
+  //     "blockClass": "contact__input"
+  //   }
+  // },
+  // "form-input.text#pqrs__email": {
+  //   "props": {
+  //     "placeholder": "Tu correo electrónico",
+  //     // "pointer": "#/properties/email",
+  //     "label": "Correo electrónico*",
+  //     "blockClass": "contact__input"
+  //   }
+  // },
+  // "form-input.text#pqrs__phone": {
+  //   "props": {
+  //     // "pointer": "#/properties/celular",
+  //     "placeholder": "Tu número celular",
+  //     "label": "Número de celular*",
+  //     "blockClass": "contact__input"
+  //   }
+  // },
+  // "form-input.textarea#pqrs__comment": {
+  //   "props": {
+  //     // "pointer": "#/properties/comentario",
+  //     "placeholder": "Déjanos tus comentarios",
+  //     "label": "Tus comentarios*",
+  //     "blockClass": "contact__input"
+  //   }
+  // },
+  // "form-input.checkbox#pqrs__agreement": {
+  //   "props": {
+  //     // "pointer": "#/properties/terminosCondiciones",
+  //     "label": "Acepto términos y condiciones.*"
+  //   }
+  // },
+  // "form-submit#pqrs": {
+  //   "props": {
+  //     "label": "Enviar comentarios",
+  //     "blockClass": "contact__input"
+  //   }
+  // },
+  // "form-success#pqrs": {
+  //   "children": [
+  //     "rich-text#pqrs__success__title",
+  //     "rich-text#pqrs__success__paragraph",
+  //     "rich-text#pqrs__button"
+  //   ]
+  // },
+  // "rich-text#pqrs__success__title": {
+  //   "props": {
+  //     "text": "## Solicitud enviada exitosamente"
+  //   }
+  // },
+  // "rich-text#pqrs__success__paragraph": {
+  //   "props": {
+  //     "text": "Recuerda que tu solicitud debe ser evaluada por nuestro personal, se te enviará un correo con la respuesta."
+  //   }
+  // },
+  // "rich-text#pqrs__button": {
+  //   "props": {
+  //     "text": "[Realizar otra solicitud](/devoluciones)",
+  //     "blockClass": "contact__button"
+  //   }
+  // }
+}

@@ -15,7 +15,7 @@
     "title": "Título productos nuevos",
     "props": {
       "blockClass": "shelf__title",
-      "text": "###### Lo nuevo en Beautyholics",
+      "text": "## Lo nuevo en Beautyholics",
       "font": "t-body",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

@@ -4,6 +4,10 @@
   margin: 0 auto !important;
 }
 
+.cardLayout__content:focus{
+  outline: none;
+}
+
 /* .containerLayout--shelf-wrapper{
   max-width: 1130px;
   margin: 0 auto !important;

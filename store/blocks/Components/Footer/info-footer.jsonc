@@ -2,8 +2,8 @@
   "container-layout#footer__content--container":{
     "title":"Sección información, redes y pagos footer",
     "children":[
-      "container-layout#footer__content"
-      // "container-layout#footer-mobile__content--bottom"
+      "container-layout#footer__content",
+      "container-layout#footer-mobile__content--bottom"
     ],
     "props":{
       "blockClass":"footer__content--container"
@@ -12,7 +12,6 @@
   "container-layout#footer__content":{
     "title":"Contenedor información - logo footer ",
     "children":[
-      // "image#footer-mobile__logo", //TODO Falta el logo de Beauty.
       "container-layout#footer__content--info"
     ]
   },
@@ -25,9 +24,15 @@
       "rich-text#footer__info-nit",
       "rich-text#footer__info-city",
       "rich-text#footer__info-phone",
-      "rich-text#footer__info-email"
-      // "image#footer__iyc-logo" //TODO Falta el logo de inductria y comercio.
+      "rich-text#footer__info-email",
+      "image#footer__iyc-logo" //TODO Falta el logo de inductria y comercio.
     ]
+  },
+  "image#footer__iyc-logo": {
+    "props": {
+      "blockClass": ["iyc-logo"],
+      "src": "/arquivos/indusyco3.svg"
+    }
   },
   "rich-text#footer__info-brand": {
     "title":"Texto info marca",
@@ -83,5 +88,12 @@
       "textColor": "c-on-base--inverted",
       "textPosition": "LEFT"
     }
+  },
+  "container-layout#footer-mobile__content--bottom":{
+    "title":"Contenedor footer-botoom - Mobile ",
+    "children":[
+      "container-layout#footer-mobile__socials",
+      "container-layout#footer__payments"
+    ]
   }
 }

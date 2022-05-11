@@ -15,7 +15,7 @@
     "title": "Título productos recomendados",
     "props": {
       "blockClass": "shelf__title",
-      "text": "###### Recomendados para ti",
+      "text": "## Recomendados para ti",
       "font": "t-body",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

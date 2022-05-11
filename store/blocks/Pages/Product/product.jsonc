@@ -1,7 +1,6 @@
 {
   "store.product": {
     "children": [
-      "sku-color",
       "container-layout#product-page__container"
     ]
   },

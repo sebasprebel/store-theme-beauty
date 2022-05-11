@@ -1,0 +1,46 @@
+{
+  "store.custom#changes":{
+    "blocks": [
+      "container-layout#changes__container"
+    ]
+  },
+  "container-layout#changes__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#changes__title",
+      "container-layout#changes__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#changes__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Políticas de cambios y devoluciones",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#changes__content--container":{
+    "title":"Contenedor contenido",
+    "children":[
+      "rich-text#changes__changes-text"
+    ]
+  },
+
+  "rich-text#changes__changes-text": {
+    "title": "Contenido políticas de cambio",
+    "props": {
+      "blockClass": ["item-mb"],
+      "font": "t-body",
+      "text": "##### POLITICA DE CAMBIOS Y DEVOLUCIONES BEAUTYHOLICS.COM\n\n\n\n Beautyholics quiere asegurarse que quedas satisfecho con la compra realizada. Si por algún motivo no estas conforme con el producto adquirido ten en cuenta lo siguiente:\n\n\n **Cambios:** No se realizarán cambios de productos de cuidado personal incluso maquillaje o fragancias que hayan sido usadas o extraídas de su empaque original.\n\n\n- **a.** Para poder realizar un cambio, el producto debe estar en perfectas condiciones, estar en su empaque original sin ninguna señal de uso, portar sus etiquetas y el registro INVIMA. Si deseas realizar el cambio cuentas con 15 días calendario después de realizada la compra.\n\n\n- **b.** Solo se realizarán cambios de productos abiertos o usados si estos presentan defectos por calidad como mal funcionamiento de la válvula, producto seco, impureza en el producto, entre otros.\n\n\n **c.** Los cambios podrán realizarse por productos de igual o menor valor. Si el producto es de un valor superior deberá adicionarse la diferencia. Si es de un valor inferior tendrás la diferencia como saldo a favor para lo cual se genera un código con vigencia de 30 días calendario.\n\n\n- **d.** Los productos en promoción están sujetos a cambios por garantía por calidad. Siempre y cuando el descuento no se haya generado por un inconveniente de calidad que no haya sido comunicado.\n\n\n **Derecho de retracto:** De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, el término máximo para ejercer el derecho de retracto es de cinco (5) días hábiles contados a partir de la entrega del bien en el domicilio registrado al momento de la compra. La devolución del dinero en ejercicio del Derecho de Retracto se realizará a más tardar a los veinte días (20) días hábiles contados desde el momento que el producto retorna a nuestra bodega para el caso de Tarjeta de crédito, para débito serán 10 días hábiles.\n\n\n **Pago:** Previamente a la finalización o terminación de cualquier transacción de comercio electrónico, el proveedor o expendedor deberá presentar al consumidor un resumen del pedido de todos los bienes que pretende adquirir con su descripción completa, el precio individual de cada uno de ellos, el precio total de los bienes o servicios y, de ser aplicable, los costos y gastos adicionales que deba pagar por envío o por cualquier otro concepto y la sumatoria total que deba cancelar. Este resumen tiene como fin que el consumidor pueda verificar que la operación refleje su intención de adquisición de los productos o servicios ofrecidos y las demás condiciones, y de ser su deseo, hacer las correcciones que considere necesarias o la cancelación de la transacción. Este resumen deberá estar disponible para su impresión y/o descarga.\n\n\n- **a.** La aceptación de la transacción por parte del consumidor deberá ser expresa, inequívoca y verificable por la autoridad competente. El consumidor debe tener el derecho de cancelar la transacción hasta antes de concluirla.\n\n\n- **b.** Concluida la transacción, el proveedor y expendedor deberá remitir, a más tardar el día calendario siguiente de efectuado el pedido, un acuse de recibo del mismo, con información precisa del tiempo de entrega, precio exacto, incluyendo los impuestos, gastos de envío y la forma en que se realizó el pago.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  }
+}

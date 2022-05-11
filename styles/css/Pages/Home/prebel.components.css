@@ -24,7 +24,7 @@
 
 
 .highlightContent--search-page__bullets{
-  margin: .7rem !important;
+  margin: 1.5rem 0 !important;
   padding-bottom: 0 !important;
   scrollbar-width: none;
 }
@@ -47,7 +47,6 @@
   padding:  0rem;
   overflow:hidden;
   height:fit-content;
-  background:#7DCAD3;
   width:300px;
 }
 
@@ -141,7 +140,7 @@
 .dropDown__button{
   font-family: var(--font-poppins-semibold);
   margin: .5rem auto;
-  width:100px;
+  width:125px;
   cursor: pointer;
   bottom: -35px;
   position: relative;
@@ -158,4 +157,86 @@
   content: "Color";
   font-size: 1.5rem;
 
+}
+
+.highlightContent--value-proposition__highlight{
+  display: flex;
+  justify-content: center;
+  margin-block: 3rem;
+  gap: 3rem;
+  overflow-x: auto;
+  padding-inline: 1rem;
+  scrollbar-width: none;
+}
+
+.highlightContent--value-proposition__highlight::-webkit-scrollbar{
+  display: none;
+}
+
+.cardLayout__content--value-proposition__highlight{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: max-content;
+}
+
+.cardLayout__image--value-proposition__highlight{
+  width: 90px;
+  height: 90px;
+}
+
+.container--value-proposition__highlight{
+  max-width: 120px;
+  text-align: center;
+}
+
+.highlightContent--brands-slider{
+  display: flex;
+  width: 100%;
+}
+
+.containerLayout--home__brands-slider--container{
+  display: flex;
+  align-items: center;
+  padding-inline: .5rem;
+}
+
+.sliderArrows--brands-slider{
+  background: var(--white) !important;
+  border-radius: 50%;
+  padding: .4rem;
+}
+.caretIcon--brands-slider{
+  width: 20px;
+  height: 20px;
+}
+
+/*Rutina*/
+.containerLayout--showcases__bottom-container{
+  background-color: #EAE7F4;
+  padding-top: 5rem;
+  margin-bottom: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+  position: relative;
+  overscroll-behavior-x: auto;
+}
+
+.containerLayout--showcases__bottom-shelf--container{
+  position: relative;
+  top: 80px;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerLayout--showcase{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 277px;
 }

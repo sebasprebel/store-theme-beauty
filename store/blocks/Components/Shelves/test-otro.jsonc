@@ -15,7 +15,7 @@
     "title": "Título productos recomendados",
     "props": {
       "blockClass": "shelf__title",
-      "text": "###### Otras personas también compraron",
+      "text": "## Otras personas también compraron",
       "font": "t-body",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

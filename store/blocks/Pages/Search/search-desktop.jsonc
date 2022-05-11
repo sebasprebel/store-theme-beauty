@@ -3,7 +3,10 @@
     "children":[
       "sku-color",
       "container-layout#search-page__container--desktop"
-    ]
+    ],
+    "props":{
+      "preventRouteChange": true
+    }
   },
   "container-layout#search-page__container--desktop":{
     "title":"Contenedor página de búsqueda -- desktop",

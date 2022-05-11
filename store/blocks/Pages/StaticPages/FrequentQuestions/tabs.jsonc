@@ -1,0 +1,92 @@
+{
+  "container-layout#frequent-questions__tabs--container":{
+    "title":"Contenedor tabs desktop",
+    "children":[
+      "tab-layout#frequent-questions__tabs-desktop"
+    ],
+    "props":{
+      "blockClass":"frequent-questions__tabs--container-desktop"
+    }
+  },
+  "tab-layout#frequent-questions__tabs-desktop":{
+    "title":"Sección tabs desktop",
+    "children":[
+      "tab-list#frequent-questions__info",
+      "tab-content#frequent-questions__info"
+    ],
+    "props":{
+      "defaultActiveTabId": "shopping"
+    }
+  },
+  "tab-list#frequent-questions__info":{
+    "children":[
+      "tab-list.item#frequent-questions__shopping--item",
+      "tab-list.item#frequent-questions__ship--item",
+      "tab-list.item#frequent-questions__changes--item"
+    ],
+    "props":{
+      "blockClass":"frequent-questions__tab--list"
+    }
+  },
+  "tab-list.item#frequent-questions__shopping--item":{
+    "title": "Tab compras",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "shopping",
+      "label": "Compras",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#frequent-questions__ship--item":{
+    "title": "Tab envíos",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "ship",
+      "label": "Envíos",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#frequent-questions__changes--item":{
+    "title": "Tab cambios y devoluciones",
+    "props": {
+      "blockClass": "product-tab",
+      "tabId": "changes",
+      "label": "Cambios y devoluciones",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#frequent-questions__info":{
+    "children": [
+      "tab-content.item#frequent-questions__shopping--item",
+      "tab-content.item#frequent-questions__ship--item",
+      "tab-content.item#frequent-questions__changes--item"
+    ]
+  },
+  "tab-content.item#frequent-questions__shopping--item":{
+    "children": [
+      "container-layout#frequent-questions__shopping-questions"
+    ],
+    "props": {
+      "tabId": "shopping",
+      "blockClass": "product-tab__content-wop"
+    }
+  },
+  "tab-content.item#frequent-questions__ship--item":{
+    "children": [
+      "container-layout#frequent-questions__ship-questions"
+    ],
+    "props": {
+      "tabId": "ship",
+      "blockClass": "product-tab__content-wop"
+    }
+  },
+  "tab-content.item#frequent-questions__changes--item":{
+    "children": [
+      "container-layout#frequent-questions__changes-questions"
+    ],
+    "props": {
+      "tabId": "changes",
+      "blockClass": "product-tab__content-wop"
+    }
+  }
+}

@@ -10,7 +10,7 @@
     "props": {
       "blockClass": ["add-to-cart-trigger"],
       "font": "t-body",
-      "text": "Agregar a la bolsa",
+      "text": "Agregar a la Bolsa",
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
       "textPosition": "CENTER"

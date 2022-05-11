@@ -1,0 +1,17 @@
+{
+  "container-layout#footer__payments":{
+    "title":"Contenedor de métodos de pago",
+    "children":[
+      "image#payment-methods__image"
+    ],
+    "props":{
+      "blockClass":"payment-methods__container"
+    }
+  },
+  "image#payment-methods__image": {
+    "props": {
+      "blockClass": [""],
+      "src": "/arquivos/medios-de-pago.jpg"
+    }
+  }
+}

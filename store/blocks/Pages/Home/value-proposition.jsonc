@@ -1,0 +1,53 @@
+{
+  "container-layout#value-proposition__container":{
+    "title":"Sección propuestas de valor",
+    "children":[
+      "highlight-content#value-proposition"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  },
+  "highlight-content#value-proposition":{
+    "title":"Contenedor propuestas de valor.",
+    "props":{
+      "blockClass":["value-proposition__highlight"],
+      "sliderMode":false,
+      "sliderProps":{
+        "itemsPerpage":{
+          "desktop":5,
+          "mobile":5
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "newver"
+      },
+      "items":[
+        {
+          "text": "Marcas Cruelty free",
+          "image": "/arquivos/cruelty4.svg"
+        },
+        {
+          "text": "Compras 100% seguras",
+          "image": "/arquivos/seguras4.svg"
+        },
+        { 
+          "text": "Envíos a todo el país",
+          "image": "/arquivos/entrega4.svg"
+        },
+        {  
+          "text": "Cambios gratis",
+          "image": "/arquivos/cambios4.svg"
+        },
+        {
+          "text": "Productos 100% originales",
+          "image": "/arquivos/original4.svg"
+        },
+        {
+          "text": "Empaque ecológico",
+          "image": "/arquivos/empaque4.svg"
+        }
+      ]
+    }
+  }
+}

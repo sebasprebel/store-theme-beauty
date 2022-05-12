@@ -8,7 +8,8 @@
     "title":"Contenedor página estática",
     "children":[
       "rich-text#reversion__title",
-      "container-layout#reversion__content--container"
+      "container-layout#reversion__content--container",
+      "container-layout#contact__form-container"
     ],
     "props":{
       "blockClass":"wrapper-static-page"

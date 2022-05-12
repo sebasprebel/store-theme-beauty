@@ -53,6 +53,34 @@
   padding-inline: 1rem;
 }
 
+/*contact*/
+.container--contact__button{
+  background: var(--black);
+  width: 200px;
+  border-radius: 24px;
+  padding: .5rem .2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.container--contact__button:hover{
+  background: var(--main-color);
+}
+
+.link--contact__button{
+  color: var(--white);
+}
+
+.heading--contact__title{
+  font-size: 1.9375rem;
+  margin-bottom: 1rem;
+}
+.paragraph--contact__paragraph{
+  font-size: 0.875rem;
+  color: #505050;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 1025px){
   .container--who-text{
     width: 70%;

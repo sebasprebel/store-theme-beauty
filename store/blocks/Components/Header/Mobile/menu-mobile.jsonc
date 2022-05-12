@@ -1,0 +1,631 @@
+{
+  "custom-menu-mobile": {
+    "title": "Menu de categorías",
+    "props": {
+      "navItems":[
+        {
+          "id": 1,
+          "name":"Maquillaje",
+          "href": "/salud-belleza/maquillaje",
+          "menuBanner": {
+            "link": "/essence",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/MAQUILLAJE-MENU.gif",
+            "text": "Ver Essence >"
+          },
+          "menuItems":[
+            {
+              "name":"Rostro",
+              "href": "/salud-belleza/maquillaje/rostro",
+              "subItems":[
+                {
+                  "name":"Bases",
+                  "href": "/salud-belleza/maquillaje/rostro/bases"
+                },
+                {
+                  "name":"Correctores",
+                  "href": "/salud-belleza/maquillaje/rostro/correctores"
+                },
+                {
+                  "name": "Polvos",
+                  "href": "/salud-belleza/maquillaje/rostro/polvos"
+                },
+                {
+                  "name": "Rubores",
+                  "href": "/salud-belleza/maquillaje/rostro/rubores"
+                },
+                {
+                  "name": "Primers",
+                  "href": "/salud-belleza/maquillaje/rostro/primers"
+                },
+                {
+                  "name": "Iluminadores",
+                  "href": "/salud-belleza/maquillaje/rostro/iluminadores"
+                }
+              ]
+            },
+            {
+              "name": "Accesorios",
+              "href": "/salud-belleza/maquillaje/accesorios"
+            },
+            {
+              "name": "Ojos",
+              "href": "/salud-belleza/maquillaje/ojos",
+              "subItems":[
+                {
+                  "name": "Lápices",
+                  "href": "/salud-belleza/maquillaje/ojos/lapices-de-ojos"
+                },
+                {
+                  "name": "Pestañinas",
+                  "href": "/salud-belleza/maquillaje/ojos/pestaninas"
+                },
+                {
+                  "name": "Delineadores",
+                  "href": "/salud-belleza/maquillaje/ojos/delineadores"
+                },
+                {
+                  "name": "Sombras",
+                  "href": "/salud-belleza/maquillaje/ojos/sombras"
+                }
+              ]
+            },
+            {
+              "name": "Labios",
+              "href": "/salud-belleza/maquillaje/labios",
+              "subItems":[
+                {
+                  "name": "Labiales",
+                  "href": "/salud-belleza/maquillaje/labios/labiales"
+                },
+                {
+                  "name": "Brillos",
+                  "href": "/salud-belleza/maquillaje/labios/brillos"
+                },
+                {
+                  "name": "Bálsamos labiales",
+                  "href": "/salud-belleza/maquillaje/labios/balsamos-labiales"
+                },
+                {
+                  "name": "Lápices",
+                  "href": "/salud-belleza/maquillaje/labios/lapices"
+                }
+              ]
+            },
+            {
+              "name": "Cejas",
+              "href": "/salud-belleza/maquillaje/cejas",
+              "subItems":[
+                {
+                  "name": "Lápices",
+                  "href": "/salud-belleza/maquillaje/cejas/lapices-de-cejas"
+                },
+                {
+                  "name": "Sombras",
+                  "href": "/salud-belleza/maquillaje/cejas/sombras-cejas"
+                },
+                {
+                  "name": "Delineadores",
+                  "href": "/salud-belleza/maquillaje/cejas/delineadores-cejas"
+                },
+                {
+                  "name": "Pestañinas",
+                  "href": "/salud-belleza/maquillaje/cejas/pestaninas-de--cejas"
+                }
+              ]
+            },
+            {
+              "name": "Uñas",
+              "href": "/salud-belleza/maquillaje/unas",
+              "subItems":[
+                {
+                  "name": "Esmaltes",
+                  "href": "/salud-belleza/maquillaje/unas/esmaltes"
+                },
+                {
+                  "name": "Tratamientos",
+                  "href": "/salud-belleza/maquillaje/unas/tratamientos"
+                },
+                {
+                  "name": "Removedores",
+                  "href": "/salud-belleza/maquillaje/unas/removedores"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Cuidado del cabello",
+          "href": "/salud-belleza/cuidado-cabello",
+          "menuBanner": {
+            "link": "/ogx",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/CUIDADO-DEL-CABELLO.gif",
+            "text": "Ver OGX >"
+          },
+          "menuItems":[
+            {
+              "name": "Shampoos",
+              "href": "/salud-belleza/cuidado-cabello/shampoos",
+              "subItems":[
+                {
+                  "name": "Shampoo seco",
+                  "href": "/salud-belleza/cuidado-cabello/shampoos/shampoo-seco"
+                },
+                {
+                  "name": "Shampoo líquido",
+                  "href": "/salud-belleza/cuidado-cabello/shampoos/shampoo-liquido"
+                }
+              ]
+            },
+            {
+              "name": "Tratamientos Capilares",
+              "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares",
+              "subItems":[
+                {
+                  "name": "Mascarillas",
+                  "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares/mascarillas"
+                },
+                {
+                  "name": "Tratamientos",
+                  "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares/tratamientos"
+                }
+              ]
+            },
+            {
+              "name": "Cuidado del cabello",
+              "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares",
+              "subItems":[
+                {
+                  "name": "Acondicionadores",
+                  "href": "/salud-belleza/cuidado-cabello/acondicionadores"
+                },
+                {
+                  "name": "Geles",
+                  "href": "/salud-belleza/cuidado-cabello/geles"
+                },
+                {
+                  "name": "Cremas para Peinar",
+                  "href": "/salud-belleza/cuidado-cabello/cremas-para-peinar"
+                },
+                {
+                  "name": "Tinturas",
+                  "href": "/salud-belleza/cuidado-cabello/tinturas"
+                },
+                {
+                  "name": "Lacas",
+                  "href": "/salud-belleza/cuidado-cabello/lacas"
+                }
+              ]
+            },
+            {
+              "name": "Dermocapilar",
+              "href": "/salud-belleza/cuidado-cabello/dermocapilar",
+              "subItems":[
+                {
+                  "name": "Acondicionador",
+                  "href": "/salud-belleza/cuidado-cabello/dermocapilar/acondicionador"
+                },
+                {
+                  "name": "Shampoo",
+                  "href": "/salud-belleza/cuidado-cabello/dermocapilar/shampoo"
+                },
+                {
+                  "name": "Tratamientos",
+                  "href": "/salud-belleza/cuidado-cabello/dermocapilar/tratamientos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cuidado Personal",
+          "href": "/vibes",
+          "menuBanner": {
+            "link": "/salud-belleza/maquillaje",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/CUIDADO-PERSONAL.gif",
+            "text": "Ver St Ives >"
+          },
+          "menuItems":[
+            {
+              "name": "Oral",
+              "href": "/salud-belleza/cuidado-personal/oral",
+              "subItems":[
+                {
+                  "name": "Enjuagues",
+                  "href": "/salud-belleza/cuidado-personal/oral/enjuagues"
+                }
+              ]
+            },
+            {
+              "name": "Cuidado piernas y pies",
+              "href": "/salud-belleza/cuidado-personal/cuidado-piernas-y-pies",
+              "subItems":[
+                {
+                  "name": "Talcos",
+                  "href": "/salud-belleza/cuidado-personal/cuidado-piernas-y-pies/talcos"
+                }
+              ]
+            },
+            {
+              "name": "Servicios",
+              "href": "/salud-belleza/cuidado-personal/servicios",
+              "subItems":[
+                {
+                  "name": "Depilación laser",
+                  "href": "/salud-belleza/cuidado-personal/servicios/depilacion-laser"
+                },
+                {
+                  "name": "Moldeamiento maximus",
+                  "href": "/salud-belleza/cuidado-personal/servicios/moldeamiento-maximus"
+                },
+                {
+                  "name": "Sculpsure",
+                  "href": "/salud-belleza/cuidado-personal/servicios/sculpsure"
+                },
+                {
+                  "name": "Tonificacion con booty",
+                  "href": "/salud-belleza/cuidado-personal/servicios/tonificacion-con-booty"
+                }
+              ]
+            },
+            {
+              "name": "Corporal",
+              "href": "/salud-belleza/cuidado-personal/corporal",
+              "subItems":[
+                {
+                  "name": "Aceites",
+                  "href": "/salud-belleza/cuidado-personal/corporal/aceites"
+                },
+                {
+                  "name": "Desodorantes",
+                  "href": "/salud-belleza/cuidado-personal/corporal/desodorantes"
+                },
+                {
+                  "name": "Cremas Corporales",
+                  "href": "/salud-belleza/cuidado-personal/corporal/cremas-corporales"
+                },
+                {
+                  "name": "Fragancias y Perfumes",
+                  "href": "/salud-belleza/cuidado-personal/corporal/fragancias-y-perfumes"
+                },
+                {
+                  "name": "Exfoliantes",
+                  "href": "/salud-belleza/cuidado-personal/corporal/exfoliantes"
+                },
+                {
+                  "name": "Jabónes líquidos y Geles",
+                  "href": "/salud-belleza/cuidado-personal/corporal/jabones-liquidos-y-geles"
+                },
+                {
+                  "name": "Celulitis y Reductores",
+                  "href": "/salud-belleza/cuidado-personal/corporal/celulitis-y-reductores"
+                },
+                {
+                  "name": "Estrías Y Cicatrices",
+                  "href": "/salud-belleza/cuidado-personal/corporal/estrias-y-cicatrices"
+                }
+              ]
+            },
+            {
+              "name": "Cuidado de manos",
+              "href": "/salud-belleza/cuidado-personal/cuidado-de-manos",
+              "subItems":[
+                {
+                  "name": "Hidratantes",
+                  "href": "/salud-belleza/cuidado-personal/cuidado-de-manos/hidratantes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Protección Solar",
+          "href": "/nude",
+          "menuBanner": {
+            "link": "/salud-belleza/maquillaje",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/PROTECCION-SOLAR.gif",
+            "text": "Ver Nude >"
+          },
+          "menuItems":[
+            {
+              "name": "Protectores Solares",
+              "href": "/salud-belleza/proteccion-solar/protectores-solares"
+            },
+            {
+              "name": "Bronceadores",
+              "href": "/salud-belleza/proteccion-solar/bronceadores"
+            },
+            {
+              "name": "Autobronceadores",
+              "href": "/salud-belleza/proteccion-solar/autobronceadores"
+            },
+            {
+              "name": "After Sun",
+              "href": "/salud-belleza/proteccion-solar/after-sun"
+            },
+            {
+              "name": "Repelentes",
+              "href": "/salud-belleza/proteccion-solar/repelentes"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Cuidado Facial",
+          "href": "/salud-belleza/cuidado-facial",
+          "menuBanner": {
+            "link": "/mindnaturals",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/cuidado-facial.gif",
+            "text": "Ver Mind Naturals >"
+          },
+          "menuItems":[
+            {
+              "name": "Cuidado de la Barba",
+              "href": "/salud-belleza/cuidado-facial/cuidado-de-la-barba",
+              "subItems":[
+                {
+                  "name": "After Shave",
+                  "href": "/salud-belleza/cuidado-facial/cuidado-de-la-barba/after-shave"
+                }
+              ]
+            },
+            {
+              "name": "Cuidado de ojos",
+              "href": "/salud-belleza/cuidado-facial/cuidado-de-ojos",
+              "subItems":[
+                {
+                  "name": "Contorno de ojos",
+                  "href": "/salud-belleza/cuidado-facial/cuidado-de-ojos/contorno-de-ojos"
+                }
+              ]
+            },
+            {
+              "name": "Servicios",
+              "href": "/salud-belleza/cuidado-facial/servicios",
+              "subItems":[
+                {
+                  "name": "Superfacial",
+                  "href": "/salud-belleza/cuidado-facial/servicios/superfacial"
+                },
+                {
+                  "name": "Casmara",
+                  "href": "/salud-belleza/cuidado-facial/servicios/casmara"
+                }
+              ]
+            },
+            {
+              "name": "Facial",
+              "href": "/salud-belleza/cuidado-facial/facial",
+              "subItems":[
+                {
+                  "name": "Hidratación",
+                  "href": "/salud-belleza/cuidado-facial/facial/hidratacion"
+                },
+                {
+                  "name": "Imperfecciones",
+                  "href": "/salud-belleza/cuidado-facial/facial/imperfecciones"
+                },
+                {
+                  "name": "Limpiadoras",
+                  "href": "/salud-belleza/cuidado-facial/facial/limpiadoras"
+                },
+                {
+                  "name": "Exfoliantes",
+                  "href": "/salud-belleza/cuidado-facial/facial/exfoliantes"
+                },
+                {
+                  "name": "Toallas",
+                  "href": "/salud-belleza/cuidado-facial/facial/toallas"
+                },
+                {
+                  "name": "Cremas",
+                  "href": "/salud-belleza/cuidado-facial/facial/cremas"
+                },
+                {
+                  "name": "Aceites",
+                  "href": "/salud-belleza/cuidado-facial/facial/aceites"
+                },
+                {
+                  "name": "Sueros",
+                  "href": "/salud-belleza/cuidado-facial/facial/sueros"
+                },
+                {
+                  "name": "Brumas",
+                  "href": "/salud-belleza/cuidado-facial/facial/brumas"
+                },
+                {
+                  "name": "Tónicos",
+                  "href": "/salud-belleza/cuidado-facial/facial/tonicos"
+                },
+                {
+                  "name": "Mascarillas",
+                  "href": "/salud-belleza/cuidado-facial/facial/mascarillas"
+                },
+                {
+                  "name": "Antiedad",
+                  "href": "/salud-belleza/cuidado-facial/facial/antiedad"
+                },
+                {
+                  "name": "Despigmentantes",
+                  "href": "/salud-belleza/cuidado-facial/facial/despigmentantes"
+                },
+                {
+                  "name": "Tratamientos antiacné",
+                  "href": "/salud-belleza/cuidado-facial/facial/tratamientos-antiacne"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Hogar",
+          "href": "/salud-belleza/hogar",
+          "menuBanner": {
+            "link": "/tide",
+            "image": "https://prebel.vteximg.com.br/arquivos/37000875864_7.jpg?v=637860832410970000",
+            "text": "Ver Tide >"
+          },
+          "menuItems":[
+            {
+              "name": "Lavaplatos",
+              "href": "/salud-belleza/hogar/lavaplatos"
+            },
+            {
+              "name": "Cuidado de la ropa",
+              "href": "/salud-belleza/hogar/cuidado-de-la-ropa",
+              "subItems":[
+                {
+                  "name": "Detergentes",
+                  "href": "/salud-belleza/hogar/cuidado-de-la-ropa/detergentes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Marcas",
+          "href": "/nuestras-marcas",
+          "menuBanner": {
+            "link": "/vibes",
+            "image": "https://blog.beautyholics.com/wp-content/uploads/2022/02/banner-vibes.gif",
+            "text": "Ver marca Vibes >"
+          },
+          "menuItems":[
+            {
+              "name": "Marcas destacadas",
+              "subItems":[
+                {
+                  "name": "Bio Oil",
+                  "href": "/bio-oil"
+                },
+                {
+                  "name": "Catrice",
+                  "href": "/catrice"
+                },
+                {
+                  "name": "Covergirl",
+                  "href": "/covergirl"
+                },
+                {
+                  "name": "Essence",
+                  "href": "/essence"
+                },
+                {
+                  "name": "Max Factor",
+                  "href": "/max-factor"
+                },
+                {
+                  "name": "Moroccanoil",
+                  "href": "/moroccanoil"
+                },
+                {
+                  "name": "Nude",
+                  "href": "/nude"
+                },
+                {
+                  "name": "OGX",
+                  "href": "/ogx"
+                },
+                {
+                  "name": "Vitú",
+                  "href": "/vitu"
+                }
+              ]
+            },
+            {
+              "name": "Otras marcas",
+              "subItems":[
+                {
+                  "name": "Apivita",
+                  "href": "/apivita"
+                },
+                {
+                  "name": "Braun",
+                  "href": "/braun"
+                },
+                {
+                  "name": "Burts Bees",
+                  "href": "/burts-bees"
+                },
+                {
+                  "name": "Cerave",
+                  "href": "/cerave"
+                },
+                {
+                  "name": "Cetaphil",
+                  "href": "/cetaphil"
+                },
+                {
+                  "name": "Derma Vie",
+                  "href": "/derma-vie"
+                },
+                {
+                  "name": "Eucerin",
+                  "href": "/eucerin"
+                },
+                {
+                  "name": "Inbiotech",
+                  "href": "/inbiotech"
+                },
+                {
+                  "name": "Isdin",
+                  "href": "/isdin"
+                },
+                {
+                  "name": "Isdinceutics",
+                  "href": "/isdinceutics"
+                },
+                {
+                  "name": "Isis Pharma",
+                  "href": "/isis-pharma"
+                },
+                {
+                  "name": "La Roche Posay",
+                  "href": "/la-roche-posay"
+                },
+                {
+                  "name": "LZ",
+                  "href": "/lz"
+                },
+                {
+                  "name": "Medihealth",
+                  "href": "/medihealth"
+                },
+                {
+                  "name": "Mind Naturals",
+                  "href": "/mind-naturals"
+                },
+                {
+                  "name": "Sesderma",
+                  "href": "/sesderma"
+                },
+                {
+                  "name": "Umbrella",
+                  "href": "/umbrella"
+                },
+                {
+                  "name": "Uriage",
+                  "href": "/uriage"
+                },
+                {
+                  "name": "Vibes",
+                  "href": "/vibes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sale",
+          "href": "/sale",
+          "isHighlight": true,
+          "isLink": true
+        }
+      ]
+    }
+  }
+}

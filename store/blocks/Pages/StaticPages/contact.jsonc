@@ -7,116 +7,166 @@
   "container-layout#contact__container":{
     "title":"Contenedor página estática",
     "children":[
+      "container-layout#contact__form-container"
       
     ],
     "props":{
       "blockClass":"wrapper-static-page"
     }
+  },
+  "container-layout#contact__form-container":{
+    "title":"Contenedor formulario",
+    "children":[
+      "form#contact"
+    ],
+    "props":{
+      "blockClass":"form-container"
+    }
+  },
+
+  "form#contact": {
+    "props": {
+      "entity": "CT",
+      "schema": "Contactanos",
+      "blockClass": "contact__form"
+    },
+    "children": [
+      "rich-text#contact__title",
+      "rich-text#contact__paragraph",
+      "container-layout#contact__form-names",
+      "container-layout#contact__form-phone",
+      "form-input.text#reason",
+      "form-input.textarea#comments",
+      "form-input.checkbox#agreement",
+      "form-submit#contact"
+    ],
+    "blocks": [
+      "form-success#contact"
+    ]
+
+  },
+  "rich-text#contact__title": {
+    "props": {
+      "text": "# Contáctanos",
+      "blockClass": "contact__title"
+    }
+  },
+  "rich-text#contact__subtitle": {
+    "props": {
+      "text": "## Envíanos tus comentarios",
+      "blockClass": "contact__subtitle"
+    }
+  },
+  "rich-text#contact__paragraph": {
+    "props": {
+      "text": "Ingresa tus datos y te contestamos lo más pronto posible.",
+      "blockClass": "contact__paragraph"
+    }
+  },
+  "container-layout#contact__form-names": {
+    "title": "Contenedor nombres",
+    "children": [
+      "form-input.text#name",
+      "form-input.text#last-name"
+    ],
+    "props":{
+      "classes":"flex",
+      "blockClass":"contact__form-flex"
+    }
+  },
+  "container-layout#contact__form-phone": {
+    "title": "Contenedor nombres",
+    "children": [
+      "form-input.text#email",
+      "form-input.text#phone"
+    ],
+    "props":{
+      "classes":"flex",
+      "blockClass":"contact__form-flex"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "label": "Nombres*",
+      "blockClass": "contact__input",
+      "placeholder": "Ingresa tu nombre"
+    }
+  },
+  "form-input.text#last-name": {
+    "props": {
+      "pointer": "#/properties/lastName",
+      "label": "Apellidos*",
+      "blockClass": "contact__input",
+      "placeholder": "Ingresa tus apellidos"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "placeholder": "Ingresa tu correo electrónico",
+       "pointer": "#/properties/email",
+      "label": "Email*",
+      "blockClass": "contact__input"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "placeholder": "Tu número celular",
+      "label": "Celular*",
+      "blockClass": "contact__input"
+    }
+  },
+  "form-input.text#reason": {
+    "props": {
+       "pointer": "#/properties/reason",
+      "placeholder": "Motivo (Petición, queja, reclamo)",
+      "label": "Motivo*",
+      "blockClass": "contact__input"
+    }
+  },
+  "form-input.textarea#comments": {
+    "props": {
+       "pointer": "#/properties/comments",
+      "placeholder": "Escribe tus comentarios",
+      "label": "Tus comentarios*",
+      "blockClass": "contact__input"
+    }
+  },
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Acepto términos y condiciones.*",
+      "checked": true
+    }
+  },
+  "form-submit#contact": {
+    "props": {
+      "label": "Enviar comentarios",
+      "blockClass": "contact__input"
+    }
+  },
+  "form-success#contact": {
+    "children": [
+      "rich-text#contact__success__title",
+      "rich-text#contact__success__paragraph",
+      "rich-text#contact__button"
+    ]
+  },
+  "rich-text#contact__success__title": {
+    "props": {
+      "text": "## Solicitud enviada exitosamente"
+    }
+  },
+  "rich-text#contact__success__paragraph": {
+    "props": {
+      "text": "Tu solicitud fue enviada, en breves te enviaremos un correo con la fonfirmación."
+    }
+  },
+  "rich-text#contact__button": {
+    "props": {
+      "text": "[Realizar otra solicitud](/contactanos)",
+      "blockClass": "contact__button"
+    }
   }
-  // "form#contact": {
-  //   "props": {
-  //     "entity": "Contacto",
-  //     "schema": "Datos cliente",
-  //     "blockClass": "contact__form"
-  //   },
-  //   "children": [
-  //     "rich-text#pqrs__title",
-  //     "rich-text#pqrs__paragraph",
-  //     "rich-text#pqrs__subtitle",
-  //     "form-input.dropdown#pqrs__place",
-  //     "form-input.text#pqrs__email",
-  //     "form-input.text#pqrs__phone",
-  //     "form-input.textarea#pqrs__comment",
-  //     "form-input.checkbox#pqrs__agreement",
-  //     "form-submit#pqrs"
-  //   ],
-  //   "blocks": [
-  //     "form-success#pqrs"
-  //   ]
-  //   /// email, phone, comment, aggreement, submit, succes
-  // },
-  // "rich-text#pqrs__title": {
-  //   "props": {
-  //     "text": "# PQRS!",
-  //     "blockClass": "contact__title"
-  //   }
-  // },
-  // "rich-text#pqrs__subtitle": {
-  //   "props": {
-  //     "text": "## Envíanos tus comentarios",
-  //     "blockClass": "contact__subtitle"
-  //   }
-  // },
-  // "rich-text#pqrs__paragraph": {
-  //   "props": {
-  //     "text": "Para nosotros es muy importante estar a tu lado y resolver todas las dudas que tengas acerca de tu compra en Big John. Por eso, déjanos tus comentarios y pronto estaremos en contacto contigo.",
-  //     "blockClass": "contact__paragraph"
-  //   }
-  // },
-  // "form-input.dropdown#pqrs__place": {
-  //   "props": {
-  //     // "pointer": "#/properties/place",
-  //     "label": "Escoge la sede*",
-  //     "blockClass": "contact__input"
-  //   }
-  // },
-  // "form-input.text#pqrs__email": {
-  //   "props": {
-  //     "placeholder": "Tu correo electrónico",
-  //     // "pointer": "#/properties/email",
-  //     "label": "Correo electrónico*",
-  //     "blockClass": "contact__input"
-  //   }
-  // },
-  // "form-input.text#pqrs__phone": {
-  //   "props": {
-  //     // "pointer": "#/properties/celular",
-  //     "placeholder": "Tu número celular",
-  //     "label": "Número de celular*",
-  //     "blockClass": "contact__input"
-  //   }
-  // },
-  // "form-input.textarea#pqrs__comment": {
-  //   "props": {
-  //     // "pointer": "#/properties/comentario",
-  //     "placeholder": "Déjanos tus comentarios",
-  //     "label": "Tus comentarios*",
-  //     "blockClass": "contact__input"
-  //   }
-  // },
-  // "form-input.checkbox#pqrs__agreement": {
-  //   "props": {
-  //     // "pointer": "#/properties/terminosCondiciones",
-  //     "label": "Acepto términos y condiciones.*"
-  //   }
-  // },
-  // "form-submit#pqrs": {
-  //   "props": {
-  //     "label": "Enviar comentarios",
-  //     "blockClass": "contact__input"
-  //   }
-  // },
-  // "form-success#pqrs": {
-  //   "children": [
-  //     "rich-text#pqrs__success__title",
-  //     "rich-text#pqrs__success__paragraph",
-  //     "rich-text#pqrs__button"
-  //   ]
-  // },
-  // "rich-text#pqrs__success__title": {
-  //   "props": {
-  //     "text": "## Solicitud enviada exitosamente"
-  //   }
-  // },
-  // "rich-text#pqrs__success__paragraph": {
-  //   "props": {
-  //     "text": "Recuerda que tu solicitud debe ser evaluada por nuestro personal, se te enviará un correo con la respuesta."
-  //   }
-  // },
-  // "rich-text#pqrs__button": {
-  //   "props": {
-  //     "text": "[Realizar otra solicitud](/devoluciones)",
-  //     "blockClass": "contact__button"
-  //   }
-  // }
 }

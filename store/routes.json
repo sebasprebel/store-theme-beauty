@@ -42,5 +42,9 @@
   "store.custom#who":{
     "title": "Quiénes somos",
     "path": "/quienes-somos"
+  },
+  "store.custom#our-brands":{
+    "title": "Nuetras Marcas",
+    "path": "/nuestras-marcas"
   }
 }

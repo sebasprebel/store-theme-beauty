@@ -1,0 +1,34 @@
+{
+  "store.custom#our-brands":{
+    "blocks": [
+      "container-layout#our-brands__container"
+    ]
+  },
+  "container-layout#our-brands__container":{
+    "title":"Contenedor página estática",
+    "children":[
+      "rich-text#our-brands__title",
+      "container-layout#our-brands__content--container"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "rich-text#our-brands__title": {
+    "title":"Título página",
+    "props": {
+      "blockClass": ["static-page__title"],
+      "font": "t-body",
+      "text": "# Nuestras marcas",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "container-layout#our-brands__content--container":{
+    "title":"Contenedor contenido marcas",
+    "children":[
+      "our-brands-custom"
+    ]
+  }
+}

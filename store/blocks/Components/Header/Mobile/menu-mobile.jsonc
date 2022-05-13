@@ -14,10 +14,12 @@
           },
           "menuItems":[
             {
+              "id": 101,
               "name":"Rostro",
               "href": "/salud-belleza/maquillaje/rostro",
               "subItems":[
-                {
+                {  
+                  
                   "name":"Bases",
                   "href": "/salud-belleza/maquillaje/rostro/bases"
                 },
@@ -44,10 +46,12 @@
               ]
             },
             {
+              "id": 102,
               "name": "Accesorios",
               "href": "/salud-belleza/maquillaje/accesorios"
             },
             {
+              "id": 103,
               "name": "Ojos",
               "href": "/salud-belleza/maquillaje/ojos",
               "subItems":[
@@ -70,6 +74,7 @@
               ]
             },
             {
+              "id": 104,
               "name": "Labios",
               "href": "/salud-belleza/maquillaje/labios",
               "subItems":[
@@ -92,6 +97,7 @@
               ]
             },
             {
+              "id": 105,
               "name": "Cejas",
               "href": "/salud-belleza/maquillaje/cejas",
               "subItems":[
@@ -114,6 +120,7 @@
               ]
             },
             {
+              "id": 106,
               "name": "Uñas",
               "href": "/salud-belleza/maquillaje/unas",
               "subItems":[
@@ -144,6 +151,7 @@
           },
           "menuItems":[
             {
+              "id": 201,
               "name": "Shampoos",
               "href": "/salud-belleza/cuidado-cabello/shampoos",
               "subItems":[
@@ -158,6 +166,7 @@
               ]
             },
             {
+              "id": 202,
               "name": "Tratamientos Capilares",
               "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares",
               "subItems":[
@@ -172,6 +181,7 @@
               ]
             },
             {
+              "id": 203,
               "name": "Cuidado del cabello",
               "href": "/salud-belleza/cuidado-cabello/tratamientos-capilares",
               "subItems":[
@@ -198,6 +208,7 @@
               ]
             },
             {
+              "id": 204,
               "name": "Dermocapilar",
               "href": "/salud-belleza/cuidado-cabello/dermocapilar",
               "subItems":[
@@ -228,6 +239,7 @@
           },
           "menuItems":[
             {
+              "id": 301,
               "name": "Oral",
               "href": "/salud-belleza/cuidado-personal/oral",
               "subItems":[
@@ -238,6 +250,7 @@
               ]
             },
             {
+              "id": 302,
               "name": "Cuidado piernas y pies",
               "href": "/salud-belleza/cuidado-personal/cuidado-piernas-y-pies",
               "subItems":[
@@ -248,6 +261,7 @@
               ]
             },
             {
+              "id": 303,
               "name": "Servicios",
               "href": "/salud-belleza/cuidado-personal/servicios",
               "subItems":[
@@ -270,6 +284,7 @@
               ]
             },
             {
+              "id": 304,
               "name": "Corporal",
               "href": "/salud-belleza/cuidado-personal/corporal",
               "subItems":[
@@ -308,6 +323,7 @@
               ]
             },
             {
+              "id": 305,
               "name": "Cuidado de manos",
               "href": "/salud-belleza/cuidado-personal/cuidado-de-manos",
               "subItems":[
@@ -330,22 +346,27 @@
           },
           "menuItems":[
             {
+              "id": 401,
               "name": "Protectores Solares",
               "href": "/salud-belleza/proteccion-solar/protectores-solares"
             },
             {
+              "id": 402,
               "name": "Bronceadores",
               "href": "/salud-belleza/proteccion-solar/bronceadores"
             },
             {
+              "id": 403,
               "name": "Autobronceadores",
               "href": "/salud-belleza/proteccion-solar/autobronceadores"
             },
             {
+              "id": 404,
               "name": "After Sun",
               "href": "/salud-belleza/proteccion-solar/after-sun"
             },
             {
+              "id": 405,
               "name": "Repelentes",
               "href": "/salud-belleza/proteccion-solar/repelentes"
             }
@@ -362,6 +383,7 @@
           },
           "menuItems":[
             {
+              "id": 501,
               "name": "Cuidado de la Barba",
               "href": "/salud-belleza/cuidado-facial/cuidado-de-la-barba",
               "subItems":[
@@ -372,6 +394,7 @@
               ]
             },
             {
+              "id": 502,
               "name": "Cuidado de ojos",
               "href": "/salud-belleza/cuidado-facial/cuidado-de-ojos",
               "subItems":[
@@ -382,6 +405,7 @@
               ]
             },
             {
+              "id": 503,
               "name": "Servicios",
               "href": "/salud-belleza/cuidado-facial/servicios",
               "subItems":[
@@ -396,6 +420,7 @@
               ]
             },
             {
+              "id": 504,
               "name": "Facial",
               "href": "/salud-belleza/cuidado-facial/facial",
               "subItems":[
@@ -470,10 +495,12 @@
           },
           "menuItems":[
             {
+              "id": 601,
               "name": "Lavaplatos",
               "href": "/salud-belleza/hogar/lavaplatos"
             },
             {
+              "id": 602,
               "name": "Cuidado de la ropa",
               "href": "/salud-belleza/hogar/cuidado-de-la-ropa",
               "subItems":[
@@ -496,6 +523,7 @@
           },
           "menuItems":[
             {
+              "id": 701,
               "name": "Marcas destacadas",
               "subItems":[
                 {
@@ -537,6 +565,7 @@
               ]
             },
             {
+              "id": 702,
               "name": "Otras marcas",
               "subItems":[
                 {
@@ -622,8 +651,7 @@
         {
           "name": "Sale",
           "href": "/sale",
-          "isHighlight": true,
-          "isLink": true
+          "isHighlight": true
         }
       ]
     }

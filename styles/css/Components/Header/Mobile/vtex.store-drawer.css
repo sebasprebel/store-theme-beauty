@@ -8,6 +8,7 @@
 
 .childrenContainer {
   flex-direction: column;
+  overflow: auto;
 }
 
 

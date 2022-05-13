@@ -72,9 +72,6 @@
 .highlightContent--search-page__header--brands-images::-webkit-scrollbar{
  display: none;
 }
-.cardLayout__image--search-page__header--brands-images{
-  height:30px;
-}
 
 .containerLayout--product-summary__sku-selector--container :global(.vtex-store-components-3-x-skuSelectorName){
   margin: 0;
@@ -96,6 +93,10 @@
 .highlight__link--search-page__bullets:hover{
   background-color: var(--discount-pink);
   border: 1px solid var(--black);
+}
+
+.cardLayout--search-page__header--brands-images{
+  min-width: 200px;
 }
 
 @media (min-width: 1025px){

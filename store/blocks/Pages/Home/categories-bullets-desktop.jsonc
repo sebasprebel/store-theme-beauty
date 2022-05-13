@@ -24,7 +24,7 @@
   "highlight-content#home__highlight-bullets--desktop":{
     "title":"Contenedor bullets categorías - Desktop",
     "props":{
-      "blockClass":["home-page__bullets", "home__categories-bullets--desktop"],
+      "blockClass":["home__categories-bullets--desktop"],
       "sliderMode":false,
       "sliderProps":{
         "itemsPerpage":{

@@ -4,6 +4,7 @@
   font-size: 0;
   padding: 0;
   cursor: pointer;
+  border-radius: 50%;
 }
 .valueWrapper--unavailable{
   cursor: default !important;

@@ -217,9 +217,9 @@
         },
         {
           "name": "Cuidado Personal",
-          "href": "/vibes",
+          "href": "/salud-belleza/cuidado-personal",
           "menuBanner": {
-            "link": "/salud-belleza/maquillaje",
+            "link": "/vibes",
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/CUIDADO-PERSONAL.gif",
             "text": "Ver St Ives >"
           },
@@ -318,9 +318,9 @@
         },
         {
           "name": "Protección Solar",
-          "href": "/nude",
+          "href": "/salud-belleza/proteccion-solar",
           "menuBanner": {
-            "link": "/salud-belleza/maquillaje",
+            "link": "/nude",
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/PROTECCION-SOLAR.gif",
             "text": "Ver Nude >"
           },

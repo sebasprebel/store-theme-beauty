@@ -20,6 +20,10 @@
   color: var(--black)
 }
 
+.containerNormal--product-summary__shelf{
+  min-width: 156px;
+}
+
 .container--product-summary__shelf :global(.vtex-product-summary-2-x-productBrandContainer),
 .container--product-summary__shelf :global(.vtex-product-summary-2-x-nameContainer),
 .container--product-summary__shelf :global(.vtex-product-price-1-x-sellingPrice--hasUnitMultiplier),

@@ -14,8 +14,9 @@
       "blockClass":["brands-slider"],
       "sliderMode":true,
       "sliderProps":{
-        "itemsPerpage":{
-          "desktop":2,
+        "itemsPerPage":{
+          "desktop":5,
+          "tablet":4,
           "mobile":2
         },
         "infinite": true,

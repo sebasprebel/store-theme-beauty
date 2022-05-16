@@ -231,7 +231,7 @@
         {
           "id": 3,
           "name": "Cuidado Personal",
-          "href": "/vibes",
+          "href": "/salud-belleza/cuidado-cabello",
           "menuBanner": {
             "link": "/salud-belleza/maquillaje",
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/CUIDADO-PERSONAL.gif",
@@ -338,7 +338,7 @@
         {
           "id": 4,
           "name": "Protección Solar",
-          "href": "/nude",
+          "href": "/salud-belleza/proteccion-solar",
           "menuBanner": {
             "link": "/salud-belleza/maquillaje",
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/04/PROTECCION-SOLAR.gif",

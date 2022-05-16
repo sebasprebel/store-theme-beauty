@@ -50,11 +50,18 @@
 }
 
 .highlightContent--home__categories-bullets--desktop::-webkit-scrollbar{
-  height: 5px;
+  height: 8px;
+  cursor: pointer !important;
+  position: relative;
+  z-index: 3;
 }
 
 .highlightContent--home__categories-bullets--desktop::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
+  cursor: pointer !important;
+  position: relative;
+  z-index: 3;
+
 }
 
 
@@ -79,7 +86,7 @@
 
 .cardLayout__image--home__categories-bullets--desktop{
   position: relative;
-  bottom: -14px;
+  bottom: -22px;
   left: 14px;
 }
 .cardLayout__image--home__categories-bullets--desktop:hover{

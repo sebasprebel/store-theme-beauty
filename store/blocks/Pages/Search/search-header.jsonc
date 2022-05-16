@@ -87,7 +87,7 @@
       "highlight-content#search-page__header--brands-images"
     ],
     "props":{
-      "classes":"mv6"
+      "classes":"mt6"
     }
   },
   "highlight-content#search-page__header--brands-images":{
@@ -107,27 +107,27 @@
       "items":[
         {
           
-          "image": "/arquivos/catrice3.svg",
+          "image": "/arquivos/LOGO-CATRICE6.png",
           "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/catrice&searchState"
         },
         {
       
-          "image": "/arquivos/essence3.svg",
+          "image": "/arquivos/LOGO-ESSENCE6.png",
           "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/essence&searchState"
         },
         {
          
-          "image": "/arquivos/vitu3.svg",
+          "image": "/arquivos/LOGO-VITU6.png",
           "link": "salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/vitu&searchState"
         },
         {
          
-          "image": "/arquivos/max-factor3.svg",
+          "image": "/arquivos/LOGO-MAX-FACTOR6.png",
           "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/max-factor&searchState"
         },
         {
          
-          "image": "/arquivos/yardley3.svg",
+          "image": "/arquivos/LOGO-YARDLEY6.png",
           "link": "/salud-belleza/maquillaje?initialMap=c,c&initialQuery=salud-belleza/maquillaje&map=category-1,category-2,brand&query=/salud-belleza/maquillaje/yardley&searchState"
         }
       ]

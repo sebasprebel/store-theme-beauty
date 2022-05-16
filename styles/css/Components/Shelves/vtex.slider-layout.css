@@ -16,19 +16,15 @@
 .slideChildrenContainer--shelf__slider{
   border: 2px solid var(--light-grey);
   border-radius: 18px;
-  height: 290px;
-  max-width: 175px;
   position: relative;
-}
-
-.slide--shelf__slider--visible{
-  min-width:156px !important;
-  width: 156px !important;
 }
 
 .sliderTrack--shelf__slider{
   gap: .8rem;
   margin-top: 1.5rem;
+}
+.slide--shelf__slider{
+  min-width:156px;
 }
 
 .sliderTrackContainer--shelf__slider{
@@ -48,19 +44,4 @@
 .sliderRightArrow--shelf__slider{
   right: -10px;
   
-}
-
-
-@media all and (min-width: 1025px){
-  .slide--shelf__slider--visible{
-    min-width:250px !important;
-    width: 250px !important;
-  }
-  .slideChildrenContainer--shelf__slider{
-    max-width: 250px;
-  }
-  .slide--shelf,
-  .slideChildrenContainer--shelf__slider{
-    height:370px
-  }
 }

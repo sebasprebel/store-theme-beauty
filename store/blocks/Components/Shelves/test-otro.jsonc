@@ -47,11 +47,6 @@
       },
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
-      "centerMode": {
-        "phone": "disabled",
-        "tablet": "to-the-left",
-        "desktop": "to-the-left"
-      },
       "autoplay": {
         "timeout": 100000,
         "stopOnHover": true

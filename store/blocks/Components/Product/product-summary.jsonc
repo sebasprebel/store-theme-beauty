@@ -85,7 +85,8 @@
     "props": {
       "showFieldsProps":{
         "showSku": true
-      }
+      },
+      "tag": "div"
     }
   },
   "product-price-savings":{

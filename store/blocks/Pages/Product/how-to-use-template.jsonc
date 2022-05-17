@@ -1,0 +1,59 @@
+{
+  "container-layout#how-to-use__template--container":{
+    "title":"Contenedor plantila modo de uso",
+    "children":[
+      "container-layout#how-to-use__template--video--container",
+      "container-layout#how-to-use__template--text--container",
+      "container-layout#how-to-use__template--image--container"
+    ],
+    "props":{
+      "blockClass":"how-to-use__template--container"
+    }
+  },
+  "container-layout#how-to-use__template--video--container":{
+    "title":"Contenedor video modo de uso",
+    "children":[
+      "iframe#how-to-use__video"
+    ]
+  },
+  "container-layout#how-to-use__template--text--container":{
+    "title":"Contenedor texto modo de uso",
+    "children":[
+      "rich-text#how-to-use__text"
+    ]
+  },
+  "container-layout#how-to-use__template--image--container":{
+    "title":"Contenedor imagen modo de uso",
+    "children":[
+      "responsive-image#how-to-use__image"
+    ]
+  },
+    "iframe#how-to-use__video": {
+      "props": {
+        "src": "https://www.youtube.com/embed/X1htxz6Sqe4",
+        "blockClass": "how-to-use__video",
+        "width": "100%",
+        "heigh": "100%"
+      }
+    },
+    "rich-text#how-to-use__text": {
+      "props": {
+        "blockClass": ["how-to-use__text"],
+        "font": "t-body",
+        "text": "### Paso 1\n ¡Nunca los volverás a ver! Este corrector cubre los granitos, rojeces e impurezas de la piel. Enriquecido con bisabolol, alantoina y farnesol para calmar la piel.\n\n\n ### Paso 2\n ¡Nunca los volverás a ver! Este corrector cubre los granitos, rojeces e impurezas de la piel. Enriquecido con bisabolol, alantoina y farnesol para calmar la piel.\n\n\n ### Paso 3\n¡Nunca los volverás a ver! Este corrector cubre los granitos, rojeces e impurezas de la piel. Enriquecido con bisabolol, alantoina y farnesol para calmar la piel.",
+        "textAlignment": "LEFT",
+        "textColor": "c-on-base",
+        "textPosition": "LEFT"
+      }
+    },
+    "responsive-image#how-to-use__image":{
+      "title": "Banner not found",
+      "props":{
+        "desktopImage":"https://blog.beautyholics.com/wp-content/uploads/2022/04/MAQUILLAJE-MENU.gif",
+        "mobileImage":"https://blog.beautyholics.com/wp-content/uploads/2022/04/MAQUILLAJE-MENU.gif",
+        "link":"/",
+        "blockClass":"how-to-use__image"
+      }
+    }
+
+}

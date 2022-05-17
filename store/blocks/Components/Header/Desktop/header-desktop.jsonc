@@ -65,7 +65,8 @@
   },
   "search-bar":{
     "props":{
-      "placeholder":"¿Qué estás buscando?"
+      "placeholder":"¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
     }
   }
 }

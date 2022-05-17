@@ -10,9 +10,8 @@
       "container-layout#breadcrumb",
       "container-layout#product-page__product-detail",
       "container-layout#product-page__tabs-section",
-      "container-layout#completa-shelf--container",
-      "container-layout#otros-shelf--container",
-      // "shelf.relatedProducts#producSection__relatedShelf",
+      "shelf.relatedProducts#producSection__complete",
+      "shelf.relatedProducts#producSection__relation",
       "container-layout#home__slogan-slider--container"
     ],
     "props":{
@@ -30,8 +29,8 @@
       "showOnMobile": true
     }
   },
-  "shelf.relatedProducts#producSection__relatedShelf": {
-    "title": "Vitrina de recomencación",
+  "shelf.relatedProducts#producSection__complete": {
+    "title": "Vitrina de recomendación completa tu compra",
     "blocks": [
       "product-summary.shelf#custom"
     ],
@@ -39,6 +38,21 @@
       "recommendation": "view",
       "productList": {
         "titleText": "Completa tu compra",
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2
+      },
+      "hideOutOfStockItems": true
+    }
+  },
+  "shelf.relatedProducts#producSection__relation": {
+    "title": "Vitrina de recomendación también compraron",
+    "blocks": [
+      "product-summary.shelf#custom"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Otras personas también compraron",
         "itemsPerPage": 5,
         "minItemsPerPage": 2
       },

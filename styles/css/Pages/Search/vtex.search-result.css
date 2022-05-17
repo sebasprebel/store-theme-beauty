@@ -164,9 +164,7 @@
   border: 1px solid var(--soft-grey);
 }
 
-.accordionFilterOpen--gama-colores :global(.vtex-checkbox__container){
-  display: none;
-}
+
 
 .filter__container--gama-colores :global(.vtex-search-result-3-x-filterTitleSpan),
 .filterAccordionItemBox--gama-colores :global(.vtex-search-result-3-x-accordionFilterItemTitle){ 

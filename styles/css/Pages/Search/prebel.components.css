@@ -73,7 +73,7 @@
   display: flex;
   overflow-x: auto;
   gap: 3rem;
-  margin-block: 1.5rem;
+  margin: 2.5rem 0 1rem 0;
 }
 .highlightContent--search-page__header--brands-images::-webkit-scrollbar{
  display: none;

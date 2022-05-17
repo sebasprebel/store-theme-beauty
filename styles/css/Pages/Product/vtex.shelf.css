@@ -1,0 +1,44 @@
+.slide {
+  width: 7.69231%;
+  border: 2px solid var(--light-grey);
+  border-radius: 18px;
+  height: auto;
+}
+
+.relatedProducts :global(.vtex-slider-0-x-dotsContainer){
+  display: none;
+}
+
+.relatedProducts {
+  padding-bottom: 2.5rem;
+  padding-inline: 1rem;
+}
+
+.title{
+  justify-content:flex-start;
+  color: var(--black);
+  font-size: 1.125rem;
+}
+@media (min-width: 1025px){
+  .title{
+    font-size: 2.25rem;
+  }
+}
+
+.arrow{
+  position: absolute;
+  z-index: 2;
+  background: var(--white)!important;
+  border: 1px solid var(--soft-grey);
+  border-radius: 50%;
+}
+
+.arrow:hover{
+  border: 1px solid var(--black);
+}
+
+.caretIcon{
+  width: 35px;
+  height: 35px;
+  padding: .5rem;
+}

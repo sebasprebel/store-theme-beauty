@@ -73,7 +73,8 @@
   },
   "tab-content.item#product-page__how-to-use--item":{
     "children": [
-      "product-spec-use"
+      "product-spec-use",
+      "container-layout#how-to-use__template--container"
     ],
     "props": {
       "tabId": "use",

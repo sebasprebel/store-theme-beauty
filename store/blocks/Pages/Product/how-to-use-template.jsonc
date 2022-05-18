@@ -29,6 +29,7 @@
     ]
   },
     "iframe#how-to-use__video": {
+      "title":"Video template",
       "props": {
         "src": "https://www.youtube.com/embed/X1htxz6Sqe4",
         "blockClass": "how-to-use__video",
@@ -37,6 +38,7 @@
       }
     },
     "rich-text#how-to-use__text": {
+      "title":"Texto template",
       "props": {
         "blockClass": ["how-to-use__text"],
         "font": "t-body",
@@ -47,7 +49,7 @@
       }
     },
     "responsive-image#how-to-use__image":{
-      "title": "Banner not found",
+      "title": "Imágen tempalte",
       "props":{
         "desktopImage":"https://blog.beautyholics.com/wp-content/uploads/2022/04/MAQUILLAJE-MENU.gif",
         "mobileImage":"https://blog.beautyholics.com/wp-content/uploads/2022/04/MAQUILLAJE-MENU.gif",

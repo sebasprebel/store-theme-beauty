@@ -1,0 +1,84 @@
+{
+  "store.custom#template-bio": {
+    "blocks": [
+      "container-layout#template-bio__container"
+    ]
+  },
+
+  "container-layout#template-bio__container":{
+    "title":"Contenedor página",
+    "children":[
+      "container-layout#template-bio__container-header",
+      "container-layout#image-with-html--container",
+      "container-layout#image-with-html--container",
+      "container-layout#template-bio__component-1",
+      "container-layout#image-with-html--container",
+      "container-layout#template-bio__component-1",
+      "container-layout#image-with-html--container",
+      "container-layout#template-bio__component-2"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "container-layout#template-bio__container-header":{
+    "title":"Contenedor header de la página",
+    "children":[
+      "rich-text#template-bio__header--content"
+    ],
+    "props":{
+      "blockClass":["custom-wrapper"]
+    }
+  }, 
+  "rich-text#template-bio__header--content": {
+    "title": "Contenido header",
+    "props": {
+      "text": "# Labiales rojos\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique. Leo urna molestie at elementum. Vel pharetra vel turpis nunc. Integer vitae justo eget magna. Purus faucibus ornare suspendisse sed nisi. Non odio euismod lacarius quam quisque id diam vel. Quisque egestas diam in arcu cursus. Orci phasellus egestas tellus rutrum tellus. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Dictum fusce ut placerat orci nulla pellentesque.",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "template-text"
+      ]
+    }
+  },
+
+  "container-layout#template-bio__component-1":{
+    "title":"Contenedor componente 1",
+    "children":[
+      "container-layout#recommended-shelf--container"
+    ]
+  },
+  "container-layout#template-bio__component-2":{
+    "title":"Contenedor componente 2",
+    "children":[
+      "container-layout#buttons-container"
+    ],
+    "props":{
+      "blockClass":"center-com"
+    }
+  },
+  "container-layout#buttons-container":{
+    "title":"Buttons container",
+    "children":[
+      "link#button-1",
+      "link#button-2"
+    ]
+  },
+  "link#button-1": {
+    "title": "Button 1",
+    "props": {
+      "href": "#",
+      "label": "Button 1",
+      "blockClass": "button-link-template"
+    }
+  },
+  "link#button-2": {
+    "title": "Button 2",
+    "props": {
+      "href": "#",
+      "label": "Button 2",
+      "blockClass": "button-link-template"
+    }
+  }
+}

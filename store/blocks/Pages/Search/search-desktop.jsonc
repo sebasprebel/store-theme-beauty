@@ -14,12 +14,29 @@
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
       "container-layout#search-page__header",
-      "container-layout#search-page__orderby--container",
-      "container-layout#search-page__filter-content--container",
+      "container-layout#search-page__content-all",
       "container-layout#search-page__frequent-questions",
       "container-layout#drop-down__container",
       "container-layout#home__slogan-slider--container"
     ]
+  },
+  "container-layout#search-page__content-all":{
+    "children":[
+      "container-layout#search-page__orderby--container",
+      "container-layout#filter",
+      "container-layout#search-page__content-show-more--container"
+    ],
+    "props":{
+      "blockClass":"content-search-all"
+    }
+  },
+  "container-layout#filter":{
+    "children":[
+      "filter-navigator.v3"
+    ],
+    "props":{
+      "blockClass":"filter-container"
+    }
   },
   "container-layout#search-page__breadcrumb--container--desktop":{
     "title":"Contenedor breadcrumb",
@@ -31,30 +48,18 @@
     }
   },
 
-  /*Fetch search info custom*/
-  // "container-layout#search-page__header--container--desktop":{
-  //   "title":"Contenedor header search page",
-  //   "children":[
-  //     "search-info-custom"
-  //   ],
-  //   "props":{
-  //     "blockClass":["wrapper"]
-  //   }
-  // },
-
   "container-layout#search-page__orderby--container":{
     "title":"Contenedor ordenar por",
     "children":[
       "order-by.v2"
     ],
     "props":{
-      "blockClass": ["search-page__orderby--container", "wrapper"]
+      "blockClass": ["search-page__orderby--container"]
     }
   },
   "container-layout#search-page__filter-content--container":{
     "title":"Contenedor filtro - resultado búsqueda",
     "children":[
-      "filter-navigator.v3",
       "container-layout#search-page__content-show-more--container"
     ],
     "props":{

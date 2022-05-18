@@ -1,0 +1,15 @@
+.link--button-link-template{
+  background-color: var(--black);
+  padding: 0.5rem 1rem;
+  border-radius:24px;
+  margin-right: 1.5rem;
+}
+.link--button-link-template:hover{
+  background-color: var(--main-color);
+}
+.link--button-link-template:hover :global(.vtex-store-link-0-x-label--button-link-template){
+  color: var(--black)
+}
+.label--button-link-template{
+  color: var(--white);
+}

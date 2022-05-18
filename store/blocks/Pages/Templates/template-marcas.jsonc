@@ -1,0 +1,186 @@
+{
+  "store.custom#template-marcas": {
+    "blocks": [
+      "container-layout#template-marcas__container"
+    ]
+  },
+
+  "container-layout#template-marcas__container":{
+    "title":"Contenedor página",
+    "children":[
+      "container-layout#image-with-html--container",
+      "container-layout#template-marcas__container-header",
+      "container-layout#template-marcas__component-1",
+      "container-layout#template-marcas__component-2",
+      "container-layout#template-marcas__component-3",
+      "container-layout#template-marcas__component-4",
+      "container-layout#template-marcas__component-5",
+      "container-layout#template-marcas__component-6"
+    ],
+    "props":{
+      "blockClass":"wrapper-static-page"
+    }
+  },
+  "container-layout#template-marcas__container-header":{
+    "title":"Contenedor header de la página",
+    "children":[
+      "rich-text#template-marcas__header--content"
+    ],
+    "props":{
+      "blockClass":["custom-wrapper"]
+    }
+  }, 
+  "rich-text#template-marcas__header--content": {
+    "title": "Contenido header",
+    "props": {
+      "text": "# Labiales rojos\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique. Leo urna molestie at elementum. Vel pharetra vel turpis nunc. Integer vitae justo eget magna. Purus faucibus ornare suspendisse sed nisi. Non odio euismod lacarius quam quisque id diam vel. Quisque egestas diam in arcu cursus. Orci phasellus egestas tellus rutrum tellus. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Dictum fusce ut placerat orci nulla pellentesque.",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER",
+      "blockClass": [
+        "template-text"
+      ]
+    }
+  },
+
+  "container-layout#template-marcas__component-1":{
+    "title":"Contenedor componente 1",
+    "children":[
+      "highlight-content#search-page__header--brands-images"
+    ],
+    "props":{
+      "blockClass":"center-com"
+    }
+  },
+  "container-layout#template-marcas__component-2":{
+    "title":"Contenedor componente 2",
+    "children":[
+      "highlight-content#search-page__header--highlight-content"
+    ],
+    "props":{
+      "blockClass":"center-com"
+    }
+  },
+  "container-layout#template-marcas__component-3":{
+    "title":"Contenedor componente 3",
+    "children":[
+      "highlight-content#template-marcas__colors-filters"
+    ],
+    "props":{
+      "blockClass":"center-com"
+    }
+  },
+  "container-layout#template-marcas__component-4":{
+    "title":"Contenedor componente 4",
+    "children":[
+      "search-result-layout.customQuery#template-marcas"
+    ]
+  },
+  "container-layout#template-marcas__component-5":{
+    "title":"Contenedor componente 5",
+    "children":[
+      "rich-text#template-marcas__column-1",
+      "rich-text#template-marcas__column-2"
+    ],
+    "props":{
+      "blockClass":["text-columns--container"]
+    }
+  },
+  "container-layout#template-marcas__component-6":{
+    "title":"Contenedor componente 6",
+    "children":[
+      "container-layout#search-page__frequent-questions"
+    ]
+  },
+  "rich-text#template-marcas__column-1": {
+    "props": {
+      "blockClass": [""],
+      "font": "t-body",
+      "text": "#### Columna 1\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique. Leo urna molestie at elementum. Vel pharetra vel turpis nunc. Integer vitae justo eget magna. Purus faucibus ornare suspendisse sed nisi. Non odio euismod lacarius quam quisque id diam vel. Quisque egestas diam in arcu cursus. Orci phasellus egestas tellus rutrum tellus. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Dictum fusce ut placerat orci nulla pellentesque.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#template-marcas__column-2": {
+    "props": {
+      "blockClass": [""],
+      "font": "t-body",
+      "text": "#### Columna 2\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique. Leo urna molestie at elementum. Vel pharetra vel turpis nunc. Integer vitae justo eget magna. Purus faucibus ornare suspendisse sed nisi. Non odio euismod lacarius quam quisque id diam vel. Quisque egestas diam in arcu cursus. Orci phasellus egestas tellus rutrum tellus. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Dictum fusce ut placerat orci nulla pellentesque.",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "search-result-layout.desktop#template":{
+    "title":"Layout tempalte colection",
+    "children":[
+      "container-layout#collection-template--container"
+    ]
+  },
+  "container-layout#collection-template--container":{
+    "title":"Contenedor colección y botón ver más",
+    "children":[
+      "search-content",
+      "search-fetch-more"
+    ],
+    "props":{
+      "blockClass": ["collection-template--container"]
+    }
+  },
+
+  "search-result-layout.customQuery#template-marcas": {
+    "title": "Lista de productos custom",
+    "props": {
+      "querySchema": {
+        "queryField": "2864",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "orderByField": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8
+      },
+      "blockClass":"tempalte-collections"
+    },
+    "blocks": [
+      "search-result-layout.desktop#template"
+    ]
+  },
+  "highlight-content#template-marcas__colors-filters":{
+    "title":"Contenedor página de búsqueda bullets.",
+    "props":{
+      "blockClass":"filter-colors--bullets",
+      "sliderMode":false,
+      "items":[
+        {
+          "text": "1",
+          "backgroundColor": "#E0988C",
+          "link": "/salud-belleza/maquillaje/rostro"
+        },
+        {
+          "text": "1",
+          "backgroundColor": "#D13434",
+          "link": "/salud-belleza/maquillaje/ojos"
+        },
+        { 
+          "text": "1",
+          "backgroundColor": "#9B2121",
+          "link": "/salud-belleza/maquillaje/cejas"
+        },
+        {  "text": "1",
+          "backgroundColor": "#691737",
+          "link": "/salud-belleza/maquillaje/labios"
+        },
+        { "text": "1",
+          "backgroundColor": "#F9D7A0",
+          "link": "/salud-belleza/maquillaje/uñas"
+        },
+        {
+          "text": "1",
+          "backgroundColor": "#A35596",
+          "link": "/salud-belleza/maquillaje/accesorios"
+        }
+      ]
+    }
+  }
+}

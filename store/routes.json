@@ -46,5 +46,14 @@
   "store.custom#our-brands":{
     "title": "Nuestras Marcas",
     "path": "/nuestras-marcas"
+  },
+  "store.custom#template-marcas":{
+    "title": "Template marcas",
+    "path": "/template-marcas"
+  },
+  "store.custom#template-bio":{
+    "title": "Template bio",
+    "path": "/template-bio"
   }
 }
+

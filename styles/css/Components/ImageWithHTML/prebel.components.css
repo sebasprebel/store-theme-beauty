@@ -1,0 +1,11 @@
+.containerLayout--image-with-html__container{
+  position: relative;
+  max-width:1440px;
+  margin: 2rem auto;
+}
+
+.containerLayout--image-with-html__container-danger{
+  width: 100%;
+  height: 100%;
+  top: 0;
+}

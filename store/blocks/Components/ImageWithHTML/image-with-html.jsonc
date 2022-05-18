@@ -1,0 +1,31 @@
+{
+  "container-layout#image-with-html--container": {
+    "title": "Contenedor imagen con HTML",
+    "children": [
+      "responsive-image#image-with-html--image",
+      "container-layout#image-with-html--container-danger"
+    ],
+    "props": {
+      "blockClass": ["image-with-html__container"]
+    }
+  },
+  "container-layout#image-with-html--container-danger":{
+    "title":"Container danger",
+    "children": ["danger-html#content-image"],
+    "props": {
+      "classes": "absolute",
+      "blockClass": ["image-with-html__container-danger"]
+    }
+  },
+  "responsive-image#image-with-html--image":{
+    "title": "Image with content HTML",
+    "props":{
+      "desktopImage":"/arquivos/banner-home-test.jpg",
+      "mobileImage":"/arquivos/banner-home-mobile-test.jpg",
+      "link":"/"
+    }
+  },
+  "danger-html#content-image": {
+    "title": "HTML content place"
+  }
+}

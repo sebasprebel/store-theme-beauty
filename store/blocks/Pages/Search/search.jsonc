@@ -68,7 +68,6 @@
     "title":"Página búsqueda",
     "blocks": [
       "search-result-layout.desktop",
-      "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
@@ -76,7 +75,6 @@
     "title":"Página búsqueda",
     "blocks": [
       "search-result-layout.desktop#custom-search",
-      "search-result-layout.mobile#custom-search",
       "search-not-found-layout"
     ]
   },

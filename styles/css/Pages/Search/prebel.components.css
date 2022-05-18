@@ -146,7 +146,6 @@
 
 .containerLayout--search-page__content-show-more--container{
   grid-area: result;
-  overflow:hidden;
 }
 
 @media(max-width: 1025px){
@@ -163,4 +162,11 @@
   .containerLayout--search-page__orderby--container{
     border-block: 1px solid var(--hard-pink);
   }
+  .containerLayout--search-page__content-show-more--container{
+    overflow: hidden;
+  }
+}
+
+.cardLayout--search-page__bullets{
+  min-width: fit-content;
 }

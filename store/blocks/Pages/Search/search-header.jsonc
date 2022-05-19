@@ -87,7 +87,7 @@
       "highlight-content#search-page__header--brands-images"
     ],
     "props":{
-      "classes":"mt6"
+      "classes":"search-page__header--brands-images--container"
     }
   },
   "highlight-content#search-page__header--brands-images":{

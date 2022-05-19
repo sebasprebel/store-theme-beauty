@@ -27,14 +27,14 @@
 .highlightContent--search-page__bullets{
   display: flex;
   gap: 1rem;
-  margin: 2.5rem 0rem 2rem 0rem;
+  margin: 0;
   overflow-x: auto;
-  padding: 0rem .5rem 1rem .5rem;
+  padding: .8rem .5rem 1.5rem 0rem;
 }
 
 @media (min-width:1024px){
   .highlightContent--search-page__bullets{
-    padding: 0rem .5rem 1rem 0rem;
+    padding: 0.8rem .5rem 1.5rem 0rem;
   }
 }
 .paragraph--search-page__bullets{
@@ -73,7 +73,7 @@
   display: flex;
   overflow-x: auto;
   gap: 3rem;
-  margin: 2.5rem 0 1rem 0;
+  margin: 0;
 }
 .highlightContent--search-page__header--brands-images::-webkit-scrollbar{
  display: none;
@@ -127,6 +127,7 @@
 .containerLayout--content-search-all{
   display: grid;
   padding: 2rem;
+  padding-top: 1rem;
   max-width:1440px;
   margin: 0 auto;
   grid-template-columns: 320px 1fr;

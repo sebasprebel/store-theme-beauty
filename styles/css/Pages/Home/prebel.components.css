@@ -206,6 +206,12 @@
   scrollbar-width: none;
 }
 
+@media (max-width: 1025px){
+  .highlightContent--value-proposition__highlight{
+    justify-content: flex-start;
+  }
+}
+
 .highlightContent--value-proposition__highlight::-webkit-scrollbar{
   display: none;
 }

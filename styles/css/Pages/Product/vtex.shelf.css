@@ -33,6 +33,12 @@
   border-radius: 50% !important;
 }
 
+.arrowRight{
+  right: -2px;
+}
+.arrowLeft{
+  left: -5px;
+}
 .arrow:hover{
   border: 1px solid var(--black) !important;
 }

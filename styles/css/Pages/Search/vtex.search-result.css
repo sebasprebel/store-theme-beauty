@@ -27,6 +27,7 @@
 
 .gallery{
   justify-content: center;
+  padding-inline: .5rem;
   gap:1rem 0.8rem;
   margin-block: 1rem;
   align-content: flex-start;
@@ -71,6 +72,8 @@
 .orderByButton{
   padding: 0.8rem;
   border-left: 1px solid var(--main-color);
+  justify-content: center;
+  display: flex;
 }
 
 /*Filter modal mobile*/
@@ -190,6 +193,8 @@ font-size: 0;
   }
   .gallery{
     display:grid;
+    padding: 0;
+    margin-left: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(203px, 1fr));
   }
   .orderByDropdown{

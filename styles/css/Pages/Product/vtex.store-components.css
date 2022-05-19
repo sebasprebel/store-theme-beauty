@@ -21,34 +21,34 @@
 }
 
 .swiperCaret {
-  border: 1px solid var(--soft-grey);
-  border-radius: 50%;
-  padding : .4rem;
-  margin-inline: .7rem;
-  color: var(--black);
-  width: 38px;
-  height: 38px;
-  display: flex;
-  justify-content: center;
+  border: 1px solid var(--soft-grey) !important; 
+  border-radius: 50% !important;
+  padding : .4rem !important;
+  margin-inline: .7rem !important;
+  color: var(--black) !important;
+  width: 38px !important;
+  height: 38px !important;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .swiperCaret:hover{
-  border: 1px solid var(--black);
+  border: 1px solid var(--black) !important;
 }
 
 .swiperCaret :global(.vtex-store-components-3-x-caretIcon){
-  width: 35px;
-  height: 22px;
+  width: 35px !important;
+  height: 22px !important;
 }
 
 .swiperCaretNext :global(.vtex-store-components-3-x-caretIcon){
-  position: relative;
-  left: 2px;
+  position: relative !important;
+  left: 2px !important;
 }
 
 .swiperCaretPrev  :global(.vtex-store-components-3-x-caretIcon){
-  position: relative;
-  left: -2px;
+  position: relative !important;
+  left: -2px !important;
 }
 
 .carouselCursorDefault{

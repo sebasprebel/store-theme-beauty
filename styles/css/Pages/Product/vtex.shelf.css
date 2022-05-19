@@ -26,19 +26,19 @@
 }
 
 .arrow{
-  position: absolute;
-  z-index: 2;
+  position: absolute !important;
+  z-index: 2 !important;
   background: var(--white)!important;
-  border: 1px solid var(--soft-grey);
-  border-radius: 50%;
+  border: 1px solid var(--soft-grey) !important;
+  border-radius: 50% !important;
 }
 
 .arrow:hover{
-  border: 1px solid var(--black);
+  border: 1px solid var(--black) !important;
 }
 
 .caretIcon{
-  width: 35px;
-  height: 35px;
-  padding: .5rem;
+  width: 35px !important;
+  height: 35px !important;
+  padding: .5rem !important;
 }

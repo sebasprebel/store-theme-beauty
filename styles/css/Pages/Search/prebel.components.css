@@ -138,6 +138,7 @@
 
 .containerLayout--search-page__orderby--container{
   grid-area: order;
+  max-width:1440px;
 }
 
 .containerLayout--filter-container{

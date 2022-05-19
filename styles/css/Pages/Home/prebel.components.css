@@ -25,13 +25,25 @@
 
 .highlightContent--search-page__bullets{
   margin: 1.5rem 0 !important;
-  padding-bottom: 0 !important;
   scrollbar-width: none;
 }
 
 .highlightContent--search-page__bullets::-webkit-scrollbar{
-  display: none;
+  height: 6px;
 }
+
+.highlightContent--search-page__bullets::-webkit-scrollbar-thumb {
+  background-color:var(--main-color);
+}
+ 
+
+@media (max-width: 600px){
+  .highlightContent--search-page__bullets::-webkit-scrollbar{
+    display: none;
+  }
+  
+}
+
 
 .highlightContent--home-page__bullets{
   display: flex;

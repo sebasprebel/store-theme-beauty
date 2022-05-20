@@ -44,6 +44,10 @@
   
 }
 
+.highlightContent--home__categories-bullets{
+  padding: .8rem .5rem .8rem 0.5rem !important;
+
+}
 
 .highlightContent--home-page__bullets{
   display: flex;

@@ -13,8 +13,7 @@
     "children":[
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
-      "container-layout#search-page__orderby--container",
-      "container-layout#search-page__filter-content--container",
+      "container-layout#search-page__content-all",
       "container-layout#drop-down__container",
       "container-layout#home__slogan-slider--container"
     ]

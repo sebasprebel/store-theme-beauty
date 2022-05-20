@@ -135,6 +135,7 @@
   grid-template-areas:
    ". order"
    "filter result";
+   gap: 0rem 1rem;
 }
 
 .containerLayout--search-page__orderby--container{
@@ -159,6 +160,8 @@
     grid-template-areas:
      "filter order"
      "result result";
+     gap: 0;
+     margin-top: .8rem;
   }
   .containerLayout--filter-container,
   .containerLayout--search-page__orderby--container{

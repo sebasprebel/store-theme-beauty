@@ -3,6 +3,10 @@
   border: none;
 }
 
+:global(.vtex-store__template){
+  height:100vh;
+}
+
 *{
   margin: 0;
   padding: 0;

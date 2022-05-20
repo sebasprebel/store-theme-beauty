@@ -9,13 +9,25 @@
     "title":"Contenedor página",
     "children":[
       "container-layout#template-bio__container-header",
-      "container-layout#image-with-html--container",
-      "container-layout#image-with-html--container",
+      "container-layout#template-bio__component-banner-ppl",
       "container-layout#template-bio__component-1",
-      "container-layout#image-with-html--container",
-      "container-layout#template-bio__component-1",
-      "container-layout#image-with-html--container",
-      "container-layout#template-bio__component-2"
+      "container-layout#template-bio__component-2",
+      "container-layout#template-bio__component-3",
+      "container-layout#template-bio__component-4",
+      "container-layout#template-bio__component-5",
+      "container-layout#template-bio__component-6",
+      "container-layout#template-bio__component-7",
+      "container-layout#template-bio__component-8",
+      "container-layout#template-bio__component-9",
+      "container-layout#template-bio__component-10",
+      "container-layout#template-bio__component-11",
+      "container-layout#template-bio__component-12",
+      "container-layout#template-bio__component-13",
+      "container-layout#template-bio__component-14",
+      "container-layout#template-bio__component-15",
+      "container-layout#template-bio__component-16",
+      "container-layout#template-bio__component-17",
+      "container-layout#template-bio__component-18"
     ],
     "props":{
       "blockClass":"wrapper-static-page"
@@ -42,14 +54,140 @@
       ]
     }
   },
+  "container-layout#template-bio__component-banner-ppl":{
+    "title": "Banner principal",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
 
   "container-layout#template-bio__component-1":{
     "title":"Contenedor componente 1",
     "children":[
-      "container-layout#recommended-shelf--container"
+      "container-layout#image-with-html--container"
     ]
   },
   "container-layout#template-bio__component-2":{
+    "title":"Contenedor componente 2",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-3":{
+    "title":"Contenedor componente 3",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-4":{
+    "title":"Contenedor componente 4",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-5":{
+    "title":"Contenedor componente 5",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-6":{
+    "title":"Contenedor componente 6",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-7":{
+    "title":"Contenedor componente 7",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-8":{
+    "title":"Contenedor componente 8",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-9":{
+    "title":"Contenedor componente 9",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-10":{
+    "title":"Contenedor componente 10",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-11":{
+    "title":"Contenedor componente 11",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-12":{
+    "title":"Contenedor componente 12",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-13":{
+    "title":"Contenedor componente 13",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-14":{
+    "title":"Contenedor componente 14",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-15":{
+    "title":"Contenedor componente 15",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-16":{
+    "title":"Contenedor componente 16",
+    "children":[
+      "container-layout#new-products-shelf--container"
+    ],
+    "props":{
+      "blockClass":"f"
+    }
+  },
+  "container-layout#template-bio__component-17":{
+    "title":"Contenedor componente 17",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
+  },
+  "container-layout#template-bio__component-18":{
     "title":"Contenedor componente 2",
     "children":[
       "container-layout#buttons-container"

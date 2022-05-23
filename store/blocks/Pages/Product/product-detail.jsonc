@@ -47,7 +47,8 @@
   "product-identifier.product":{
     "props":{
       "label": "custom",
-      "customLabel":"SKU"
+      "customLabel":"SKU",
+      "idField": "skuReferenceId"
     }
   },
   "container-layout#detail-product__prices--container":{

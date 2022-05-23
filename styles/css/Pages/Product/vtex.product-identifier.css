@@ -1,11 +1,11 @@
-.product-identifier--productReference{
+.product-identifier--skuReferenceId{
   font-size: 1rem;
   color: var(--hard-grey);
   display: block;
 }
 
 @media all and (min-width: 1025px){
-  .product-identifier--productReference{
+  .product-identifier--skuReferenceId{
     font-size: 1.3rem;
     color: var(--hard-grey);
     display: block;

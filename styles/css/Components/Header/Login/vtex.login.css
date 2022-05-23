@@ -164,7 +164,7 @@
   color: var(--hard-red);
 }
 .contentAlwaysWithOptions{
-  margin-block: 3rem;
+  margin: 3rem 1rem;
 }
 
 .emailVerification :global(.vtex-input-prefix__group){

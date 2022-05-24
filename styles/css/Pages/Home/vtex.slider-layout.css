@@ -22,5 +22,11 @@
 }
 
  .sliderLayoutContainer--banner-slider{
-  margin-block: 1rem;
-} 
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1025px) {
+  .sliderLayoutContainer--banner-slider{
+    margin-block: 1rem;
+  }
+}

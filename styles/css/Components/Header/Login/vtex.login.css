@@ -28,6 +28,13 @@
   height: 22px;
 }
 
+@media (min-width: 1025px){
+  .profileIcon{
+    width: 23px;
+    height: 22px;
+  }
+}
+
 /*Login list and content*/
 
 .arrowUp{

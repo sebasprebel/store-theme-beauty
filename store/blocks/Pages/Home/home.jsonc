@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-btn",
       "container-layout#home__categories-bullets",
       "container-layout#home__main-slider--container",
       "container-layout#home__categories-bullets--desktop",

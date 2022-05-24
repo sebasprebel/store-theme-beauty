@@ -25,6 +25,7 @@
 }
 .slide--shelf__slider{
   min-width:156px;
+  max-width: 323px;
 }
 
 .sliderTrackContainer--shelf__slider{

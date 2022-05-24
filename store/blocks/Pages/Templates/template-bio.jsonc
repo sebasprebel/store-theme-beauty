@@ -30,7 +30,7 @@
       "container-layout#template-bio__component-18"
     ],
     "props":{
-      "blockClass":"wrapper-static-page"
+      "blockClass":"wrapper-static-page-template"
     }
   },
   "container-layout#template-bio__container-header":{
@@ -201,7 +201,10 @@
     "children":[
       "link#button-1",
       "link#button-2"
-    ]
+    ],
+    "props":{
+      "blockClass": "buttons-container-custom"
+    }
   },
   "link#button-1": {
     "title": "Button 1",

@@ -39,3 +39,16 @@
   height: 100%;
   opacity: 0;
 }
+
+.containerLayout--buttons-container-custom{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.containerLayout--wrapper-static-page-template{
+  max-width: 1420px;
+  margin: 2rem auto!important;
+  padding-inline: 0rem;
+}

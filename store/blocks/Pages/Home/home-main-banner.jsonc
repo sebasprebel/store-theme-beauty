@@ -68,7 +68,7 @@
         "timeout": 3000,
         "stopOnHover": true
       },
-      "showNavigationArrows":"never"
+      "showNavigationArrows": "desktopOnly"
     }
   }
 }

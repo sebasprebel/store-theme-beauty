@@ -119,7 +119,7 @@
   "container-layout#drawer__icons":{
     "title":"Contenedor íconos drawer",
     "children":[
-      "container-layout#wish-icon-text",
+      // "container-layout#wish-icon-text",
       "container-layout#profile-icon-text"
     ],
     "props":{

@@ -61,7 +61,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://web.whatsapp.com/send?phone=573206734559&amp;text=Hola, me gustaría recibir información.",
+        "href": "https://api.whatsapp.com/send?phone=573206734559&text=Hola, Nececito mas informacion!",
         "noFollow": false,
         "tagTitle": "Asesoría personalizada",
         "text": "Asesoría personalizada"

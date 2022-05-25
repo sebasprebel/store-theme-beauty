@@ -1,6 +1,7 @@
 {
   "store.custom#template-plp-banner": {
     "blocks": [
+      "container-layout#image-with-html--container",
       "search-result-layout.customQuery#template-plp-banner"
     ],
     "props":{

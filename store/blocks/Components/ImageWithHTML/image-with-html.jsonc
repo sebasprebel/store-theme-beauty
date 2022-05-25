@@ -9,6 +9,17 @@
       "blockClass": ["image-with-html__container"]
     }
   },
+  "container-layout#image-with-html--container-mini-banner": {
+    "title": "Contenedor imagen con HTML",
+    "children": [
+      "responsive-image#image-with-html--image",
+      "container-layout#image-with-html--container-danger"
+    ],
+    "props": {
+      "blockClass": ["image-with-html__container--mini-banner"]
+    }
+  },
+
   "container-layout#image-with-html--container-danger":{
     "title":"Container danger",
     "children": ["danger-html#content-image"],

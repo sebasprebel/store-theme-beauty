@@ -1,3 +1,14 @@
 .paragraph--template-text{
   margin-block: 1rem;
 }
+
+.heading--template-plp-title{
+  font-size: 2.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width:1025px){
+  .heading--template-plp-title{
+    font-size: 1.75rem;
+  }
+}

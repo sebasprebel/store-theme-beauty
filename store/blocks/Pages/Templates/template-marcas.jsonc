@@ -18,7 +18,7 @@
       "container-layout#template-marcas__component-6"
     ],
     "props":{
-      "blockClass":"wrapper-static-page"
+      "blockClass":"wrapper-static-page-nm"
     }
   },
   "container-layout#template-marcas__container-header":{
@@ -27,7 +27,7 @@
       "rich-text#template-marcas__header--content"
     ],
     "props":{
-      "blockClass":["custom-wrapper"]
+      "blockClass":["custom-wrapper", "center-com-marcas"]
     }
   }, 
   "rich-text#template-marcas__header--content": {
@@ -38,7 +38,7 @@
       "textColor": "c-on-base",
       "textPosition": "CENTER",
       "blockClass": [
-        "template-text"
+        "template-marcas-text"
       ]
     }
   },
@@ -49,7 +49,7 @@
       "highlight-content#search-page__header--brands-images"
     ],
     "props":{
-      "blockClass":"center-com"
+      "blockClass":"center-com-marcas"
     }
   },
   "container-layout#template-marcas__component-2":{
@@ -58,7 +58,7 @@
       "highlight-content#search-page__header--highlight-content"
     ],
     "props":{
-      "blockClass":"center-com"
+      "blockClass":"center-com-marcas"
     }
   },
   "container-layout#template-marcas__component-3":{
@@ -67,14 +67,18 @@
       "highlight-content#template-marcas__colors-filters"
     ],
     "props":{
-      "blockClass":"center-com"
+      "blockClass":"center-com-marcas"
     }
   },
   "container-layout#template-marcas__component-4":{
     "title":"Contenedor componente 4",
     "children":[
       "search-result-layout.customQuery#template-marcas"
-    ]
+    ],
+    "props":{
+      "blockClass":"plp-marcas"
+  }
+
   },
   "container-layout#template-marcas__component-5":{
     "title":"Contenedor componente 5",
@@ -83,7 +87,7 @@
       "rich-text#template-marcas__column-2"
     ],
     "props":{
-      "blockClass":["text-columns--container"]
+      "blockClass":["text-columns--container", "center-com-marcas"]
     }
   },
   "container-layout#template-marcas__component-6":{

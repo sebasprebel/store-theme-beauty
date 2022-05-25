@@ -58,6 +58,10 @@
   "store.custom#template-plp-banner":{
     "title": "Template plp banner",
     "path": "/template-plp-banner"
+  },
+  "store.custom#template-plp-banner-video":{
+    "title": "Template plp banner video",
+    "path": "/template-plp-banner-video"
   }
 }
 

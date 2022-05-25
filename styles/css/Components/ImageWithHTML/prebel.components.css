@@ -1,7 +1,7 @@
 .containerLayout--image-with-html__container{
   position: relative;
   max-width:1440px;
-  margin: 2rem auto;
+  margin: 0rem auto 1rem auto;
 }
 
 .containerLayout--image-with-html__container-danger{

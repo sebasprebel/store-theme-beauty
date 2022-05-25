@@ -54,6 +54,10 @@
   "store.custom#template-bio":{
     "title": "Template bio",
     "path": "/template-bio"
+  },
+  "store.custom#template-plp-banner":{
+    "title": "Template plp banner",
+    "path": "/template-plp-banner"
   }
 }
 

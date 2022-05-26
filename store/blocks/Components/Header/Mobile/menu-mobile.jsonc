@@ -1,5 +1,5 @@
 {
-  "custom-menu-mobile": {
+  "custom-menu-mobile#menu-custom": {
     "title": "Menu de categorías",
     "props": {
       "navItems":[
@@ -516,6 +516,7 @@
           "id": 7,
           "name": "Marcas",
           "href": "/nuestras-marcas",
+          "highlightTitle": true,
           "menuBanner": {
             "link": "/vibes",
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/02/banner-vibes.gif",

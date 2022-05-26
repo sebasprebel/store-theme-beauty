@@ -1,5 +1,5 @@
 {
-  "custom-menu-desktop#menu-banners": {
+  "custom-menu-desktop#menu-custom": {
     "title": "Menu de categorías",
     "props": {
       "navItems":[
@@ -487,6 +487,7 @@
             "image": "https://blog.beautyholics.com/wp-content/uploads/2022/02/banner-vibes.gif",
             "text": "Ver marca Vibes >"
           },
+          "highlightTitle": true,
           "menuItems":[
             {
               "name": "Marcas destacadas",

@@ -101,7 +101,7 @@
   "drawer": {
     "children": [
       "rich-text#drawer__title",
-      "custom-menu-mobile",
+      "custom-menu-mobile#menu-custom",
       "container-layout#drawer__icons"
     ]
   },

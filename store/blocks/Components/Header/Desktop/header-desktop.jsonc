@@ -53,7 +53,7 @@
   "container-layout#header__desktop-bottom":{
     "title":"Header bottom - Desktop",
     "children": [
-      "custom-menu-desktop#menu-banners"
+      "custom-menu-desktop#menu-custom"
     ],
     "props":{
       "classes": "flex justify-center items-center"

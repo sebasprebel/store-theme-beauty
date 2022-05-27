@@ -14,7 +14,7 @@
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
       "container-layout#search-page__content-all",
-      "container-layout#drop-down__container",
+      "container-layout#drop-down__container-custom",
       "container-layout#home__slogan-slider--container"
     ]
   },
@@ -37,7 +37,7 @@
       "container-layout#search-page__filter-order--container",
       "container-layout#search-page__search-content--container",
       "container-layout#search-page__button-search-more--container",
-      "container-layout#drop-down__container",
+      "container-layout#drop-down__container-custom",
       "container-layout#home__slogan-slider--container"
     ]
   }

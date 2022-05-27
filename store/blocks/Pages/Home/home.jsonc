@@ -12,7 +12,7 @@
       "container-layout#showcases--container",
       "container-layout#home__slogan-slider--container",
       "container-layout#value-proposition__container",
-      "container-layout#drop-down__container"
+      "container-layout#drop-down__container-custom"
     ]
   }
 }

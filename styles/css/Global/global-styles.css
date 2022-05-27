@@ -21,3 +21,14 @@ a{
   text-decoration: none;
   color: #000000;
 }
+
+/*Flags*/
+
+/* :global(.vtex-product-highlights-2-x-productHighlightText[data-highlight-name="Nuevo"]){
+  color: white;
+  padding: .1rem 7px;
+  background: #ffa9be;
+  position: absolute;
+  border-radius: 24px;
+  right: 10px;
+} */

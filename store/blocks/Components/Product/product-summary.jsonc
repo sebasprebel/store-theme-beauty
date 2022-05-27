@@ -4,6 +4,7 @@
       "product-summary-image",
       "product-price-savings",
       // "add-to-list-btn",
+      "vtex.product-highlights@2.x:product-highlights",
       "container-layout#product-summary__info-container",
       "modal-trigger#product-card__quickview"
       // "add-to-cart-button"
@@ -19,6 +20,7 @@
       "product-price-savings",
       "product-summary-image",
       // "add-to-list-btn",
+      "vtex.product-highlights@2.x:product-highlights",
       "container-layout#product-summary__info-container",
       "container-layout#product-summary__sku-selector--container",
       "add-to-cart-button"
@@ -92,6 +94,21 @@
   "product-price-savings":{
     "props":{
       "message": "{savingsPercentage}"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": [
+      "product-highlight-text",
+      "product-highlight-wrapper"
+    ],
+    "props": {
+      "blockClass": "highlight-container",
+      "type": "collection"
+    }
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
     }
   }
 }

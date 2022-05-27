@@ -18,7 +18,7 @@
       "container-layout#search-page__search-content--container",
       "container-layout#search-page__button-search-more--container",
       "container-layout#search-page__frequent-questions",
-      "container-layout#drop-down__container",
+      "container-layout#drop-down__container-custom",
       "container-layout#home__slogan-slider--container"
     ]
   },

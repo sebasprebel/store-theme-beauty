@@ -1,11 +1,19 @@
 {
-  "container-layout#drop-down__container":{
+  "container-layout#drop-down__container-custom":{
     "title":"Sección conoce más",
     "children":[
       "drop-down-container"
     ],
     "props":{
       "blockClass":["wrapper", "drop-down-container"]
+    }
+  },
+
+  "drop-down-container":{
+    "title":"Texto descriptivo largo SEO",
+    "props":{
+      "title": "Título de prueba",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id donec ultrices tincidunt arcu non. Eget dolor morbi non arcu risus quis. Mattis molestie a iaculis at. Et molestie ac feugiat sed lectus vestibulum mattis. Fermentum leo vel orci porta. Sollicitudin tempor"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "container-layout#top-bar":{
+    "title": "Top bar",
+    "children":[
+      "rich-text#top-bar-text"
+    ],
+    "props":{
+      "blockClass": ["top-bar"]
+    }
+  },
+  "rich-text#top-bar-text": {
+    "props": {
+      "blockClass": ["top-bar-text"],
+      "font": "t-body",
+      "text": "TOMATE UN BREAK Y APROVECHA LOS MEJORES DESCUENTOS EN TUS PRODUCTOS FAVORITOS [¡VER AHORA!](/beauty-sale)",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

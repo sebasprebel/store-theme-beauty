@@ -1,0 +1,13 @@
+.paragraph--top-bar-text{
+  font-size: .7rem;
+  font-weight: bold;
+}
+.link--top-bar-text{
+  text-decoration: underline;
+  color: var(--white);
+}
+@media (min-width: 1025px){
+  .paragraph--top-bar-text{
+    font-size: 1rem;
+  }
+}

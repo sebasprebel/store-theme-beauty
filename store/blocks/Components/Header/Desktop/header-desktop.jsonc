@@ -14,6 +14,7 @@
   "container-layout#header__container--desktop":{
     "title": "Header",
     "children":[
+      "container-layout#top-bar",
       "container-layout#header__desktop-top",
       "container-layout#header__desktop-bottom"
     ],

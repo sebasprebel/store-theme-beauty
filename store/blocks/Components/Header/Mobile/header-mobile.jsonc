@@ -4,6 +4,7 @@
   },
   "sticky-layout#mobile": {
     "children": [
+      "container-layout#top-bar",
       "container-layout#header-mobile__top",
       "container-layout#header-mobile__bottom"
     ]

@@ -2,3 +2,8 @@
   margin: 1rem 0rem .5rem 0rem;
   padding-inline: 1.5rem;
 }
+
+.containerLayout--top-bar{
+  background-color: var(--main-color);
+  padding:.4rem .3rem;
+}

@@ -222,3 +222,7 @@
 :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer) :global(.vtex-button__label):hover{
   color: var(--black);
 }
+
+.PUM{
+  margin-top: .5rem;
+}

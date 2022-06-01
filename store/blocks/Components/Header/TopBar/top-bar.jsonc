@@ -9,6 +9,7 @@
     }
   },
   "rich-text#top-bar-text": {
+    "title":"Texto top-bar",
     "props": {
       "blockClass": ["top-bar-text"],
       "font": "t-body",

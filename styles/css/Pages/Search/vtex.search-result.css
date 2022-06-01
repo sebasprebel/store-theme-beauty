@@ -247,7 +247,7 @@ font-size: 0;
     background-color: var(--main-color);
   }
   .filterMessage{
-    color: var(--hardest-grey);
+    color: var(--black);
     margin: 0;
   }
   .filterTitle,

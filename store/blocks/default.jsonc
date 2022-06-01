@@ -18,7 +18,9 @@
     "props": {
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "passwordPlaceholder":"Ingresa tu contraseña",
+      "emailPlaceholder": "Ingresa tu correo"
     }
   },
 

@@ -8,7 +8,7 @@
 /*Categories bullets*/
 
 .containerLayout--home__categories-bullets--desktop{
-  margin: 4rem auto 2rem auto !important;
+  margin: 3rem auto 1rem auto !important;
 }
 @media (max-width: 1025px){
   .containerLayout--home__categories-bullets--desktop{

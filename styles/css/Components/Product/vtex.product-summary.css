@@ -17,7 +17,8 @@
   font-size: 0.875rem;
   font-family: var(--font-poppins-semibold);
   text-align: left;
-  color: var(--black)
+  color: var(--black);
+  text-transform: uppercase;
 }
 
 .containerNormal--product-summary__shelf{

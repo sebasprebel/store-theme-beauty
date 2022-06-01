@@ -21,6 +21,10 @@
   margin: 0px;
 }
 
+.menuItem--footer__menu-item-mobile{
+  margin-bottom: 0.7rem;
+}
+
 .menuContainerNav--footer-mobile__menu{
   margin: 2rem 0 0.7rem 0;
 }

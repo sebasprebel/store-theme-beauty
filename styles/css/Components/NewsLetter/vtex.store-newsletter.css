@@ -27,6 +27,13 @@
 .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder{
   font-size: 0.875rem;
   color: var(--grey);
+  text-align: center;
+}
+
+@media (min-width: 1025px){
+  .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder{
+    text-align: start;
+  }
 }
 .emailInputContainer :global(.vtex-input-prefix__group){
  height: 100%;

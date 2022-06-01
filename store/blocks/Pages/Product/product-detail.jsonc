@@ -34,6 +34,7 @@
       "product-identifier.product",
       "product-rating-summary",
       "container-layout#detail-product__prices--container",
+      // "pum",
       "product-availability",
       "seller-custom",
       "sku-selector#product-page__sku-color",
@@ -110,6 +111,12 @@
   "vtex.store-components:product-name":{
     "props": {
       "showSku": true
+    }
+  },
+  "pum":{
+    "title":"PUM",
+    "props":{
+      "specificationName": "PUM"
     }
   }
 }

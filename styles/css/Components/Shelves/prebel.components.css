@@ -1,5 +1,6 @@
 .containerLayout--shelf__container{
-  padding-block: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-inline: 1rem;
   position: relative;
 }
@@ -9,6 +10,9 @@
     position: absolute;
     top: 55px;
     right: 4rem;
+  }
+  .containerLayout--shelf__container{
+    padding-bottom: 2rem;
   }
 }
 

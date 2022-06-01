@@ -171,7 +171,8 @@
   color: var(--hard-red);
 }
 .contentAlwaysWithOptions{
-  margin: 3rem 1rem;
+  margin: 3rem auto;
+  width:fit-content;
 }
 
 .emailVerification :global(.vtex-input-prefix__group){
@@ -205,6 +206,15 @@
   color: var(--main-color);
 }
 
+.dontHaveAccount{
+  font-size: 0;
+}
+
+.dontHaveAccount:after{
+  content: "¿No tienes una cuenta? Regístrate";
+  font-size: 0.875rem;
+}
+
 .backButton :global(.vtex-button){
   color: var(--main-color);
 }
@@ -225,4 +235,13 @@
   display: block;
   position: absolute;
   top: 3px;
+}
+
+.optionsSticky :global(.vtex-login-2-x-formTitle){
+  font-size:0;
+}
+
+.optionsSticky :global(.vtex-login-2-x-formTitle)::after{
+  content: "Elije una opción para entrar";
+  font-size:1rem;
 }

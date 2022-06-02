@@ -2,7 +2,8 @@
   "footer-layout.mobile": { 
     "children": [
       "container-layout#newsletter",
-      "container-layout#footer-mobile__container"
+      "container-layout#footer-mobile__container",
+      "container-layout#bottom-bar"
     ],
     "props":{
       "blockClass":["footer-mobile"]

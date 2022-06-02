@@ -114,13 +114,17 @@
   margin-bottom: .5rem;
 }
 
-.frameAround{
+.skuSelectorSubcontainer--tonos :global(.vtex-store-components-3-x-frameAround){
   border-color: var(--black);
   border-radius:50%;
   bottom: -0.13rem;
   top: -0.12rem;
   left: -0.10rem;
   right: -0.15rem;
+}
+
+.skuSelectorItem:first-child{
+  margin-left: 0 !important;
 }
 /*Desktop*/
 @media all and (min-width: 1025px){

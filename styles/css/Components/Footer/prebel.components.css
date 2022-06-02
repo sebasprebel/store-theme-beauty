@@ -5,15 +5,30 @@
 }
 .containerLayout--payment-methods__container{
   display: flex;
-  margin-top: 2rem;
+  margin-top: 0rem;
   background-color:var(--white);
   width: fit-content;
   padding: .2rem;
+}
+
+.containerLayout--footer-con{
+  padding: 3rem;
+}
+
+.containerLayout--bottom-bar{
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 @media (min-width:1025px){
   .containerLayout--container-socials,
   .containerLayout--payment-methods__container{
     margin-left: 1.5rem;
+  }
+  .containerLayout--bottom-bar{
+    margin-bottom: 0;
   }
 }

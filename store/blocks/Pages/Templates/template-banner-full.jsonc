@@ -1,0 +1,11 @@
+{
+  "store.custom#template-plp-banner-full": {
+    "blocks": [
+      "container-layout#image-with-html--container",
+      "container-layout#search-page__frequent-questions"
+    ],
+    "props":{
+      "blockClass":"wrapper"
+    }
+  }
+}

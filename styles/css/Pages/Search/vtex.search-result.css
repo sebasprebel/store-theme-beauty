@@ -68,6 +68,7 @@
 .filterPopupTitle{
   color: var(--black);
   font-size: 1rem;
+  display: block !important;
 }
 
 .orderByButton{

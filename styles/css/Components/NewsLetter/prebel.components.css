@@ -1,5 +1,6 @@
 .containerLayout--newsletter__container{
   background-color: var(--black);
+  padding: 1rem 1rem 0rem 1rem;
 }
 
 .containerLayout--footer__container-menus{
@@ -10,5 +11,6 @@
   .containerLayout--newsletter__container{
     margin-bottom: 4.5rem;
     width: 470px;
+    padding: 0rem;
   }
 }

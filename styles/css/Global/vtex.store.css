@@ -14,15 +14,6 @@
   padding: 0 !important;
 }
 
-:global(.vtex-product-context-provider) :global(.vtex-store-footer-2-x-footerLayout){
-  padding-bottom: 9rem;
-}
-
-:global(.vtex-spinner) {
-  background-color: #b7153e;
-  color: red;
-}
-
 /*Toast*/
 :global(.vtex-toast) {
   margin: 0.5rem;

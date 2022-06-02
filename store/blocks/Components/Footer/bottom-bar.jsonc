@@ -1,0 +1,21 @@
+{
+  "container-layout#bottom-bar":{
+    "title": "Bottom bar",
+    "children":[
+      "container-layout#footer__payments"
+    ],
+    "props":{
+      "blockClass":"bottom-bar"
+    }
+  },
+  "rich-text#1": {
+    "props": {
+      "blockClass": ["1"],
+      "font": "t-body",
+      "text": "dsalkfhklf",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

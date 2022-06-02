@@ -1,7 +1,8 @@
 {
   "footer-layout.desktop":{
     "children":[
-      "container-layout#footer-desktop__container"
+      "container-layout#footer-desktop__container",
+      "container-layout#bottom-bar"
     ],
     "props":{
       "blockClass":["footer-desktop"]
@@ -15,7 +16,7 @@
       "container-layout#footer-desktop__right"
     ],
     "props":{
-      "blockClass":"wrapper",
+      "blockClass":["wrapper", "footer-con"],
       "classes":"flex"
     }
   },
@@ -34,7 +35,7 @@
     "children":[
       "container-layout#footer__menu",
       "container-layout#footer-mobile__socials",
-      "container-layout#footer__payments"
+      "image#footer__iyc-logo"
     ],
     "props":{
       "blockClass":"footer-desktop__right"

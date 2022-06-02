@@ -34,7 +34,7 @@
       "product-identifier.product",
       "product-rating-summary",
       "container-layout#detail-product__prices--container",
-      // "pum",
+      "pum",
       "product-availability",
       "seller-custom",
       "sku-selector#product-page__sku-color",
@@ -77,7 +77,8 @@
     "props": {
       "displayMode": "default",
       "visibleVariations": [
-        "Tonos"
+        "Tonos",
+        "Sede"
       ],
       "maxItems": 20,
       "hideImpossibleCombinations": false,

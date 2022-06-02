@@ -1,12 +1,12 @@
 .containerLayout--image-with-html__container{
   position: relative;
-  max-width:1440px;
+  max-width:1420px;
   margin: 0rem auto 1rem auto;
 }
 
 .containerLayout--image-with-html__container--mini-banner{
   position: relative;
-  max-width:1440px;
+  max-width:1420px;
   margin: 0rem auto 0rem auto;
 }
 

@@ -2,11 +2,18 @@
   "store.custom#template-plp-banner": {
     "blocks": [
       "container-layout#image-with-html--container",
+      "container-layout#game-container",
       "search-result-layout.customQuery#template-plp-banner"
     ],
     "props":{
       "blockClass":"wrapper"
     }
+  },
+  "container-layout#game-container":{
+    "title":"Contenedor banner juego",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
   },
 
   "search-result-layout.customQuery#template-plp-banner": {

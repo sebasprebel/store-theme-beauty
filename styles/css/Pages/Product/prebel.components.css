@@ -226,3 +226,21 @@
 .PUM{
   margin-top: .5rem;
 }
+
+/*SKU selector*/
+.containerLayout--detail-product__info--container :global(.vtex-store-components-3-x-skuSelectorSubcontainer--tonos) :global(.vtex-store-components-3-x-skuSelectorName){
+  font-size: 0;
+  font-family: var(--font-poppins-bold);
+  color: black
+}
+
+.containerLayout--detail-product__info--container :global(.vtex-store-components-3-x-skuSelectorName){
+  font-size: 1.3rem;
+  font-family: var(--font-poppins-bold);
+  color: black
+}
+
+.containerLayout--detail-product__info--container :global(.vtex-store-components-3-x-skuSelectorSubcontainer--tonos) :global(.vtex-store-components-3-x-skuSelectorName)::after{
+  content: "Color";
+  font-size: 1.5rem;
+}

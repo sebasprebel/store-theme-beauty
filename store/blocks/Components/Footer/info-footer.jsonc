@@ -24,8 +24,7 @@
       "rich-text#footer__info-nit",
       "rich-text#footer__info-city",
       "rich-text#footer__info-phone",
-      "rich-text#footer__info-email",
-      "image#footer__iyc-logo" //TODO Falta el logo de inductria y comercio.
+      "rich-text#footer__info-email"
     ]
   },
   "image#footer__iyc-logo": {
@@ -92,8 +91,8 @@
   "container-layout#footer-mobile__content--bottom":{
     "title":"Contenedor footer-botoom - Mobile ",
     "children":[
-      "container-layout#footer-mobile__socials",
-      "container-layout#footer__payments"
+      "image#footer__iyc-logo",
+      "container-layout#footer-mobile__socials"
     ]
   }
 }

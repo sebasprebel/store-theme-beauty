@@ -1,4 +1,4 @@
-.skuSelectorItemTextValue{
+.skuSelectorSubcontainer--tonos :global(.vtex-store-components-3-x-skuSelectorItemTextValue){
   width: 100%;
   height: 100%;
   font-size: 0;
@@ -9,12 +9,12 @@
 .valueWrapper--unavailable{
   cursor: default !important;
 }
-.skuSelectorItem{
+.skuSelectorSubcontainer--tonos :global(.vtex-store-components-3-x-skuSelectorItem){
   width:25px;
   height:25px;
   margin-right: 1rem;
 }
-.skuSelectorInternalBox{
+.skuSelectorSubcontainer--tonos :global(.vtex-store-components-3-x-skuSelectorInternalBox){
   border-radius: 50%;
   width: 25px;
   height: 25px;

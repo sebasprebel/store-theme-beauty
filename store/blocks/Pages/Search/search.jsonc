@@ -7,8 +7,8 @@
       "context": {
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
-         "hideUnavailableItems": true,
-        "maxItemsPerPage": 12
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 32
       }
     }
   },
@@ -21,7 +21,7 @@
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
          "hideUnavailableItems": true,
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 32
       }
     }
   },
@@ -34,7 +34,7 @@
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
          "hideUnavailableItems": true,
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 32
       }
     }
   },
@@ -47,7 +47,7 @@
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
          "hideUnavailableItems": true,
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 32
       }
     }
   },
@@ -60,7 +60,7 @@
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
          "hideUnavailableItems": true,
-        "maxItemsPerPage": 10
+        "maxItemsPerPage": 32
       }
     }
   },

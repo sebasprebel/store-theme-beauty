@@ -70,8 +70,11 @@
   "container-layout#search-page__content-show-more--container":{
     "title":"Contenedor botón de mostrar más",
     "children":[
+      "total-products.v2",
       "search-content",
-      "container-layout#search-page__button-search-more--container--desktop"
+      "container-layout#search-page__button-search-more--container--desktop",
+      "search-products-progress-bar",
+      "search-products-count-per-page"
     ],
     "props":{
       "blockClass": ["search-page__content-show-more--container"]

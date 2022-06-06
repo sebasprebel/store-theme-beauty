@@ -305,3 +305,27 @@ font-size: 0;
    }
  
 }
+
+
+.showingProducts,
+.totalProductsMessage{
+  margin-bottom: 1rem;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.showingProductsCount,
+.totalProducts--layout{
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.progressBar{
+  margin-bottom: .5rem;
+}
+
+.progressBarFiller {
+  background-color: var(--main-color);
+}

@@ -322,7 +322,16 @@ font-size: 0;
 .totalProducts--layout{
   display: flex;
   padding-left: 0;
+  margin-left: 1.2rem;
 }
+
+@media (min-width: 1025px){
+  .totalProducts--layout{
+    margin-left: 0rem;
+  }
+}
+
+
 .showingProductsCount{
   color: var(--main-color);
   font-weight: 600;

@@ -72,9 +72,10 @@
     "children":[
       "total-products.v2",
       "search-content",
-      "container-layout#search-page__button-search-more--container--desktop",
       "search-products-progress-bar",
-      "search-products-count-per-page"
+      "search-products-count-per-page",
+      "container-layout#search-page__button-search-more--container--desktop"
+      
     ],
     "props":{
       "blockClass": ["search-page__content-show-more--container"]

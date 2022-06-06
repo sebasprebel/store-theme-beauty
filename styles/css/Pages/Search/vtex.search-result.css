@@ -44,17 +44,21 @@
 }
 
 .buttonShowMore :global(.vtex-button){
-  background: var(--white);
+  background: var(--main-color);
   border-radius: 24px;
   border: 1px solid var(--black);
-  margin: 2rem auto 3rem auto;
+  margin: 0.5rem auto 3rem auto;
   padding: 1rem 3rem;
 }
 .buttonShowMore :global(.vtex-button__label){
   font-size: 0;
 }
 .buttonShowMore :global(.vtex-button):hover{
-  background: var(--main-color);
+  background: var(--black);
+}
+
+.buttonShowMore :global(.vtex-button):hover :global(.vtex-button__label)::after{
+  color: var(--white);
 }
 
 .buttonShowMore :global(.vtex-button__label)::after{
@@ -308,15 +312,18 @@ font-size: 0;
 
 
 .showingProducts,
-.totalProductsMessage{
+.totalProductsMessage,
+.totalProducts--layout{
   margin-bottom: 1rem;
   color: var(--black);
   font-weight: 600;
   font-size: 1rem;
 }
-
-.showingProductsCount,
 .totalProducts--layout{
+  display: flex;
+  padding-left: 0;
+}
+.showingProductsCount{
   color: var(--main-color);
   font-weight: 600;
   font-size: 1rem;
@@ -324,6 +331,7 @@ font-size: 0;
 
 .progressBar{
   margin-bottom: .5rem;
+  margin-top: 2rem;
 }
 
 .progressBarFiller {

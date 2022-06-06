@@ -38,8 +38,8 @@
       "product-availability",
       "seller-custom",
       "sku-selector#product-page__sku-color",
-      "addi",
-      "container-layout#detail-product__quantity-buy--container"
+      "container-layout#detail-product__quantity-buy--container",
+      "addi-infos"
     ],
     "props":{
       "blockClass":"detail-product__info--container"
@@ -119,5 +119,6 @@
     "props":{
       "specificationName": "PUM"
     }
-  }
+  },
+  "addi-infos":{}
 }

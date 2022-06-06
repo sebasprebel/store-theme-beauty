@@ -11,6 +11,9 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "addi.product-page-action": "1.x"
+  },
   "dependencies": {
     "prebel.components": "0.x",
     "vtex.store": "2.x",

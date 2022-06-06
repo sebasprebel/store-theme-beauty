@@ -24,7 +24,7 @@
       "seller-custom",
       "product-summary-sku-selector#card",
       "container-layout#detail-product__quantity-buy--container-quickView",
-      "addi",
+      "addi-infos",
       "link.product#button-qv"
     ],
     "props":{

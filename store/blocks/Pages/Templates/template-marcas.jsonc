@@ -12,6 +12,7 @@
       "container-layout#template-marcas__container-header",
       "container-layout#template-marcas__component-1",
       "container-layout#template-marcas__component-2",
+      "container-layout#template-marcas__component-bullets-2",
       "container-layout#template-marcas__component-3",
       "container-layout#template-marcas__component-4",
       "container-layout#template-marcas__component-5",
@@ -49,16 +50,25 @@
       "highlight-content#search-page__header--brands-images"
     ],
     "props":{
-      "blockClass":"center-com-marcas"
+      "blockClass":["center-com-marcas", "template-mar-container"]
     }
   },
   "container-layout#template-marcas__component-2":{
-    "title":"Contenedor componente 2",
+    "title":"Contenedor bullets 1",
     "children":[
       "highlight-content#search-page__header--highlight-content"
     ],
     "props":{
-      "blockClass":"center-com-marcas"
+      "blockClass":["center-com-marcas", "template-mar-container"]
+    }
+  },
+  "container-layout#template-marcas__component-bullets-2":{
+    "title":"Contenedor componente bullets 2",
+    "children":[
+      "highlight-content#search-page__header--highlight-content"
+    ],
+    "props":{
+      "blockClass":["center-com-marcas","template-mar-container"]
     }
   },
   "container-layout#template-marcas__component-3":{
@@ -125,7 +135,10 @@
   "container-layout#collection-template--container":{
     "title":"Contenedor colección y botón ver más",
     "children":[
+      "total-products.v2",
       "search-content",
+      "search-products-progress-bar",
+      "search-products-count-per-page",
       "search-fetch-more"
     ],
     "props":{

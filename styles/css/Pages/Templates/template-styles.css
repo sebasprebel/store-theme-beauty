@@ -1,0 +1,10 @@
+:global(.prebel-components-0-x-containerLayout--template-mar-container) :global(.prebel-components-0-x-highlightContent--search-page__bullets){
+  padding-bottom: .5rem;
+}
+
+
+@media(max-width:1025px){
+  :global(.prebel-components-0-x-containerLayout--template-mar-container) :global(.prebel-components-0-x-cardLayout--search-page__header--brands-images){
+    min-width: 110px;
+  }
+}

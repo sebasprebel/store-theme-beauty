@@ -18,7 +18,6 @@
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
       "product-identifier.product",
-      "product-rating-summary",
       "container-layout#detail-product__prices--container",
       "product-availability",
       "seller-custom",

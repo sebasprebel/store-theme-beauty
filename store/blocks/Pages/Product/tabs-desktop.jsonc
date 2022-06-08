@@ -21,8 +21,7 @@
   "tab-list#product-page__info":{
     "children":[
       "tab-list.item#product-page__description--item",
-      "tab-list.item#product-page__how-to-use--item",
-      "tab-list.item#product-page__comments--item"
+      "tab-list.item#product-page__how-to-use--item"
     ],
     "props":{
       "blockClass":"product-page__tab--list"

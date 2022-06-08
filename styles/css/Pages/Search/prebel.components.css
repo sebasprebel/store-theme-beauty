@@ -72,7 +72,7 @@
 .highlightContent--search-page__header--brands-images{
   display: flex;
   overflow-x: auto;
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 0;
   align-items: center;
 }

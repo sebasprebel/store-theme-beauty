@@ -1,3 +1,11 @@
 :global(.vtex-store-components-3-x-productImage) :global(.relative) :global(.absolute){
   display: none;
 }
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex-styleguide-9-x-jsFocusVisible) > div[role="region"] {
+  height: auto !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex-styleguide-9-x-jsFocusVisible) > div:first-child {
+  display: none !important;
+}

@@ -2,10 +2,17 @@
   "store.custom#template-plp-banner-full": {
     "blocks": [
       "container-layout#image-with-html--container",
+      "container-layout#plp-banner-full__banner-2",
       "container-layout#search-page__frequent-questions"
     ],
     "props":{
       "blockClass":"wrapper"
     }
+  },
+  "container-layout#plp-banner-full__banner-2":{
+    "title":"Contenedor banner 2",
+    "children":[
+      "container-layout#image-with-html--container"
+    ]
   }
 }

@@ -3,8 +3,7 @@
     "title":"Contenedor pestañas mobile",
     "children":[
       "container-layout#product-page__description--container",
-      "container-layout#product-page__how-to-use--container",
-      "container-layout#product-page__comments--container"
+      "container-layout#product-page__how-to-use--container"
     ],
     "props":{
       "blockClass":"product-page__tabs--container"

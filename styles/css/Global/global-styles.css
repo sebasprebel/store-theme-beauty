@@ -26,6 +26,7 @@ a{
 
 :global(.vtex-product-highlights-2-x-productHighlightText){
   font-size:0;
+  z-index: 3;
 }
 
 :global(.vtex-product-highlights-2-x-productHighlightText[data-highlight-name="Nuevo"]){

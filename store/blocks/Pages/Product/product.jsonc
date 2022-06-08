@@ -10,6 +10,7 @@
       "container-layout#breadcrumb",
       "container-layout#product-page__product-detail",
       "container-layout#product-page__tabs-section",
+      "container-layout#product-page__comments-section",
       "shelf.relatedProducts#producSection__complete",
       "shelf.relatedProducts#producSection__relation",
       "container-layout#home__slogan-slider--container"
@@ -29,6 +30,15 @@
       "showOnMobile": true
     }
   },
+
+  "container-layout#product-page__comments-section":{
+    "title":"Contenedor sección comentarios",
+    "children":[
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+ 
   "shelf.relatedProducts#producSection__complete": {
     "title": "Vitrina de recomendación completa tu compra",
     "blocks": [

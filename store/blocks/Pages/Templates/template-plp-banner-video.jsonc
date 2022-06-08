@@ -23,20 +23,12 @@
   "container-layout#template__video--container":{
     "title":"Contenedor Video",
     "children":[
-      "iframe#plp-video"
+      "container-layout#image-with-html--container-mini-banner"
     ],
     "props":{
-      "blockClass":"template__video--container"
+      "blockClass":""
     }
   },
-
-    "iframe#plp-video": {
-      "props": {
-        "src": "https://www.youtube.com/embed/X1htxz6Sqe4",
-        "width": "100%",
-        "height": "100%"
-      }
-    },
 
   "container-layout#template-plp-banner-video__component-1":{
     "title":"Componente 1",

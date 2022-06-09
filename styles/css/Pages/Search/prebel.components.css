@@ -77,6 +77,10 @@
   align-items: center;
 }
 
+.highlightContent--search-page__header--brands-images{
+  margin-top: .5rem;
+}
+
 @media (min-width: 1025px){
   .highlightContent--search-page__header--brands-images{
     gap: 3rem;

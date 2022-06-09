@@ -3,6 +3,7 @@
     "blocks": [
       "container-layout#image-with-html--container",
       "container-layout#game-container",
+      "container-layout#search-page__header",
       "search-result-layout.customQuery#template-plp-banner"
     ],
     "props":{

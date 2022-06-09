@@ -2,73 +2,111 @@
   "container-layout#home__main-slider--container":{
     "title":"Sección banner principal",
     "children":[
-      "list-context.image-list#home__main-slider--images-list"
+      // "list-context.image-list#home__main-slider--images-list"
+      "slider-banner-with-html"
     ],
     "props":{
       "blockClass":["wrapper"]
     }
   },
 
-  "list-context.image-list#home__main-slider--images-list": {
-    "title": "Lista de imágenes(Banners)",
-    "children": ["slider-layout#home__main-slider-test"],
-    "props": {
-      "images": [
+  "slider-banner-with-html":{
+    "title":"Banners home",
+    "props":{
+      "blockClass": "main-banners",
+      "sliderProps":{
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
+        },
+        "showNavigationArrows": "desktopOnly"
+      },
+      "items":[
         {
-          "image": "/arquivos/banner-home-test.jpg",
-          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
-          "link": {
-            "url": "/",
-            "openNewTab": false,
-            "title": "Imagen principal"
-          }
+          "desktopImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/3d7be52c-9697-4a61-ac73-e9d12098b7b9___15da676fbc8589e31c8fa56c2fccc329.jpg",
+          "mobileImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/ca26b720-c129-4a4e-962f-04d3a768e1ed___99403ea25b9354868fde85a4edb1e64e.jpg",
+          "link":"/promo-importados-vitu"
         },
         {
-          "image": "/arquivos/banner-home-test.jpg",
-          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
-          "link": {
-            "url": "/",
-            "openNewTab": false,
-            "title": "Imagen principal"
-          }
+          "desktopImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/ed854803-3a1e-4bc0-821f-a24cbefff9c7___d3be20dfba0a62e60b4f8a576dfcb9f7.jpg",
+          "mobileImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/7efbe528-3cb0-42dc-8b89-37dbafb00faa___a93f39c5fc8b496d296a24dc79b142b8.jpg",
+          "link":"/blisstouch"
         },
         {
-          "image": "/arquivos/banner-home-test.jpg",
-          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
-          "link": {
-            "url": "/",
-            "openNewTab": false,
-            "title": "Banner 2"
-          }
-        },
-        {
-          "image": "/arquivos/banner-home-test.jpg",
-          "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
-          "link": {
-            "url": "/",
-            "openNewTab": false,
-            "title": "Banner 3"
-          }
+          "desktopImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/ed7cf45f-9b60-490d-bf00-57a1d1bb6050___45c8a77110826cfecce58501b43732c1.jpg",
+          "mobileImage": "https://prebel.vtexassets.com/assets/vtex.file-manager-graphql/images/a3565add-8117-46d9-9345-da81c4b8b9af___a0f92f2c459870740230ada3b84d949c.jpg",
+          "link":"/lanzamiento-covergirl"
         }
       ]
     }
-  },
-
-  "slider-layout#home__main-slider-test": {
-    "title": "Slider de banners - Configuración del slider",
-    "props": {
-      "blockClass": ["slider", "banner-slider"],
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": true
-      },
-      "showNavigationArrows": "desktopOnly"
-    }
   }
+
+  // "list-context.image-list#home__main-slider--images-list": {
+  //   "title": "Lista de imágenes(Banners)",
+  //   "children": ["slider-layout#home__main-slider-test"],
+  //   "props": {
+  //     "images": [
+  //       {
+  //         "image": "/arquivos/banner-home-test.jpg",
+  //         "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+  //         "link": {
+  //           "url": "/",
+  //           "openNewTab": false,
+  //           "title": "Imagen principal"
+  //         }
+  //       },
+  //       {
+  //         "image": "/arquivos/banner-home-test.jpg",
+  //         "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+  //         "link": {
+  //           "url": "/",
+  //           "openNewTab": false,
+  //           "title": "Imagen principal"
+  //         }
+  //       },
+  //       {
+  //         "image": "/arquivos/banner-home-test.jpg",
+  //         "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+  //         "link": {
+  //           "url": "/",
+  //           "openNewTab": false,
+  //           "title": "Banner 2"
+  //         }
+  //       },
+  //       {
+  //         "image": "/arquivos/banner-home-test.jpg",
+  //         "mobileImage": "/arquivos/banner-home-mobile-test.jpg",
+  //         "link": {
+  //           "url": "/",
+  //           "openNewTab": false,
+  //           "title": "Banner 3"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
+
+  // "slider-layout#home__main-slider-test": {
+  //   "title": "Slider de banners - Configuración del slider",
+  //   "props": {
+  //     "blockClass": ["slider", "banner-slider"],
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "autoplay": {
+  //       "timeout": 3000,
+  //       "stopOnHover": true
+  //     },
+  //     "showNavigationArrows": "desktopOnly"
+  //   }
+  // }
 }

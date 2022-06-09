@@ -281,3 +281,23 @@
   gap: 1rem;
   width: 277px;
 }
+
+
+/*Banner custom*/
+.paginationDotsContainer--main-banners{
+  bottom: -1.5rem;
+}
+
+.paginationDot--main-banners{
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: var(--white);
+  border: 2px solid var(--main-color);
+}
+
+.paginationDot--main-banners--isActive{
+  width: 1.25rem !important;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border: none;
+}

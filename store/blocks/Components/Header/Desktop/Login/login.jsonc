@@ -3,7 +3,7 @@
     "props":{
       "showIconProfile": true,
       "iconLabel": "",
-      "optionsTitle":"Elije una de las opciones para confirmar tu identidad:",
+      "optionsTitle":"Elige una de las opciones para confirmar tu identidad:",
       "passwordPlaceholder": "Ingresa tu contraseña",
       "emailPlaceholder": "Ingresa tu correo"
     }

@@ -242,6 +242,6 @@
 }
 
 .optionsSticky :global(.vtex-login-2-x-formTitle)::after{
-  content: "Elije una opción para entrar";
+  content: "Elige una opción para entrar";
   font-size:1rem;
 }

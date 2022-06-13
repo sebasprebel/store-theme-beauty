@@ -2,10 +2,12 @@
   "container-layout#top-bar":{
     "title": "Top bar",
     "children":[
-      "rich-text#top-bar-text"
+      "rich-text#top-bar-text",
+      "danger-html#top-bar"
     ],
     "props":{
-      "blockClass": ["top-bar"]
+      "blockClass": ["top-bar"],
+      "classes": "relative"
     }
   },
   "rich-text#top-bar-text": {
@@ -17,6 +19,12 @@
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
       "textPosition": "CENTER"
+    }
+  },
+  "danger-html#top-bar":{
+    "title":"Danger HTML top-bar",
+    "props":{
+      "blockClass": "danger-top"
     }
   }
 }

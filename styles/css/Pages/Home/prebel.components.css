@@ -116,6 +116,7 @@
 .paragraph--home__categories-bullets--desktop {
   font-size: 1.3rem;
   font-family: var(--font-poppins-bold);
+  line-height: 1;
 }
 
 

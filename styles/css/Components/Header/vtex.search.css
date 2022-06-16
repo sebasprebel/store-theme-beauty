@@ -1,0 +1,30 @@
+.biggy-autocomplete::-webkit-scrollbar{
+  height: 5px;
+}
+.biggy-autocomplete{
+ flex-direction: column !important;
+}
+
+.biggy-autocomplete::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+}
+
+.tileListSeeMore{
+  color: var(--main-color);
+  font-size: 1rem;
+  font-family: var(--font-poppins-bold);
+}
+.tileListSeeMore:hover{
+  color: var(--black);
+  text-decoration: underline;
+  background-color: var(--main-color);
+}
+
+.itemListTitle{
+ color: var(--main-color);
+}
+
+.itemListLink{
+  font-family: var(--font-poppins-regular);
+  text-transform: capitalize;
+}

@@ -26,7 +26,7 @@
         "skusFilter": "ALL",
         "orderByField": "OrderByBestDiscountDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 9
+        "maxItemsPerPage": 32
       }
     },
     "blocks": [

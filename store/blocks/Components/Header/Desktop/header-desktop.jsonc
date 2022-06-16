@@ -65,15 +65,16 @@
     "children": ["logo#desktop"]
   },
   "search-bar":{
-    // "blocks": [
-    //   "autocomplete-result-list.v2"
-    // ],
+    "blocks": [
+      // "autocomplete-result-list.v2"
+    
+    ],
     "props":{
       "placeholder":"¿Qué estás buscando?",
       "openAutocompleteOnFocus": true
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#custom"]
   }
-  // "autocomplete-result-list.v2": {
-  //   "blocks": ["product-summary.shelf#custom"]
-  // }
 }

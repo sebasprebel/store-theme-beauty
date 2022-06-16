@@ -9,6 +9,9 @@
   padding:.5rem 1rem;
   border-radius: 24px;
 }
+.cancelOrderButton :global(.vtex-button){
+  background-color: var(--hard-red);
+}
 
 @media print{
   .orderPlacedWrapper :global(.vtex-button){
@@ -27,4 +30,13 @@
 
 .totalListItem:last-child :global(.vtex-order-placed-2-x-totalListItemValue){
   color: var(--main-color);
+}
+
+.noticesList :global(.vtex-order-placed-2-x-noticeListItem):first-child{
+  font-size: 0;
+}
+
+.noticesList :global(.vtex-order-placed-2-x-noticeListItem):first-child::before{
+  content: "La aprobación del pago puede tardar desde 5 minutos hasta 24 horas.";
+  font-size: 1rem;
 }

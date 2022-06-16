@@ -179,7 +179,7 @@
     "props": {
       "blockClass": ["name"],
       "font": "t-body",
-      "text": "[Perfil](/profile)",
+      "text": "[Perfil](/login)",
       "textAlignment": "LEFT",
       "textColor": "c-on-base",
       "textPosition": "LEFT"

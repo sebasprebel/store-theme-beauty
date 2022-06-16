@@ -20,3 +20,8 @@
 .toggleBusinessButtonWrapper :global(.vtex-button):focus{
   background-color: var(--light-grey);
 }
+
+
+.toggleBusinessButtonWrapper{
+  display:none;
+}

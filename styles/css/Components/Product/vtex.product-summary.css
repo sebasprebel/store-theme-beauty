@@ -92,3 +92,19 @@
 .hoverImage{
   z-index: 1;
 }
+
+
+/*Intelligent search product*/
+
+.element--intelligent-product :global(.vtex-product-summary-2-x-brandName){
+  color: var(--black);
+  font-size: 0.8rem;
+}
+
+.element--intelligent-product :global(.vtex-product-summary-2-x-imageNormal){
+  width: 70px;
+  height: 70px;
+}
+
+
+

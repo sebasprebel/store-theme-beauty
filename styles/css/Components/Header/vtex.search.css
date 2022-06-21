@@ -1,9 +1,7 @@
 .biggy-autocomplete::-webkit-scrollbar{
-  height: 5px;
+  width: 5px;
 }
-.biggy-autocomplete{
- flex-direction: column !important;
-}
+
 
 .biggy-autocomplete::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
@@ -17,14 +15,29 @@
 .tileListSeeMore:hover{
   color: var(--black);
   text-decoration: underline;
-  background-color: var(--main-color);
 }
 
-.itemListTitle{
+.itemListTitle,
+.tileListTitle{
  color: var(--main-color);
 }
 
 .itemListLink{
   font-family: var(--font-poppins-regular);
   text-transform: capitalize;
+}
+
+.tileList::-webkit-scrollbar{
+  width: 5px;
+}
+.tileList::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+}
+.tileList{
+  overflow:auto;
+}
+
+.tileListList{
+  gap: 1rem;
+  padding:0 1rem !important;
 }

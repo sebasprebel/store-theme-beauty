@@ -4,18 +4,12 @@
 }
 
 .containerLayout--top-bar{
-  animation: BG ease infinite 5s;
   color: #fff !important;
   background-color: #ffa9be;
   padding:.4rem .3rem;
   height: 40px;
 }
 
-@keyframes BG {
-  0%{background-color: #ffa9be;}
-  50%{background-color: #9cffe7;}
-  100%{background-color: #ba73ff;}
-  }
 
 .containerSection--danger-top{
   top: 0;

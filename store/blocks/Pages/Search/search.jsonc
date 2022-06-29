@@ -1,8 +1,6 @@
 {
   "store.search": {
-    "blocks": [ 
-      "search-result-layout#custom-search"
-    ],
+    "blocks": ["search-result-layout#custom-search"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -13,66 +11,55 @@
     }
   },
   "store.search#brand": {
-    "blocks": [
-      "search-result-layout"
-    ],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
-         "hideUnavailableItems": true,
+        "hideUnavailableItems": true,
         "maxItemsPerPage": 32
       }
     }
   },
   "store.search#department": {
-    "blocks": [
-      "search-result-layout"
-    ],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
-         "hideUnavailableItems": true,
+        "hideUnavailableItems": true,
         "maxItemsPerPage": 32
       }
     }
   },
   "store.search#category": {
-    "blocks": [
-      "search-result-layout"
-    ],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
-         "hideUnavailableItems": true,
+        "hideUnavailableItems": true,
         "maxItemsPerPage": 32
       }
     }
   },
   "store.search#subcategory": {
-    "blocks": [
-      "search-result-layout"
-    ],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
         "orderByField": "OrderByTopSaleDESC",
-         "hideUnavailableItems": true,
+        "hideUnavailableItems": true,
         "maxItemsPerPage": 32
       }
     }
   },
   "search-result-layout": {
-    "title":"Página búsqueda",
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-not-found-layout"
-    ]
+    "title": "Página búsqueda",
+    "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
   },
   "search-result-layout#custom-search": {
-    "title":"Página búsqueda",
+    "title": "Página búsqueda",
     "blocks": [
       "search-result-layout.desktop#custom-search",
       "search-not-found-layout"
@@ -83,24 +70,25 @@
       "showOnMobile": true
     }
   },
-  "search-content":{
-    "blocks":[
-      "gallery",
-      "not-found"
-    ]
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
   },
-  "gallery":{
+  "gallery": {
     "title": "Galería de productos",
-    "blocks":[
-      "product-summary.shelf#custom-search"
-    ]
+    "blocks": ["product-summary.shelf#custom-search"]
   },
-  "order-by.v2":{
+  "order-by.v2": {
     "props": {
       "showOrderTitle": false
     }
   },
-  "search-not-found-layout":{
-    "children":["container-layout#not-found"]
+  "search-not-found-layout": {
+    "children": ["container-layout#not-found"]
+  },
+  "store.not-found#product": {
+    "blocks": ["container-layout#not-found"]
+  },
+  "store.not-found#search": {
+    "blocks": ["container-layout#not-found"]
   }
 }

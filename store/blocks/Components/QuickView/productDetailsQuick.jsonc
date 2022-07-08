@@ -1,22 +1,21 @@
 {
-  
-  "container-layout#product-page__product-detail--quickView":{
+  "container-layout#product-page__product-detail--quickView": {
     "title": "Contenedor detalle del producto",
-    "children":[
-
-     "container-layout#detail-product__images",
-     "container-layout#detail-product__info--quickView"
+    "children": [
+      "container-layout#detail-product__images",
+      "container-layout#detail-product__info--quickView"
     ],
-    "props":{
-      "blockClass":["product-page__product-detail--container", "wrapper"]
+    "props": {
+      "blockClass": ["product-page__product-detail--container", "wrapper"]
     }
   },
-  "container-layout#detail-product__info--quickView":{
+  "container-layout#detail-product__info--quickView": {
     "title": "Contenedor información del producto",
-    "children":[
+    "children": [
       "sku-color",
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
+      "product-description#quickView",
       "product-identifier.product",
       "container-layout#detail-product__prices--container",
       "product-availability",
@@ -26,29 +25,35 @@
       "addi-infos",
       "link.product#button-qv"
     ],
-    "props":{
-      "blockClass":"detail-product__info--container"
+    "props": {
+      "blockClass": "detail-product__info--container"
     }
   },
-  "container-layout#detail-product__quantity-buy--container-quickView":{
-    "title":"Contenedor Quantity & Botón comprar",
-    "children":[
-      "product-quantity",
-      "add-to-cart-button"
-    ],
-    "props":{
-      "blockClass":["detail-product__quantity-buy--container", "quickView-quantity-buy"],
+  "product-description#quickView": {
+    "title": "Ficha técnica Quick View",
+    "props": {
+      "blockClass": "textQuick"
+    }
+  },
+  "container-layout#detail-product__quantity-buy--container-quickView": {
+    "title": "Contenedor Quantity & Botón comprar",
+    "children": ["product-quantity", "add-to-cart-button"],
+    "props": {
+      "blockClass": [
+        "detail-product__quantity-buy--container",
+        "quickView-quantity-buy"
+      ],
       "classes": "flex"
     }
   },
-  "link.product#button-qv":{
+  "link.product#button-qv": {
     "props": {
       "buttonProps": {
         "variant": "secondary"
       },
       "label": "View details",
       "href": "/{slug}/p",
-      "blockClass":"view-details-link"
+      "blockClass": "view-details-link"
     }
   }
 }

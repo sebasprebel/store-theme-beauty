@@ -1,27 +1,26 @@
 {
-  "container-layout#not-found":{
-    "title":"Contenedor nor found",
-    "children":[
-        "container-layout#not-found-banner--container",
-        "container-layout#recommended-shelf--container",
-        "container-layout#new-products-shelf--container"
-      ]
+  "container-layout#not-found": {
+    "title": "Contenedor nor found",
+    "children": [
+      "container-layout#not-found-banner--container",
+      "retail-rocket-container#notfound",
+      "container-layout#recommended-shelf--container",
+      "container-layout#new-products-shelf--container"
+    ]
   },
-  "container-layout#not-found-banner--container":{
-    "title":"Contenedor banner not found",
-    "children":[
-      "responsive-image#not-found-banner"
-    ],
-    "props":{
-      "blockClass":"wrapper"
+  "container-layout#not-found-banner--container": {
+    "title": "Contenedor banner not found",
+    "children": ["responsive-image#not-found-banner"],
+    "props": {
+      "blockClass": "wrapper"
     }
   },
-  "responsive-image#not-found-banner":{
+  "responsive-image#not-found-banner": {
     "title": "Banner not found",
-    "props":{
-      "desktopImage":"/arquivos/error-404-desktop2.jpg",
-      "mobileImage":"/arquivos/error-404-mobile2.jpg",
-      "link":"/"
+    "props": {
+      "desktopImage": "/arquivos/error-404-desktop2.jpg",
+      "mobileImage": "/arquivos/error-404-mobile2.jpg",
+      "link": "/"
     }
   }
 }

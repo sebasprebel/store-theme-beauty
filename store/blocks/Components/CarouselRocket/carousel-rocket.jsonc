@@ -1,0 +1,70 @@
+{
+  "retail-rocket-container#global": {
+    "props": {
+      "markupBlock": "62c367e33519e2d41793e115"
+    }
+  },
+  "retail-rocket-container#category": {
+    "props": {
+      "type": "PLP",
+      "markupBlock": "62c368103519e2d41793e116"
+    }
+  },
+  "retail-rocket-container#searchresult": {
+    "props": {
+      "type": "PLP",
+      "markupBlock": "62c3687c3519e2d41793e11a"
+    }
+  },
+  "retail-rocket-container#notfound": {
+    "props": {
+      "type": "GLOBAL",
+      "markupBlock": "62c368663519e2d41793e119"
+    }
+  },
+  "retail-rocket-container-v2#pdp": {
+    "props": {
+      "type": "RELATED_PRODUCT",
+      "markupBlock": "MARKUP_BLOCK_TEST"
+    },
+    "blocks": ["default-shelf"]
+  },
+  "retail-rocket-container-v2#pdp-related": {
+    "props": {
+      "type": "RELATED_PRODUCT",
+      "markupBlock": "62c368433519e2d41793e118"
+    },
+    "blocks": ["default-shelf"]
+  },
+  "retail-rocket-container-v2#pdp-similars": {
+    "props": {
+      "type": "SIMILAR_PRODUCT",
+      "markupBlock": "62c368293519e2d41793e117"
+    },
+    "blocks": ["default-shelf"]
+  },
+  "default-shelf": {
+    "blocks": ["list-context.product-list", "list-context.product-list-static"]
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"]
+  },
+  "list-context.product-list-static": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"]
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showPaginationDots": "mobileOnly",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": ["shelf", "shelf-department"]
+    }
+  }
+}

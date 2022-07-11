@@ -1,93 +1,86 @@
 {
-  "search-result-layout.desktop":{
-    "children":[
+  "search-result-layout.desktop": {
+    "children": [
       "sku-color",
       "container-layout#search-page__container--desktop"
     ],
-    "props":{
+    "props": {
       "preventRouteChange": true
     }
   },
-  "container-layout#search-page__container--desktop":{
-    "title":"Contenedor página de búsqueda -- desktop",
-    "children":[
+  "container-layout#search-page__container--desktop": {
+    "title": "Contenedor página de búsqueda -- desktop",
+    "children": [
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
       "container-layout#search-page__header",
+      "retail-rocket-container#category",
       "container-layout#search-page__content-all",
       "container-layout#search-page__frequent-questions",
       "container-layout#drop-down__container-custom",
       "container-layout#home__slogan-slider--container"
     ]
   },
-  "container-layout#search-page__content-all":{
-    "children":[
+  "container-layout#search-page__content-all": {
+    "children": [
       "container-layout#search-page__orderby--container",
       "container-layout#filter",
       "container-layout#search-page__content-show-more--container"
     ],
-    "props":{
-      "blockClass":"content-search-all"
+    "props": {
+      "blockClass": "content-search-all"
     }
   },
-  "container-layout#filter":{
-    "children":[
-      "filter-navigator.v3"
-    ],
-    "props":{
-      "blockClass":"filter-container"
+  "container-layout#filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filter-container"
     }
   },
-  "container-layout#search-page__breadcrumb--container--desktop":{
-    "title":"Contenedor breadcrumb",
-    "children":[
-      "breadcrumb.search"
-    ],
-    "props":{
-      "blockClass":["search-page__breadcrumb--container","wrapper"]
+  "container-layout#search-page__breadcrumb--container--desktop": {
+    "title": "Contenedor breadcrumb",
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": ["search-page__breadcrumb--container", "wrapper"]
     }
   },
 
-  "container-layout#search-page__orderby--container":{
-    "title":"Contenedor ordenar por",
-    "children":[
-      "order-by.v2"
-    ],
-    "props":{
+  "container-layout#search-page__orderby--container": {
+    "title": "Contenedor ordenar por",
+    "children": ["order-by.v2"],
+    "props": {
       "blockClass": ["search-page__orderby--container"]
     }
   },
-  "container-layout#search-page__filter-content--container":{
-    "title":"Contenedor filtro - resultado búsqueda",
-    "children":[
-      "container-layout#search-page__content-show-more--container"
-    ],
-    "props":{
-      "blockClass": ["search-page__search-content-filter--container", "wrapper"],
+  "container-layout#search-page__filter-content--container": {
+    "title": "Contenedor filtro - resultado búsqueda",
+    "children": ["container-layout#search-page__content-show-more--container"],
+    "props": {
+      "blockClass": [
+        "search-page__search-content-filter--container",
+        "wrapper"
+      ],
       "classes": "flex"
     }
   },
-  "container-layout#search-page__content-show-more--container":{
-    "title":"Contenedor botón de mostrar más",
-    "children":[
+  "container-layout#search-page__content-show-more--container": {
+    "title": "Contenedor botón de mostrar más",
+    "children": [
       "total-products.v2",
       "search-content",
       "search-products-progress-bar",
       "search-products-count-per-page",
       "container-layout#search-page__button-search-more--container--desktop"
-      
     ],
-    "props":{
+    "props": {
       "blockClass": ["search-page__content-show-more--container"]
     }
   },
-  "container-layout#search-page__button-search-more--container--desktop":{
-    "title":"Contenedor botón de buscar más",
-    "children":[
-      "search-fetch-more"
-    ],
-    "props":{
-      "blockClass":"wrapper"
+  "container-layout#search-page__button-search-more--container--desktop": {
+    "title": "Contenedor botón de buscar más",
+    "children": ["search-fetch-more"],
+    "props": {
+      "blockClass": "wrapper"
     }
   }
 }

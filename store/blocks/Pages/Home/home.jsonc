@@ -1,10 +1,11 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "whatsapp-btn",
       "container-layout#home__categories-bullets",
       "container-layout#home__main-slider--container",
       "container-layout#home__categories-bullets--desktop",
+      "retail-rocket-container#global",
       "container-layout#recommended-shelf--container",
       "container-layout#home__brands-slider--container",
       "container-layout#offers-hunters-section",

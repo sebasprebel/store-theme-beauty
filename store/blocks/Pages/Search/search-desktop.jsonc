@@ -14,7 +14,7 @@
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
       "container-layout#search-page__header",
-      "retail-rocket-container#category",
+      //"retail-rocket-container#category",
       "container-layout#search-page__content-all",
       "container-layout#search-page__frequent-questions",
       "container-layout#drop-down__container-custom",

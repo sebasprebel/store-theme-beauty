@@ -13,7 +13,7 @@
     "children": [
       "container-layout#search-page__main-slider--container",
       "container-layout#search-page__breadcrumb--container--desktop",
-      "retail-rocket-container#searchresult",
+      //"retail-rocket-container#searchresult",
       "container-layout#search-page__content-all",
       "container-layout#drop-down__container-custom",
       "container-layout#home__slogan-slider--container"
